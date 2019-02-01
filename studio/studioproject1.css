@@ -1,6 +1,14 @@
-body { color:green; }
+body { background-color: #a4b287 ;
+		color: green; }
 
-.simba { color: blue; }
-.nala { color: purple; }
-.sarabi { color: orange; }
-.scar { color: red; }
+.simba { font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		 text-align: center;
+		 color: #2d665b; }
+.nala { font-family: "Verdana", Geneva, sans-serif;
+		color: ##662d3a; }
+.sarabi { font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		color: #307042; }
+.scar { font-family: "Impact", Charcoal, sans-serif;
+		text-align: right;
+		font-size: 30px;
+		color: #a03011; }
