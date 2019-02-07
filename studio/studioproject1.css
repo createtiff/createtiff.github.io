@@ -1,14 +1,34 @@
-body { background-color: #a4b287 ;
+
+body { background-color: black ;
 		color: green; }
 
-.simba { font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+.simba { font-family: Allerta;
+	/*"Lucida Sans Unicode", "Lucida Grande", sans-serif;*/
 		 text-align: center;
+		 font-size: 30px;
 		 color: #2d665b; }
+
 .nala { font-family: "Verdana", Geneva, sans-serif;
+		margin-left: 200px; 
 		color: ##662d3a; }
-.sarabi { font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-		color: #307042; }
-.scar { font-family: "Impact", Charcoal, sans-serif;
+
+.sarabi { font-family: Droid Serif;
+	/*"Palatino Linotype", "Book Antiqua", Palatino, serif;*/
+		  font-size: 20px;
+		  margin-left: 600px; 
+		  color: #e5f9e3; }
+.sarabi1 { font-family: Droid Serif;
+		  font-size: 20px;
+		  margin-left: 800px; 
+		  color: #a8cea5; }
+.sarabi2 { font-family: Droid Serif;
+		  font-size: 20px;
+		  margin-left: 500px; 
+		  color: #a8cea5; }
+.scar { font-family: 'Voltaire';
+		font-weight: bold;
 		text-align: right;
+		line-height: 175%;
+		margin-right: 150px; 
 		font-size: 30px;
-		color: #a03011; }
+		color: #820000; }
