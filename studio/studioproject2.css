@@ -1,0 +1,61 @@
+
+body { background-color: #282521;
+		color: green; }
+
+.simba { font-family: Cantarell;
+	/*"Lucida Sans Unicode", "Lucida Grande", sans-serif;*/
+		 text-align: center;
+		 font-size: 40px;
+		 color: #91c4a6; }
+
+.simba1 { font-family: Cantarell;
+	/*"Lucida Sans Unicode", "Lucida Grande", sans-serif;*/
+		 text-align: center;
+		 font-size: 60px;
+		 color: #91c4a6; }
+
+
+.nala { font-family: "Verdana", Geneva, sans-serif;
+		margin-left: 200px; 
+		font-size: 30px;
+		color: #a9b279; }
+
+.sarabi { font-family: Droid Serif;
+	/*"Palatino Linotype", "Book Antiqua", Palatino, serif;*/
+		  font-size: 35px;
+		  font-weight: lighter;
+		  margin-left: 600px; 
+		  color: #e8dea0; }
+.sarabi1 { font-family: Droid Serif;
+		  font-size: 35px;
+		  margin-left: 800px; 
+		  color: #e8dea0; }
+.sarabi2 { font-family: Droid Serif;
+		  font-size: 35px;
+		  margin-left: 550px; 
+		  color: #ceccaf; }
+.sarabi3 { font-family: Droid Serif;
+		  font-size: 45px;
+		  margin-left: 500px; 
+		  color: #e8dea0; }
+.scar { font-family: 'Voltaire';
+		font-weight: bold;
+		text-align: right;
+		line-height: 175%;
+		margin-right: 50px; 
+		font-size: 50px;
+		color: #820000; }
+.scar1 { font-family: 'Voltaire';
+		font-weight: bold;
+		text-align: right;
+		line-height: 175%;
+		margin-right: 50px; 
+		font-size: 100px;
+		color: #820000; }
+.scar2 { font-family: 'Voltaire';
+		font-weight: bold;
+		text-align: right;
+		line-height: 175%;
+		margin-right: 50px; 
+		font-size: 40px;
+		color: #820000; }
