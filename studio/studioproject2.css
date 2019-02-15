@@ -45,13 +45,67 @@ body { background-color: #282521;
 		margin-right: 50px; 
 		font-size: 50px;
 		color: #820000; }
+
+@keyframes animation {
+	0%  {
+		font-family: 'Voltaire';
+		font-weight: bold;
+		text-align: right;
+		line-height: 175%;
+		margin-right: 50px; 
+		font-size: 100px;
+		color: #820000; 
+
+		left: 100%;
+		top:  0%;
+		}
+
+	50% {
+		font-family: 'Voltaire';
+		font-weight: bold;
+		text-align: right;
+		line-height: 175%;
+		margin-right: 50px; 
+		font-size: 300px;
+		color: #820000; 
+
+		left: 10%;
+		top: -10%;
+		}
+
+	100%{
+		font-family: 'Voltaire';
+		font-weight: bold;
+		text-align: right;
+		line-height: 175%;
+		margin-right: 50px; 
+		font-size: 100px;
+		color: #820000; 
+
+		left: 75%;
+		top:  0%;
+		}
+}
+
 .scar1 { font-family: 'Voltaire';
 		font-weight: bold;
 		text-align: right;
 		line-height: 175%;
 		margin-right: 50px; 
 		font-size: 100px;
-		color: #820000; }
+		color: #820000; 
+
+		position: absolute;
+		animation-name:animation;
+		animation-duration: 2s;
+		animation-timing-function: ease;
+		animation-delay: 0.5s;
+		animation-iteration-count: 1;
+		animation-direction: normal;
+		 animation-fill-mode: both;}
+
+
+
 .scar2 { font-family: 'Voltaire';
 		font-weight: bold;
 		text-align: right;
