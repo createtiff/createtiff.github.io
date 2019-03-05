@@ -6,7 +6,7 @@ h1{	font-family: Nanum Myeongjo;
 	font-size: 70px;
 	font-weight: 200;
 	text-align: center;
-	margin: 40px 0px 40px 0px;}
+	margin: 50px 0px 30px 0px;}
 	
 
 .title2 {
@@ -19,12 +19,14 @@ h1{	font-family: Nanum Myeongjo;
     padding: 40px;
 }
 
-.inglist {
+.list {
   z-index: 0;
   position: absolute;
-  margin-left: 20%;
-  margin-top: 12%;
+  margin-left: 30%;
+  margin-top: 0%;
+  font-size: 20px;
   font-weight: 200;
+  line-height: 46px;
   color: black;
   padding: 35px;
 }
@@ -32,10 +34,9 @@ h1{	font-family: Nanum Myeongjo;
 .container {
   display: block;
   position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
+  padding-left: 40px;
+  margin-bottom: 0px;
   cursor: pointer;
-  font-size: 22px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -53,7 +54,7 @@ h1{	font-family: Nanum Myeongjo;
 
 .checkmark {
   position: absolute;
-  top: 0;
+  top: 11px;
   left: 0;
   height: 25px;
   width: 25px;
@@ -89,3 +90,46 @@ h1{	font-family: Nanum Myeongjo;
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
+.link{
+
+}
+
+a { 
+     text-decoration: none;
+      color: black;
+   
+      font-family: Nanum Myeongjo;
+      font-weight: 200;
+      font-size: 50px;
+      
+
+      position: absolute;
+      margin-top: 30vh; 
+      margin-left: 70vw;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  
+}
+
+a:active {
+  text-decoration: none;
+}
+
+
+
+
+

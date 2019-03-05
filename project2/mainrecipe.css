@@ -100,12 +100,13 @@ a:hover {
 	font-size: 30px;
 
 	text-decoration: none;
+	text-shadow: 2px 2px 2px #aaa;
 	color: black;
 	display: flex;
-  align-items: center;
-  justify-content: center; 
+  	align-items: center;
+  	justify-content: center; 
 
-  margin-top: 6vh; 
+  	margin-top: 6vh; 
     margin-left: 0vw;
 
 	
@@ -114,3 +115,8 @@ a:hover {
 a:active {
 	text-decoration: none;
 }
+
+
+
+a:hover:after { 
+	content: " Click "; }
