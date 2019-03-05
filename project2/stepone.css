@@ -1,30 +1,28 @@
 body {font-family: Muli;
 		font-weight: 200;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: #efecc9;
 }
 
 h1{	font-family: Nanum Myeongjo;
-	font-size: 70px;
+	font-size: 100px;
 	font-weight: 200;
 	text-align: center;
-	margin: 40px 0px 40px 0px;}
+	margin: 100px 0px 40px 0px;}
 	
 
-.title2 {
-    z-index: 0;
-    position: absolute;
-    margin-left: 15%;
-    font-size: 55pt;
-    font-weight: 500;
-    color: black;
-    padding: 40px;
-}
+
 
 .list {
   z-index: 0;
   position: absolute;
-  margin-left: 20%;
-  margin-top: 0%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+  font-size: 20px;
   font-weight: 200;
+  line-height: 35px;
   color: black;
   padding: 35px;
 }
@@ -32,10 +30,9 @@ h1{	font-family: Nanum Myeongjo;
 .container {
   display: block;
   position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
+  padding-left: 45px;
+  margin-bottom: 0px;
   cursor: pointer;
-  font-size: 22px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -53,19 +50,19 @@ h1{	font-family: Nanum Myeongjo;
 
 .checkmark {
   position: absolute;
-  top: 0;
+  top: 4px;
   left: 0;
-  height: 25px;
-  width: 25px;
-  background-color: #eee;
+  height: 30px;
+  width: 30px;
+  background-color: #FFFFFF;
 }
 
 .container:hover input ~ .checkmark {
-  background-color: #FBFBB5;
+  background-color: #ffff93;
 }
 
 .container input:checked ~ .checkmark {
-  background-color: yellow;
+  background-color: #bcce63;
 }
 
 .checkmark:after {
@@ -79,8 +76,8 @@ h1{	font-family: Nanum Myeongjo;
 }
 
 .container .checkmark:after {
-  left: 9px;
-  top: 5px;
+  left: 11px;
+  top: 7px;
   width: 5px;
   height: 10px;
   border: solid black;
