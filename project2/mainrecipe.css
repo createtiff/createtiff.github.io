@@ -1,3 +1,4 @@
+
 body {font-family: Muli;
 		font-weight: 200;
 		background-color: #efecc9;
@@ -139,9 +140,22 @@ a:hover:after {
 .link2:hover {
 
   	margin-top: 0vh; 
-    margin-left: 25vw;
-
-	
+    margin-left: 25vw;	
 }
 
 
+@media (max-width:600px) {
+  .box1 {	font-family: Nanum Myeongjo;
+	text-align: center;
+	margin-top: 30vh;
+	position: relative;
+        left: -22%;   
+}
+.box2{
+	text-align: center;
+	position: absolute;
+        margin-top: -45vh; 
+        margin-left: 37vw;
+}
+
+}
