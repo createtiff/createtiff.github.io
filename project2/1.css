@@ -1,33 +1,38 @@
-body {font-family: Muli;
+.nav{
+  margin-top: -200px;
+  margin-left: -665px;
+  position: absolute;
+}
+
+  body {font-family: Muli;
 		font-weight: 200;
+    line-height: 30px;
     background-color: #ffffff;
 }
 
-h1{font-family: Open Sans;
-    font-size: 3em;
-    font-weight: bolder;
-    text-align: center;
-    margin-top: -1%;
-    margin-bottom: 0%
-}
-
 .title{font-family: Open Sans;
-	font-size: 4em;
-	font-weight: 100;
-	text-align: center;
-	}
+  font-size: 2em;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 0em;
+  margin-bottom: -0.5em;
+  }
+
+h1{ font-family: Nanum Myeongjo;
+  font-size: 80px;
+  font-weight: 200;
+  text-align: center;
+  margin: 50px 0px -20px 0px;}
+
+h2{ font-family: Nanum Myeongjo;
+  font-size: 40px;
+  font-weight: 200;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: -20px;
+  }
+  
 	
-
-.title2 {
-    z-index: 0;
-    position: absolute;
-    margin-left: 15%;
-    font-size: 55pt;
-    font-weight: 500;
-    color: black;
-    padding: 40px;
-}
-
 .list {
   z-index: 0;
   position: absolute;
@@ -104,13 +109,13 @@ h1{font-family: Open Sans;
 
 .linkb{
   margin-top: 0vh; 
-  margin-left: -45vw;
+  margin-left: -46vw;
 }
 
 .linka{
   position: absolute;
   margin-top: 0vh; 
-  margin-left: 5vw;
+  margin-left: 6vw;
 }
 
 
@@ -122,7 +127,7 @@ a {
   height: 150px;
   width: 150px;
   border-radius: 150px;
-  background-color: #c7d870;
+  background-color: #efecc9;
 
   
   font-family: Nanum Myeongjo;
@@ -157,12 +162,12 @@ a:hover {
   height: 150px;
   width: 150px;
   border-radius: 150px;
-  background-color: #6e9e27;
+  background-color: #c7d870;
 
   font-size: 40px;
 
   text-decoration: none;
-  text-shadow: 2px 2px 2px #FFFFFF;
+  text-shadow:  0px 0px 15px #FFFFFF;
   color: black;
   display: flex;
   align-items: center;
@@ -234,6 +239,72 @@ a:active {
 }
 
 
+@media (max-width:450px) {
+.list {
+  z-index: 0;
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 10%;
+  font-size: 17px;
+  font-weight: 200;
+  line-height: 34px;
+  color: black;
+  padding: 0em;
+}
+.container {
 
+}
+.checkmark {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  height: 24px;
+  width: 24px;
+  background-color: #FFFFFF;
+}
+
+.linkb{
+  margin-top: 0vh; 
+  margin-left: -66.7vw;
+}
+
+.linka{
+  position: absolute;
+  margin-top: 0vh; 
+  margin-left: 20vw;
+}
+
+a { 
+  
+
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  
+  font-size: 30px;
+
+  margin-top: 25vh; 
+  margin-left: 65vw;   
+
+}
+
+a:hover {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  
+  font-size: 30px;
+
+
+  margin-top: 25vh; 
+  margin-left: 65vw
+
+}
+
+.box {
+
+    left: 37%;
+
+}
 
 
