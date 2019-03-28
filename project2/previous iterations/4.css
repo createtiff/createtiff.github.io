@@ -1,28 +1,29 @@
 .nav{
-  position: fixed;
-  margin-top: 20px;
-  margin-left: 20px;
+   margin-top: -125px;
+  margin-left: -665px;
+  position: absolute;
 }
 
 body {font-family: Muli;
-    font-weight: 200;
+		font-weight: 200;
+    font-size: 20px;
     line-height: 30px;
     background-color: #ffffff;
 }
 
 .title{font-family: Open Sans;
-  font-size: 2em;
-  font-weight: 800;
-  text-align: center;
-  margin-top: 0.5em;
-  margin-bottom: -0.5em;
-  }
+	font-size: 2em;
+	font-weight: 100;
+	text-align: center;
+	margin-top: 0.5em;
+	margin-bottom: -0.5em;
+	}
 
-h1{ font-family: Nanum Myeongjo;
-  font-size: 80px;
-  font-weight: 200;
-  text-align: center;
-  margin: 50px 0px -20px 0px;}
+h1{	font-family: Nanum Myeongjo;
+	font-size: 100px;
+	font-weight: 200;
+	text-align: center;
+	margin: 100px 0px 40px 0px;}
 
 h2{ font-family: Nanum Myeongjo;
   font-size: 40px;
@@ -31,24 +32,21 @@ h2{ font-family: Nanum Myeongjo;
   margin-top: 70px;
   margin-bottom: -20px;
   }
-  
+	
 
 
 
 .list {
   z-index: 0;
-  display: block;
-  margin-left: auto;
-  margin-right: auto; 
+  position: absolute;
+  margin-left: 30%;
+  margin-right: 30%;
   margin-top: 4%;
   font-size: 20px;
   font-weight: 200;
   line-height: 35px;
   color: black;
   padding: 35px;
-  width: 400px;
-  height: 400px;
-  background-color: #c7d870;  
 }
 
 .container {
@@ -62,7 +60,6 @@ h2{ font-family: Nanum Myeongjo;
   -ms-user-select: none;
   user-select: none;
   color: black;
-  background-color: #c7d870;
 }
 
 .container input {
@@ -113,37 +110,25 @@ h2{ font-family: Nanum Myeongjo;
 }
 
 
-.links{
-  display: block;
-  position: fixed;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -330px; 
-
-}
-
 .linkb{
-
-  position: fixed;
-  margin-left: 5%;
-
+  margin-top: 0vh; 
+  margin-left: -46vw;
 }
 
 .linka{
-
-  position: fixed;
-  margin-left: 80%;
+  position: absolute;
+  margin-top: 0vh; 
+  margin-left: 6vw;
 }
-
 
 a { 
 
   text-decoration: none;
   color: black;
 
-  height: 140px;
-  width: 140px;
-  border-radius: 140px;
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
   background-color: #efecc9;
 
   
@@ -152,11 +137,15 @@ a {
   font-size: 40px;
   text-align: center;
 
+  position: absolute;
+  margin-top: 13vh; 
+  margin-left: 65vw;
 
   display: flex;
   align-items: center;
   justify-content: center; 
 }
+
 
 a:link {
   text-decoration: none;
@@ -171,9 +160,9 @@ a:visited {
 
 a:hover {
   text-decoration: none;
-  height: 140px;
-  width: 140px;
-  border-radius: 140px;
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
   background-color: #c7d870;
 
   font-size: 40px;
@@ -184,9 +173,13 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center; 
+
+  position: absolute;
+  margin-top: 13vh; 
+  margin-left: 65vw;
+
   
 }
-
 a:active {
   text-decoration: none;
 }
@@ -246,14 +239,14 @@ a:active {
     width: 20px;
     height: 20px;
     border-radius: 20px;
-    background-color: #6e9e27;
+    background-color: #c7d870;
 }
 
 .circle4 {
     width: 20px;
     height: 20px;
     border-radius: 20px;
-    background-color: #c7d870;
+    background-color: #6e9e27;
 }
 
 .circle5 {
@@ -268,79 +261,6 @@ a:active {
     height: 20px;
     border-radius: 20px;
     background-color: #c7d870;
-}
-
-@media (max-width:440px) {
-.nav{
-  margin-top: -170px;
-  margin-left: -270px;
-}
-
-.list {
-  z-index: 0;
-  margin-top: 70px;
-  font-size: 16px;
-  font-weight: 200;
-  line-height: 34px;
-  color: black;
-  padding: 0em;
-  width: 315px;
-}
-.container {
-  padding-left: 42px;
-}
-.checkmark {
-  position: absolute;
-  top: 6px;
-  left: 10px;
-  height: 24px;
-  width: 24px;
-  background-color: #FFFFFF;
-}
-
-.container .checkmark:after {
-  left: 9px;
-  top: 4px;
-
-}
-
-.linkb{
-  margin-top: -100px; 
-  margin-left: -285px;
-}
-
-.linka{
-  margin-top: -100px; 
-  margin-left: 88px;
-}
-
-a { 
-  height: 50px;
-  width: 50px;
-  border-radius: 50px;
-  font-size: 18px;
-  margin-top: 25vh; 
-  margin-left: 65vw;   
-
-}
-
-a:hover {
-  height: 50px;
-  width: 50px;
-  border-radius: 50px;
-  
-  font-size: 30px;
-
-
-  margin-top: 25vh; 
-  margin-left: 65vw
-
-}
-
-.box {
-
-    left: 37%;
-
 }
 
 
