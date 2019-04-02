@@ -1,0 +1,59 @@
+body{
+	background-color: #f9bb8e;
+}
+
+.eyeframe{
+position:absolute;
+left:500px;
+top:300px;
+width: 300px;
+height:150px;
+border-radius: 225px/110px;
+background-color: #f5f9d6;
+}
+
+.iris{
+position:absolute;
+left:85px;
+top:5px;
+width: 130px;
+height: 130px;
+border-radius: 65px;
+background-color:#773e08;
+}
+
+.pupil{
+position:relative;
+left:45px;
+top:45px;
+width: 40px;
+height: 40px;
+border-radius: 20px;
+background-color:black;
+}
+
+
+
+.lid{
+position:absolute;
+z-index: 1;
+left:500px;
+top:70px;
+width: 300px;
+height:150px;
+border-radius:225px/110px;
+background-color: #f9bb8e;
+
+animation-name: eyelid;
+animation-duration: 5s;
+animation-direction: alternate;}
+
+
+
+
+@keyframes eyelid {
+  0%   {top:0px;}
+  75%  {top:300px;}
+  100% {top:0px;}
+}
+
