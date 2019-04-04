@@ -2,6 +2,23 @@ body{
 	background-color: #f9bb8e;
 }
 
+p{
+position:relative;
+left:50%;
+}
+
+#hide{
+position:relative;
+left:48%;
+top:20px;
+}
+
+#show{
+position:relative;
+left:48%;
+top:20px;
+}
+
 .eyeframe{
 position:absolute;
 left:40%;
@@ -66,7 +83,7 @@ left:20%;}
 
 
 @keyframes eyelid {
-  0%   {top:0px;}
+  0%   {top:100px;}
   75%  {top:300px;}
   100% {top:100px;}
 }
