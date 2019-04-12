@@ -26,6 +26,7 @@ var d = new Date().getHours() + ":" + new Date().getMinutes() + ".";
 
 var currentHour = new Date().getHours();
   console.log(currentHour);
+
     if (currentHour == 11) {
       var msg = "It is 11 now."
     } else {
@@ -43,6 +44,41 @@ if (fullName.length - 2 <= 9)  {
 }
 
 console.log(response);
+
+
+var currentTemperature = 43;
+
+var currentTemperatureOfIceland = 50;
+
+
+var celsius = function () {
+  return currentTemperature - 32 * 5/9 ;
+}
+
+
+
+
+
+
+console.log("The temperature in New York City is" + celsius + "°C at" + currentHour);
+
+console.log ("Not everyone is present today.")
+
+
+
+
+console.log("This is my loop. It’s running” + i + times.");
+
+
+
+var calTemp = function(num){
+  return num * 5;
+}
+
+var koreaTemp = (calTemp(40));
+var newYork = (calTemp(30));
+console.log(koreaTemp);
+console.log("The current temperature in Korea is" + koreaTemp + "celsius")
 
 
 
