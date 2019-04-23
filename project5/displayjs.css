@@ -1,0 +1,66 @@
+.ld-circle1{
+	background-color: #6ABBAE;
+	height: 100px;
+	width: 100px;
+	border-radius: 100px;
+	position: relative;
+	top: 50px;
+	opacity: 0.9;
+
+}
+
+.ld-circle1-1{
+	background-color: #949E45;
+	height: 80px;
+	width: 80px;
+	border-radius: 80px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	opacity: 0.9;
+}
+
+.ld-circle1-2{
+	background-color: #9C4B8D;
+	height: 60px;
+	width: 60px;
+	border-radius: 60px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	opacity: 0.9;
+}
+
+.ny-circle1{
+	background-color: #6ABBAE;
+	height: 1000px;
+	width: 1000px;
+	border-radius: 1000px;
+	position: relative;
+	top: 400px;
+	opacity: 0.9;
+
+}
+
+.ny-circle1-1{
+	background-color: #949E45;
+	height: 80px;
+	width: 80px;
+	border-radius: 80px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	opacity: 0.9;
+}
+
+.ny-circle1-2{
+	background-color: #9C4B8D;
+	height: 60px;
+	width: 60px;
+	border-radius: 60px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	opacity: 0.9;
+}
+

@@ -1,0 +1,32 @@
+.circle1{
+	background-color: #6ABBAE;
+	height: 100px;
+	width: 100px;
+	border-radius: 100px;
+	position: relative;
+	opacity: 0.9;
+
+}
+
+.circle1-1{
+	background-color: #949E45;
+	height: 80px;
+	width: 80px;
+	border-radius: 80px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	opacity: 0.9;
+}
+
+.circle1-2{
+	background-color: #9C4B8D;
+	height: 60px;
+	width: 60px;
+	border-radius: 60px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	opacity: 0.9;
+}
+
