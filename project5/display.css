@@ -30,3 +30,66 @@
 	opacity: 0.9;
 }
 
+.square1{
+	background-color: #008F99;
+	width: 15px;
+	height: 15px;
+}
+
+.square1{
+	background-color: #008F99;
+	width: 15px;
+	height: 15px;
+	border-radius: 1px;
+}
+
+.square2{
+	background-color: #008F99;
+	width: 15px;
+	height: 15px;
+	border-radius: 2px;
+}
+
+.square3{
+	background-color: #008F99;
+	width: 15px;
+	height: 15px;
+}
+
+.ny_circle1-1{
+	background-color: #6ABBAE;
+	height: 36vw;
+	width: 36vw;
+	border-radius: 36vw;
+	position: relative;
+	top: 20vw;
+	left: 10vw;
+}
+
+
+.ny_circle2-1{
+	background-color: #949E45;
+	height: 10vw;
+	width: 10vw;
+	border-radius: 10vw;
+	position: relative;
+	top: -2vw;
+	left: 23vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

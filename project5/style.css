@@ -2,48 +2,51 @@ body{
 	font-family: 'Overpass', sans-serif;
 }
 
+.wrapper{
+	display: flex;
+	align-content:space-around;
+	align-items: stretch;
+	justify-content:space-around;
+	flex-wrap: nowrap;
+	flex-flow: row nowrap;
+	margin-top: 10vh;
+}
+
 #london{
-	width: 300px;
-	height: 100px;
+	width: 40%;
 	font-family: 'Overpass', sans-serif;
 	font-size: 16px;
 	margin-top: 30px;
-	left: 50px;
-	position: absolute;
+	flex-grow: 1;
+
 }
 
 #newyork{
-	width: 300px;
-	height: 100px;
+	width: 40%;
 	font-family: 'Overpass', sans-serif;
 	font-size: 16px;
 	margin-top: 30px;
-	left: 400px;
-	position: absolute;
+	flex-grow: 1;
 }
 
 #seoul{
-	width: 300px;
-	height: 100px;
+	width: 40%;
 	font-family: 'Overpass', sans-serif;
 	font-size: 16px;
 	margin-top: 30px;
-	left: 750px;
-	position: absolute;
+	flex-grow: 1;
 }
 
 #tokyo{
-	width: 300px;
-	height: 100px;
+	width: 40%;
 	font-family: 'Overpass', sans-serif;
 	font-size: 16px;
 	margin-top: 30px;
-	left: 1100px;
-	position: absolute;
+	flex-grow: 1;
 }
 
 .name{
 	font-family: 'Overpass', sans-serif;
 	font-weight: 800;
-	font-size: 24px;
+	font-size: 60px;
 }
