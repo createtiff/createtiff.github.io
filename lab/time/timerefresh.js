@@ -31,13 +31,17 @@ var min = new Date().getMinutes();
         $('head').append(' : ');
         $('head').append(min);
 
-        if(hour == 1 ) {
-        $('body').append('<div class="h-23"></div>');
+        if(hour == 10 ) {
+        $('body').append('<div class="h-10"></div>');
         }
-
+   if(hour == 11) {
+        $('body').append('<div class="h-11"></div>');
+        }
         if(min <= 60 ) {
         $('body').append('<div class="m-60"></div>');
         }
+
+        
 
 
 display_c();

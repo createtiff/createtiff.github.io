@@ -3,7 +3,7 @@ var windspeed; //Wind speed. Unit Default: meter/sec, Metric: meter/sec, Imperia
 var winddeg; //Wind direction, degrees (meteorological)
 var temp; //Temperature. Unit Default: Kelvin, Metric: Celsius, Imperial: Fahrenheit. 
 var tempmin;
-var temp;
+var tempmax;
 var pressure; //Atmospheric pressure (on the sea level, if there is no sea_level or grnd_level data), hPa
 var humidity; //Humidity, %
 var weathertext; //Group of weather parameters (Rain, Snow, Extreme etc.)
@@ -24,14 +24,19 @@ $(document).ready(function(){
             windspeed = results.wind.speed;
             winddeg = results.wind.deg;
             tempmin = results.main.temp_min;
-            temp = results.main.temp_max;
+            tempmax = results.main.temp_max;
             temp = results.main.temp;
             pressure = results.main.pressure;
             humidity = results.main.humidity;
             cloudiness = results.clouds.all;
 
             myWeatherInterpretation();
+
         }
+
+
+
+
     });
 
 
@@ -52,7 +57,7 @@ $(document).ready(function(){
         $('#london').append(' ');
         $('#london').append('Tempmin: ' + tempmin + '</br>');
         $('#london').append(' ');
-        $('#london').append('temp: ' + temp + '</br>');
+        $('#london').append('Tempmax: ' + tempmax + '</br>');
         $('#london').append(' ');
         $('#london').append('Windspeed: ' + windspeed + '</br>');
         $('#london').append(' ');
@@ -63,6 +68,10 @@ $(document).ready(function(){
         $('#london').append('Humidity: ' + humidity + '</br>'); 
         $('#london').append(' ');      
         $('#london').append('Cloudiness: ' + cloudiness + '</br>');
+
+
+
+
 
         if(cloudiness >= 0 && cloudiness < 10 ) {
         $('body').append('<div class="ld_circle1-1"></div>');
@@ -270,7 +279,7 @@ $(document).ready(function(){
             windspeed = results.wind.speed;
             winddeg = results.wind.deg;
             tempmin = results.main.temp_min;
-            temp = results.main.temp_max;
+            tempmax = results.main.temp_max;
             temp = results.main.temp;
             pressure = results.main.pressure;
             humidity = results.main.humidity;
@@ -298,7 +307,7 @@ $(document).ready(function(){
         $('#newyork').append(' ');
         $('#newyork').append('Tempmin: ' + tempmin + '</br>');
         $('#newyork').append(' ');
-        $('#newyork').append('temp: ' + temp + '</br>');
+        $('#newyork').append('Tempmax: ' + tempmax + '</br>');
         $('#newyork').append(' ');
         $('#newyork').append('Windspeed: ' + windspeed + '</br>');
         $('#newyork').append(' ');
@@ -747,7 +756,7 @@ $(document).ready(function(){
             windspeed = results.wind.speed;
             winddeg = results.wind.deg;
             tempmin = results.main.temp_min;
-            temp = results.main.temp_max;
+            tempmax = results.main.temp_max;
             temp = results.main.temp;
             pressure = results.main.pressure;
             humidity = results.main.humidity;
@@ -775,7 +784,7 @@ $(document).ready(function(){
         $('#seoul').append(' ');
         $('#seoul').append('Tempmin: ' + tempmin + '</br>');
         $('#seoul').append(' ');
-        $('#seoul').append('temp: ' + temp + '</br>');
+        $('#seoul').append('Tempmax: ' + tempmax + '</br>');
         $('#seoul').append(' ');
         $('#seoul').append('Windspeed: ' + windspeed + '</br>');
         $('#seoul').append(' ');
@@ -808,7 +817,7 @@ $(document).ready(function(){
             windspeed = results.wind.speed;
             winddeg = results.wind.deg;
             tempmin = results.main.temp_min;
-            temp = results.main.temp_max;
+            tempmax = results.main.temp_max;
             temp = results.main.temp;
             pressure = results.main.pressure;
             humidity = results.main.humidity;
@@ -836,7 +845,7 @@ $(document).ready(function(){
         $('#tokyo').append(" ");
         $('#tokyo').append('Tempmin: ' + tempmin + '</br>');
         $('#tokyo').append(" ");
-        $('#tokyo').append('temp: ' + temp + '</br>');
+        $('#tokyo').append('Tempmax: ' + tempmax + '</br>');
         $('#tokyo').append(" ");
         $('#tokyo').append('Windspeed: ' + windspeed + '</br>');
         $('#tokyo').append(" ");

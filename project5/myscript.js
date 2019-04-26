@@ -11,10 +11,9 @@ var weatherdescription; //Weather condition within the group
 var cloudiness; //Cloudiness, %
 var name
 
+/////NEW YORK
 
 $(document).ready(function(){
-
-//NEW YORK
 
     $.ajax({
         url: 'http://api.openweathermap.org/data/2.5/weather?id=5128581&units=metric&APPID=188e55f89ae698f5c272ba31302b4705', //CHANGE THE URL TO YOUR API QUERY
@@ -27,15 +26,15 @@ $(document).ready(function(){
             winddeg = results.wind.deg;
             tempmin = results.main.temp_min;
             tempmax = results.main.temp_max;
-            temp = results.main.temp;
+            tempc = results.main.temp;
             pressure = results.main.pressure;
             humidity = results.main.humidity;
             cloudiness = results.clouds.all;
 
             myWeatherInterpretation();
-
-        }
+            }
     });
+
 
 
     function myWeatherInterpretation(){
@@ -47,11 +46,11 @@ $(document).ready(function(){
         $('#newyork').append(' ');
         $('#newyork').append('</br>');
         $('#newyork').append(' ');
-        $('#newyork').append('Weathertext: ' + weathertext + '</br>');
+        $('#newyork').append(weathertext + '</br>');
         $('#newyork').append(' ');
-        $('#newyork').append('Weatherdescription: ' + weatherdescription + '</br>');
+        $('#newyork').append(weatherdescription + '</br>');
         $('#newyork').append(' ');
-        $('#newyork').append('Temp: ' + temp + '</br>');
+        $('#newyork').append('Temp in &#8451;: ' + tempc + '</br>');
         $('#newyork').append(' ');
         $('#newyork').append('Tempmin: ' + tempmin + '</br>');
         $('#newyork').append(' ');
@@ -66,20 +65,42 @@ $(document).ready(function(){
         $('#newyork').append('Humidity: ' + humidity + '</br>'); 
         $('#newyork').append(' ');      
         $('#newyork').append('Cloudiness: ' + cloudiness + '</br>');
-
-    
-
         //END OF MYWEATHERINTERPRETATION FUNCTION
-    }   
-
-
+        }   
 });
 
 
 $(document).ready(function(){
 
+        $.ajax({
+        url: 'http://api.openweathermap.org/data/2.5/weather?id=5128581&units=imperial&APPID=188e55f89ae698f5c272ba31302b4705', //CHANGE THE URL TO YOUR API QUERY
+        dataType: 'jsonp',
+        success: function(results){
+            tempf = results.main.temp;
 
-//LONDON
+            myWeatherInterpretation();
+            }
+        });
+
+        function myWeatherInterpretation(){
+
+        $('#newyork').append(' ');
+        $('#newyork').append('Temp in &#8457;: ' + tempf + '</br>');
+        }   
+
+
+});
+
+$(document).ready(function(){
+  $(".namenewyork").click(function(){
+    $("#newyork").toggle();
+    });
+});
+
+/////LONDON
+
+$(document).ready(function(){
+
     $.ajax({
         url: 'http://api.openweathermap.org/data/2.5/weather?id=2643743&units=metric&APPID=188e55f89ae698f5c272ba31302b4705', //CHANGE THE URL TO YOUR API QUERY
         dataType: 'jsonp',
@@ -130,8 +151,6 @@ $(document).ready(function(){
         $('#london').append('Humidity: ' + humidity + '</br>'); 
         $('#london').append(' ');      
         $('#london').append('Cloudiness: ' + cloudiness + '</br>');
-        
-    
 
         //END OF MYWEATHERINTERPRETATION FUNCTION
     }   
@@ -139,11 +158,16 @@ $(document).ready(function(){
 
 });
 
+$(document).ready(function(){
+  $(".namelondon").click(function(){
+    $("#london").toggle();
+    });
+});
 
+
+/////SEOUL
 $(document).ready(function(){
 
-
-//SEOUL
     $.ajax({
         url: 'http://api.openweathermap.org/data/2.5/weather?id=1835848&units=metric&APPID=188e55f89ae698f5c272ba31302b4705', //CHANGE THE URL TO YOUR API QUERY
         dataType: 'jsonp',
@@ -204,11 +228,15 @@ $(document).ready(function(){
 
 });
 
-
 $(document).ready(function(){
+  $(".nameseoul").click(function(){
+    $("#seoul").toggle();
+    });
+});
 
 
-//TOKYO
+/////TOKYO
+$(document).ready(function(){
     $.ajax({
         url: 'http://api.openweathermap.org/data/2.5/weather?id=1850147&units=metric&APPID=188e55f89ae698f5c272ba31302b4705', //CHANGE THE URL TO YOUR API QUERY
         dataType: 'jsonp',
@@ -260,10 +288,14 @@ $(document).ready(function(){
         $('#tokyo').append(" ");  
         $('#tokyo').append('Cloudiness: ' + cloudiness + '</br>');
 
-    
-
         //END OF MYWEATHERINTERPRETATION FUNCTION
     }   
+});
 
 
+
+$(document).ready(function(){
+  $(".nametokyo").click(function(){
+    $("#tokyo").toggle();
+    });
 });
