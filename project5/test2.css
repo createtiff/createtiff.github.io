@@ -1,0 +1,593 @@
+body{
+	margin: 0px;
+}
+
+.londonsquare{
+	width: 10vw;
+	height:10vw;
+	background-color: #6ABBAE;
+	position: fixed;
+	left: 20vw;
+	top:20vw;
+	z-index: 1;
+
+}
+
+.londoncircle{
+	width: 5vw;
+	height: 5vw;
+	border-radius: 5vw;
+	background-color: white;
+	position: absolute;
+	left: 2.5vw;
+	top: 2.5vw;
+}
+
+.newyorksquare{
+
+}
+
+.newyorkcircle{
+	width: 5vw;
+	height: 5vw;
+	border-radius: 5vw;
+	background-color: white;
+	position: absolute;
+	
+}
+
+.seoulsquare{
+
+}
+
+.seoulcircle{
+	width: 5vw;
+	height: 5vw;
+	border-radius: 5vw;
+	background-color: white;
+	position: absolute;
+	
+}
+
+.tokyosquare{
+
+}
+
+.tokyocircle{
+	width: 5vw;
+	height: 5vw;
+	border-radius: 5vw;
+	background-color: white;
+	position: absolute;
+	
+}
+
+.test1{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+
+}
+
+.test2{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	left: 10vw;
+}
+
+.test3{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+	left: 20vw;
+}
+
+.test4{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	left: 30vw;
+}
+
+.test5{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+	left: 40vw;
+}
+
+.test6{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	left: 50vw;
+}
+
+.test7{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+	left: 60vw;
+}
+
+.test8{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	left: 70vw;
+}
+
+.test9{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+	left: 80vw;
+}
+
+.test10{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	left: 90vw;
+}
+
+.test11{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	top:10vw;
+
+}
+
+.test12{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+	left: 10vw;
+	top:10vw;
+}
+
+.test13{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	left: 20vw;
+	top:10vw;
+}
+
+.test14{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+	left: 30vw;
+	top:10vw;
+}
+
+.test15{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	left: 40vw;
+	top:10vw;
+}
+
+.test16{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+	left: 50vw;
+	top:10vw;
+}
+
+.test17{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	left: 60vw;
+	top:10vw;
+}
+
+.test18{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+	left: 70vw;
+	top:10vw;
+}
+
+.test19{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	left: 80vw;
+	top:10vw;
+}
+
+.test20{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+	left: 90vw;
+	top:10vw;
+}
+
+
+.test21{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+	top:20vw;
+
+}
+
+.test22{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	left: 10vw;
+	top:20vw;
+}
+
+.test23{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+	left: 20vw;
+	top:20vw;
+}
+
+.test24{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	left: 30vw;
+	top:20vw;
+}
+
+.test25{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+	left: 40vw;
+	top:20vw;
+}
+
+.test26{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	left: 50vw;
+	top:20vw;
+}
+
+.test27{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+	left: 60vw;
+	top:20vw;
+}
+
+.test28{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	left: 70vw;
+	top:20vw;
+}
+
+.test29{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+	left: 80vw;
+	top:20vw;
+}
+
+.test30{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	left: 90vw;
+	top:20vw;
+}
+
+.test31{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	top:30vw;
+
+}
+
+.test32{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+	left: 10vw;
+	top:30vw;
+}
+
+.test33{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	left: 20vw;
+	top:30vw;
+}
+
+.test34{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+	left: 30vw;
+	top:30vw;
+}
+
+.test35{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	left: 40vw;
+	top:30vw;
+}
+
+.test36{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+	left: 50vw;
+	top:30vw;
+}
+
+.test37{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	left: 60vw;
+	top:30vw;
+}
+
+.test38{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+	left: 70vw;
+	top:30vw;
+}
+
+.test39{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	left: 80vw;
+	top:30vw;
+}
+
+.test40{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+	left: 90vw;
+	top:30vw;
+}
+
+.test41{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+	top:40vw;
+
+}
+
+.test42{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	left: 10vw;
+	top:40vw;
+}
+
+.test43{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+	left: 20vw;
+	top:40vw;
+}
+
+.test44{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	left: 30vw;
+	top:40vw;
+}
+
+.test45{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+	left: 40vw;
+	top:40vw;
+}
+
+.test46{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	left: 50vw;
+	top:40vw;
+}
+
+.test47{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+	left: 60vw;
+	top:40vw;
+}
+
+.test48{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	left: 70vw;
+	top:40vw;
+}
+
+.test49{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+	left: 80vw;
+	top:40vw;
+}
+
+.test50{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	left: 90vw;
+	top:40vw;
+}
+
+.test51{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	top:50vw;
+}
+
+.test52{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+	left: 10vw;
+	top:50vw;
+}
+
+.test53{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	left: 20vw;
+	top:50vw;
+}
+
+.test54{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+	left: 30vw;
+	top:50vw;
+}
+
+.test55{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	left: 40vw;
+	top:50vw;
+}
+
+.test56{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+	left: 50vw;
+	top:50vw;
+}
+
+.test57{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	left: 60vw;
+	top:50vw;
+}
+
+.test58{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+	left: 70vw;
+	top:50vw;
+}
+
+.test59{
+	width: 10vw;
+	height:10vw;
+	background-color: #C56CB4;
+	position: fixed;
+	left: 80vw;
+	top:50vw;
+}
+
+.test60{
+	width: 10vw;
+	height:10vw;
+	background-color: #F5D000;
+	position: fixed;
+	left: 90vw;
+	top:50vw;
+}
