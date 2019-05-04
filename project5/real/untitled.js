@@ -1,3 +1,15 @@
-		if(cloudiness >= 0 && cloudiness < 44 ) {
-        $('body').append('<div class="london-cloudiness-1"></div>');
-        }
+        $('.londoncircle').append('Name: ' + name + '</br>');
+        $('.londoncircle').append(' ');
+        $('.londoncircle').append('</br>');
+        $('.londoncircle').append(' ');
+        $('.londoncircle').append('Temp: ' + temp + '</br>');
+        $('.londoncircle').append(' ');
+        $('.londoncircle').append('Tempmax: ' + tempmax + '</br>');
+        $('.londoncircle').append(' ');
+        $('.londoncircle').append('Windspeed: ' + windspeed + '</br>');
+        $('.londoncircle').append(' ');
+        $('.londoncircle').append('Winddeg: ' + winddeg + '</br>');
+        $('.londoncircle').append(' ');
+        $('.londoncircle').append('Humidity: ' + humidity + '</br>'); 
+        $('.londoncircle').append(' ');      
+        $('.londoncircle').append('Cloudiness: ' + cloudiness + '</br>');

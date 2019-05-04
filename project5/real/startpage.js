@@ -1,1 +1,1 @@
-alert("Welcome! Please view console on your browser.");
+alert("Welcome! \nPlease click any of the circles.");
