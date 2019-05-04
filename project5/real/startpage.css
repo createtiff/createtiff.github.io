@@ -1,0 +1,275 @@
+.corelondon{
+	width: 10vw;
+	height: 10vw;
+	background-color: #f27170;
+	top:20vw;
+	left: 40vw;
+	position: fixed;
+}
+
+.corelondoncircle{
+	width: 5vw;
+	height: 5vw;
+	border-radius: 5vw;
+	background-color: #ffffff;
+	position: absolute;
+	left: 2.5vw;
+	top: 2.5vw;
+}
+
+.squarelondon{
+	width: 10vw;
+	height: 10vw;
+	background-color: #f27170;
+	top:10vw;
+	left: 30vw;
+	position: fixed;
+	opacity: 0.4;
+}
+
+.corenewyork{
+	width: 10vw;
+	height: 10vw;
+	background-color: #c26cab;
+	top: 30vw;
+	left: 40vw;
+	position: fixed;
+}
+
+.corenewyorkcircle{
+	width: 5vw;
+	height: 5vw;
+	border-radius: 5vw;
+	background-color: #ffffff;
+	position: absolute;
+	left: 2.5vw;
+	top: 2.5vw;
+}
+
+.squarenewyork{
+	width: 10vw;
+	height: 10vw;
+	background-color: #c26cab;
+	top: 40vw;
+	left: 30vw;
+	position: fixed;
+	opacity: 0.4;
+}
+
+.coretokyo{
+	width: 10vw;
+	height: 10vw;
+	background-color: #f79439;
+	top:20vw;
+	left: 50vw;
+	position: fixed;
+}
+
+.coretokyocircle{
+	width: 5vw;
+	height: 5vw;
+	border-radius: 5vw;
+	background-color: #ffffff;
+	position: absolute;
+	left: 2.5vw;
+	top: 2.5vw;
+}
+
+.squaretokyo{
+	width: 10vw;
+	height: 10vw;
+	background-color: #f79439;
+	top: 10vw;
+	left: 60vw;
+	position: fixed;
+	opacity: 0.4;
+}
+
+.coreseoul{
+	width: 10vw;
+	height: 10vw;
+	background-color: #ffc708;
+	top: 30vw;
+	left: 50vw;
+	position: fixed;
+}
+
+.coreseoulcircle{
+	width: 5vw;
+	height: 5vw;
+	border-radius: 5vw;
+	background-color: #ffffff;
+	position: absolute;
+	left: 2.5vw;
+	top: 2.5vw;
+}
+
+.squareseoul{
+	width: 10vw;
+	height: 10vw;
+	background-color: #ffc708;
+	top: 40vw;
+	left: 60vw;
+	position: fixed;
+	opacity: 0.4;
+}
+
+.topleft1x1bluesquare{
+	width: 10vw;
+	height: 10vw;
+	position: fixed;
+	background-color: #6abaad;
+	opacity: 0.6;
+	top: 10vw;
+	left: 20vw;
+}
+
+.topright1x1greensquare{
+	width: 10vw;
+	height: 10vw;
+	position: fixed;
+	background-color: #929d43;
+	opacity: 0.6;
+	top: 10vw;
+	left: 70vw;
+}
+
+.bottomleft1x1greensquare{
+	width: 10vw;
+	height: 10vw;
+	position: fixed;
+	background-color: #929d43;
+	opacity: 0.6;
+	top: 40vw;
+	left: 20vw;
+}
+
+.bottomright1x1bluesquare{
+	width: 10vw;
+	height: 10vw;
+	position: fixed;
+	background-color: #6abaad;
+	opacity: 0.6;
+	top: 40vw;
+	left: 70vw;
+}
+
+.top2x2bluesquare{
+	width: 20vw;
+	height: 20vw;
+	position: fixed;
+	background-color: #6abaad;
+	opacity: 0.4;
+	top: 0vw;
+	left: 40vw;
+}
+
+.bottom2x2bluesquare{
+	width: 20vw;
+	height: 20vw;
+	position: fixed;
+	background-color: #6abaad;
+	opacity: 0.4;
+	top: 40vw;
+	left: 40vw;
+}
+
+.left2x2greensquare{
+	width: 20vw;
+	height: 20vw;
+	position: fixed;
+	background-color: #929d43;
+	opacity: 0.4;
+	top: 20vw;
+	left: 20vw;
+}
+
+.right2x2greensquare{
+	width: 20vw;
+	height: 20vw;
+	position: fixed;
+	background-color: #929d43;
+	opacity: 0.4;
+	top: 20vw;
+	left: 60vw;
+}
+
+.topleft4x1greenrectangle{
+	width: 40vw;
+	height: 10vw;
+	position: fixed;
+	background-color: #929d43;
+	opacity: 0.2;
+	top: 0vw;
+	left: 0vw;
+}
+
+.topright4x1greenrectangle{
+	width: 40vw;
+	height: 10vw;
+	position: fixed;
+	background-color: #929d43;
+	opacity: 0.2;
+	top: 0vw;
+	left: 60vw;
+}
+
+.bottomleft4x1greenrectangle{
+	width: 40vw;
+	height: 10vw;
+	position: fixed;
+	background-color: #929d43;
+	opacity: 0.2;
+	top: 50vw;
+	left: 0vw;
+}
+
+.bottomright4x1greenrectangle{
+	width: 40vw;
+	height: 10vw;
+	position: fixed;
+	background-color: #929d43;
+	opacity: 0.2;
+	top: 50vw;
+	left: 60vw;
+}
+
+.leftleft1x4bluerectangle{
+	width: 10vw;
+	height: 40vw;
+	position: fixed;
+	background-color: #6abaad;
+	opacity: 0.2;
+	top: 10vw;
+	left: 0vw;
+}
+
+.left1x4ebluerectangle{
+	width: 10vw;
+	height: 40vw;
+	position: fixed;
+	background-color: #6abaad;
+	opacity: 0.2;
+	top: 10vw;
+	left: 10vw;
+}
+
+.right1x4bluerectangle{
+	width: 10vw;
+	height: 40vw;
+	position: fixed;
+	background-color: #6abaad;
+	opacity: 0.2;
+	top: 10vw;
+	left: 80vw;
+}
+
+.rightright1x4bluerectangle{
+	width: 10vw;
+	height: 40vw;
+	position: fixed;
+	background-color: #6abaad;
+	opacity: 0.2;
+	top: 10vw;
+	left: 90vw;
+}
