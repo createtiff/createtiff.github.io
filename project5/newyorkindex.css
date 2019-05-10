@@ -1,18 +1,44 @@
+body{
+	margin: 0px;
+}
+
+a{
+	color: black;
+}
+
+.left{
+	position: fixed;
+	width: 20vw;
+	height: 60vw;
+	background-color: #6abaad;
+	opacity: 0.2;
+}
+.bottom{
+	position: fixed;
+	width: 100vw;
+	height: 20vw;
+	top: 40vw;
+	background-color: #929d43;
+	opacity: 0.2;
+}
+
+
 .newyorkbox{
 	position: fixed;
-	width: 30vw;
-	height: 30vw;
-	top: 10vw;
-	left: 10vw;
-	background-color: rgba(194, 108, 171, 0.7);
+	width: 40vw;
+	height: 40vw;
+	top: 0vw;
+	left: 20vw;
+	background-color: rgba(194, 108, 171, 1);
 }
 
 .newyorkname{
-	font-family: 'Overpass', sans-serif;
-	font-weight: 800;
-	font-size: 6vw;
-	margin-top: -1vw;
-	margin-left: 1.5vw;
+	font-family: nimbus-sans,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 8vw;
+	margin-top: 2vw;
+	margin-left: 3vw;
 	position: absolute;
 }
 
@@ -26,62 +52,73 @@ p {
 
 #newyork {
 	position: fixed;
-	top: 20vw;
-	left: 11.5vw;
-	font-family: 'Overpass', sans-serif;
-	font-size: 1.4vw;
+	top: 13vw;
+	left: 25.5vw;
+	font-family: nimbus-sans,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2vw;
+	line-height: 2;
 }
 
-.londonbox{
+.londonbox {
 	position: fixed;
 	width: 20vw;
 	height: 20vw;
 	top: 20vw;
-	left: 70vw;
-	background-color: rgba(242, 113, 112, 0.7);
+	left: 80vw;
+	background-color: rgba(242, 113, 112, 1);
 }
 
-.londonname{
-	font-family: 'Overpass', sans-serif;
-	font-weight: 800;
-	font-size: 4vw;
-	margin-top: -0.5vw;
-	margin-left: 1vw;
+.londonname {
+	font-family: nimbus-sans,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 3.8vw;
+	margin-top: 2vw;
+	margin-left: 2.6vw;
 	position: absolute;
 }
 
 #london {
 	position: fixed;
-	top: 25.5vw;
-	left: 71vw;
-	font-family: 'Overpass', sans-serif;
-	font-size: 1.05vw;
+	top: 26.5vw;
+	left: 82.75vw;
+	font-family: nimbus-sans,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 0.9vw;
+	line-height: 2;
 }
 
-.tokyobox{
+.tokyobox {
 	position: fixed;
 	width: 20vw;
 	height: 20vw;
 	top: 0vw;
 	left: 60vw;
-	background-color: rgba(247, 148, 57, 0.7);
+	background-color: rgba(247, 148, 57, 1);
 }
 
-.tokyoname{
-	font-family: 'Overpass', sans-serif;
-	font-weight: 800;
-	font-size: 4vw;
-	margin-top: -0.5vw;
-	margin-left: 1vw;
+.tokyoname {
+	font-family: nimbus-sans,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 3.8vw;
+	margin-top: 2vw;
+	margin-left: 2.6vw;
 	position: absolute;
 }
 
 #tokyo {
 	position: fixed;
-	top: 5.5vw;
-	left: 61vw;
-	font-family: 'Overpass', sans-serif;
-	font-size: 1.05vw;
+	top: 6.5vw;
+	left: 62.75vw;
+	font-family: nimbus-sans,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 0.9vw;
+	line-height: 2;
 }
 
 .seoulbox{
@@ -90,22 +127,26 @@ p {
 	height: 20vw;
 	top: 40vw;
 	left: 60vw;
-	background-color: rgba(255, 199, 8, 0.7);
+	background-color: rgba(255, 199, 8, 1);
 }
 
 .seoulname{
-	font-family: 'Overpass', sans-serif;
-	font-weight: 800;
-	font-size: 4vw;
-	margin-top: -0.5vw;
-	margin-left: 1vw;
+	font-family: nimbus-sans,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 3.8vw;
+	margin-top: 2vw;
+	margin-left: 2.6vw;
 	position: absolute;
 }
 
 #seoul {
 	position: fixed;
-	top: 45.5vw;
-	left: 61vw;
-	font-family: 'Overpass', sans-serif;
-	font-size: 1.05vw;
+	top: 46.5vw;
+	left: 62.75vw;
+	font-family: nimbus-sans,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 0.9vw;
+	line-height: 2;
 }

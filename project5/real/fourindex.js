@@ -88,27 +88,18 @@ $(document).ready(function(){
         
 
         //JUST SEEING IF THE VALUES COME THROUGH
-        $('#london').append('Humidity &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ' + humidity + '%' + '</br>'); 
-        $('#london').append(' ');      
-        $('#london').append('Cloudiness &nbsp; &nbsp; &nbsp; ' + cloudiness + '%' + '</br>');
-        $('#london').append('Wind &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;' + windspeed + ' m/s' );
-        $('#london').append(' ');
-        $('#london').append(winddeg + '&deg;' + '</br>');
-        $('#london').append('Temperature &nbsp;' + '&#x229a; ' + temp + '&#x2103;' + '</br>');
-        $('#london').append('&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ' + '&#x2295; ' + tempmax + '&#8451;' + '</br>');
-        $('#london').append(' ');
-        $('#london').append('&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ' + '&#x2296; ' + tempmin + '&#x2103;' + '</br></br>');
-        $('#london').append(' ');
+        $('#london-humdity-11').append('Humidity &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ' + humidity + '%' + '</br>'); 
+        $('#london-humdity-11').append(' ');      
+        $('#london-humdity-11').append('Cloudiness &nbsp; &nbsp; &nbsp; ' + cloudiness + '%' + '</br>');
+        $('#london-humdity-11').append('Wind &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;' + windspeed + ' m/s' );
+        $('#london-humdity-11').append(' ');
+        $('#london-humdity-11').append(winddeg + '&deg;' + '</br>');
+        $('#london-humdity-11').append('Temperature &nbsp;' + '&#x229a; ' + temp + '&#x2103;' + '</br>');
+        $('#london-humdity-11').append('&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ' + '&#x2295; ' + tempmax + '&#8451;' + '</br>');
+        $('#london-humdity-11').append(' ');
+        $('#london-humdity-11').append('&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ' + '&#x2296; ' + tempmin + '&#x2103;' + '</br></br>');
+        $('#london-humdity-11').append(' ');
         
-
-        'Humidity' + humidity + '%'
-        'Cloudiness' + cloudiness + '%'
-        'Wind' + windspeed + ' m/s' + winddeg + '&deg;' + 
-        'Temperature' + temp + 
-       tempmax 
-
-       tempmin
-
 
         //END OF MYWEATHERINTERPRETATION FUNCTION
     }   

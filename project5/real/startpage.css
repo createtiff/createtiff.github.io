@@ -57,11 +57,11 @@
 }
 
 .coretokyo{
-	width: 10vw;
+	width: 10.1vw;
 	height: 10vw;
 	background-color: #f79439;
 	top:20vw;
-	left: 50vw;
+	left: 49.9vw;
 	position: fixed;
 }
 
@@ -86,11 +86,11 @@
 }
 
 .coreseoul{
-	width: 10vw;
+	width: 10.1vw;
 	height: 10vw;
 	background-color: #ffc708;
 	top: 30vw;
-	left: 50vw;
+	left: 49.9vw;
 	position: fixed;
 }
 
@@ -220,7 +220,7 @@
 	position: fixed;
 	background-color: #929d43;
 	opacity: 0.2;
-	top: 50vw;
+	top: 49.95vw;
 	left: 0vw;
 }
 
@@ -230,7 +230,7 @@
 	position: fixed;
 	background-color: #929d43;
 	opacity: 0.2;
-	top: 50vw;
+	top: 49.95vw;
 	left: 60vw;
 }
 

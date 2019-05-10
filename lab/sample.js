@@ -65,3 +65,5 @@ for(var i = 0; i < 50; i++){
    addPattern.appendChild(newDiv);
 }
 document.getElementById("patblock").appendChild(addPattern);
+
+
