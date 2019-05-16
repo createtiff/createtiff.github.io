@@ -1,3 +1,5 @@
+alert("Welcome! \nPlease Load Unsafe Scripts.");
+
 var humidity; //Humidity, %
 
 //////////LONDON
