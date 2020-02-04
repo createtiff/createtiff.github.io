@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>createtiff</title>
+		<title>index</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css">
 		<style>
+			img {
+				 position: absolute;
+				 left: -5vw;
+				 top: 2vw;
+			}
+
 			a{
 				text-decoration: none;
 			}
@@ -13,6 +19,7 @@
 			a:visited{
 				color:inherit;
 			}
+
 			h1{
 				position: absolute;
 				top: 20vw;
@@ -36,7 +43,7 @@
 				opacity: 0.75;
 				position: absolute;
 				margin:0;
-				top: 2.5vw;
+				top: 5vh;
 				left: 75vw;
 				width: 15vw;
 				height: 15vw;
@@ -64,7 +71,7 @@
 				opacity: 0.75;
 				position: absolute;
 				margin:0;
-				top: 20vw;
+				top: 35vh;
 				left: 75vw;
 				width: 15vw;
 				height: 15vw;
@@ -92,7 +99,7 @@
 				opacity: 0.75;
 				position: absolute;
 				margin:0;
-				top: 37.5vw;
+				top: 65vh;
 				left: 75vw;
 				width: 15vw;
 				height: 15vw;
@@ -117,11 +124,51 @@
 
 			
 
-			img {
-				 position: absolute;
-				 left: -5vw;
-				 top: 2vw;
-				}
+			@media only screen and (max-width: 600px) {
+
+			h1{
+				top: 75px;
+				left: 75px;
+				font-size: 28px;
+				line-height: 32px;
+			}
+            
+            
+            .red-circle{
+            	position: absolute;
+            	height: 30vw;
+            	width: 30vw;
+            	border-radius: 30vw;
+            	top: 210px;
+            	position: absolute;
+  				left: 35vw;
+
+  				font-size: 28px;
+            }
+
+            .blue-circle{
+            	position: absolute;
+            	height: 30vw;
+            	width: 30vw;
+            	border-radius: 30vw;
+            	top: 360px;
+            	position: absolute;
+  				left: 35vw;
+
+  				font-size: 28px;
+            }
+
+            .yellow-circle{
+            	position: absolute;
+            	height: 30vw;
+            	width: 30vw;
+            	border-radius: 30vw;
+            	top: 510px;
+            	position: absolute;
+  				left: 35vw;
+
+  				font-size: 28px;
+            }
 
 		</style> 
 	</head>
@@ -135,7 +182,7 @@
 			</h1>
 			<a href="about.html"><div class="red-circle">About</div></a>
 			<a href="projects.html"><div class="blue-circle">Projects</div></a>
-			<div class="yellow-circle">Contact</div>
+			<a href="mailto:parkc978@newschool.edu"><div class="yellow-circle">Contact</div></a>
 			
 
 		</p>
