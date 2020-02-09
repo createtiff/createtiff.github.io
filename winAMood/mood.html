@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Interface</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+		<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+		<style>
+			a{
+			}
+
+			a:visited{color: white;
+			}
+
+			#refresh{
+				position: absolute;
+				width: 40px;
+				height: 40px;
+				top: 0%;
+				right: 0%;
+				margin: 7px;
+				border-style: outset;
+				border-width: 10px;
+				opacity: 0.7;
+				background-color: white;
+			}
+
+			button{
+				position: absolute;
+				bottom: 0%;
+				right: 0%;
+				margin: 7px;
+				border-style: outset;
+				border-width: 10px;
+				width: 60px;
+				height: 60px;
+				opacity: 0.4;
+				background-color: white;
+			}
+
+			#resultbox{
+				display: none;
+				position: absolute;
+				bottom: 7px;
+				left: 7px;
+				width: 200px;
+				height: 90px;
+				background-color: white;
+				opacity: 0.4;
+				border-style: outset;
+				border-width: 1vw;
+
+				font-family: Roboto;
+				font-size: 14px;
+				padding: 10px 20px 20px 20px;
+				line-height: 20px;
+			}
+
+			#backgroundcolorresult{
+				position: absolute;
+				left: 50%;
+				bottom: 90px;
+				font-family: Roboto;
+				font-size: 14px;
+			}
+
+			#squareshadowcolorresult{
+				position: absolute;
+				left: 50%;
+				bottom: 70px;
+				font-family: Roboto;
+				font-size: 14px;
+			}
+
+			#squarecolorresult{
+				position: absolute;
+				left: 50%;
+				bottom: 50px;
+				font-family: Roboto;
+				font-size: 14px;
+			}
+
+			#textcolorresult{
+				position: absolute;
+				left: 50%;
+				bottom: 30px;
+				font-family: Roboto;
+				font-size: 14px;
+			}
+
+			#mouthcolorresult{
+				position: absolute;
+				left: 50%;
+				bottom: 10px;
+				font-family: Roboto;
+				font-size: 14px;
+			}
+
+			#shadowbox{
+				position: absolute;
+			 	left: 30%;
+				transition: 0.5s ease-in-out;
+				animation-name: animation-bot-shadow;
+				animation-duration: 4s;
+				animation-iteration-count: infinite;
+			}
+
+			@keyframes animation-bot-shadow{
+			0% { top: 76vw; }
+			30% { top: 1vw; }
+			100% { top: 76vw; }
+			}
+
+			
+			#box{
+				position: absolute;
+			 	left: 35%;
+				transition: 0.5s ease-in-out;
+				animation-name: animation-bot;
+				animation-duration: 4s;
+				animation-iteration-count: infinite;
+			}
+
+			@keyframes animation-bot {
+			0% { top: 75vw; }
+			30% { top: 0vw; }
+			100% { top: 75vw;}
+			}
+
+
+			#boticon{
+				position: absolute;
+			 	left: 41%;
+				font-family: Roboto;
+				font-size: 10vw;
+				letter-spacing: 5vw;
+				animation-name: animation-boticon;
+				animation-duration: 4s;
+				animation-iteration-count: infinite;
+				transition: 0.5s ease-in-out;
+			}
+
+			@keyframes animation-boticon {
+			0% { top: 80vw; -webkit-text-stroke-width: 0vw;}
+			30% { top: 5vw; -webkit-text-stroke-width: 0vw;}
+			100% { top: 80vw; -webkit-text-stroke-width: 0vw;}
+			}
+
+			#mouth{
+				position: absolute;
+			 	left: 47%;
+				font-family: Roboto;
+				font-size: 10vw;
+				animation-name: animation-mouth;
+				animation-duration: 4s;
+				animation-iteration-count: infinite;
+				transition: 0.5s ease-in-out;
+			}
+
+			@keyframes animation-mouth {
+			0% { top: 87vw; }
+			30% { top: 12vw; }
+			100% { top: 87vw; }
+			}
+
+		</style> 
+	</head>
+
+	<body>
+		<a href=""><div id="refresh"></div></a>
+		<button onclick="myFunction()"></button>
+		<p>
+			<div id="shadowbox"></div>
+			<div id="box"></div>
+			<div id="boticon"></div>
+			<div id="mouth"></div>
+
+			
+
+			<div id="resultbox">
+				Background<br>
+				Shadow<br>
+				Body<br>
+				Eyes<br>
+				Mouth
+
+				<div id="backgroundcolorresult"></div>
+				<div id="squareshadowcolorresult"></div>
+				<div id="squarecolorresult"></div>
+				<div id="textcolorresult"></div>
+				<div id="mouthcolorresult"></div>
+			</div>
+			
+			
+		</p>
+	</body>
+	<script src="jquery.js"></script>
+	<script src="mood.js"></script>
+</html>
