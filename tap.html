@@ -5,6 +5,8 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,200,300&display=swap" rel="stylesheet">
+		
 		<style>
 			body{
 				margin: 0;
@@ -20,37 +22,57 @@
 			iframe{
 				margin: 0;
 				padding: 0;
-				padding-top: 5vw;
+				padding-top: 7.5vw;
 			}
 
 			.go-back{
 				position: absolute;
-				left: 25px;
-				top: 25px;
-				width: 80px;
-				height: 80px;
-				border-radius: 80px;
+				left: 3.75vw;
+				top: 3.75vw;
+				width: 5vw;
+				height: 5vw;
+				border-radius: 5vw;
 				background-color: red;
 				opacity: 0.8;
+
+				vertical-align: baseline;
+				text-align: center;
+				color: red;
+				font-family: helvetica;
+				font-weight: lighter;
+				font-size: 1.3vw;
+				line-height: 5vw;
 			}
 
 			.go-back-mini{
 				position: absolute;
-				left: -10px;
-				top: 30px;
-				width: 20px;
-				height: 20px;
-				border-radius: 20px;
+				left: -0.5vw;
+				top: 2vw;
+				width: 1vw;
+				height: 1vw;
+				border-radius: 1vw;
 				background-color: blue;
 				opacity: 0.8;
 			}
 
 			.go-back:hover{
-				opacity: 1;
+				color: yellow;
 			}
 
-			.go-back-mini:hover{
-				opacity: 1;
+			.go-back:active{
+				color: blue;
+			}
+
+			#tag{
+				position: absolute;
+				top: 3.75vw;
+				right: 10vw;
+
+				color: gray;
+				font-family: 'IBM Plex Sans', sans-serif;
+				font-weight: 300;
+				font-size: 1.5vw;
+				line-height: 5vw;
 			}
 
 			.duality{
@@ -64,8 +86,17 @@
 	<body>
 		<p>
 
-			<h1></h1>
-			<a href="projects.html"><div class="go-back"><div class="go-back-mini"></div></div></a>
+			<div class="backbutton">
+			<a href="projects.html">
+				<div class="go-back">
+					back
+					<div class="go-back-mini">
+					</div>
+				</div>
+			</a>
+			</div>
+
+			<div id="tag">SERVICE DESIGN</div>
 
 			<div class="duality"><center>
 				<iframe src="https://player.vimeo.com/video/389139762" width="960" height="540" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></center>

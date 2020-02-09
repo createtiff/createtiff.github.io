@@ -5,18 +5,27 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css">
+		
 		<style>
+			
+			img {
+				 position: absolute;
+				 left: 0px;
+				 top: 0px;
+				 display: none;
+			}
+
 			h1{
 				position: absolute;
-				top: 18vw;
-				left: 50vw;
+				top: 19vw;
+				left: 18.5vw;
 				margin: 0;
 				padding: 0;
-				padding-right: 15vw;
+				padding-right: 45vw;
 				font-family: helvetica;
 				font-weight: lighter;
 				font-size: 30px;
-				line-height: 34px;
+				line-height: 36px;
 			}
 
 			a{
@@ -25,12 +34,10 @@
 
 			a:hover{
 				color: blue !important;
-				opacity: 0.8;
 			}
 
 			a:active{
 				color: blue !important;
-				opacity: 1;
 			}
 
 			a:visited{
@@ -46,32 +53,96 @@
 
 			.go-back{
 				position: absolute;
-				left: 25px;
-				top: 25px;
-				width: 80px;
-				height: 80px;
-				border-radius: 80px;
+				left: 3.75vw;
+				top: 3.75vw;
+				width: 5vw;
+				height: 5vw;
+				border-radius: 5vw;
 				background-color: red;
 				opacity: 0.8;
+
+				vertical-align: baseline;
+				text-align: center;
+				color: red;
+				font-family: helvetica;
+				font-weight: lighter;
+				font-size: 1.3vw;
+				line-height: 5vw;
 			}
 
 			.go-back-mini{
 				position: absolute;
-				left: -10px;
-				top: 30px;
-				width: 20px;
-				height: 20px;
-				border-radius: 20px;
+				left: -0.5vw;
+				top: 2vw;
+				width: 1vw;
+				height: 1vw;
+				border-radius: 1vw;
 				background-color: blue;
 				opacity: 0.8;
 			}
 
 			.go-back:hover{
-				opacity: 1;
+				color: yellow;
 			}
 
-			.go-back-mini:hover{
-				opacity: 1;
+			.go-back:active{
+				color: blue;
+			}
+
+
+			.blue-circle{
+				background-color: blue;
+				opacity: 0.75;
+				position: absolute;
+				margin:0;
+				top: 20vw;
+				right: 12.5vw;
+				width: 15vw;
+				height: 15vw;
+				border-radius: 15vw;
+
+				vertical-align: baseline;
+				text-align: center;
+				color: blue;
+				font-family: helvetica;
+				font-weight: lighter;
+				font-size: 40px;
+				line-height: 15vw;
+			}
+
+			.blue-circle:hover{
+				color: red;
+			}
+
+			.blue-circle:active{
+				color: yellow;
+			}
+
+
+			#miniCircleInsideBlue{
+				top: 6.25vw;
+				left: 12.5vw;
+				position: absolute;
+				width: 2.5vw;
+				height: 2.5vw;
+				border-radius: 2.5vw;
+				background-color: red;
+				opacity: 0.8;
+
+				animation-name: animationRed;
+			    animation-duration: 2.5s;
+			    animation-timing-function: ease-in-out;
+			    animation-direction: normal;
+				transition: 0.5s ease-in-out;
+				animation-iteration-count: infinite;
+
+				animation-delay: 0.25s;
+			}
+
+			@keyframes animationRed{
+				0%{ left: 12.5vw; }
+				50%{ left: 15vw; }
+				100%{ left: 12.5vw; }
 			}
 
 			@media only screen and (max-width: 600px) {
@@ -96,7 +167,7 @@
 			<h1>
 			Chanjoo Tiffany Park is a designer
 			based in NYC. She is a Junior at 
-			Parsons School of Design studying
+			Parsons School of Design studying </br>
 			<a href="https://www.newschool.edu/parsons/bfa-communication-design/">BFA Communication Design</a> and 
 			<a href="https://www.newschool.edu/undergrad-minors/creative-entrepreneurship/">Creative Entrepreneurship</a>.
 			Her passion is practicing visual
@@ -105,12 +176,18 @@
 
 			<a href="index.html">
 				<div class="go-back">
+					main
 					<div class="go-back-mini">
 					</div>
 				</div>
 			</a>
 			
-			
+			<a href="projects.html">
+				<div class="blue-circle">
+					projects
+					<div id="miniCircleInsideBlue"></div>
+				</div>
+			</a>
 
 		</p>
 	</body>
