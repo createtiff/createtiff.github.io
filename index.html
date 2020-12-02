@@ -8,6 +8,15 @@
 		<link rel="icon" href="indexFavicon.ico" type="image/x-icon">
 
 		<style>
+
+			@font-face {
+  			font-family: 'myFont';
+  			src: url('basiercircle-regular.otf');
+  			font-weight: normal;
+    		font-style: normal;
+			}
+
+
 			img {
 				 position: absolute;
 				 left: 0px;
@@ -25,14 +34,14 @@
 
 			h1{
 				position: absolute;
-				top: 24vw;
-				left: 22vw;
+				top: 20vw;
+				left: 18vw;
 				margin: 0;
 				padding: 0;
-				font-family: helvetica;
-				font-weight: lighter;
-				font-size: 32px;
-				line-height: 42px;
+				font-family: myFont;
+				font-weight: bolder;
+				font-size: 64px;
+				line-height: 80px;
 
 			}
 			body{
@@ -41,170 +50,135 @@
 				padding: 0;
 
 			}
-			.red-circle{
-				background-color: red;
-				opacity: 0.75;
-				position: absolute;
-				margin:0;
-				top: 2.5vw;
-				right: 20vw;
-				width: 15vw;
-				height: 15vw;
-				border-radius: 15vw;
 
-				vertical-align: baseline;
-				text-align: center;
-				color: red;
-				font-family: helvetica;
+			.indexPage{
+				position: absolute;
+				top: 4vw;
+				left: 7vw;
+				margin: 0;
+				padding: 0;
+				font-family: myFont;
+				font-weight: 100;
+				font-size: 16px;
+				line-height: 22px;
+				color:#778089;
+
+			}
+
+			.aboutPage{
+				position: absolute;
+				top: 4vw;
+				left: 75vw;
+				margin: 0;
+				padding: 0;
+				font-family: myFont;
 				font-weight: lighter;
-				font-size: 32px;
-				line-height: 15vw;
+				font-size: 16px;
+				line-height: 22px;
+				color:#778089;
+
 			}
 
-			.red-circle:hover{
-				opacity: 0.8;
-				color: yellow;
-			}
-
-			.red-circle:active{
-				color: blue;
-			}
-
-			#miniCircleInsideRed{
-				top: 6.25vw;
-				left: 12.5vw;
+			.worksPage{
 				position: absolute;
-				width: 2.5vw;
-				height: 2.5vw;
-				border-radius: 2.5vw;
-				background-color: yellow;
-				opacity: 0.8;
-
-				animation-name: animationYellow;
-			    animation-duration: 2.5s;
-			    animation-timing-function: ease-in-out;
-			    animation-direction: normal;
-				transition: 0.5s ease-in-out;
-				animation-iteration-count: infinite;
-			}
-
-			@keyframes animationYellow{
-				0%{ left: 12.5vw; }
-				50%{ left: 15vw; }
-				100%{ left: 12.5vw; }
-			}
-
-			.blue-circle{
-				background-color: blue;
-				opacity: 0.75;
-				position: absolute;
-				margin:0;
-				top: 20vw;
-				right: 12.5vw;
-				width: 15vw;
-				height: 15vw;
-				border-radius: 15vw;
-
-				vertical-align: baseline;
-				text-align: center;
-				color: blue;
-				font-family: helvetica;
+				top: 4vw;
+				left: 80vw;
+				margin: 0;
+				padding: 0;
+				font-family: myFont;
 				font-weight: lighter;
-				font-size: 32px;
-				line-height: 15vw;
+				font-size: 16px;
+				line-height: 22px;
+				color:#778089;
+
 			}
 
-			.blue-circle:hover{
-				opacity: 0.8;
-				color: red;
-			}
-
-			.blue-circle:active{
-				color: yellow;
-			}
-
-
-			#miniCircleInsideBlue{
-				top: 6.25vw;
-				left: 12.5vw;
+			.contactPage{
 				position: absolute;
-				width: 2.5vw;
-				height: 2.5vw;
-				border-radius: 2.5vw;
-				background-color: red;
-				opacity: 0.8;
-
-				animation-name: animationRed;
-			    animation-duration: 2.5s;
-			    animation-timing-function: ease-in-out;
-			    animation-direction: normal;
-				transition: 0.5s ease-in-out;
-				animation-iteration-count: infinite;
-
-				animation-delay: 0.25s;
-			}
-
-			@keyframes animationRed{
-				0%{ left: 12.5vw; }
-				50%{ left: 15vw; }
-				100%{ left: 12.5vw; }
-			}
-
-			.yellow-circle{
-				background-color: yellow;
-				opacity: 0.75;
-				position: absolute;
-				margin:0;
-				top: 37.5vw;
-				right: 20vw;
-				width: 15vw;
-				height: 15vw;
-				border-radius: 15vw;
-
-				vertical-align: baseline;
-				text-align: center;
-				color: yellow;
-				font-family: helvetica;
+				top: 4vw;
+				left: 85vw;
+				margin: 0;
+				padding: 0;
+				font-family: myFont;
 				font-weight: lighter;
-				font-size: 32px;
-				line-height: 15vw;
+				font-size: 16px;
+				line-height: 22px;
+				color:#778089;
+
 			}
 
-			.yellow-circle:hover{
-				opacity: 0.8;
-				color: blue;
+			h2{
+				margin: 0;
+				padding: 0;
+				font-family: myFont;
+				font-size: 36px;
+				line-height: 44px;
+				color:#1D1F22;
+
 			}
 
-			.yellow-circle:active{
-				color: red;
+			h3{
+				margin: 0;
+				padding: 0;
+				font-family: myFont;
+				font-size: 20px;
+				line-height: 26px;
+				color:#778089;
+
 			}
 
-			#miniCircleInsideYellow{
-				top: 6.25vw;
-				left: 12.5vw;
+			.title1{
 				position: absolute;
-				width: 2.5vw;
-				height: 2.5vw;
-				border-radius: 2.5vw;
-				background-color: blue;
-				opacity: 0.8;
-
-				animation-name: animationBlue;
-			    animation-duration: 2.5s;
-			    animation-timing-function: ease-in-out;
-			    animation-direction: normal;
-				transition: 0.5s ease-in-out;
-				animation-iteration-count: infinite;
-
-				animation-delay: 0.5s;
+				top: 85vw;
+				left: 18vw;
 			}
 
-			@keyframes animationBlue{
-				0%{ left: 12.5vw; }
-				50%{ left: 15vw; }
-				100%{ left: 12.5vw; }
+			.subtitle1{
+				position: absolute;
+				top: 89vw;
+				left: 18vw;
 			}
 
+			.title2{
+				position: absolute;
+				top: 135vw;
+				left: 18vw;
+				
+			}
+
+			.subtitle2{
+				position: absolute;
+				top: 139vw;
+				left: 18vw;
+			}
+
+
+			.title3{
+				position: absolute;
+				top: 185vw;
+				left: 18vw;
+				
+			}
+
+			.subtitle3{
+				position: absolute;
+				top: 189vw;
+				left: 18vw;
+				
+			}
+
+			#paddingBottom{
+				position: absolute;
+				top: 200vw;
+				height: 20vw;
+				width: 100vw;
+				background-color: transparent;
+			}
+
+
+
+
+		
 
 			
 
@@ -219,60 +193,8 @@
 			}
             
             
-            .red-circle{
-            	position: absolute;
-            	height: 30vw;
-            	width: 30vw;
-            	border-radius: 30vw;
-            	top: 55vw;
-  				left: 35vw;
 
-  				font-size: 7vw;
-  				line-height: 30vw;
-            }
-
-            #miniCircleInsideRed{
-				top: 14vw;
-				margin-left: 15vw;
-				position: absolute;
-			}
-
-            .blue-circle{
-            	position: absolute;
-            	height: 30vw;
-            	width: 30vw;
-            	border-radius: 30vw;
-            	top: 95vw;
-  				left: 35vw;
-
-  				font-size: 7vw;
-  				line-height: 30vw;
-            }
-
-            #miniCircleInsideBlue{
-				top: 14vw;
-				margin-left: 15vw;
-				position: absolute;
-			}
-
-            .yellow-circle{
-            	position: absolute;
-            	height: 30vw;
-            	width: 30vw;
-            	border-radius: 30vw;
-            	top: 135vw;
-  				left: 35vw;
-
-  				font-size: 7vw;
-  				line-height: 30vw;
-            }
-
-             #miniCircleInsideYellow{
-				top: 14vw;
-				margin-left: 15vw;
-				position: absolute;
-			}
-            }
+           
 
             
 
@@ -282,32 +204,92 @@
 	<body>
 		<p>
 
-			<h1>
-			Chanjoo Tiffany Park</br>
-			is a designer based in NYC.
-			</h1>
-
-			<a href="about.html">
-				<div class="red-circle">
-					about
-					<div id="miniCircleInsideRed"></div>
+			<a href="index.html">
+				<div class="indexPage">
+					CHANJOO TIFFANY PARK
 				</div>
 			</a>
 
-			<a href="projects.html">
-				<div class="blue-circle">
-					projects
-					<div id="miniCircleInsideBlue"></div>
+			<a href="index.html">
+				<div class="aboutPage">
+					About
+				</div>
+			</a>
+
+			<a href="index.html">
+				<div class="worksPage">
+					Works
 				</div>
 			</a>
 
 			<a href="mailto:parkc978@newschool.edu">
-				<div class="yellow-circle">
-					contact
-					<div id="miniCircleInsideYellow"></div>
+				<div class="contactPage">
+					Contact
 				</div>
 			</a>
+
+			<h1>
+				Hi, there!</br>
+				I'm Tiffany,</br>
+				A digital designer based  </br>
+				in New York City.</br>
+			</h1>
 			
+			
+			<a href="weatherNow.html">
+				<img src="img/one.jpg" alt="firstIcon" 
+				style="width:64vw; top: 50vw;left: 18vw;">
+
+				<h2>
+					<div class="title1">
+						Weather Now
+					</div>
+				</h2>
+
+				<h3>
+					<div class="subtitle1">
+						Mobile, Motion
+					</div>
+				</h3>
+			</a>
+
+			<a href="across.html">
+				<img src="img/two.jpg" alt="firstIcon" 
+				style="width:64vw; top: 100vw;left: 18vw;">
+
+				<h2>
+					<div class="title2">
+						Across
+					</div>
+				</h2>
+
+				<h3>
+					<div class="subtitle2">
+						Mobile, Identity
+					</div>
+				</h3>
+			</a>
+
+			<a href="mood.html">
+				<img src="img/three.jpg" alt="firstIcon" 
+				style="width:64vw; top: 150vw;left: 18vw;">
+
+				<h2>
+					<div class="title3">
+						Moodbot
+					</div>
+				</h2>
+
+				<h3>
+					<div class="subtitle3">
+						Web Design, Generative Art
+					</div>
+				</h3>
+			</a>
+
+			
+
+			<div id="paddingBottom"></div>
 
 		</p>
 	</body>
