@@ -526,8 +526,8 @@
 
 			#paddingBottom{
 				position: absolute;
-				top: 100vw;
-				height: 20vw;
+				top: 70vw;
+				height: 10vw;
 				width: 100vw;
 				background-color: transparent;
 			}

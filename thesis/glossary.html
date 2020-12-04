@@ -48,36 +48,46 @@
 				</a>
 			</h1>
 
-			<div class="bodytext">
-				Interface
-				</br></br>
-				Website
-				</br></br>
-				Internet
-				</br></br>
-				Interaction
-				</br></br>
-				Responsive
-				</br></br>
-				HTML
-				</br></br>
-				CSS
-				</br></br>
-				DOM
-				</br></br>
-				API
-				</br></br>
-				Layout
-				</br></br>
-				Typography
-				</br></br>
+			<div class="block">
+					<button type="button" class="collapsible">Interface</button>
+				<div class="content">
+  					<p>
+	  					As a noun, an interface is either:
+						</br></br>
+						1. A user interface, consisting of the set of dials, knobs, operating system commands, graphical display formats, and other devices provided by a computer or a program to allow the user to communicate and use the computer or program. A graphical user interface (GUI) provides its user a more or less "picture-oriented" way to interact with technology. A GUI is usually a more satisfying or user-friendly interface to a computer system.</br></br>
+						2. A programming interface, consisting of the set of statements, functions, options, and other ways of expressing program instructions and data provided by a program or language for a programmer to use.</br></br>
+						3. The physical and logical arrangement supporting the attachment of any device to a connector or to another device.</br></br>
+						As a verb, to interface means to communicate with another person or object. With hardware equipment, to interface means making an appropriate physical connection so that two pieces of equipment can communicate or work together effectively.
+					</p>
+				</div>
 
-
+					<button type="button" class="collapsible">Website</button>
+						<div class="content">
+		  					<p>
+			  					A set of related web pages located under a single domain name, typically produced by a single person or organization.
+							</p>
+						</div>
 			</div>
-
 
 			<div id="paddingBottom"></div>
 
 		</p>
+
+		<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+		    this.classList.toggle("active");
+		    var content = this.nextElementSibling;
+		    if (content.style.display === "block") {
+		      content.style.display = "none";
+		    } else {
+		      content.style.display = "block";
+		    }
+		  });
+		}
+		</script>
 	</body>
 </html>
