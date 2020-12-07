@@ -12,10 +12,22 @@
 				padding: 0;
 			}
 
+			.indexPage{
+				position: absolute;
+				top: 1vw;
+				left: 3vw;
+
+				font-family: myFont;
+				font-weight: 100;
+				font-size: 16px;
+				line-height: 3vw;
+				color:#778089;
+			}
+
 
 			.manifestoPage{
 				position: absolute;
-				top: 2vw;
+				top: 1vw;
 				left: 20vw;
 
 				width: 12vw;
@@ -46,7 +58,7 @@
 
 			.principlesPage{
 				position: absolute;
-				top: 2vw;
+				top: 1vw;
 				left: 32vw;
 
 				width: 12vw;
@@ -85,7 +97,7 @@
 
 			.referencesPage{
 				position: absolute;
-				top: 2vw;
+				top: 1vw;
 				left: 44vw;
 
 				width: 12vw;
@@ -123,7 +135,7 @@
 
 			.glossaryPage{
 				position: absolute;
-				top: 2vw;
+				top: 1vw;
 				left: 56vw;
 
 				width: 12vw;
@@ -161,7 +173,7 @@
 
 			.toolsPage{
 				position: absolute;
-				top: 2vw;
+				top: 1vw;
 				left: 68vw;
 
 				width: 12vw;

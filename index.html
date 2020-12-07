@@ -19,13 +19,14 @@
 
 			img {
 				 position: absolute;
-				 left: 0px;
 				 top: 0px;
-				 display: ;
+				 left: 15vw;
+				 width:70vw;
 			}
 
 			a{
 				text-decoration: none;
+				color:inherit;
 			}
 
 			a:visited{
@@ -34,14 +35,14 @@
 
 			h1{
 				position: absolute;
-				top: 20vw;
-				left: 18vw;
+				top: 15vw;
+				left: 20vw;
 				margin: 0;
 				padding: 0;
 				font-family: myFont;
 				font-weight: bolder;
-				font-size: 64px;
-				line-height: 80px;
+				font-size: 5vw;
+				line-height: 7vw;
 
 			}
 			body{
@@ -54,7 +55,7 @@
 			.indexPage{
 				position: absolute;
 				top: 4vw;
-				left: 7vw;
+				left: 5vw;
 				margin: 0;
 				padding: 0;
 				font-family: myFont;
@@ -68,7 +69,7 @@
 			.aboutPage{
 				position: absolute;
 				top: 4vw;
-				left: 75vw;
+				left: 78vw;
 				margin: 0;
 				padding: 0;
 				font-family: myFont;
@@ -82,7 +83,7 @@
 			.worksPage{
 				position: absolute;
 				top: 4vw;
-				left: 80vw;
+				left: 84vw;
 				margin: 0;
 				padding: 0;
 				font-family: myFont;
@@ -96,7 +97,7 @@
 			.contactPage{
 				position: absolute;
 				top: 4vw;
-				left: 85vw;
+				left: 90vw;
 				margin: 0;
 				padding: 0;
 				font-family: myFont;
@@ -111,8 +112,8 @@
 				margin: 0;
 				padding: 0;
 				font-family: myFont;
-				font-size: 36px;
-				line-height: 44px;
+				font-size: 3vw;
+				line-height: 3vw;
 				color:#1D1F22;
 
 			}
@@ -127,43 +128,69 @@
 
 			}
 
+			.image1{
+				position: absolute;
+				top: 50vw;
+			}
+
 			.title1{
 				position: absolute;
-				top: 85vw;
-				left: 18vw;
+				top: 87vw;
+				width: 100vw;
+				left: 0vw;
+				text-align: center;
 			}
 
 			.subtitle1{
 				position: absolute;
-				top: 89vw;
-				left: 18vw;
+				top: 91vw;
+				width: 100vw;
+				left: 0vw;
+				text-align: center;
+			}
+
+			.image2{
+				position: absolute;
+				top: 100vw;
 			}
 
 			.title2{
 				position: absolute;
-				top: 135vw;
-				left: 18vw;
+				top: 137vw;
+				width: 100vw;
+				left: 0vw;
+				text-align: center;
 				
 			}
 
 			.subtitle2{
 				position: absolute;
-				top: 139vw;
-				left: 18vw;
+				top: 141vw;
+				width: 100vw;
+				left: 0vw;
+				text-align: center;
 			}
 
+			.image3{
+				position: absolute;
+				top: 150vw;
+			}
 
 			.title3{
 				position: absolute;
-				top: 185vw;
-				left: 18vw;
+				top: 187vw;
+				width: 100vw;
+				left: 0vw;
+				text-align: center;
 				
 			}
 
 			.subtitle3{
 				position: absolute;
-				top: 189vw;
-				left: 18vw;
+				top: 191vw;
+				width: 100vw;
+				left: 0vw;
+				text-align: center;
 				
 			}
 
@@ -177,7 +204,112 @@
 
 
 
+			@media only screen and (max-width: 1025px) {
 
+			h1{
+				top: 20vw;
+				left: 3vw;
+				font-size: 7vw;
+				line-height: 9vw;
+			}
+
+			h3{
+				font-weight: normal;
+			}
+
+			.indexPage{
+				position: absolute;
+				left: 3vw;
+			}
+            
+            .aboutPage{
+				left: 70vw;
+			}
+            
+            .worksPage{
+				left: 80vw;
+			}
+
+			.contactPage{
+				left: 90vw;
+			}
+
+			img {
+				width: 94vw;
+				left: 3vw;
+			}
+
+			.image1{
+				top: 70vw;
+			}
+
+			.title1{
+				top: 122vw;
+
+				width: 100vw;
+				left: 0vw;
+				text-align: center;
+				font-size: 5vw;
+			}
+
+			.subtitle1{
+				top: 128vw;
+
+				width: 100vw;
+				left: 0vw;
+				text-align: center;
+			}
+
+			.image2{
+				top: 150vw;
+			}
+
+			.title2{
+				top: 202vw;
+
+				width: 100vw;
+				left: 0vw;
+				text-align: center;
+				font-size: 5vw;
+			}
+
+			.subtitle2{
+				top: 208vw;
+
+				width: 100vw;
+				left: 0vw;
+				text-align: center;
+			}
+
+           	.image3{
+				top: 230vw;
+
+				width: 100vw;
+				left: 0vw;
+				text-align: center;
+			}
+
+			.title3{
+				top: 282vw;
+
+				width: 100vw;
+				left: 0vw;
+				text-align: center;
+				font-size: 5vw;
+			}
+
+			.subtitle3{
+				top: 288vw;
+
+				width: 100vw;
+				left: 0vw;
+				text-align: center;
+			}
+
+			#paddingBottom{
+				top: 300vw;
+				height: 20vw;
+			}
 		
 
 			
@@ -186,17 +318,112 @@
 
 			h1{
 				top: 15vw;
-				left: 15vw;
-				right: 15vw;
-				font-size: 7vw;
+				left: 3vw;
+				font-size: 8vw;
 				line-height: 10vw;
 			}
-            
-            
 
-           
+			h3{
+				font-weight: normal;
+			}
 
+			.indexPage{
+				position: absolute;
+				width: 100vw;
+				left: 0vw;
+				text-align: center;
+				display: none;
+			}
             
+            .aboutPage{
+				left: 60vw;
+				display: none;
+			}
+            
+            .worksPage{
+				left: 72.5vw;
+				display: none;
+			}
+
+			.contactPage{
+				left: 85vw;
+				display: none;
+			}
+
+			img {
+				width: 94vw;
+				left: 3vw;
+			}
+
+			.image1{
+				top: 80vw;
+			}
+
+			.title1{
+				top: 132vw;
+
+				width: 100vw;
+				left: 0vw;
+				text-align: center;
+			}
+
+			.subtitle1{
+				top: 138vw;
+
+				width: 100vw;
+				left: 0vw;
+				text-align: center;
+			}
+
+			.image2{
+				top: 160vw;
+			}
+
+			.title2{
+				top: 212vw;
+
+				width: 100vw;
+				left: 0vw;
+				text-align: center;
+			}
+
+			.subtitle2{
+				top: 218vw;
+
+				width: 100vw;
+				left: 0vw;
+				text-align: center;
+			}
+
+           	.image3{
+				top: 240vw;
+
+				width: 100vw;
+				left: 0vw;
+				text-align: center;
+			}
+
+			.title3{
+				top: 292vw;
+
+				width: 100vw;
+				left: 0vw;
+				text-align: center;
+			}
+
+			.subtitle3{
+				top: 298vw;
+
+				width: 100vw;
+				left: 0vw;
+				text-align: center;
+			}
+
+			#paddingBottom{
+				top: 300vw;
+				height: 20vw;
+			}
+
 
 		</style> 
 	</head>
@@ -229,16 +456,16 @@
 			</a>
 
 			<h1>
-				Hi, there!</br>
+				Hi, there! 👋</br>
 				I'm Tiffany,</br>
-				A digital designer based  </br>
-				in New York City.</br>
+				A digital designer </br>
+				based in New York City.</br>
 			</h1>
 			
 			<a href="across.html">
-				<img src="img/two.jpg" alt="firstIcon" 
-				style="width:64vw; top: 50vw;left: 18vw;">
-
+				<div class="image1">
+					<img src="img/two.jpg" alt="firstIcon">
+				</div>
 				<h2>
 					<div class="title1">
 						Across
@@ -247,15 +474,15 @@
 
 				<h3>
 					<div class="subtitle1">
-						Mobile, Identity
+						App Design, Branding
 					</div>
 				</h3>
 			</a>
 			
 			<a href="weatherNow.html">
-				<img src="img/one.jpg" alt="firstIcon" 
-				style="width:64vw; top: 100vw;left: 18vw;">
-
+				<div class="image2">
+					<img src="img/one.jpg" alt="firstIcon">
+				</div>
 				<h2>
 					<div class="title2">
 						Weather Now
@@ -264,7 +491,7 @@
 
 				<h3>
 					<div class="subtitle2">
-						Mobile, Motion
+						Mobile, Motion Graphics
 					</div>
 				</h3>
 			</a>
@@ -272,9 +499,9 @@
 			
 
 			<a href="mood.html">
-				<img src="img/three.jpg" alt="firstIcon" 
-				style="width:64vw; top: 150vw;left: 18vw;">
-
+				<div class="image3">
+					<img src="img/three.jpg" alt="firstIcon">
+				</div>
 				<h2>
 					<div class="title3">
 						Moodbot
@@ -283,7 +510,7 @@
 
 				<h3>
 					<div class="subtitle3">
-						Web Design, Generative Art
+						Creative Coding
 					</div>
 				</h3>
 			</a>
