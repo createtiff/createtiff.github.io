@@ -10,6 +10,7 @@
 			body{
 				margin: 0;
 				padding: 0;
+				background-color: #ACB3BE;
 			}
 
 
@@ -279,9 +280,6 @@
 				color:#fff;
 			}
 
-			body{
-
-			}
 
 
 			.bodytext{
@@ -310,14 +308,9 @@
 			}
 
 			a:visited{
-				color: gray;
+				color: inherit;
 			}
-		
-			img {
-				 position: absolute;
-				 left: 0vw;
-				 top: 0vw;
-				}
+
 
 
 			#paddingBottom{
