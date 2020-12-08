@@ -104,7 +104,7 @@
 			    inset -20px 0 300px #fff; /* inner right cyan broad */
 			}
 
-			.referencesPage{
+			.glossaryPage{
 				position: absolute;
 				top: 1vw;
 				left: 64.6vw;
@@ -133,7 +133,7 @@
 				text-align: center;
 			}
 
-			.referencesPage:hover {
+			.glossaryPage:hover {
 				box-shadow:
     			inset 0 0 20px #DADADA,      /* inner white */
 			    inset 20px 0 300px #fff,   /* inner left magenta short */
@@ -142,7 +142,7 @@
 			    inset -20px 0 300px #fff; /* inner right cyan broad */
 			}
 
-			.glossaryPage{
+			.referencesPage{
 				position: absolute;
 				top: 1vw;
 				left: 74.8vw;
@@ -171,7 +171,7 @@
 				text-align: center;
 			}
 
-			.glossaryPage:hover {
+			.referencesPage:hover {
 				box-shadow:
     			inset 0 0 20px #DADADA,      /* inner white */
 			    inset 20px 0 300px #fff,   /* inner left magenta short */
@@ -272,7 +272,7 @@
 				font-size: 20px;
 				line-height: 3vw;
 				color:#B0B5BC;
-				top: 30vw;
+				top: 20vw;
 
 				width: 50vw;
 				height: 50vw;
