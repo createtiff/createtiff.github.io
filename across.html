@@ -5,8 +5,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css">
-		<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,200,300&display=swap" rel="stylesheet">
-		<link rel="icon" href="indexFavicon.ico" type="image/x-icon">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
 
 		<style>
 
@@ -23,10 +22,30 @@
 			}
 
 
-			.indexPage{
-				position: absolute;
+			.navigationBox{
+				position: fixed;
 				top: 4vw;
-				left: 7vw;
+				right: 5vw;
+				left: 45vw;
+
+				margin: 0;
+				padding: 0;
+
+				width: 50vw;
+				height: 22px;
+
+				font-family: myFont;
+				font-weight: lighter;
+				font-size: 16px;
+				line-height: 22px;
+				color:#778089;
+			}
+
+
+			.indexPage{
+				position: fixed;
+				top: 4vw;
+				left: 5vw;
 				margin: 0;
 				padding: 0;
 				font-family: myFont;
@@ -39,63 +58,55 @@
 
 			.aboutPage{
 				position: absolute;
-				top: 4vw;
-				left: 75vw;
+				top: 0px;
+				right: 200px;
 				margin: 0;
 				padding: 0;
-				font-family: myFont;
-				font-weight: lighter;
-				font-size: 16px;
-				line-height: 22px;
-				color:#778089;
 
 			}
 
 			.worksPage{
 				position: absolute;
-				top: 4vw;
-				left: 80vw;
+				top: 0px;
+				right: 100px;
 				margin: 0;
 				padding: 0;
-				font-family: myFont;
-				font-weight: lighter;
-				font-size: 16px;
-				line-height: 22px;
-				color:#778089;
 
 			}
 
 			.contactPage{
 				position: absolute;
-				top: 4vw;
-				left: 85vw;
+				top: 0px;
+				right: 0px;
 				margin: 0;
 				padding: 0;
-				font-family: myFont;
-				font-weight: lighter;
-				font-size: 16px;
-				line-height: 22px;
-				color:#778089;
 
 			}
 
-			h1{
-				text-align: center;
-				margin: 0;
-				padding: 0;
-				font-family: myFont;
-				font-weight: bolder;
-				font-size: 64px;
-				line-height: 80px;
+			.box-1{
+				position: absolute;
+				top: 200px;
+				left: 25vw;
+				width: 50vw;
+				height: 80vh;
 
 			}
 
 			.title{
 				position: relative;
-				top: 15vw;
+				top: 0px;
+
+				text-align: center;
+				font-family: myFont;
+				font-weight: bolder;
+				font-size: 64px;
+				line-height: 80px;
 			}
 
-			h2{
+			.subtitle{
+				position: relative;
+				top: 20px;
+
 				text-align: center;
 				margin: 0;
 				padding: 0;
@@ -103,30 +114,23 @@
 				font-size: 20px;
 				line-height: 26px;
 				color:#778089;
-
-			}
-
-			.subtitle{
-				position: relative;
-				top: 16vw;
 			}
 
 			.bodytext{
 				position: absolute;
+				top: 600px;
 				font-family: myFont;
 				font-size: 20px;
 				line-height: 28px;
 				color:#778089;
-				top: 55vw;
-				margin-left: 25vw;
-				margin-right: 25vw;
+
 			}
 
 			.mobiledesign{
 				font-family: myFont;
 				position: relative;
 				text-align: center;
-				top: 70vw;
+				top: 1150px;
   				font-size: 32px;
 				color:#1D1F22;
 				z-index: 1;
@@ -134,6 +138,7 @@
 
 			a{
 				text-decoration: none;
+				color: inherit;
 			}
 
 			a:hover{
@@ -145,7 +150,7 @@
 			}
 
 			a:visited{
-				color: gray;
+				color: inherit;
 			}
 		
 			img {
@@ -157,13 +162,16 @@
 			iframe{
 				margin: 0;
 				padding: 0;
+				
+				position: absolute;
+				top: 1300px;
+				left: 10vw;
 				width: 80vw;
-				margin-top:72vw;
 			}
 
 			#paddingBottom{
 				position: absolute;
-				top: 100vw;
+				top: 200vw;
 				height: 20vw;
 				width: 100vw;
 				background-color: transparent;
@@ -179,47 +187,48 @@
 
 			<a href="index.html">
 				<div class="indexPage">
-					CHANJOO TIFFANY PARK
+					Chanjoo Tiffany Park
 				</div>
 			</a>
 
-			<a href="about.html">
-				<div class="aboutPage">
-					About
-				</div>
-			</a>
+			<div class="navigationBox">
+				<a href="about.html">
+					<div class="aboutPage">
+						About
+					</div>
+				</a>
 
-			<a href="index.html">
-				<div class="worksPage">
-					Works
-				</div>
-			</a>
+				<a href="index.html">
+					<div class="worksPage">
+						Works
+					</div>
+				</a>
 
-			<a href="mailto:parkc978@newschool.edu">
-				<div class="contactPage">
-					Contact
-				</div>
-			</a>
+				<a href="mailto:parkc978@newschool.edu">
+					<div class="contactPage">
+						Contact
+					</div>
+				</a>
+			</div>
 
-			<h1>
+			<div class="box-1">
 				<div class="title">
 				Across
 				</div>
-			</h1>
-			<h2><div class="subtitle">
+				<div class="subtitle">
 				Mobile, Identity
 				</div>
-			</h2>
 
-			<img src="img/acrossIcon.png" alt="firstIcon" style="width:20vw; top: 30vw;left: 40vw;">
+				<img src="img/acrossIcon.png" alt="firstIcon" style="width:20vw; top: 180px; left: 15vw;">
 
-			<div class="bodytext">
+				<div class="bodytext">
 				<span style='color:#1D1F22;, font-weight: bolder;'>Problem Point</span></br>
 				Inconvenience having to have switch between duplicates of Apps which delivers the same functionality but serves in different countries.
 				</br>
 				</br>
 				<span style='color:#1D1F22;, font-weight: bolder;'>Solution</span></br>
 				An app that provides a switch between two different cultural systems.
+				</div>
 			</div>
 
 			<div class="mobiledesign">

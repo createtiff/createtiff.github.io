@@ -26,19 +26,27 @@
 
 			a{
 				text-decoration: none;
-				color:inherit;
+				color: inherit;
+			}
+
+			a:hover{
+				color: inherit;
+			}
+
+			a:active{
+				color: inherit;
 			}
 
 			a:visited{
-				color:inherit;
+				color: inherit;
 			}
 
 			h1{
-				position: relative;
+				position: absolute;
 
-				top: 15vw;
-				left: 25vw;
-				width: 50vw;
+				top: 200px;
+				left: 0vw;
+				width: 100vw;
 
 
 				margin: 0;
@@ -56,7 +64,7 @@
 			h2{
 				position: absolute;
 
-				top: 25vw;
+				top: 350px;
 				left: 30vw;
 
 				width: 40vw;
@@ -91,8 +99,28 @@
 				}
 			}
 
+			.navigationBox{
+				position: fixed;
+				top: 4vw;
+				right: 5vw;
+				left: 45vw;
+
+				margin: 0;
+				padding: 0;
+
+				width: 50vw;
+				height: 22px;
+
+				font-family: myFont;
+				font-weight: lighter;
+				font-size: 16px;
+				line-height: 22px;
+				color:#778089;
+			}
+
+
 			.indexPage{
-				position: absolute;
+				position: fixed;
 				top: 4vw;
 				left: 5vw;
 				margin: 0;
@@ -107,43 +135,28 @@
 
 			.aboutPage{
 				position: absolute;
-				top: 4vw;
-				left: 78vw;
+				top: 0px;
+				right: 200px;
 				margin: 0;
 				padding: 0;
-				font-family: myFont;
-				font-weight: lighter;
-				font-size: 16px;
-				line-height: 22px;
-				color:#778089;
 
 			}
 
 			.worksPage{
 				position: absolute;
-				top: 4vw;
-				left: 84vw;
+				top: 0px;
+				right: 100px;
 				margin: 0;
 				padding: 0;
-				font-family: myFont;
-				font-weight: lighter;
-				font-size: 16px;
-				line-height: 22px;
-				color:#778089;
 
 			}
 
 			.contactPage{
 				position: absolute;
-				top: 4vw;
-				left: 90vw;
+				top: 0px;
+				right: 0px;
 				margin: 0;
 				padding: 0;
-				font-family: myFont;
-				font-weight: lighter;
-				font-size: 16px;
-				line-height: 22px;
-				color:#778089;
 
 			}
 
@@ -152,8 +165,8 @@
 
 			#paddingBottom{
 				position: absolute;
-				top: 200vw;
-				height: 20vw;
+				top: 150vw;
+				height: 10vw;
 				width: 100vw;
 				background-color: transparent;
 			}
@@ -170,7 +183,6 @@
 
 
 			h1{
-				top: 15vw;
 				font-size: 42px;
 				line-height: 42px;
 			}
@@ -179,23 +191,6 @@
 				font-size: 16px;
 				line-height: 26px;
 
-			}
-
-			.indexPage{
-				position: absolute;
-				left: 3vw;
-			}
-            
-            .aboutPage{
-				left: 70vw;
-			}
-            
-            .worksPage{
-				left: 80vw;
-			}
-
-			.contactPage{
-				left: 90vw;
 			}
 
 
@@ -265,27 +260,29 @@
 
 			<a href="index.html">
 				<div class="indexPage">
-					CHANJOO TIFFANY PARK
+					Chanjoo Tiffany Park
 				</div>
 			</a>
 
-			<a href="about.html">
-				<div class="aboutPage">
-					About
-				</div>
-			</a>
+			<div class="navigationBox">
+				<a href="about.html">
+					<div class="aboutPage">
+						About
+					</div>
+				</a>
 
-			<a href="index.html">
-				<div class="worksPage">
-					Works
-				</div>
-			</a>
+				<a href="index.html">
+					<div class="worksPage">
+						Works
+					</div>
+				</a>
 
-			<a href="mailto:parkc978@newschool.edu">
-				<div class="contactPage">
-					Contact
-				</div>
-			</a>
+				<a href="mailto:parkc978@newschool.edu">
+					<div class="contactPage">
+						Contact
+					</div>
+				</a>
+			</div>
 
 				<h1>
 					A little bit about me
@@ -301,9 +298,8 @@
 					Landed in New York to study design at Parsons.</br>
 					</br></br>
 					<span style="color:black;font-weight:bolder; line-height: 36px;">Background</span></br>
-					Growing up with an arctic scientist/marine geologist grandfather 
-					who’ve spent years traveling the end points of the earth 🌎, 
-					exploration of the world became a nature to me. 
+					Growing up with an arctic scientist/marine geologist grandfather who spent years traveling end points of the earth 🌎, 
+					exploration has been second nature to me. 
 					Interested in human behaviors and visual representations of cultures, 
 					I initially studied fashion design to learn about form and function. </br>
 					</br></br>

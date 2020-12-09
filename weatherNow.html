@@ -5,8 +5,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css">
-		<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,200,300&display=swap" rel="stylesheet">
-		<link rel="icon" href="moodFavicon.ico" type="image/x-icon">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
 
 		<style>
 
@@ -23,10 +22,30 @@
 			}
 
 
-			.indexPage{
-				position: absolute;
+			.navigationBox{
+				position: fixed;
 				top: 4vw;
-				left: 7vw;
+				right: 5vw;
+				left: 45vw;
+
+				margin: 0;
+				padding: 0;
+
+				width: 50vw;
+				height: 22px;
+
+				font-family: myFont;
+				font-weight: lighter;
+				font-size: 16px;
+				line-height: 22px;
+				color:#778089;
+			}
+
+
+			.indexPage{
+				position: fixed;
+				top: 4vw;
+				left: 5vw;
 				margin: 0;
 				padding: 0;
 				font-family: myFont;
@@ -39,45 +58,31 @@
 
 			.aboutPage{
 				position: absolute;
-				top: 4vw;
-				left: 75vw;
+				top: 0px;
+				right: 200px;
 				margin: 0;
 				padding: 0;
-				font-family: myFont;
-				font-weight: lighter;
-				font-size: 16px;
-				line-height: 22px;
-				color:#778089;
 
 			}
 
 			.worksPage{
 				position: absolute;
-				top: 4vw;
-				left: 80vw;
+				top: 0px;
+				right: 100px;
 				margin: 0;
 				padding: 0;
-				font-family: myFont;
-				font-weight: lighter;
-				font-size: 16px;
-				line-height: 22px;
-				color:#778089;
 
 			}
 
 			.contactPage{
 				position: absolute;
-				top: 4vw;
-				left: 85vw;
+				top: 0px;
+				right: 0px;
 				margin: 0;
 				padding: 0;
-				font-family: myFont;
-				font-weight: lighter;
-				font-size: 16px;
-				line-height: 22px;
-				color:#778089;
 
 			}
+
 
 			h1{
 				text-align: center;
@@ -125,6 +130,7 @@
 
 			a{
 				text-decoration: none;
+				color: inherit;
 			}
 
 			a:hover{
@@ -136,7 +142,7 @@
 			}
 
 			a:visited{
-				color: gray;
+				color: inherit;
 			}
 
 
@@ -209,27 +215,29 @@
 		<p>
 			<a href="index.html">
 				<div class="indexPage">
-					CHANJOO TIFFANY PARK
+					Chanjoo Tiffany Park
 				</div>
 			</a>
 
-			<a href="about.html">
-				<div class="aboutPage">
-					About
-				</div>
-			</a>
+			<div class="navigationBox">
+				<a href="about.html">
+					<div class="aboutPage">
+						About
+					</div>
+				</a>
 
-			<a href="index.html">
-				<div class="worksPage">
-					Works
-				</div>
-			</a>
+				<a href="index.html">
+					<div class="worksPage">
+						Works
+					</div>
+				</a>
 
-			<a href="mailto:parkc978@newschool.edu">
-				<div class="contactPage">
-					Contact
-				</div>
-			</a>
+				<a href="mailto:parkc978@newschool.edu">
+					<div class="contactPage">
+						Contact
+					</div>
+				</a>
+			</div>
 
 
 			<h1>
