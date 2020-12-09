@@ -55,6 +55,7 @@
 				animation: bg-animation 5s infinite alternate;
 			}
 
+
 			@keyframes bg-animation {
 				0%	{
 					background-position: left;
@@ -63,6 +64,25 @@
 					background-position: right;
 				}
 			}
+
+			.navigationBox{
+				position: fixed;
+				top: 4vw;
+				right: 5vw;
+
+				margin: 0;
+				padding: 0;
+
+				width: 95vw;
+				height: 22px;
+
+				font-family: myFont;
+				font-weight: lighter;
+				font-size: 16px;
+				line-height: 22px;
+				color:#778089;
+			}
+
 
 			.indexPage{
 				position: fixed;
@@ -79,44 +99,29 @@
 			}
 
 			.aboutPage{
-				position: fixed;
-				top: 4vw;
-				left: 78vw;
+				position: absolute;
+				top: 0px;
+				right: 200px;
 				margin: 0;
 				padding: 0;
-				font-family: myFont;
-				font-weight: lighter;
-				font-size: 16px;
-				line-height: 22px;
-				color:#778089;
 
 			}
 
 			.worksPage{
-				position: fixed;
-				top: 4vw;
-				left: 84vw;
+				position: absolute;
+				top: 0px;
+				right: 100px;
 				margin: 0;
 				padding: 0;
-				font-family: myFont;
-				font-weight: lighter;
-				font-size: 16px;
-				line-height: 22px;
-				color:#778089;
 
 			}
 
 			.contactPage{
-				position: fixed;
-				top: 4vw;
-				left: 90vw;
+				position: absolute;
+				top: 0px;
+				right: 0px;
 				margin: 0;
 				padding: 0;
-				font-family: myFont;
-				font-weight: lighter;
-				font-size: 16px;
-				line-height: 22px;
-				color:#778089;
 
 			}
 
@@ -287,17 +292,6 @@
 				left: 3vw;
 			}
             
-            .aboutPage{
-				left: 70vw;
-			}
-            
-            .worksPage{
-				left: 80vw;
-			}
-
-			.contactPage{
-				left: 90vw;
-			}
 
 			img {
 				width: 94vw;
@@ -499,27 +493,29 @@
 
 			<a href="index.html">
 				<div class="indexPage">
-					CHANJOO TIFFANY PARK
+					Chanjoo Tiffany Park
 				</div>
 			</a>
 
-			<a href="about.html">
-				<div class="aboutPage">
-					About
-				</div>
-			</a>
+			<div class="navigationBox">
+				<a href="about.html">
+					<div class="aboutPage">
+						About
+					</div>
+				</a>
 
-			<a href="index.html">
-				<div class="worksPage">
-					Works
-				</div>
-			</a>
+				<a href="index.html">
+					<div class="worksPage">
+						Works
+					</div>
+				</a>
 
-			<a href="mailto:parkc978@newschool.edu">
-				<div class="contactPage">
-					Contact
-				</div>
-			</a>
+				<a href="mailto:parkc978@newschool.edu">
+					<div class="contactPage">
+						Contact
+					</div>
+				</a>
+			</div>
 
 			<h1>
 				Hi, there! 👋</br>
