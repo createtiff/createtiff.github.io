@@ -5,58 +5,96 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<link rel="stylesheet" type="text/css">
-		<link rel="icon" href="indexFavicon.ico" type="image/x-icon">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
 
 		<style>
-			
+
+			@font-face {
+  			font-family: 'myFont';
+  			src: url('basiercircle-regular.otf');
+  			font-weight: normal;
+    		font-style: normal;
+			}
+
+
 			img {
 				 position: absolute;
-				 left: 0px;
 				 top: 0px;
-				 display: none;
+				 left: 15vw;
+				 width:70vw;
 			}
-
-			h1{
-				position: absolute;
-				top: 19vw;
-				left: 18.5vw;
-				margin: 0;
-				padding: 0;
-				padding-right: 46vw;
-				font-family: helvetica;
-				font-weight: lighter;
-				font-size: 20px;
-				line-height: 27px;
-			}
-
 
 			a{
 				text-decoration: none;
-			}
-
-			a:hover{
-				color: blue !important;
-			}
-
-			a:active{
-				color: blue !important;
+				color:inherit;
 			}
 
 			a:visited{
-				color: inherit;
+				color:inherit;
 			}
 
+			h1{
+				position: relative;
+
+				top: 15vw;
+				left: 25vw;
+				width: 50vw;
+
+
+				margin: 0;
+				padding: 0;
+
+				font-family: myFont;
+				font-weight: bolder;
+				font-size: 4vw;
+				line-height: 4vw;
+				text-align: center;
+
+			}
+
+
+			h2{
+				position: absolute;
+
+				top: 25vw;
+				left: 30vw;
+
+				width: 40vw;
+
+				margin: 0;
+				padding: 0;
+				font-family: myFont;
+				font-weight: normal;
+				font-size: 18px;
+				line-height: 26px;
+				color:#444545;
+				text-align: center;
+			}
+
+			
 
 			body{
 				display: table; 
 				margin: 0;
 				padding: 0;
+				background-image: linear-gradient(45deg, #fff, #EFF1F3);
+				background-size: 400%;
+				animation: bg-animation 5s infinite alternate;
+			}
+
+			@keyframes bg-animation {
+				0%	{
+					background-position: left;
+				}
+				100%	{
+					background-position: right;
+				}
 			}
 
 			.indexPage{
 				position: absolute;
 				top: 4vw;
-				left: 7vw;
+				left: 5vw;
 				margin: 0;
 				padding: 0;
 				font-family: myFont;
@@ -70,7 +108,7 @@
 			.aboutPage{
 				position: absolute;
 				top: 4vw;
-				left: 75vw;
+				left: 78vw;
 				margin: 0;
 				padding: 0;
 				font-family: myFont;
@@ -84,7 +122,7 @@
 			.worksPage{
 				position: absolute;
 				top: 4vw;
-				left: 80vw;
+				left: 84vw;
 				margin: 0;
 				padding: 0;
 				font-family: myFont;
@@ -98,7 +136,7 @@
 			.contactPage{
 				position: absolute;
 				top: 4vw;
-				left: 85vw;
+				left: 90vw;
 				margin: 0;
 				padding: 0;
 				font-family: myFont;
@@ -111,22 +149,109 @@
 
 			
 
-			@media only screen and (max-width: 600px) 
 
-			{
+			#paddingBottom{
+				position: absolute;
+				top: 200vw;
+				height: 20vw;
+				width: 100vw;
+				background-color: transparent;
+			}
+
+
+
+			@media only screen and (max-width: 1025px) {
 
 			h1{
-				position: absolute;
-				top: 55vw;
-				left: 20vw;
-				padding-right: 20vw;
-				font-size: 3.8vw;
-				line-height: 6.2vw;
+				top: 20vw;
+				font-size: 7vw;
+				line-height: 9vw;
 			}
+
+			h2{
+				margin: 0;
+				padding: 0;
+				font-family: myFont;
+				font-size: 3vw;
+				line-height: 3vw;
+				color:#1D1F22;
+
+			}
+
+			h3{
+				font-weight: normal;
+				font-size: 2vw;
+			}
+
+			.indexPage{
+				position: absolute;
+				left: 3vw;
+			}
+            
+            .aboutPage{
+				left: 70vw;
+			}
+            
+            .worksPage{
+				left: 80vw;
+			}
+
+			.contactPage{
+				left: 90vw;
+			}
+
+
+			#paddingBottom{
+				top: 300vw;
+				height: 20vw;
+			}
+		
 
 			
 
+			@media only screen and (max-width: 600px) {
 
+			h1{
+				top: 15vw;
+				font-size: 8vw;
+				line-height: 10vw;
+			}
+
+			h2{
+				font-size: 3vw;
+			}
+
+			h3{
+				font-weight: normal;
+				font-size: 3vw;
+			}
+
+			.indexPage{
+				position: absolute;
+				width: 100vw;
+				left: 0vw;
+				text-align: center;
+				display: none;
+			}
+            
+            .aboutPage{
+				left: 60vw;
+				display: none;
+			}
+            
+            .worksPage{
+				left: 72.5vw;
+				display: none;
+			}
+
+			.contactPage{
+				left: 85vw;
+				display: none;
+			}
+
+			#paddingBottom{
+				top: 300vw;
+				height: 20vw;
 			}
 
 
@@ -135,6 +260,7 @@
 
 	<body>
 		<p>
+
 			<a href="index.html">
 				<div class="indexPage">
 					CHANJOO TIFFANY PARK
@@ -159,34 +285,69 @@
 				</div>
 			</a>
 
-			<h1>
-			
-			Chanjoo Tiffany Park is a designer based in New York studying 
-			<a href="https://www.newschool.edu/parsons/bfa-communication-design/">BFA Communication Design</a>
-			with minors in
-			<a href="https://www.newschool.edu/undergrad-minors/creative-entrepreneurship/">Creative Entrepreneurship</a> and
-			<a href="https://www.newschool.edu/undergrad-minors/data-visualization/">Data Visualization</a>
-			at Parsons School of Design. 
-
-			She was born in the suburbs of Chicago, raised in Seoul, South Korea, and lived in Paris.
-
-			Her passion is in bridging physical and digital spaces via crafting human centric visual systems that focuses on the essentials.
-			</h1>
-
-			<a href="index.html">
-				<div class="go-back">
-					home
-					<div class="go-back-mini">
+				<h1>
+					<div class="title">
+					A little bit about me
 					</div>
-				</div>
-			</a>
+				</h1>
+
+							
+				<h2>
+					I'm Tiffany,</br>
+					</br>
+					A digital designer based in New York City🗽.</br>
+					</br>
+					Born in Chicago and raised in Seoul, Korea.</br>
+					Landed in New York to study design at Parsons.</br>
+					</br></br>
+					<span style="color:black;font-weight:bolder; line-height: 36px;">Background</span></br>
+					Growing up with an arctic scientist/marine geologist grandfather  
+					who’ve spent years traveling the end points of the earth 🌎,  
+					exploration of the world became a nature to me. 
+					Interested in human behaviors and visual representations of cultures, 
+					I initially studied fashion design to learn about form and function. </br>
+					</br></br>
+					<span style="color:black;font-weight:bolder; line-height: 36px;">Education</span></br>
+					With an interest in tangibility and intangibility of visual information, 
+					and the intersection of digital technology and design, </br>
+					I transitioned to study communication design to learn about 
+					visual communication, computer graphics and interaction design.</br> 
+					Minored in creative entrepreneurship to learn strategic/design thinking 
+					and to add a business perspective in approaching design. 
+					Did a semester abroad in Paris, expanded my knowledge in history, 
+					global marketing, ways of living, and humans in general!</br>
+					</br></br>
+					<span style="color:black;font-weight:bolder; line-height: 36px;">Experience</span></br>
+					📍Currently participating in Cornell Tech x Parsons Product Studio.</br>
+					Collaborating with multidisciplinary industry experts including MBA, CS, Law students. Learning the nature of building a startup.</br>
+					</br>
+					→ Interned at Wix, as a Web Designer.</br>
+					</br>
+					→ Worked at Zara as a Sales Associate.</br>
+					</br>
+					→ Taught Art and Design to high school students in Seoul.</br>
+					</br></br>
+					<span style="color:black;font-weight:bolder; line-height: 36px;">About me</span></br>
+					1. I’m an Extroverted Introvert. </br>
+					Love working with people and meeting new people but need a good balance with alone time.</br>
+					</br>
+					2. Curiosity and discomfort are my biggest inspirations. </br>I am passionate in designing seamless systems that makes people’s lives easier.</br>
+					</br>
+					3. My current interest is in designing gratifying web and mobile experiences that minimizes  digital burnout to successfully navigate through this Covid / Fourth Industrial Revolution era.</br>
+					</br></br>
+					<span style="color:black;font-weight:bolder; line-height: 36px;">Interesting fact</span></br>
+					Unlike most people, </br>
+					I’ve traveled the most in 2020 (before travel restrictions) </br>
+					and have experienced lockdown/quarantine </br>
+					in 4 different countries during Covid 🙃</br>
+				</h2>
+
+
 			
-			<a href="projects.html">
-				<div class="blue-circle">
-					projects
-					<div id="miniCircleInsideBlue"></div>
-				</div>
-			</a>
+
+			
+
+			<div id="paddingBottom"></div>
 
 		</p>
 	</body>
