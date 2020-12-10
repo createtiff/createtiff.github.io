@@ -272,7 +272,7 @@
 				font-size: 20px;
 				line-height: 3vw;
 				color:#B0B5BC;
-				top: 20vw;
+				top: 1100px;
 
 				width: 50vw;
 				height: 50vw;
@@ -284,11 +284,15 @@
 
 			.framer-1{
 				position: absolute;
-				width: 30vw;
-				height: 3vw;
-				border-radius: 2vw;
+				top: 250px;
 
-				left: 10vw;
+				width: 600px;
+				height: 1900px;
+				border-radius: 70px;
+
+				left: 50%;
+        		margin-right: -50%;
+        		transform: translate(-50%, -50%);
 
 				box-shadow:
     			inset 0 0 40px #DADADA,      /* inner white */
@@ -300,35 +304,26 @@
 
 			.one-1{
 				position: absolute;
-				width: 12vw;
-				height: 3vw;
+				width: 200px;
+				height: 200px;
+				border-radius: 200px;
 
-				top: 0vw;
-				left: 0vw;
+				top: 50px;
+				left: 50px;
 
 				vertical-align: baseline;
 				text-align: center;
 
-				width: 12vw;
-				height: 3vw;
-				border-radius: 0.5vw;
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
 
-				box-shadow:
-    			inset 0 0 9px #fff,      /* inner white */
-			    inset 20px 0 300px #33383D,   /* inner left magenta short */
-			    inset -20px 0 300px #33383D,  /* inner right cyan short */
-			    inset 20px 0 300px #33383D,  /* inner left magenta broad */
-			    inset -20px 0 300px #33383D; /* inner right cyan broad */
-			}
-
-			.one-1:hover{
 				box-shadow:
     			inset 0 0 1px #fff,      /* inner white */
 			    inset 20px 0 300px #33383D,   /* inner left magenta short */
 			    inset -20px 0 300px #33383D,  /* inner right cyan short */
 			    inset 20px 0 300px #33383D,  /* inner left magenta broad */
 			    inset -20px 0 300px #33383D; /* inner right cyan broad */
-
 			}
 
 			.plus-1{
@@ -347,16 +342,19 @@
 
 			.one-2{
 				position: absolute;
-				width: 12vw;
-				height: 3vw;
+				width: 200px;
+				height: 200px;
+				border-radius: 70px;
 
-				top: 0vw;
-				right: 0vw;
+				top: 50px;
+				right: 50px;
 
 				vertical-align: baseline;
 				text-align: center;
 
-				border-radius: 5vw;
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
 
 				box-shadow:
     			inset 0 0 5px #33383D,      /* inner white */
@@ -373,7 +371,7 @@
 				height: 3vw;
 				border-radius: 2vw;
 
-				top: 5vw;
+				top: 50vw;
 				left: 10vw;
 
 				box-shadow:
@@ -386,24 +384,28 @@
 
 			.two-1{
 				position: absolute;
-				width: 12vw;
-				height: 3vw;
+				width: 200px;
+				height: 200px;
+				border-radius: 200px;
 
-				left: 0vw;
+				top: 250px;
+				left: 50px;
 
 				vertical-align: baseline;
 				text-align: center;
 
-				width: 12vw;
-				height: 3vw;
-				border-radius: 0.5vw;
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+  				color:#33383D;
 
 				box-shadow:
-    			inset 0 0 9px #fff,      /* inner white */
-			    inset 20px 0 300px #33383D,   /* inner left magenta short */
-			    inset -20px 0 300px #33383D,  /* inner right cyan short */
-			    inset 20px 0 300px #33383D,  /* inner left magenta broad */
-			    inset -20px 0 300px #33383D; /* inner right cyan broad */
+    			inset 0 0 1px #fff,      /* inner white */
+			    inset 20px 0 300px #B0B5BC,   /* inner left magenta short */
+			    inset -20px 0 300px #B0B5BC,  /* inner right cyan short */
+			    inset 20px 0 300px #B0B5BC,  /* inner left magenta broad */
+			    inset -20px 0 300px #B0B5BC; /* inner right cyan broad */
 			}
 
 			.plus-2{
@@ -420,22 +422,26 @@
 
 			.two-2{
 				position: absolute;
-				width: 12vw;
-				height: 3vw;
+				width: 200px;
+				height: 200px;
+				border-radius: 70px;
 
-				right: 0vw;
+				top: 250px;
+				right: 50px;
 
 				vertical-align: baseline;
 				text-align: center;
 
-				border-radius: 5vw;
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
 
 				box-shadow:
-    			inset 0 0 5px #33383D,      /* inner white */
-			    inset 20px 0 300px #fff,   /* inner left magenta short */
-			    inset -20px 0 300px #fff,  /* inner right cyan short */
-			    inset 20px 0 300px #fff,  /* inner left magenta broad */
-			    inset -20px 0 300px #fff; /* inner right cyan broad */
+    			inset 0 0 5px #CCCBD2,      /* inner white */
+			    inset 20px 0 300px #F0F2F4,   /* inner left magenta short */
+			    inset -20px 0 300px #F0F2F4,  /* inner right cyan short */
+			    inset 20px 0 300px #F0F2F4,  /* inner left magenta broad */
+			    inset -20px 0 300px #F0F2F4; /* inner right cyan broad */
 
 			}
 
@@ -445,7 +451,7 @@
 				height: 3vw;
 				border-radius: 2vw;
 
-				top: 10vw;
+				top: 60vw;
 				left: 10vw;
 
 				box-shadow:
@@ -458,20 +464,22 @@
 
 			.three-1{
 				position: absolute;
-				width: 12vw;
-				height: 3vw;
+				width: 200px;
+				height: 200px;
+				border-radius: 200px;
 
-				left: 0vw;
+				top: 450px;
+				left: 50px;
 
 				vertical-align: baseline;
 				text-align: center;
 
-				width: 12vw;
-				height: 3vw;
-				border-radius: 0.5vw;
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
 
 				box-shadow:
-    			inset 0 0 9px #fff,      /* inner white */
+    			inset 0 0 1px #fff,      /* inner white */
 			    inset 20px 0 300px #33383D,   /* inner left magenta short */
 			    inset -20px 0 300px #33383D,  /* inner right cyan short */
 			    inset 20px 0 300px #33383D,  /* inner left magenta broad */
@@ -492,15 +500,19 @@
 
 			.three-2{
 				position: absolute;
-				width: 12vw;
-				height: 3vw;
+				width: 200px;
+				height: 200px;
+				border-radius: 70px;
 
-				right: 0vw;
+				top: 450px;
+				right: 50px;
 
 				vertical-align: baseline;
 				text-align: center;
 
-				border-radius: 5vw;
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
 
 				box-shadow:
     			inset 0 0 5px #33383D,      /* inner white */
@@ -517,7 +529,7 @@
 				height: 3vw;
 				border-radius: 2vw;
 
-				top: 15vw;
+				top: 70vw;
 				left: 10vw;
 
 				box-shadow:
@@ -530,24 +542,28 @@
 
 			.four-1{
 				position: absolute;
-				width: 12vw;
-				height: 3vw;
+				width: 200px;
+				height: 200px;
+				border-radius: 200px;
 
-				left: 0vw;
+				top: 650px;
+				left: 50px;
 
 				vertical-align: baseline;
 				text-align: center;
 
-				width: 12vw;
-				height: 3vw;
-				border-radius: 0.5vw;
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+				color:#33383D;
 
 				box-shadow:
-    			inset 0 0 9px #fff,      /* inner white */
-			    inset 20px 0 300px #33383D,   /* inner left magenta short */
-			    inset -20px 0 300px #33383D,  /* inner right cyan short */
-			    inset 20px 0 300px #33383D,  /* inner left magenta broad */
-			    inset -20px 0 300px #33383D; /* inner right cyan broad */
+    			inset 0 0 1px #fff,      /* inner white */
+			    inset 20px 0 300px #B0B5BC,   /* inner left magenta short */
+			    inset -20px 0 300px #B0B5BC,  /* inner right cyan short */
+			    inset 20px 0 300px #B0B5BC,  /* inner left magenta broad */
+			    inset -20px 0 300px #B0B5BC; /* inner right cyan broad */
 			}
 
 			.plus-4{
@@ -564,22 +580,26 @@
 
 			.four-2{
 				position: absolute;
-				width: 12vw;
-				height: 3vw;
+				width: 200px;
+				height: 200px;
+				border-radius: 70px;
 
-				right: 0vw;
+				top: 650px;
+				right: 50px;
 
 				vertical-align: baseline;
 				text-align: center;
 
-				border-radius: 5vw;
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
 
 				box-shadow:
-    			inset 0 0 5px #33383D,      /* inner white */
-			    inset 20px 0 300px #fff,   /* inner left magenta short */
-			    inset -20px 0 300px #fff,  /* inner right cyan short */
-			    inset 20px 0 300px #fff,  /* inner left magenta broad */
-			    inset -20px 0 300px #fff; /* inner right cyan broad */
+    			inset 0 0 5px #CCCBD2,      /* inner white */
+			    inset 20px 0 300px #F0F2F4,   /* inner left magenta short */
+			    inset -20px 0 300px #F0F2F4,  /* inner right cyan short */
+			    inset 20px 0 300px #F0F2F4,  /* inner left magenta broad */
+			    inset -20px 0 300px #F0F2F4; /* inner right cyan broad */
 
 			}
 
@@ -589,7 +609,7 @@
 				height: 3vw;
 				border-radius: 2vw;
 
-				top: 20vw;
+				top: 80vw;
 				left: 10vw;
 
 				box-shadow:
@@ -602,20 +622,22 @@
 
 			.five-1{
 				position: absolute;
-				width: 12vw;
-				height: 3vw;
+				width: 200px;
+				height: 200px;
+				border-radius: 200px;
 
-				left: 0vw;
+				top: 850px;
+				left: 50px;
 
 				vertical-align: baseline;
 				text-align: center;
 
-				width: 12vw;
-				height: 3vw;
-				border-radius: 0.5vw;
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
 
 				box-shadow:
-    			inset 0 0 9px #fff,      /* inner white */
+    			inset 0 0 1px #fff,      /* inner white */
 			    inset 20px 0 300px #33383D,   /* inner left magenta short */
 			    inset -20px 0 300px #33383D,  /* inner right cyan short */
 			    inset 20px 0 300px #33383D,  /* inner left magenta broad */
@@ -636,15 +658,19 @@
 
 			.five-2{
 				position: absolute;
-				width: 12vw;
-				height: 3vw;
+				width: 200px;
+				height: 200px;
+				border-radius: 70px;
 
-				right: 0vw;
+				top: 850px;
+				right: 50px;
 
 				vertical-align: baseline;
 				text-align: center;
 
-				border-radius: 5vw;
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
 
 				box-shadow:
     			inset 0 0 5px #33383D,      /* inner white */
@@ -661,7 +687,7 @@
 				height: 3vw;
 				border-radius: 2vw;
 
-				top: 25vw;
+				top: 90vw;
 				left: 10vw;
 
 				box-shadow:
@@ -674,24 +700,28 @@
 
 			.six-1{
 				position: absolute;
-				width: 12vw;
-				height: 3vw;
+				width: 200px;
+				height: 200px;
+				border-radius: 200px;
 
-				left: 0vw;
+				top: 1050px;
+				left: 50px;
 
 				vertical-align: baseline;
 				text-align: center;
 
-				width: 12vw;
-				height: 3vw;
-				border-radius: 0.5vw;
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+				color:#33383D;
 
 				box-shadow:
-    			inset 0 0 9px #fff,      /* inner white */
-			    inset 20px 0 300px #33383D,   /* inner left magenta short */
-			    inset -20px 0 300px #33383D,  /* inner right cyan short */
-			    inset 20px 0 300px #33383D,  /* inner left magenta broad */
-			    inset -20px 0 300px #33383D; /* inner right cyan broad */
+    			inset 0 0 1px #fff,      /* inner white */
+			    inset 20px 0 300px #B0B5BC,   /* inner left magenta short */
+			    inset -20px 0 300px #B0B5BC,  /* inner right cyan short */
+			    inset 20px 0 300px #B0B5BC,  /* inner left magenta broad */
+			    inset -20px 0 300px #B0B5BC; /* inner right cyan broad */
 			}
 
 			.plus-6{
@@ -708,22 +738,26 @@
 
 			.six-2{
 				position: absolute;
-				width: 12vw;
-				height: 3vw;
+				width: 200px;
+				height: 200px;
+				border-radius: 70px;
 
-				right: 0vw;
+				top: 1050px;
+				right: 50px;
 
 				vertical-align: baseline;
 				text-align: center;
 
-				border-radius: 5vw;
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
 
 				box-shadow:
-    			inset 0 0 5px #33383D,      /* inner white */
-			    inset 20px 0 300px #fff,   /* inner left magenta short */
-			    inset -20px 0 300px #fff,  /* inner right cyan short */
-			    inset 20px 0 300px #fff,  /* inner left magenta broad */
-			    inset -20px 0 300px #fff; /* inner right cyan broad */
+    			inset 0 0 5px #CCCBD2,      /* inner white */
+			    inset 20px 0 300px #F0F2F4,   /* inner left magenta short */
+			    inset -20px 0 300px #F0F2F4,  /* inner right cyan short */
+			    inset 20px 0 300px #F0F2F4,  /* inner left magenta broad */
+			    inset -20px 0 300px #F0F2F4; /* inner right cyan broad */
 
 			}
 
@@ -733,33 +767,35 @@
 				height: 3vw;
 				border-radius: 2vw;
 
-				top: 30vw;
+				top: 100vw;
 				left: 10vw;
 
 				box-shadow:
-    			inset 0 0 40px #DADADA,      /* inner white */
-			    inset 20px 0 300px #fff,   /* inner left magenta short */
-			    inset -20px 0 300px #fff,  /* inner right cyan short */
-			    inset 20px 0 300px #fff,  /* inner left magenta broad */
-			    inset -20px 0 300px #fff; /* inner right cyan broad */
+    			inset 0 0 5px #CCCBD2,      /* inner white */
+			    inset 20px 0 300px #F0F2F4,   /* inner left magenta short */
+			    inset -20px 0 300px #F0F2F4,  /* inner right cyan short */
+			    inset 20px 0 300px #F0F2F4,  /* inner left magenta broad */
+			    inset -20px 0 300px #F0F2F4; /* inner right cyan broad */
 			}
 
 			.seven-1{
 				position: absolute;
-				width: 12vw;
-				height: 3vw;
+				width: 200px;
+				height: 200px;
+				border-radius: 200px;
 
-				left: 0vw;
+				top: 1250px;
+				left: 50px;
 
 				vertical-align: baseline;
 				text-align: center;
 
-				width: 12vw;
-				height: 3vw;
-				border-radius: 0.5vw;
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
 
 				box-shadow:
-    			inset 0 0 9px #fff,      /* inner white */
+    			inset 0 0 1px #fff,      /* inner white */
 			    inset 20px 0 300px #33383D,   /* inner left magenta short */
 			    inset -20px 0 300px #33383D,  /* inner right cyan short */
 			    inset 20px 0 300px #33383D,  /* inner left magenta broad */
@@ -780,15 +816,19 @@
 
 			.seven-2{
 				position: absolute;
-				width: 12vw;
-				height: 3vw;
+				width: 200px;
+				height: 200px;
+				border-radius: 70px;
 
-				right: 0vw;
+				top: 1250px;
+				right: 50px;
 
 				vertical-align: baseline;
 				text-align: center;
 
-				border-radius: 5vw;
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
 
 				box-shadow:
     			inset 0 0 5px #33383D,      /* inner white */
@@ -805,7 +845,7 @@
 				height: 3vw;
 				border-radius: 2vw;
 
-				top: 35vw;
+				top: 110vw;
 				left: 10vw;
 
 				box-shadow:
@@ -818,24 +858,28 @@
 
 			.eight-1{
 				position: absolute;
-				width: 12vw;
-				height: 3vw;
+				width: 200px;
+				height: 200px;
+				border-radius: 200px;
 
-				left: 0vw;
+				top: 1450px;
+				left: 50px;
 
 				vertical-align: baseline;
 				text-align: center;
 
-				width: 12vw;
-				height: 3vw;
-				border-radius: 0.5vw;
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+				color:#33383D;
 
 				box-shadow:
-    			inset 0 0 9px #fff,      /* inner white */
-			    inset 20px 0 300px #33383D,   /* inner left magenta short */
-			    inset -20px 0 300px #33383D,  /* inner right cyan short */
-			    inset 20px 0 300px #33383D,  /* inner left magenta broad */
-			    inset -20px 0 300px #33383D; /* inner right cyan broad */
+    			inset 0 0 1px #fff,      /* inner white */
+			    inset 20px 0 300px #B0B5BC,   /* inner left magenta short */
+			    inset -20px 0 300px #B0B5BC,  /* inner right cyan short */
+			    inset 20px 0 300px #B0B5BC,  /* inner left magenta broad */
+			    inset -20px 0 300px #B0B5BC; /* inner right cyan broad */
 			}
 
 			.plus-8{
@@ -852,22 +896,26 @@
 
 			.eight-2{
 				position: absolute;
-				width: 12vw;
-				height: 3vw;
+				width: 200px;
+				height: 200px;
+				border-radius: 70px;
 
-				right: 0vw;
+				top: 1450px;
+				right: 50px;
 
 				vertical-align: baseline;
 				text-align: center;
 
-				border-radius: 2vw;
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
 
 				box-shadow:
-    			inset 0 0 5px #33383D,      /* inner white */
-			    inset 20px 0 300px #fff,   /* inner left magenta short */
-			    inset -20px 0 300px #fff,  /* inner right cyan short */
-			    inset 20px 0 300px #fff,  /* inner left magenta broad */
-			    inset -20px 0 300px #fff; /* inner right cyan broad */
+    			inset 0 0 5px #CCCBD2,      /* inner white */
+			    inset 20px 0 300px #F0F2F4,   /* inner left magenta short */
+			    inset -20px 0 300px #F0F2F4,  /* inner right cyan short */
+			    inset 20px 0 300px #F0F2F4,  /* inner left magenta broad */
+			    inset -20px 0 300px #F0F2F4; /* inner right cyan broad */
 
 			}
 
@@ -877,7 +925,7 @@
 				height: 3vw;
 				border-radius: 2vw;
 
-				top: 40vw;
+				top: 120vw;
 				left: 10vw;
 
 				box-shadow:
@@ -890,20 +938,22 @@
 
 			.nine-1{
 				position: absolute;
-				width: 12vw;
-				height: 3vw;
+				width: 200px;
+				height: 200px;
+				border-radius: 200px;
 
-				left: 0vw;
+				top: 1650px;
+				left: 50px;
 
 				vertical-align: baseline;
 				text-align: center;
 
-				width: 12vw;
-				height: 3vw;
-				border-radius: 0.5vw;
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
 
 				box-shadow:
-    			inset 0 0 9px #fff,      /* inner white */
+    			inset 0 0 1px #fff,      /* inner white */
 			    inset 20px 0 300px #33383D,   /* inner left magenta short */
 			    inset -20px 0 300px #33383D,  /* inner right cyan short */
 			    inset 20px 0 300px #33383D,  /* inner left magenta broad */
@@ -924,15 +974,19 @@
 
 			.nine-2{
 				position: absolute;
-				width: 12vw;
-				height: 3vw;
+				width: 200px;
+				height: 200px;
+				border-radius: 70px;
 
-				right: 0vw;
+				top: 1650px;
+				right: 50px;
 
 				vertical-align: baseline;
 				text-align: center;
 
-				border-radius: 2vw;
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
 
 				box-shadow:
     			inset 0 0 5px #33383D,      /* inner white */
@@ -970,8 +1024,8 @@
 
 			#paddingBottom{
 				position: absolute;
-				top: 80vw;
-				height: 20vw;
+				top: 2600px;
+				height: 100px;
 				width: 100vw;
 				background-color: transparent;
 			}

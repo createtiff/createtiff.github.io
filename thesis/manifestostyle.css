@@ -254,16 +254,35 @@
 
 			}
 
+			.box{
+				position: absolute;
+				top: 30vw;
 
+				background-color: #F0F2F4;
+				width: 0vw;
+				height: 90vw;
+			}
 			.bodytext{
 				position: absolute;
 				font-family: myFont;
 				font-size: 20px;
 				line-height: 28px;
 				color:#778089;
-				top: 30vw;
-				margin-left: 32vw;
-				margin-right: 32vw;
+				top: 0vw;
+				margin-left: 25vw;
+				margin-right: 25vw;
+
+				width: 40vw;
+				padding: 5vw;
+				border-radius: 70px;
+
+				box-shadow:
+    			inset 0 0 300px #F0F2F4,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+				
 			}
 
 
