@@ -219,23 +219,13 @@
 			    inset -20px 0 300px #fff; /* inner right cyan broad */
 			}
 
-			h1{
-				text-align: center;
-				margin: 0;
-				padding: 0;
-				font-family: myFont;
-				font-weight: bolder;
-				font-size: 24px;
-				line-height: 32px;
-
-			}
 
 			.title{
 				position: absolute;
 				top: 15vw;
-				left: 32vw;
+				left: 18vw;
 
-				width: 36vw;
+				width: 77vw;
 				height: 6vw;
 				border-radius: 5vw;
 
@@ -246,25 +236,26 @@
 				font-family: myFont;
 				font-weight: 100;
 				font-size: 32px;
-				line-height: 6vw;
+				line-height: 32px;
 				color:#66696A;
 
 				vertical-align: baseline;
 				text-align: center;
 			}
 
+			.subtitle{
+				position: relative;
 
+				top: 2vw;
+				text-align: center;
 
-			.bodytext{
-				position: absolute;
 				font-family: myFont;
-				font-size: 20px;
-				line-height: 28px;
-				color:#778089;
-				top: 30vw;
-				margin-left: 32vw;
-				margin-right: 32vw;
+				font-weight: 100;
+				font-size: 24px;
+				line-height: 32px;
+				color:#66696A;
 			}
+
 
 			.block-1{
 				position: absolute;
@@ -282,6 +273,14 @@
 			    inset -20px 0 300px #fff,  /* inner right cyan short */
 			    inset 20px 0 300px #fff,  /* inner left magenta broad */
 			    inset -20px 0 300px #fff; /* inner right cyan broad */
+
+			    font-family: myFont;
+				font-size: 16px;
+				line-height: 28px;
+				color:#778089;
+
+				vertical-align: baseline;
+				text-align: center;
 
 			}
 
@@ -301,6 +300,14 @@
 			    inset -20px 0 300px #fff,  /* inner right cyan short */
 			    inset 20px 0 300px #fff,  /* inner left magenta broad */
 			    inset -20px 0 300px #fff; /* inner right cyan broad */
+
+			    font-family: myFont;
+				font-size: 16px;
+				line-height: 28px;
+				color:#778089;
+
+				vertical-align: baseline;
+				text-align: center;
 			}
 
 			.block-3{
@@ -319,20 +326,17 @@
 			    inset -20px 0 300px #fff,  /* inner right cyan short */
 			    inset 20px 0 300px #fff,  /* inner left magenta broad */
 			    inset -20px 0 300px #fff; /* inner right cyan broad */
-			}
 
-			.subtitle{
-				position: relative;
-
-				top: 1vw;
-				text-align: center;
-
-				font-family: myFont;
-				font-weight: 100;
+			    font-family: myFont;
 				font-size: 16px;
-				line-height: 3vw;
+				line-height: 28px;
 				color:#778089;
+
+				vertical-align: baseline;
+				text-align: center;
 			}
+
+			
 
 
 			a{
