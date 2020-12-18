@@ -25,189 +25,6 @@
 			}
 
 
-			.manifestoPage{
-				position: absolute;
-				top: 1vw;
-				left: 44.2vw;
-
-				width: 10vw;
-				height: 3vw;
-				border-radius: 1vw;
-
-				box-shadow:
-    			inset 0 0 7px #DADADA,      /* inner white */
-			    inset 20px 0 300px #fff,   /* inner left magenta short */
-			    inset -20px 0 300px #fff,  /* inner right cyan short */
-			    inset 20px 0 300px #fff,  /* inner left magenta broad */
-			    inset -20px 0 300px #fff; /* inner right cyan broad */
-
-
-				margin: 0;
-				padding: 0;
-
-				font-family: myFont;
-				font-weight: 100;
-				font-size: 16px;
-				line-height: 3vw;
-				color:#778089;
-
-				vertical-align: baseline;
-				text-align: center;
-			}
-
-
-			.principlesPage{
-				position: absolute;
-				top: 1vw;
-				left: 54.4vw;
-
-				width: 10vw;
-				height: 3vw;
-				border-radius: 1vw;
-
-				box-shadow:
-    			inset 0 0 50px #DADADA,      /* inner white */
-			    inset 20px 0 300px #fff,   /* inner left magenta short */
-			    inset -20px 0 300px #fff,  /* inner right cyan short */
-			    inset 20px 0 300px #fff,  /* inner left magenta broad */
-			    inset -20px 0 300px #fff; /* inner right cyan broad */
-
-				margin: 0;
-				padding: 0;
-
-				font-family: myFont;
-				font-weight: 100;
-				font-size: 16px;
-				line-height: 3vw;
-				color:#778089;
-
-				vertical-align: baseline;
-				text-align: center;
-
-			}
-
-			.principlesPage:hover {
-				box-shadow:
-    			inset 0 0 20px #DADADA,      /* inner white */
-			    inset 20px 0 300px #fff,   /* inner left magenta short */
-			    inset -20px 0 300px #fff,  /* inner right cyan short */
-			    inset 20px 0 300px #fff,  /* inner left magenta broad */
-			    inset -20px 0 300px #fff; /* inner right cyan broad */
-			}
-
-			.glossaryPage{
-				position: absolute;
-				top: 1vw;
-				left: 64.6vw;
-
-				width: 10vw;
-				height: 3vw;
-				border-radius: 1vw;
-
-				box-shadow:
-    			inset 0 0 50px #DADADA,      /* inner white */
-			    inset 20px 0 300px #fff,   /* inner left magenta short */
-			    inset -20px 0 300px #fff,  /* inner right cyan short */
-			    inset 20px 0 300px #fff,  /* inner left magenta broad */
-			    inset -20px 0 300px #fff; /* inner right cyan broad */
-
-				margin: 0;
-				padding: 0;
-
-				font-family: myFont;
-				font-weight: 100;
-				font-size: 16px;
-				line-height: 3vw;
-				color:#778089;
-
-				vertical-align: baseline;
-				text-align: center;
-			}
-
-			.glossaryPage:hover {
-				box-shadow:
-    			inset 0 0 20px #DADADA,      /* inner white */
-			    inset 20px 0 300px #fff,   /* inner left magenta short */
-			    inset -20px 0 300px #fff,  /* inner right cyan short */
-			    inset 20px 0 300px #fff,  /* inner left magenta broad */
-			    inset -20px 0 300px #fff; /* inner right cyan broad */
-			}
-
-			.referencesPage{
-				position: absolute;
-				top: 1vw;
-				left: 74.8vw;
-
-				width: 10vw;
-				height: 3vw;
-				border-radius: 1vw;
-
-				box-shadow:
-    			inset 0 0 50px #DADADA,      /* inner white */
-			    inset 20px 0 300px #fff,   /* inner left magenta short */
-			    inset -20px 0 300px #fff,  /* inner right cyan short */
-			    inset 20px 0 300px #fff,  /* inner left magenta broad */
-			    inset -20px 0 300px #fff; /* inner right cyan broad */
-
-				margin: 0;
-				padding: 0;
-
-				font-family: myFont;
-				font-weight: 100;
-				font-size: 16px;
-				line-height: 3vw;
-				color:#778089;
-
-				vertical-align: baseline;
-				text-align: center;
-			}
-
-			.referencesPage:hover {
-				box-shadow:
-    			inset 0 0 20px #DADADA,      /* inner white */
-			    inset 20px 0 300px #fff,   /* inner left magenta short */
-			    inset -20px 0 300px #fff,  /* inner right cyan short */
-			    inset 20px 0 300px #fff,  /* inner left magenta broad */
-			    inset -20px 0 300px #fff; /* inner right cyan broad */
-			}
-
-			.toolsPage{
-				position: absolute;
-				top: 1vw;
-				left: 85vw;
-
-				width: 10vw;
-				height: 3vw;
-				border-radius: 1vw;
-
-				box-shadow:
-    			inset 0 0 50px #DADADA,      /* inner white */
-			    inset 20px 0 300px #fff,   /* inner left magenta short */
-			    inset -20px 0 300px #fff,  /* inner right cyan short */
-			    inset 20px 0 300px #fff,  /* inner left magenta broad */
-			    inset -20px 0 300px #fff; /* inner right cyan broad */
-
-				margin: 0;
-				padding: 0;
-
-				font-family: myFont;
-				font-weight: 100;
-				font-size: 16px;
-				line-height: 3vw;
-				color:#778089;
-
-				vertical-align: baseline;
-				text-align: center;
-			}
-
-			.toolsPage:hover {
-				box-shadow:
-    			inset 0 0 20px #DADADA,      /* inner white */
-			    inset 20px 0 300px #fff,   /* inner left magenta short */
-			    inset -20px 0 300px #fff,  /* inner right cyan short */
-			    inset 20px 0 300px #fff,  /* inner left magenta broad */
-			    inset -20px 0 300px #fff; /* inner right cyan broad */
-			}
 
 			h1{
 				text-align: center;
@@ -223,11 +40,10 @@
 			.title{
 				position: absolute;
 				top: 15vw;
-				left: 32vw;
+				left: 25vw;
 
-				width: 36vw;
-				height: 6vw;
-				border-radius: 5vw;
+				width: 50vw;
+
 
 
 				margin: 0;
@@ -236,11 +52,21 @@
 				font-family: myFont;
 				font-weight: 100;
 				font-size: 32px;
-				line-height: 6vw;
+				line-height: 48px;
 				color:#66696A;
 
 				vertical-align: baseline;
 				text-align: center;
+			}
+
+			.line{
+				position: absolute;
+				top: 27vw;
+
+				background-color: #CCCBD2;
+				width: 60vw;
+				left: 20vw;
+				height: 1px;
 			}
 
 			body{
@@ -258,32 +84,455 @@
 				position: absolute;
 				top: 30vw;
 
-				background-color: #F0F2F4;
+				background-color: #f0f3f7;
 				width: 0vw;
 				height: 90vw;
 			}
-			.bodytext{
+
+			.bodytext1{
 				position: absolute;
 				font-family: myFont;
-				font-size: 20px;
+				font-size: 18px;
 				line-height: 28px;
 				color:#778089;
-				top: 0vw;
-				margin-left: 25vw;
+				top: 0px;
+				margin-left: 20vw;
 				margin-right: 25vw;
 
-				width: 40vw;
+				width: 20vw;
 				padding: 5vw;
 				border-radius: 70px;
 
 				box-shadow:
-    			inset 0 0 300px #F0F2F4,      /* inner white */
+    			inset 0 0 300px #f0f3f7,      /* inner white */
 			    inset 20px 0 300px #fff,   /* inner left magenta short */
 			    inset -20px 0 300px #fff,  /* inner right cyan short */
 			    inset 20px 0 300px #fff,  /* inner left magenta broad */
 			    inset -20px 0 300px #fff; /* inner right cyan broad */
-				
 			}
+
+			.bubble1{
+				position: relative;
+				width: 15vw;
+				height: 15vw;
+				border-radius: 7vw;
+
+				top: 0px;
+				left: 2.5vw;
+
+				vertical-align: baseline;
+				text-align: center;
+
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+  				font-size: 36px;
+				line-height:0px;
+				color:#fff;
+
+				box-shadow:
+    			inset 0 0 5px #33383D,      /* inner white */
+			    inset 20px 0 300px #5b6d80,   /* inner left magenta short */
+			    inset -20px 0 300px #5b6d80,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+			}
+
+			.bodytext2{
+				position: absolute;
+				font-family: myFont;
+				font-size: 18px;
+				line-height: 28px;
+				color:#778089;
+				top: 450px;
+				margin-left: 50vw;
+				margin-right: 25vw;
+
+				width: 20vw;
+				padding: 5vw;
+				border-radius: 70px;
+
+				box-shadow:
+    			inset 0 0 300px #f0f3f7,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+			}
+
+			.bubble2{
+				position: relative;
+				width: 15vw;
+				height: 15vw;
+				border-radius: 7vw;
+
+				top: 0px;
+				left: 2.5vw;
+
+				vertical-align: baseline;
+				text-align: center;
+
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+  				font-size: 36px;
+				line-height:0px;
+
+				box-shadow:
+    			inset 0 0 5px #5b6d80,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+			}
+
+			.bodytext3{
+				position: absolute;
+				font-family: myFont;
+				font-size: 18px;
+				line-height: 28px;
+				color:#778089;
+				top: 880px;
+				margin-left: 20vw;
+				margin-right: 25vw;
+
+				width: 20vw;
+				padding: 5vw;
+				border-radius: 70px;
+
+				box-shadow:
+    			inset 0 0 300px #f0f3f7,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+			}
+
+			.bubble3{
+				position: relative;
+				width: 15vw;
+				height: 15vw;
+				border-radius: 7vw;
+
+				top: 0px;
+				left: 2.5vw;
+
+				vertical-align: baseline;
+				text-align: center;
+
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+  				font-size: 36px;
+				line-height:0px;
+
+				box-shadow:
+    			inset 0 0 5px #a7bacf,      /* inner white */
+			    inset 20px 0 300px #a7bacf,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+			}
+
+			.bodytext4{
+				position: absolute;
+				font-family: myFont;
+				font-size: 18px;
+				line-height: 28px;
+				color:#778089;
+				top: 1350px;
+				margin-left: 50vw;
+				margin-right: 25vw;
+
+				width: 20vw;
+				padding: 5vw;
+				border-radius: 70px;
+
+				box-shadow:
+    			inset 0 0 300px #f0f3f7,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+			}
+
+			.bubble4{
+				position: relative;
+				width: 15vw;
+				height: 15vw;
+				border-radius: 7vw;
+
+				top: 0px;
+				left: 2.5vw;
+
+				vertical-align: baseline;
+				text-align: center;
+
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+  				font-size: 36px;
+				line-height:0px;
+
+				box-shadow:
+    			inset 0 0 5px #a7bacf,      /* inner white */
+			    inset 20px 0 300px #ebf2fa,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+			}
+
+			.bodytext5{
+				position: absolute;
+				font-family: myFont;
+				font-size: 18px;
+				line-height: 28px;
+				color:#778089;
+				top: 1800px;
+				margin-left: 20vw;
+				margin-right: 25vw;
+
+				width: 20vw;
+				padding: 5vw;
+				border-radius: 70px;
+
+				box-shadow:
+    			inset 0 0 300px #f0f3f7,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+			}
+
+			.bubble5{
+				position: relative;
+				width: 15vw;
+				height: 15vw;
+				border-radius: 7vw;
+
+				top: 0px;
+				left: 2.5vw;
+
+				vertical-align: baseline;
+				text-align: center;
+
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+  				font-size: 36px;
+				line-height:0px;
+
+				box-shadow:
+    			inset 0 0 5px #a7bacf,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+			}
+
+			.bodytext6{
+				position: absolute;
+				font-family: myFont;
+				font-size: 18px;
+				line-height: 28px;
+				color:#778089;
+				top: 2250px;
+				margin-left: 50vw;
+				margin-right: 25vw;
+
+				width: 20vw;
+				padding: 5vw;
+				border-radius: 70px;
+
+				box-shadow:
+    			inset 0 0 300px #f0f3f7,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+			}
+
+			.bubble6{
+				position: relative;
+				width: 15vw;
+				height: 15vw;
+				border-radius: 7vw;
+
+				top: 0px;
+				left: 2.5vw;
+
+				vertical-align: baseline;
+				text-align: center;
+
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+  				font-size: 36px;
+				line-height:0px;
+				color:#fff;
+
+				box-shadow:
+    			inset 0 0 0px #011730,      /* inner white */
+			    inset 20px 0 300px #011730,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+			}
+
+			.bodytext7{
+				position: absolute;
+				font-family: myFont;
+				font-size: 18px;
+				line-height: 28px;
+				color:#778089;
+				top: 2800px;
+				margin-left: 20vw;
+				margin-right: 25vw;
+
+				width: 20vw;
+				padding: 5vw;
+				border-radius: 70px;
+
+				box-shadow:
+    			inset 0 0 300px #f0f3f7,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+			}
+
+			.bubble7{
+				position: relative;
+				width: 15vw;
+				height: 15vw;
+				border-radius: 7vw;
+
+				top: 0px;
+				left: 2.5vw;
+
+				vertical-align: baseline;
+				text-align: center;
+
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+  				font-size: 36px;
+				line-height:0px;
+
+				box-shadow:
+    			inset 0 0 5px #33383D,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+			}
+
+			.bodytext8{
+				position: absolute;
+				font-family: myFont;
+				font-size: 18px;
+				line-height: 28px;
+				color:#778089;
+				top: 3300px;
+				margin-left: 50vw;
+				margin-right: 25vw;
+
+				width: 20vw;
+				padding: 5vw;
+				border-radius: 70px;
+
+				box-shadow:
+    			inset 0 0 300px #f0f3f7,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+			}
+
+			.bubble8{
+				position: relative;
+				width: 15vw;
+				height: 15vw;
+				border-radius: 7vw;
+
+				top: 0px;
+				left: 2.5vw;
+
+				vertical-align: baseline;
+				text-align: center;
+
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+  				font-size: 36px;
+				line-height:0px;
+				color:#fff;
+
+				box-shadow:
+    			inset 0 0 0px #002861,      /* inner white */
+			    inset 20px 0 300px #485a75,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #485a75; /* inner right cyan broad */
+			}
+
+			.bodytext9{
+				position: absolute;
+				font-family: myFont;
+				font-size: 18px;
+				line-height: 28px;
+				color:#778089;
+				top: 3800px;
+				margin-left: 20vw;
+				margin-right: 25vw;
+
+				width: 20vw;
+				padding: 5vw;
+				border-radius: 70px;
+
+				box-shadow:
+    			inset 0 0 300px #f0f3f7,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+			}
+
+			.bubble9{
+				position: relative;
+				width: 15vw;
+				height: 15vw;
+				border-radius: 7vw;
+
+				top: 0px;
+				left: 2.5vw;
+
+				vertical-align: baseline;
+				text-align: center;
+
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+  				font-size: 36px;
+				line-height:0px;
+
+				box-shadow:
+    			inset 0 0 5px #CCCBD2,      /* inner white */
+			    inset 20px 0 300px #F0F2F4,   /* inner left magenta short */
+			    inset -20px 0 300px #F0F2F4,  /* inner right cyan short */
+			    inset 20px 0 300px #F0F2F4,  /* inner left magenta broad */
+			    inset -20px 0 300px #F0F2F4; /* inner right cyan broad */
+			}
+
 
 
 			a{
@@ -312,8 +561,8 @@
 
 			#paddingBottom{
 				position: absolute;
-				top: 80vw;
-				height: 20vw;
+				top: 5000px;
+				height: 200px;
 				width: 100vw;
 				background-color: transparent;
 			}
