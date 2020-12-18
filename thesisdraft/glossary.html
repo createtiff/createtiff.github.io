@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="glossarystyle.css">
+		<title>Glossary</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	<body>
+		<p>
+			<a href="index.html">
+				<div class="indexPage">
+					Interface Optimization
+				</div>
+			</a>
+
+			<a href="manifesto.html">
+				<div class="manifestoPage">
+					Manifesto
+				</div>
+			</a>
+
+			<a href="principles.html">
+				<div class="principlesPage">
+					Principles
+				</div>
+			</a>
+
+			<a href="glossary.html">
+				<div class="glossaryPage">
+					Glossary
+				</div>
+			</a>
+
+			<a href="references.html">
+				<div class="referencesPage">
+					References
+				</div>
+			</a>
+
+			<a href="tools.html">
+				<div class="toolsPage">
+					Tools
+				</div>
+			</a>
+
+
+					<div class="title">
+						Vocabulary
+					</div>
+
+
+			<div class="block-1">
+				<div class="subtitle">
+					Technology
+				</div>
+					</br></br>Interface</br>GUI</br>DOM</br>CSSOM</br>Responsive Web</br>API</br>UI framework</br>Front-End Frameworks</br>Wireframe</br>HTML</br>CSS
+			</div>
+
+			<div class="block-2">
+				<div class="subtitle">
+					Design
+				</div>
+					</br></br>Shape</br>Form</br>Color</br>Space</br>Light</br>Movement</br>Typography</br>Hierarchy</br>Graphics</br>Grid</br>Composition
+			</div>
+
+			<div class="block-3">
+				<div class="subtitle">
+					Human Cognition
+				</div>
+					</br></br>Visual Perception</br>Visual Experience</br>Visual Balance</br>Exogenous Attention</br>Endogenous Attention</br>Chunking</br>Reasoning with Mental Models</br>Analogical Reasoning</br>Implicit Learning
+			</div>
+
+			<div id="paddingBottom"></div>
+
+		</p>
+
+		<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+		    this.classList.toggle("active");
+		    var content = this.nextElementSibling;
+		    if (content.style.display === "block") {
+		      content.style.display = "none";
+		    } else {
+		      content.style.display = "block";
+		    }
+		  });
+		}
+		</script>
+	</body>
+</html>

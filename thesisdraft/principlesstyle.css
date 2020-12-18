@@ -1,0 +1,1032 @@
+
+
+			@font-face {
+  			font-family: 'myFont';
+  			src: url('basiercircle-regular.otf');
+  			font-weight: normal;
+    		font-style: normal;
+			}
+
+			body{
+				margin: 0;
+				padding: 0;
+			}
+
+			.indexPage{
+				position: absolute;
+				top: 1vw;
+				left: 3vw;
+
+				font-family: myFont;
+				font-weight: 100;
+				font-size: 16px;
+				line-height: 3vw;
+				color:#778089;
+			}
+
+
+			.manifestoPage{
+				position: absolute;
+				top: 1vw;
+				left: 44.2vw;
+
+				width: 10vw;
+				height: 3vw;
+				border-radius: 1vw;
+
+				box-shadow:
+    			inset 0 0 50px #DADADA,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+
+
+				margin: 0;
+				padding: 0;
+
+				font-family: myFont;
+				font-weight: 100;
+				font-size: 16px;
+				line-height: 3vw;
+				color:#778089;
+
+				vertical-align: baseline;
+				text-align: center;
+			}
+
+			.manifestoPage:hover {
+				box-shadow:
+    			inset 0 0 20px #DADADA,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+			}
+
+
+			.principlesPage{
+				position: absolute;
+				top: 1vw;
+				left: 54.4vw;
+
+				width: 10vw;
+				height: 3vw;
+				border-radius: 1vw;
+
+				box-shadow:
+    			inset 0 0 7px #DADADA,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+
+				margin: 0;
+				padding: 0;
+
+				font-family: myFont;
+				font-weight: 100;
+				font-size: 16px;
+				line-height: 3vw;
+				color:#778089;
+
+				vertical-align: baseline;
+				text-align: center;
+
+			}
+
+			.principlesPage:hover {
+				box-shadow:
+    			inset 0 0 20px #DADADA,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+			}
+
+			.glossaryPage{
+				position: absolute;
+				top: 1vw;
+				left: 64.6vw;
+
+				width: 10vw;
+				height: 3vw;
+				border-radius: 1vw;
+
+				box-shadow:
+    			inset 0 0 50px #DADADA,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+
+				margin: 0;
+				padding: 0;
+
+				font-family: myFont;
+				font-weight: 100;
+				font-size: 16px;
+				line-height: 3vw;
+				color:#778089;
+
+				vertical-align: baseline;
+				text-align: center;
+			}
+
+			.glossaryPage:hover {
+				box-shadow:
+    			inset 0 0 20px #DADADA,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+			}
+
+			.referencesPage{
+				position: absolute;
+				top: 1vw;
+				left: 74.8vw;
+
+				width: 10vw;
+				height: 3vw;
+				border-radius: 1vw;
+
+				box-shadow:
+    			inset 0 0 50px #DADADA,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+
+				margin: 0;
+				padding: 0;
+
+				font-family: myFont;
+				font-weight: 100;
+				font-size: 16px;
+				line-height: 3vw;
+				color:#778089;
+
+				vertical-align: baseline;
+				text-align: center;
+			}
+
+			.referencesPage:hover {
+				box-shadow:
+    			inset 0 0 20px #DADADA,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+			}
+
+			.toolsPage{
+				position: absolute;
+				top: 1vw;
+				left: 85vw;
+
+				width: 10vw;
+				height: 3vw;
+				border-radius: 1vw;
+
+				box-shadow:
+    			inset 0 0 50px #DADADA,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+
+				margin: 0;
+				padding: 0;
+
+				font-family: myFont;
+				font-weight: 100;
+				font-size: 16px;
+				line-height: 3vw;
+				color:#778089;
+
+				vertical-align: baseline;
+				text-align: center;
+			}
+
+			.toolsPage:hover {
+				box-shadow:
+    			inset 0 0 20px #DADADA,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+			}
+
+			h1{
+				text-align: center;
+				margin: 0;
+				padding: 0;
+				font-family: myFont;
+				font-weight: bolder;
+				font-size: 24px;
+				line-height: 32px;
+
+			}
+
+			.title{
+				position: absolute;
+				top: 15vw;
+				left: 32vw;
+
+				width: 36vw;
+				height: 6vw;
+				border-radius: 5vw;
+
+
+				margin: 0;
+				padding: 0;
+
+				font-family: myFont;
+				font-weight: 100;
+				font-size: 32px;
+				line-height: 6vw;
+				color:#66696A;
+
+				vertical-align: baseline;
+				text-align: center;
+			}
+
+			
+
+			body{
+				text-align: center;
+				margin: 0;
+				padding: 0;
+				font-family: myFont;
+				font-size: 14px;
+				line-height: 20px;
+				color:#B0B5BC;
+
+			}
+
+
+			.bodycontainer{
+				position: absolute;
+				font-family: myFont;
+				font-size: 20px;
+				line-height: 3vw;
+				color:#B0B5BC;
+				top: 1100px;
+
+				width: 50vw;
+				height: 50vw;
+				left: 25vw;
+
+				vertical-align: baseline;
+				text-align: center;
+			}
+
+			.framer-1{
+				position: absolute;
+				top: 250px;
+
+				width: 600px;
+				height: 1900px;
+				border-radius: 70px;
+
+				left: 50%;
+        		margin-right: -50%;
+        		transform: translate(-50%, -50%);
+
+				box-shadow:
+    			inset 0 0 40px #DADADA,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+			}
+
+			.one-1{
+				position: absolute;
+				width: 200px;
+				height: 200px;
+				border-radius: 200px;
+
+				top: 50px;
+				left: 50px;
+
+				vertical-align: baseline;
+				text-align: center;
+
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+				box-shadow:
+    			inset 0 0 1px #fff,      /* inner white */
+			    inset 20px 0 300px #33383D,   /* inner left magenta short */
+			    inset -20px 0 300px #33383D,  /* inner right cyan short */
+			    inset 20px 0 300px #33383D,  /* inner left magenta broad */
+			    inset -20px 0 300px #33383D; /* inner right cyan broad */
+			}
+
+			.plus-1{
+				position: absolute;
+				margin: 0;
+				padding: 0;
+
+				top: 0vw;
+				line-height: 3vw;
+
+				vertical-align: baseline;
+				text-align: center;
+				left: 14.75vw;
+			}
+
+
+			.one-2{
+				position: absolute;
+				width: 200px;
+				height: 200px;
+				border-radius: 70px;
+
+				top: 50px;
+				right: 50px;
+
+				vertical-align: baseline;
+				text-align: center;
+
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+				box-shadow:
+    			inset 0 0 5px #33383D,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+
+			}
+
+			.framer-2{
+				position: absolute;
+				width: 30vw;
+				height: 3vw;
+				border-radius: 2vw;
+
+				top: 50vw;
+				left: 10vw;
+
+				box-shadow:
+    			inset 0 0 40px #DADADA,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+			}
+
+			.two-1{
+				position: absolute;
+				width: 200px;
+				height: 200px;
+				border-radius: 200px;
+
+				top: 250px;
+				left: 50px;
+
+				vertical-align: baseline;
+				text-align: center;
+
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+  				color:#33383D;
+
+				box-shadow:
+    			inset 0 0 1px #fff,      /* inner white */
+			    inset 20px 0 300px #B0B5BC,   /* inner left magenta short */
+			    inset -20px 0 300px #B0B5BC,  /* inner right cyan short */
+			    inset 20px 0 300px #B0B5BC,  /* inner left magenta broad */
+			    inset -20px 0 300px #B0B5BC; /* inner right cyan broad */
+			}
+
+			.plus-2{
+				position: absolute;
+				margin: 0;
+				padding: 0;
+
+				line-height: 3vw;
+
+				vertical-align: baseline;
+				text-align: center;
+				left: 49.5%;
+			}
+
+			.two-2{
+				position: absolute;
+				width: 200px;
+				height: 200px;
+				border-radius: 70px;
+
+				top: 250px;
+				right: 50px;
+
+				vertical-align: baseline;
+				text-align: center;
+
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+				box-shadow:
+    			inset 0 0 5px #CCCBD2,      /* inner white */
+			    inset 20px 0 300px #F0F2F4,   /* inner left magenta short */
+			    inset -20px 0 300px #F0F2F4,  /* inner right cyan short */
+			    inset 20px 0 300px #F0F2F4,  /* inner left magenta broad */
+			    inset -20px 0 300px #F0F2F4; /* inner right cyan broad */
+
+			}
+
+			.framer-3{
+				position: absolute;
+				width: 30vw;
+				height: 3vw;
+				border-radius: 2vw;
+
+				top: 60vw;
+				left: 10vw;
+
+				box-shadow:
+    			inset 0 0 40px #DADADA,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+			}
+
+			.three-1{
+				position: absolute;
+				width: 200px;
+				height: 200px;
+				border-radius: 200px;
+
+				top: 450px;
+				left: 50px;
+
+				vertical-align: baseline;
+				text-align: center;
+
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+				box-shadow:
+    			inset 0 0 1px #fff,      /* inner white */
+			    inset 20px 0 300px #33383D,   /* inner left magenta short */
+			    inset -20px 0 300px #33383D,  /* inner right cyan short */
+			    inset 20px 0 300px #33383D,  /* inner left magenta broad */
+			    inset -20px 0 300px #33383D; /* inner right cyan broad */
+			}
+
+			.plus-3{
+				position: absolute;
+				margin: 0;
+				padding: 0;
+
+				line-height: 3vw;
+
+				vertical-align: baseline;
+				text-align: center;
+				left: 49.5%;
+			}
+
+			.three-2{
+				position: absolute;
+				width: 200px;
+				height: 200px;
+				border-radius: 70px;
+
+				top: 450px;
+				right: 50px;
+
+				vertical-align: baseline;
+				text-align: center;
+
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+				box-shadow:
+    			inset 0 0 5px #33383D,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+
+			}
+
+			.framer-4{
+				position: absolute;
+				width: 30vw;
+				height: 3vw;
+				border-radius: 2vw;
+
+				top: 70vw;
+				left: 10vw;
+
+				box-shadow:
+    			inset 0 0 40px #DADADA,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+			}
+
+			.four-1{
+				position: absolute;
+				width: 200px;
+				height: 200px;
+				border-radius: 200px;
+
+				top: 650px;
+				left: 50px;
+
+				vertical-align: baseline;
+				text-align: center;
+
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+				color:#33383D;
+
+				box-shadow:
+    			inset 0 0 1px #fff,      /* inner white */
+			    inset 20px 0 300px #B0B5BC,   /* inner left magenta short */
+			    inset -20px 0 300px #B0B5BC,  /* inner right cyan short */
+			    inset 20px 0 300px #B0B5BC,  /* inner left magenta broad */
+			    inset -20px 0 300px #B0B5BC; /* inner right cyan broad */
+			}
+
+			.plus-4{
+				position: absolute;
+				margin: 0;
+				padding: 0;
+
+				line-height: 3vw;
+
+				vertical-align: baseline;
+				text-align: center;
+				left: 49.5%;
+			}
+
+			.four-2{
+				position: absolute;
+				width: 200px;
+				height: 200px;
+				border-radius: 70px;
+
+				top: 650px;
+				right: 50px;
+
+				vertical-align: baseline;
+				text-align: center;
+
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+				box-shadow:
+    			inset 0 0 5px #CCCBD2,      /* inner white */
+			    inset 20px 0 300px #F0F2F4,   /* inner left magenta short */
+			    inset -20px 0 300px #F0F2F4,  /* inner right cyan short */
+			    inset 20px 0 300px #F0F2F4,  /* inner left magenta broad */
+			    inset -20px 0 300px #F0F2F4; /* inner right cyan broad */
+
+			}
+
+			.framer-5{
+				position: absolute;
+				width: 30vw;
+				height: 3vw;
+				border-radius: 2vw;
+
+				top: 80vw;
+				left: 10vw;
+
+				box-shadow:
+    			inset 0 0 40px #DADADA,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+			}
+
+			.five-1{
+				position: absolute;
+				width: 200px;
+				height: 200px;
+				border-radius: 200px;
+
+				top: 850px;
+				left: 50px;
+
+				vertical-align: baseline;
+				text-align: center;
+
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+				box-shadow:
+    			inset 0 0 1px #fff,      /* inner white */
+			    inset 20px 0 300px #33383D,   /* inner left magenta short */
+			    inset -20px 0 300px #33383D,  /* inner right cyan short */
+			    inset 20px 0 300px #33383D,  /* inner left magenta broad */
+			    inset -20px 0 300px #33383D; /* inner right cyan broad */
+			}
+
+			.plus-5{
+				position: absolute;
+				margin: 0;
+				padding: 0;
+
+				line-height: 3vw;
+
+				vertical-align: baseline;
+				text-align: center;
+				left: 49.5%;
+			}
+
+			.five-2{
+				position: absolute;
+				width: 200px;
+				height: 200px;
+				border-radius: 70px;
+
+				top: 850px;
+				right: 50px;
+
+				vertical-align: baseline;
+				text-align: center;
+
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+				box-shadow:
+    			inset 0 0 5px #33383D,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+
+			}
+
+			.framer-6{
+				position: absolute;
+				width: 30vw;
+				height: 3vw;
+				border-radius: 2vw;
+
+				top: 90vw;
+				left: 10vw;
+
+				box-shadow:
+    			inset 0 0 40px #DADADA,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+			}
+
+			.six-1{
+				position: absolute;
+				width: 200px;
+				height: 200px;
+				border-radius: 200px;
+
+				top: 1050px;
+				left: 50px;
+
+				vertical-align: baseline;
+				text-align: center;
+
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+				color:#33383D;
+
+				box-shadow:
+    			inset 0 0 1px #fff,      /* inner white */
+			    inset 20px 0 300px #B0B5BC,   /* inner left magenta short */
+			    inset -20px 0 300px #B0B5BC,  /* inner right cyan short */
+			    inset 20px 0 300px #B0B5BC,  /* inner left magenta broad */
+			    inset -20px 0 300px #B0B5BC; /* inner right cyan broad */
+			}
+
+			.plus-6{
+				position: absolute;
+				margin: 0;
+				padding: 0;
+
+				line-height: 3vw;
+
+				vertical-align: baseline;
+				text-align: center;
+				left: 49.5%;
+			}
+
+			.six-2{
+				position: absolute;
+				width: 200px;
+				height: 200px;
+				border-radius: 70px;
+
+				top: 1050px;
+				right: 50px;
+
+				vertical-align: baseline;
+				text-align: center;
+
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+				box-shadow:
+    			inset 0 0 5px #CCCBD2,      /* inner white */
+			    inset 20px 0 300px #F0F2F4,   /* inner left magenta short */
+			    inset -20px 0 300px #F0F2F4,  /* inner right cyan short */
+			    inset 20px 0 300px #F0F2F4,  /* inner left magenta broad */
+			    inset -20px 0 300px #F0F2F4; /* inner right cyan broad */
+
+			}
+
+			.framer-7{
+				position: absolute;
+				width: 30vw;
+				height: 3vw;
+				border-radius: 2vw;
+
+				top: 100vw;
+				left: 10vw;
+
+				box-shadow:
+    			inset 0 0 5px #CCCBD2,      /* inner white */
+			    inset 20px 0 300px #F0F2F4,   /* inner left magenta short */
+			    inset -20px 0 300px #F0F2F4,  /* inner right cyan short */
+			    inset 20px 0 300px #F0F2F4,  /* inner left magenta broad */
+			    inset -20px 0 300px #F0F2F4; /* inner right cyan broad */
+			}
+
+			.seven-1{
+				position: absolute;
+				width: 200px;
+				height: 200px;
+				border-radius: 200px;
+
+				top: 1250px;
+				left: 50px;
+
+				vertical-align: baseline;
+				text-align: center;
+
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+				box-shadow:
+    			inset 0 0 1px #fff,      /* inner white */
+			    inset 20px 0 300px #33383D,   /* inner left magenta short */
+			    inset -20px 0 300px #33383D,  /* inner right cyan short */
+			    inset 20px 0 300px #33383D,  /* inner left magenta broad */
+			    inset -20px 0 300px #33383D; /* inner right cyan broad */
+			}
+
+			.plus-7{
+				position: absolute;
+				margin: 0;
+				padding: 0;
+
+				line-height: 3vw;
+
+				vertical-align: baseline;
+				text-align: center;
+				left: 49.5%;
+			}
+
+			.seven-2{
+				position: absolute;
+				width: 200px;
+				height: 200px;
+				border-radius: 70px;
+
+				top: 1250px;
+				right: 50px;
+
+				vertical-align: baseline;
+				text-align: center;
+
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+				box-shadow:
+    			inset 0 0 5px #33383D,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+
+			}
+
+			.framer-8{
+				position: absolute;
+				width: 30vw;
+				height: 3vw;
+				border-radius: 2vw;
+
+				top: 110vw;
+				left: 10vw;
+
+				box-shadow:
+    			inset 0 0 40px #DADADA,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+			}
+
+			.eight-1{
+				position: absolute;
+				width: 200px;
+				height: 200px;
+				border-radius: 200px;
+
+				top: 1450px;
+				left: 50px;
+
+				vertical-align: baseline;
+				text-align: center;
+
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+				color:#33383D;
+
+				box-shadow:
+    			inset 0 0 1px #fff,      /* inner white */
+			    inset 20px 0 300px #B0B5BC,   /* inner left magenta short */
+			    inset -20px 0 300px #B0B5BC,  /* inner right cyan short */
+			    inset 20px 0 300px #B0B5BC,  /* inner left magenta broad */
+			    inset -20px 0 300px #B0B5BC; /* inner right cyan broad */
+			}
+
+			.plus-8{
+				position: absolute;
+				margin: 0;
+				padding: 0;
+
+				line-height: 3vw;
+
+				vertical-align: baseline;
+				text-align: center;
+				left: 49.5%;
+			}
+
+			.eight-2{
+				position: absolute;
+				width: 200px;
+				height: 200px;
+				border-radius: 70px;
+
+				top: 1450px;
+				right: 50px;
+
+				vertical-align: baseline;
+				text-align: center;
+
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+				box-shadow:
+    			inset 0 0 5px #CCCBD2,      /* inner white */
+			    inset 20px 0 300px #F0F2F4,   /* inner left magenta short */
+			    inset -20px 0 300px #F0F2F4,  /* inner right cyan short */
+			    inset 20px 0 300px #F0F2F4,  /* inner left magenta broad */
+			    inset -20px 0 300px #F0F2F4; /* inner right cyan broad */
+
+			}
+
+			.framer-9{
+				position: absolute;
+				width: 30vw;
+				height: 3vw;
+				border-radius: 2vw;
+
+				top: 120vw;
+				left: 10vw;
+
+				box-shadow:
+    			inset 0 0 40px #DADADA,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+			}
+
+			.nine-1{
+				position: absolute;
+				width: 200px;
+				height: 200px;
+				border-radius: 200px;
+
+				top: 1650px;
+				left: 50px;
+
+				vertical-align: baseline;
+				text-align: center;
+
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+				box-shadow:
+    			inset 0 0 1px #fff,      /* inner white */
+			    inset 20px 0 300px #33383D,   /* inner left magenta short */
+			    inset -20px 0 300px #33383D,  /* inner right cyan short */
+			    inset 20px 0 300px #33383D,  /* inner left magenta broad */
+			    inset -20px 0 300px #33383D; /* inner right cyan broad */
+			}
+
+			.plus-9{
+				position: absolute;
+				margin: 0;
+				padding: 0;
+
+				line-height: 3vw;
+
+				vertical-align: baseline;
+				text-align: center;
+				left: 49.5%;
+			}
+
+			.nine-2{
+				position: absolute;
+				width: 200px;
+				height: 200px;
+				border-radius: 70px;
+
+				top: 1650px;
+				right: 50px;
+
+				vertical-align: baseline;
+				text-align: center;
+
+        		display: flex;
+  				align-items: center;
+  				justify-content: center;
+
+				box-shadow:
+    			inset 0 0 5px #33383D,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+
+			}
+
+
+			a{
+				text-decoration: none;
+				color: inherit;
+			}
+
+			a:hover{
+				color: inherit;
+			}
+
+			a:active{
+				color: inherit;
+			}
+
+			a:visited{
+				color: gray;
+			}
+		
+			img {
+				 position: absolute;
+				 left: 0vw;
+				 top: 0vw;
+				}
+
+
+			#paddingBottom{
+				position: absolute;
+				top: 2600px;
+				height: 100px;
+				width: 100vw;
+				background-color: transparent;
+			}
+
