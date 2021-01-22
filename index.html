@@ -16,12 +16,23 @@
     		font-style: normal;
 			}
 
+			@font-face {
+  			font-family: 'fontMedium';
+  			src: url('BasierCircle-Medium.ttf');
+  			font-weight: normal;
+    		font-style: normal;
+			}
+
 
 			img {
 				 position: absolute;
 				 top: 0px;
-				 left: 17.5vw;
-				 width:65vw;
+				 left: 7.5vw;
+				 width:85vw;
+			}
+
+			img:hover{
+				opacity: 1;
 			}
 
 			a{
@@ -41,18 +52,7 @@
 				color: inherit;
 			}
 
-			h1{
-				position: absolute;
-				top: 15vw;
-				left: 20vw;
-				margin: 0;
-				padding: 0;
-				font-family: myFont;
-				font-weight: bolder;
-				font-size: 4.8vw;
-				line-height: 7vw;
-
-			}
+			
 
 			body{
 				display: table; 
@@ -64,13 +64,10 @@
 
 
 
-
-
-
 			.indexPage{
-				position: fixed;
-				top: 3vw;
-				left: 20.4vw;
+				position: absolute;
+				top: 45px;
+				left: 252px;
 				margin: 0;
 				padding: 0;
 				font-family: myFont;
@@ -82,9 +79,9 @@
 			}
 
 			.navigationBox{
-				position: fixed;
-				top: 3vw;
-				right: 20vw;
+				position: absolute;
+				top: 45px;
+				right: 18vw;
 
 				margin: 0;
 				padding: 0;
@@ -98,6 +95,24 @@
 				font-size: 18px;
 				line-height: 22px;
 				color:#5d6770;
+			}
+
+			.emailPage{
+				position: absolute;
+				top: 0px;
+				right: 220px;
+				margin: 0;
+				padding: 0;
+
+			}
+
+			.linkedinPage{
+				position: absolute;
+				top: 0px;
+				right: 105px;
+				margin: 0;
+				padding: 0;
+
 			}
 
 			.worksPage{
@@ -127,9 +142,23 @@
 
 			}
 
+
+			h1{
+				position: absolute;
+				top: 250px;
+				left: 250px;
+				margin: 0;
+				padding: 0;
+				font-family: myFont;
+				font-weight: bolder;
+				font-size: 68px;
+				line-height: 98px;
+			}
+
+
 			.box1{
 				position: absolute;
-				top: 90vh;	
+				top: 750px;	
 				width: 100vw;
 				height: 90vh;
 			}
@@ -141,28 +170,22 @@
 
 			.title1{
 				position: relative;
-				top: 38.5vw;
+				top: 710px;
 				z-index: 1;
-
-				width:60vw;
-				left: 20vw;
 				
 				text-align: center;
 
 				margin: 0;
 				padding: 0;
 				font-family: myFont;
-				font-size: 52px;
+				font-size: 60px;
 				color:#1D1F22;
 
 			}
 
 			.subtitle1{
 				position: relative;
-				top: 39vw;
-
-				width:60vw;
-				left: 20vw;
+				top: 715px;
 
 				text-align: center;
 
@@ -178,7 +201,7 @@
 
 			.box2{
 				position: absolute;
-				top: 195vh;	
+				top: 1700px;	
 				width: 100vw;
 				height: 90vh;
 			}
@@ -190,28 +213,23 @@
 
 			.title2{
 				position: relative;
-				top: 38.5vw;
-
-				width:60vw;
-				left: 20vw;
+				top: 710px;
+				z-index: 1;
 				
 				text-align: center;
 
 				margin: 0;
 				padding: 0;
 				font-family: myFont;
-				font-size: 52px;
+				font-size: 60px;
 				color:#1D1F22;
 				
 			}
 
 			.subtitle2{
 				position: relative;
-				top: 39vw;
+				top: 715px;
 
-				width:60vw;
-				left: 20vw;
-				
 				text-align: center;
 
 				font-weight: normal;
@@ -226,7 +244,7 @@
 
 			.box3{
 				position: absolute;
-				top: 300vh;	
+				top: 2700px;	
 				width: 100vw;
 				height: 90vh;
 			}
@@ -238,28 +256,23 @@
 
 			.title3{
 				position: relative;
-				top: 37.5vw;
-
-				width:60vw;
-				left: 20vw;
+				top: 710px;
+				z-index: 1;
 				
 				text-align: center;
 
 				margin: 0;
 				padding: 0;
 				font-family: myFont;
-				font-size: 52px;
+				font-size: 60px;
 				color:#1D1F22;
 				
 			}
 
 			.subtitle3{
 				position: relative;
-				top: 38vw;
+				top: 715px;
 
-				width:60vw;
-				left: 20vw;
-				
 				text-align: center;
 
 				font-weight: normal;
@@ -275,8 +288,8 @@
 
 			#paddingBottom{
 				position: absolute;
-				top: 200vw;
-				height: 20vw;
+				top: 3750px;	
+				height: 200px;
 				width: 100vw;
 				background-color: transparent;
 			}
@@ -512,7 +525,7 @@
 			<div class="navigationBox">
 				<a href="works.html">
 					<div class="worksPage">
-						Works
+						
 					</div>
 				</a>
 
@@ -546,7 +559,7 @@
 							Across
 						</div>
 						<div class="subtitle1">
-							App Design, Branding
+							Mobile Service
 						</div>
 				</a>
 			</div>
@@ -573,7 +586,7 @@
 			<div class="box3">
 				<a href="mood.html">
 					<div class="image3">
-						<img src="img/three.jpg">
+						<img src="img/moodbot.jpg">
 					</div>
 						<div class="title3">
 							Moodbot
@@ -586,7 +599,34 @@
 
 			
 
-			<div id="paddingBottom"></div>
+			<div id="paddingBottom">
+				<a href="index.html">
+				<div class="indexPage">
+					Chanjoo Tiffany Park
+				</div>
+			</a>
+
+			<div class="navigationBox">
+
+				<a href="mailto:createtiff@gmail.com">
+					<div class="emailPage">
+						Email
+					</div>
+				</a>
+
+				<a href="https://www.linkedin.com/in/createtiff">
+					<div class="linkedinPage">
+						LinkedIn
+					</div>
+				</a>
+
+				<a href="contact.html">
+					<div class="contactPage">
+						Contact
+					</div>
+				</a>
+			</div>
+			</div>
 
 		</p>
 	</body>
