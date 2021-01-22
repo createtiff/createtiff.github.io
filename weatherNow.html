@@ -10,8 +10,15 @@
 		<style>
 
 			@font-face {
-  			font-family: 'myFont';
+  			font-family: 'fontRegular';
   			src: url('basiercircle-regular.otf');
+  			font-weight: normal;
+    		font-style: normal;
+			}
+
+			@font-face {
+  			font-family: 'fontMedium';
+  			src: url('BasierCircle-Medium.ttf');
   			font-weight: normal;
     		font-style: normal;
 			}
@@ -28,7 +35,7 @@
 				left: 252px;
 				margin: 0;
 				padding: 0;
-				font-family: myFont;
+				font-family: fontRegular;
 				font-weight: 100;
 				font-size: 18px;
 				line-height: 22px;
@@ -48,11 +55,29 @@
 				height: 22px;
 
 
-				font-family: myFont;
+				font-family: fontRegular;
 				font-weight: lighter;
 				font-size: 18px;
 				line-height: 22px;
 				color:#5d6770;
+			}
+
+			.emailPage{
+				position: absolute;
+				top: 0px;
+				right: 220px;
+				margin: 0;
+				padding: 0;
+
+			}
+
+			.linkedinPage{
+				position: absolute;
+				top: 0px;
+				right: 105px;
+				margin: 0;
+				padding: 0;
+
 			}
 
 			.worksPage{
@@ -82,50 +107,129 @@
 
 			}
 
+			.text-box{
+				display: block;
+				position: absolute;
+				top: 200px;
+				left: 25vw;
+				width: 50vw;
+			}
+
+			.text-box-2{
+				display: block;
+				position: absolute;
+				top: 1800px;
+			}
+
+			.videoFramer{
+				display: block;
+				position: absolute;
+				top: 2400px;
+				height: 60vw;
+				width: 100vw;
+
+			}
+
+			.video{
+				position: absolute;
+				width: 100%;
+				left: -25%;
+  				height: auto;
+
+			}
+
+			.bottomNavigation{
+				display: block;
+				position: absolute;
+				top: 3200px;
+				height: 200px;
+				width: 100vw;
+				bottom: 0;
+				margin-bottom: 0;
+				padding-bottom: 0;
+			}
 
 			h1{
+				display: block;
+
 				text-align: center;
-				margin: 0;
-				padding: 0;
-				font-family: myFont;
+
+				font-family: fontRegular;
 				font-weight: bolder;
 				font-size: 64px;
 				line-height: 80px;
 
-			}
-
-			.title{
-				position: relative;
-				top: 15vw;
+				margin-block-start: 0.2em;
+    			margin-block-end: 0.2em;
 			}
 
 			h2{
+				display: block;
+
 				text-align: center;
-				margin: 0;
-				padding: 0;
-				font-family: myFont;
+
+				font-family:fontRegular;
+				font-weight: lighter;
+
 				font-size: 20px;
 				line-height: 26px;
+
+				margin-block-start: 0;
+    			margin-block-end: 0;
+
 				color:#778089;
-
 			}
 
-			.subtitle{
-				position: relative;
-				top: 16vw;
+
+			h3{
+				display: block;
+
+				text-align: center;
+
+				font-family: fontRegular;
+  				font-size: 32px;
+  				line-height: 46px;
+
+				color:#1D1F22;
+				z-index: 1;
 			}
 
-			.bodytext{
-				position: absolute;
-				font-family: myFont;
+			h4{
+				display: block;
+
+				text-align: center;
+
+				font-family: fontMedium; 
+				font-size: 24px;
+				letter-spacing: 0.5px;
+
+				color:#1D1F22;
+				z-index: 1;
+
+				margin-block-start: 5em;
+			}
+
+			p{
+				display: block;
+
+				font-family: fontRegular;
 				font-size: 20px;
-				line-height: 28px;
+				line-height: 32px;
+				padding-bottom: 32px;
+
 				color:#778089;
-				top: 33vw;
-				margin-left: 25vw;
-				margin-right: 25vw;
 			}
+
 			
+
+
+			iframe{
+				margin: 0;
+				padding: 0;
+				
+				position: absolute;
+				width: 50vw;
+			}
 
 			a{
 				text-decoration: none;
@@ -144,74 +248,26 @@
 				color: inherit;
 			}
 
+			.image-wrapper-1{
 
+				top: 300px;
+			}
 		
 			img {
-				 position: absolute;
-				 left: 0vw;
+				display: inline-block;
 				 top: 0vw;
+				 
 				}
 
-			iframe{
-				margin: 0;
-				padding: 0;
-				padding-top: 10vw;
-			}
+			
 
-
-			.mobiledesign{
-				font-family: myFont;
-				position: relative;
-				text-align: center;
-				top: 45vw;
-  				font-size: 32px;
-				color:#E6EAEE;
-				z-index: 1;
-			}
-
-
-
-			.videoFramer{
-				position: absolute;
-				top: 250vw;
-				height: 60vw;
-				width: 100vw;
-  				background-color: black;
-
-			}
-
-			.video{
-				position: absolute;
-				top: 0vw;
-				width: 100%;
-  				height: auto;
-
-			}
-
-			.motionvideo{
-				font-family: myFont;
-				position: relative;
-				text-align: center;
-				top: 242.5vw;
-  				font-size: 32px;
-				color:#E6EAEE;
-				z-index: 1;
-			}
-
-			#paddingBottom{
-				position: absolute;
-				top: 300vw;
-				height: 20vw;
-				width: 100vw;
-				background-color: transparent;
-			}
-
+			
 
 		</style> 
 	</head>
 
 	<body>
-		<p>
+
 			<a href="index.html">
 				<div class="indexPage">
 					Chanjoo Tiffany Park
@@ -238,54 +294,104 @@
 				</a>
 			</div>
 
+		<div class="text-box">
+				
+				<h1>Weather Now</h1>
 
-			<h1>
-				<div class="title">
-					Weather Now
+				<h2>Mobile, Motion</h2>
+
+				<div class="image-wrapper-1">
+					<img src="img/icon2.jpg" style="width:50vw; left: 0vw;" >
 				</div>
-			</h1>
-			<h2>
-				<div class="subtitle">
-					Mobile, Motion
+
+
+				<div class="bodytext">
+					<h3>How might we design an experience, integrated into people’s daily use with technology, that creates ease and supports digital wellbeing?</h3>
+
+					<h4>Problem Point</h4>
+
+					<p>
+						As technology becomes more integrated into people’s daily lives, it is easy to be vulnerable to mental strain. It is more evident in urban settings such as New York City due to lack of breather in the environment of the city. 
+					</p>
+
+					<h4>Target Users</h4>
+
+					<p>
+						People residing New York City, between the ages of 15 to 25, who struggle with mental strain due to high stress or environmental causes such as Seasonal Affective Disorder.
+					</p>
+
+					<h4>Solution</h4>
+
+					<p>
+						A weather app that is designed to support digital wellbeing by bringing nature driven ambience to the screen, calming people’s minds and uplifting people’s mental strain.
+					</p>
+
 				</div>
-			</h2>
+		</div>
 
-			<div class="bodytext">
-				<span style='color:#1D1F22;, font-weight: bolder;'>Problem Point</span></br>
-				Lack of breather in digital driven ecosystem.
-				</br>
-				</br>
-				<span style='color:#1D1F22;, font-weight: bolder;'>Solution</span></br>
-				A weather app that delivers delightful user experience, uplifting people’s mental or emotional strain by calming people’s minds with nature driven colors.
-			</div>
+		<div class="text-box-2">
+					<img src="img/image1.jpg" style="width:100vw;">
 
-			<div class="mobiledesign">
-				Mobile Design
-			</div>
+				
+					<h4>Interactive Prototype</h4>
+			
+					<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" left="0" width="50" height="650" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FTVKnW7tDpWrBFlCaLMQWjP%2FMorning%3Fnode-id%3D1%253A4%26viewport%3D459%252C376%252C0.5955934524536133%26scaling%3Dscale-down" allowfullscreen></iframe>
+
+					<iframe style="border: 1px solid rgba(0, 0, 0, 0.1); left:50vw ;" width="50" height="650" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FPUXCJ76IugvQD0YoaOOuo6%2FAfternoon%3Fnode-id%3D1%253A3%26viewport%3D459%252C376%252C0.581944465637207%26scaling%3Dscale-down" allowfullscreen></iframe>
+
+					<iframe style="border: 1px solid rgba(0, 0, 0, 0.1); margin-top:650px;"  width="50" height="650" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FSoRSP15yWznGdOfclHqzLr%2FEvening%3Fnode-id%3D1%253A3%26viewport%3D459%252C376%252C0.581944465637207%26scaling%3Dscale-down" allowfullscreen></iframe>
+
+					<iframe style="border: 1px solid rgba(0, 0, 0, 0.1); margin-top:650px; left:50vw ;"  width="50" height="650" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Ft8s2CtmbQLaY2c4xloKolm%2FNight%3Fnode-id%3D1%253A3%26viewport%3D302%252C352%252C0.1759602576494217%26scaling%3Dscale-down" allowfullscreen></iframe>
+
+					
+					
+
+				<div class="videoFramer">
+					<h4>Motion Video</h4>
+					<div class="video">
+						<center>
+							<iframe width="960" height="540" src="https://www.youtube.com/embed/w4ew2rDu18Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</center>
+					</div>
+				</div>
+
+					<div class="bottomNavigation">
+						<a href="index.html">
+							<div class="indexPage">
+								Chanjoo Tiffany Park
+							</div>
+						</a>
+
+					<div class="navigationBox">
+
+						<a href="mailto:createtiff@gmail.com">
+							<div class="emailPage">
+								Email
+							</div>
+						</a>
+
+						<a href="https://www.linkedin.com/in/createtiff">
+							<div class="linkedinPage">
+								LinkedIn
+							</div>
+						</a>
+
+						<a href="contact.html">
+							<div class="contactPage">
+								Contact
+							</div>
+						</a>
+					</div>
+				</div>
+
+		</div>
+
+				
+		
 
 
-			<img src="img/first.jpg"  
-			style="width:100vw; top: 50vw;left: 0vw;">
-			<img src="img/second.jpg"  
-			style="width:100vw; top: 100vw;left: 0vw;">
-			<img src="img/third.jpg"  
-			style="width:100vw; top: 150vw;left: 0vw;">
-			<img src="img/fourth.jpg"  
-			style="width:100vw; top: 200vw;left: 0vw;">
-
-			<div class="motionvideo">
-				Motion Video
-			</div>
 
 
-			<div class="videoFramer">
-			<div class="video"><center>
-				<iframe width="960" height="540" src="https://www.youtube.com/embed/w4ew2rDu18Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-			</div>
-			</div>
-
-			<div id="paddingBottom"></div>
-
-		</p>
+			
 	</body>
 </html>
