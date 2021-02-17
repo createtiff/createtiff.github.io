@@ -36,10 +36,12 @@
 			}
 
 
+			/* ---------------------------------------- */
+
 			.indexPage{
 				position: absolute;
 				top: 45px;
-				left: 242px;
+				left: 10vw;
 				margin: 0;
 				padding: 0;
 				font-family: fontRegular;
@@ -53,7 +55,7 @@
 			.navigationBox{
 				position: absolute;
 				top: 45px;
-				right: 17vw;
+				right: 10vw;
 
 				margin: 0;
 				padding: 0;
@@ -68,24 +70,7 @@
 				line-height: 22px;
 				color:#5d6770;
 			}
-
-			.emailPage{
-				position: absolute;
-				top: 0px;
-				right: 220px;
-				margin: 0;
-				padding: 0;
-
-			}
-
-			.linkedinPage{
-				position: absolute;
-				top: 0px;
-				right: 105px;
-				margin: 0;
-				padding: 0;
-
-			}
+			
 
 			.worksPage{
 				position: absolute;
@@ -113,6 +98,66 @@
 				padding: 0;
 
 			}
+
+			/* ---------------------------------------- */
+			
+
+			.bottomNavigation{
+				position: relative;
+				top: 45px;
+
+				text-align: center;
+
+
+				margin: 0;
+				padding: 0;
+
+				width: 100vw;
+				left: 0vw;
+				height: 22px;
+
+				font-family: fontRegular;
+				font-weight: lighter;
+				font-size: 18px;
+				line-height: 22px;
+				color:#5d6770;
+			}
+
+
+			.emailPage{
+				position: absolute;
+				top: 0px;
+				right:60vw;
+				margin: 0;
+				padding: 0;
+
+			}
+
+			.linkedinPage{
+				position: absolute;
+				top: 0px;
+
+				left:0vw;
+				right: 0vw;
+				
+				margin: 0;
+				padding: 0;
+
+			}
+
+			.bottomContactPage{
+				position: absolute;
+				top: 0px;
+
+				left: 60vw;
+
+				margin: 0;
+				padding: 0;
+
+			}
+
+			/* ---------------------------------------- */
+
 
 			.box-1{
 				display: block;
@@ -236,12 +281,106 @@
 				top: 30vw;
 			}
 
+			/* ---------------------------------------- */
+
 			#paddingBottom{
 				position: absolute;
 				top: 100vw;
 				height: 20vw;
 				width: 100vw;
 				background-color: transparent;
+			}
+
+			@media only screen and (max-width: 1025px) {
+
+			}
+		
+
+			
+
+			@media only screen and (max-width: 600px) {
+
+			.indexPage{
+				top: 40px;
+				left: 5vw;
+				font-size: 15px;
+				}
+
+			.navigationBox{
+				top: 40px;
+				right: 5vw;
+				width: 200px;
+				font-size: 15px;
+				}
+
+			.aboutPage{
+				right: 90px;
+				}
+
+			img {
+				 width:100vw;
+				}
+
+
+			.box-1{
+				left: 5vw;
+				width: 90vw;
+				top: 150px;	
+				height: 200px;
+			}
+
+			h1{
+				font-size: 7vw;
+				line-height: 8vw;
+				}
+
+
+			h2{
+				margin-top: 0px;
+				text-align: center;
+				margin-left: 0px;
+				font-weight: bolder;
+				font-size: 4vw;
+				}
+
+
+			h3{
+				margin-top: 40px;
+				margin-left: 0px;
+				text-align: left;
+				font-weight: lighter;
+				font-size: 4vw;
+				line-height: 6vw
+				}
+
+			.frame-1{
+				position: relative;
+				top: 360px;
+				}
+
+			#paddingBottom{
+				position: absolute;
+				top: 1200px;	
+				height: 150px;
+				width: 100vw;
+				}
+
+			.bottomNavigation{
+				font-size: 15px;
+				}
+
+			.emailPage{
+				right:65vw;
+				}
+
+			.linkedinPage{
+				margin: 0px 215px 0px 215px ;
+			}
+
+			.bottomContactPage{
+				left: 65vw;
+				}
+
 			}
 
 		</style> 
@@ -283,7 +422,7 @@
 				<h2>Creative Coding</h2>
 
 				<h3>
-					A bot, screensaver, or art whatever you call it — MoodBot lives on the web generating new moods every time you refresh the page!</h3>
+					A bot, screensaver, or art, whatever you call it — MoodBot lives on the web generating new moods every time you click 'Win a mood'!</h3>
 			</div>
 
 
@@ -293,7 +432,31 @@
 				</center>
 				</div>
 
-			<div id="paddingBottom"></div>
+			
+
+			<div id="paddingBottom">
+
+					<div class="bottomNavigation">
+
+						<a href="mailto:createtiff@gmail.com">
+							<div class="emailPage">
+								Email
+							</div>
+						</a>
+
+						<a href="https://www.linkedin.com/in/createtiff">
+							<div class="linkedinPage">
+								LinkedIn
+							</div>
+						</a>
+
+						<a href="contact.html">
+							<div class="bottomContactPage">
+								Contact
+							</div>
+						</a>
+					</div>
+			</div>
 
 		</p>
 	</body>

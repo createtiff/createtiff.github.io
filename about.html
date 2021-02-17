@@ -111,11 +111,12 @@
 			}
 
 
+/* ---------------------------------------- */
 
 			.indexPage{
 				position: absolute;
 				top: 45px;
-				left: 242px;
+				left: 10vw;
 				margin: 0;
 				padding: 0;
 				font-family: fontRegular;
@@ -129,7 +130,7 @@
 			.navigationBox{
 				position: absolute;
 				top: 45px;
-				right: 17vw;
+				right: 10vw;
 
 				margin: 0;
 				padding: 0;
@@ -144,24 +145,7 @@
 				line-height: 22px;
 				color:#5d6770;
 			}
-
-			.emailPage{
-				position: absolute;
-				top: 0px;
-				right: 220px;
-				margin: 0;
-				padding: 0;
-
-			}
-
-			.linkedinPage{
-				position: absolute;
-				top: 0px;
-				right: 105px;
-				margin: 0;
-				padding: 0;
-
-			}
+			
 
 			.worksPage{
 				position: absolute;
@@ -190,12 +174,71 @@
 
 			}
 
+			/* ---------------------------------------- */
+			
+
+			.bottomNavigation{
+				position: relative;
+				top: 45px;
+
+				text-align: center;
+
+
+				margin: 0;
+				padding: 0;
+
+				width: 100vw;
+				left: 0vw;
+				height: 22px;
+
+				font-family: fontRegular;
+				font-weight: lighter;
+				font-size: 18px;
+				line-height: 22px;
+				color:#5d6770;
+			}
+
+
+			.emailPage{
+				position: absolute;
+				top: 0px;
+				right:60vw;
+				margin: 0;
+				padding: 0;
+
+			}
+
+			.linkedinPage{
+				position: absolute;
+				top: 0px;
+
+				left:0vw;
+				right: 0vw;
+				
+				margin: 0;
+				padding: 0;
+
+			}
+
+			.bottomContactPage{
+				position: absolute;
+				top: 0px;
+
+				left: 60vw;
+
+				margin: 0;
+				padding: 0;
+
+			}
+
+			/* ---------------------------------------- */
+
 			
 
 
 			#paddingBottom{
 				position: absolute;
-				top: 180vw;
+				top: 200vw;
 				height: 10vw;
 				width: 100vw;
 				background-color: transparent;
@@ -235,10 +278,10 @@
 			@media only screen and (max-width: 600px) {
 
 			h1{
-				top: 10vw;
+				top: 25vw;
 				left: 5vw;
 				width: 90vw;
-				font-size: 28px;
+				font-size: 32px;
 				line-height: 38px;
 				text-align: left;
 				letter-spacing: -1px;
@@ -247,39 +290,59 @@
 			h2{
 				top: 40vw;
 				left: 5vw;
-				width: 90vw;
+				width: 75vw;
 				font-size: 16px;
 				line-height: 24px;
 				text-align: left;
 			}
 
 			.indexPage{
-				position: absolute;
-				width: 100vw;
-				left: 0vw;
-				text-align: center;
-				display: none;
-			}
-            
-            .aboutPage{
-				left: 60vw;
-				display: none;
-			}
-            
-            .worksPage{
-				left: 72.5vw;
-				display: none;
-			}
+				top: 40px;
+				left: 5vw;
+				font-size: 15px;
+				}
 
-			.contactPage{
-				left: 85vw;
-				display: none;
-			}
+			.navigationBox{
+				top: 40px;
+				right: 5vw;
+				width: 200px;
+				font-size: 15px;
+				}
+
+			.aboutPage{
+				right: 90px;
+				}
 
 			#paddingBottom{
-				top: 300vw;
-				height: 20vw;
+				position: absolute;
+				top: 2400px;	
+				height: 150px;
+				width: 100vw;
+				}
+
+			.bottomNavigation{
+				font-size: 15px;
+				}
+
+			.emailPage{
+				right:65vw;
+				}
+
+			.linkedinPage{
+				margin: 0px 215px 0px 215px ;
 			}
+
+			.bottomContactPage{
+				left: 65vw;
+				}
+
+			}
+
+
+
+			---
+
+
 
 
 		</style> 
@@ -377,7 +440,30 @@
 
 			
 
-			<div id="paddingBottom"></div>
+			<div id="paddingBottom">
+
+					<div class="bottomNavigation">
+
+						<a href="mailto:createtiff@gmail.com">
+							<div class="emailPage">
+								Email
+							</div>
+						</a>
+
+						<a href="https://www.linkedin.com/in/createtiff">
+							<div class="linkedinPage">
+								LinkedIn
+							</div>
+						</a>
+
+						<a href="contact.html">
+							<div class="bottomContactPage">
+								Contact
+							</div>
+						</a>
+					</div>
+			</div>
+
 
 		</p>
 	</body>

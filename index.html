@@ -60,12 +60,12 @@
 				background-size: 100%;
 			}
 
-
+			/* ---------------------------------------- */
 
 			.indexPage{
 				position: absolute;
 				top: 45px;
-				left: 242px;
+				left: 10vw;
 				margin: 0;
 				padding: 0;
 				font-family: fontRegular;
@@ -79,7 +79,7 @@
 			.navigationBox{
 				position: absolute;
 				top: 45px;
-				right: 17vw;
+				right: 10vw;
 
 				margin: 0;
 				padding: 0;
@@ -94,24 +94,7 @@
 				line-height: 22px;
 				color:#5d6770;
 			}
-
-			.emailPage{
-				position: absolute;
-				top: 0px;
-				right: 220px;
-				margin: 0;
-				padding: 0;
-
-			}
-
-			.linkedinPage{
-				position: absolute;
-				top: 0px;
-				right: 105px;
-				margin: 0;
-				padding: 0;
-
-			}
+			
 
 			.worksPage{
 				position: absolute;
@@ -135,6 +118,63 @@
 				position: absolute;
 				top: 0px;
 				right: 0px;
+				margin: 0;
+				padding: 0;
+
+			}
+
+			/* ---------------------------------------- */
+
+
+			.bottomNavigation{
+				position: relative;
+				top: 45px;
+
+				text-align: center;
+
+
+				margin: 0;
+				padding: 0;
+
+				width: 100vw;
+				left: 0vw;
+				height: 22px;
+
+				font-family: fontRegular;
+				font-weight: lighter;
+				font-size: 18px;
+				line-height: 22px;
+				color:#5d6770;
+			}
+
+
+			.emailPage{
+				position: absolute;
+				top: 0px;
+				right:60vw;
+				margin: 0;
+				padding: 0;
+
+			}
+
+			.linkedinPage{
+				position: absolute;
+				top: 0px;
+
+				left:0vw;
+				right: 0vw;
+				
+				margin: 0;
+				padding: 0;
+
+			}
+
+			.bottomContactPage{
+				position: absolute;
+				top: 0px;
+
+				left: 60vw;
+
 				margin: 0;
 				padding: 0;
 
@@ -229,7 +269,7 @@
 
 			.box-2{
 				position: absolute;
-				top: 1700px;	
+				top: 1550px;	
 				width: 100vw;
 				height: 90vh;
 			}
@@ -255,7 +295,7 @@
 
 			.box-3{
 				position: absolute;
-				top: 2700px;	
+				top: 2350px;	
 				width: 100vw;
 				height: 90vh;
 			}
@@ -277,10 +317,9 @@
 
 			#paddingBottom{
 				position: absolute;
-				top: 3500px;	
+				top: 3200px;	
 				height: 200px;
-				width: 100%;
-				background-color: transparent;
+				width: 100vw;
 			}
 
 
@@ -293,6 +332,106 @@
 			
 
 			@media only screen and (max-width: 600px) {
+
+			.indexPage{
+				top: 40px;
+				left: 5vw;
+				font-size: 15px;
+				}
+
+			.navigationBox{
+				top: 40px;
+				right: 5vw;
+				width: 200px;
+				font-size: 15px;
+				}
+
+			.aboutPage{
+				right: 90px;
+				}
+
+			h1{
+				font-size: 5.5vw;
+				line-height: 7.5vw;
+				}
+
+			.box-1{
+				top: 600px;	
+				height: 200px;
+				}
+
+			.mini-box-1{
+				left: 0vw;
+				width: 100vw;
+			}
+
+			.box-2{
+				top: 1100px;	
+				height: 200px;
+				}
+
+			.image-2{
+				left: 0vw;
+			}
+
+			.mini-box-2{
+				left: 0vw;
+				width: 100vw;
+			}
+
+			.box-3{
+				top: 1600px;	
+				height: 200px;
+				}
+
+			.mini-box-3{
+				left: 0vw;
+				width: 100vw;
+			}
+
+			img {
+				 width:100vw;
+				}
+
+			h2{
+				margin-top: 320px;
+				text-align: center;
+				margin-left: 0px;
+				font-weight: bolder;
+				font-size: 5.5vw;
+				}
+
+
+			h3{
+				margin-top: -10px;
+				margin-left: 0px;
+				text-align: center;
+				font-size: 4vw;
+				}
+
+			#paddingBottom{
+				position: absolute;
+				top: 2100px;	
+				height: 150px;
+				width: 100vw;
+				}
+
+			.bottomNavigation{
+				font-size: 15px;
+				}
+
+			.emailPage{
+				right:65vw;
+				}
+
+			.linkedinPage{
+				margin: 0px 215px 0px 215px ;
+			}
+
+			.bottomContactPage{
+				left: 65vw;
+				}
+
 			}
 
 
@@ -384,13 +523,8 @@
 			
 
 			<div id="paddingBottom">
-					<a href="index.html">
-						<div class="indexPage">
-							Chanjoo Tiffany Park
-						</div>
-					</a>
 
-					<div class="navigationBox">
+					<div class="bottomNavigation">
 
 						<a href="mailto:createtiff@gmail.com">
 							<div class="emailPage">
@@ -405,7 +539,7 @@
 						</a>
 
 						<a href="contact.html">
-							<div class="contactPage">
+							<div class="bottomContactPage">
 								Contact
 							</div>
 						</a>

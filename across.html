@@ -31,15 +31,20 @@
 			}
 
 			body{
+				display: table; 
 				margin: 0;
 				padding: 0;
+				background-color: linear-gradient(45deg, #F8D7D7, #C7ECF2);
+				background-size: 100%;
 			}
 
+
+			/* ---------------------------------------- */
 
 			.indexPage{
 				position: absolute;
 				top: 45px;
-				left: 242px;
+				left: 10vw;
 				margin: 0;
 				padding: 0;
 				font-family: fontRegular;
@@ -53,7 +58,7 @@
 			.navigationBox{
 				position: absolute;
 				top: 45px;
-				right: 17vw;
+				right: 10vw;
 
 				margin: 0;
 				padding: 0;
@@ -68,24 +73,7 @@
 				line-height: 22px;
 				color:#5d6770;
 			}
-
-			.emailPage{
-				position: absolute;
-				top: 0px;
-				right: 220px;
-				margin: 0;
-				padding: 0;
-
-			}
-
-			.linkedinPage{
-				position: absolute;
-				top: 0px;
-				right: 105px;
-				margin: 0;
-				padding: 0;
-
-			}
+			
 
 			.worksPage{
 				position: absolute;
@@ -114,28 +102,159 @@
 
 			}
 
-			.text-box{
+			/* ---------------------------------------- */
+			
+
+			.bottomNavigation{
+				position: relative;
+				top: 45px;
+
+				text-align: center;
+
+
+				margin: 0;
+				padding: 0;
+
+				width: 100vw;
+				left: 0vw;
+				height: 22px;
+
+				font-family: fontRegular;
+				font-weight: lighter;
+				font-size: 18px;
+				line-height: 22px;
+				color:#5d6770;
+			}
+
+
+			.emailPage{
+				position: absolute;
+				top: 0px;
+				right:60vw;
+				margin: 0;
+				padding: 0;
+
+			}
+
+			.linkedinPage{
+				position: absolute;
+				top: 0px;
+
+				left:0vw;
+				right: 0vw;
+				
+				margin: 0;
+				padding: 0;
+
+			}
+
+			.bottomContactPage{
+				position: absolute;
+				top: 0px;
+
+				left: 60vw;
+
+				margin: 0;
+				padding: 0;
+
+			}
+
+			/* ---------------------------------------- */
+
+
+
+			.box-1{
 				display: block;
 				position: absolute;
+				align-content: center;
 				top: 200px;
+			}
+
+			.inner-box-1{
+				display: block;
+				position: absolute;
+				align-content: center;
 				left: 25vw;
 				width: 50vw;
 			}
 
-			.text-box-2{
+			.image-wrapper-1{
 				display: block;
 				position: absolute;
-				top: 2480px;
+				left: 15vw;
+				right: 0vw;
+				top: 300px;
 			}
 
-			.bottomNavigation{
+			/* ---------------------------------------- */
+
+			.box-2{
 				display: block;
-				position: relative;
-				top: 1100px;
-				height: 200px;
-				width: 100vw;
-				background-color: transparent;
+				position: absolute;
+				align-content: center;
+				left: 25vw;
+				width: 50vw;
+				top: 1000px;
 			}
+
+			.image-wrapper-2{
+				position: absolute;
+				display: block;
+				left: 0px;
+				top: 500px;
+			}
+
+			.image-mobile{
+				display: none;
+			}
+
+			/* ---------------------------------------- */
+
+			.box-3{
+				display: block;
+				position: absolute;
+				top: 2000px;
+				left: 25vw;
+				width: 50vw;
+			}
+
+
+
+			/* ---------------------------------------- */
+
+			.box-4{
+				display: block;
+				position: absolute;
+				top: 2700px;
+				width: 100vw;
+				left: 0vw;
+			}
+
+			.image-wrapper-3{
+				position: absolute;
+				display: block;
+				left: 0px;
+				top: 300px;
+			}
+
+			/* ---------------------------------------- */
+
+			.box-5{
+				display: block;
+				position: absolute;
+				top: 5500px;
+				width: 100vw;
+				left: 0;
+			}
+
+			.image-wrapper-4{
+				position: absolute;
+				display: block;
+				left: 0px;
+				top: 300px;
+			}
+
+			/* ---------------------------------------- */
 
 			h1{
 				display: block;
@@ -153,6 +272,7 @@
 
 			h2{
 				display: block;
+
 
 				text-align: center;
 
@@ -174,17 +294,20 @@
 
 				text-align: center;
 
-				font-family: fontRegular;
+				font-family: fontMedium;
   				font-size: 32px;
+  				line-height: 46px;
 
 				color:#1D1F22;
 				z-index: 1;
 			}
 
+
+
 			h4{
 				display: block;
 
-				text-align: center;
+				text-align: center !important;
 
 				font-family: fontMedium; 
 				font-size: 24px;
@@ -196,6 +319,7 @@
 				margin-block-start: 5em;
 			}
 
+
 			p{
 				display: block;
 
@@ -203,7 +327,6 @@
 				font-size: 20px;
 				line-height: 32px;
 				padding-bottom: 32px;
-
 				color:#778089;
 			}
 
@@ -236,18 +359,180 @@
 				color: inherit;
 			}
 
-			.image-wrapper-1{
-
-				top: 300px;
-			}
 		
 			img {
 				display: inline-block;
 				 top: 0vw;
+				 margin: 0;
 				 
 				}
 
+			/* ---------------------------------------- */
+
 			
+
+
+			#paddingBottom{
+				position: absolute;
+				top: 6600px;
+				height: 10vw;
+				width: 100vw;
+				background-color: transparent;
+			}
+			
+
+			@media only screen and (max-width: 1025px) {
+
+			}
+		
+
+			
+
+			@media only screen and (max-width: 600px) {
+
+			.indexPage{
+				top: 40px;
+				left: 5vw;
+				font-size: 15px;
+				}
+
+			.navigationBox{
+				top: 40px;
+				right: 5vw;
+				width: 200px;
+				font-size: 15px;
+				}
+
+			.aboutPage{
+				right: 90px;
+				}
+
+			img {
+				 width:100vw;
+				}
+
+
+			.box-1{
+				left: 5vw;
+				width: 90vw;
+				top: 150px;	
+				height: 200px;
+			}
+
+			.inner-box-1{
+				left: 0vw;
+				width: 90vw;
+			}
+
+
+			h1{
+				font-size: 7vw;
+				line-height: 8vw;
+				}
+
+
+			h2{
+				margin-top: 0px;
+				text-align: center;
+				margin-left: 0px;
+				font-weight: bolder;
+				font-size: 4vw;
+				}
+
+
+			h3{
+				margin-top: 40px;
+				margin-left: 0px;
+				text-align: center;
+				font-weight: lighter;
+				font-size: 4vw;
+				line-height: 6vw
+				}
+
+			h4{
+
+				font-size: 4vw;
+				line-height: 6vw;
+
+				margin-block-start: 5em;
+			}
+
+			.image-wrapper-1{
+				left: 10vw;
+				top: 200px;
+			}
+
+			.box-2{
+				display: block;
+				position: absolute;
+				align-content: center;
+				left: 5vw;
+				width: 90vw;
+				top: 550px;
+			}
+
+			.image-wrapper-2{
+				position: absolute;
+				display: none;
+				left: 0px;
+				top: 500px;
+			}
+
+			.image-mobile{
+				display: block;
+			}
+
+			.box-3{
+				display: block;
+				position: absolute;
+				top: 1300px;
+				left: 5vw;
+				width: 90vw;
+			}
+
+			.box-4{
+				top: 2050px;
+				width: 100vw;
+				left: 0vw;
+			}
+
+			.image-wrapper-4{
+				position: absolute;
+				display: block;
+				left: 0px;
+				top: 180px;
+			}
+
+			.box-5{
+				top: 3100px;
+				width: 100vw;
+				left: 0;
+			}
+
+			#paddingBottom{
+				position: absolute;
+				top: 4000px;	
+				height: 150px;
+				width: 100vw;
+				}
+
+			.bottomNavigation{
+				font-size: 15px;
+				}
+
+			.emailPage{
+				right:65vw;
+				}
+
+			.linkedinPage{
+				margin: 0px 215px 0px 215px ;
+			}
+
+			.bottomContactPage{
+				left: 65vw;
+				}
+
+			}
 
 			
 
@@ -281,37 +566,43 @@
 					</div>
 				</a>
 			</div>
-
-		<div class="text-box">
-				
-				<h1>Across</h1>
-
-				<h2>Mobile service</h2>
-
-				<div class="image-wrapper-1">
-					<img src="img/icon.jpg" style="width:50vw; left: 0vw;" >
-				</div>
+			
 
 
-				<div class="bodytext">
+			<div class="box-1">
+				<div class="inner-box-1">
+					<h1>Across</h1>
+
+					<h2>Mobile Service Design</h2>
+
 					<h3>How might we make relocation easier?</h3>
-
-					<h4>Problem Point</h4>
+				</div>
+			
+				<div class="image-wrapper-1">
+					<img src="img/icon.jpg" style="width:70vw;" >
+				</div>
+			</div>
+			
+			<div class="box-2">
+					<h4>Inspiration</h4>
 
 					<p>
-						Inconvenience while relocating across countries and cities, such as having to do research, adapt, and switch to new systems in order to continue one's way of life. 
+						Inconvenience while relocating across countries and cities, such as having to do research, adapt, and switch to new systems in order to continue one's way of life.
 					</p>
 
 					<h4>Ideation</h4>
 
-						<img src="img/ideation.jpg" style="width:50vw; left: 0vw; top: 440px; ">
+					<div class="image-wrapper-2">
+						<img src="img/ideation.jpg" style="width:50vw;">
+					</div>
 
-					<h4>Target Users</h4>
+					<div class="image-mobile">
+						<img src="img/ideation.jpg" style="width:90vw;">
+					</div>
 
-					<p>
-						People between the ages of 15 to 40, digital nomads, Gen Zs, and millennials residing in urban settings, who has to relocate across countries and cities due to work or education. 
-					</p>
+			</div>
 
+			<div class="box-3">
 					<h4>Solution</h4>
 
 					<p>
@@ -319,56 +610,62 @@
 					</p>
 
 
+					<h4>Target Users</h4>
 
-				</div>
-		</div>
+					<p>
+						People between the ages of 15 to 40, digital nomads, Gen Zs, and millennials residing in urban settings, who has to relocate across countries and cities due to work or education. 
+					</p>
+			</div>
 
-		<div class="text-box-2">
-					<img src="img/solution11.jpg" style="width:100vw;">
-					</br>
-					</br>
-					</br>
-					</br></br></br></br>
+
+
+			<div class="box-4">
+
+					<div class="image-wrapper-3">
+						<img src="img/solution11.jpg" style="width:100vw;">
+					</div>
+
 					<h4>User Flow</h4>
 					
-					<img src="img/userflow.jpg"  style="width:100vw;" >
-				
+					<div class="image-wrapper-4">
+						<img src="img/userflow.jpg"  style="width:100vw;" >
+					</div>
+			</div>
+
+			<div class="box-5">
 					<h4>Interactive Prototype</h4>
 			
-				<center>
-					<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" left="0" width="50" height="650" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FEeOCQLGPOzerWcygaJ157q%2FAcross%3Fnode-id%3D7%253A105%26viewport%3D176%252C98%252C0.05627958104014397%26scaling%3Dscale-down" allowfullscreen></iframe>
-				</center>
+					<center>
+						<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" left="0" width="50" height="650" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FEeOCQLGPOzerWcygaJ157q%2FAcross%3Fnode-id%3D7%253A105%26viewport%3D176%252C98%252C0.05627958104014397%26scaling%3Dscale-down" allowfullscreen></iframe>
+					</center>
+			</div>
 
-					<div class="bottomNavigation">
-						<a href="index.html">
-							<div class="indexPage">
-								Chanjoo Tiffany Park
-							</div>
-						</a>
+				
 
-					<div class="navigationBox">
+			<div id="paddingBottom">
 
-						<a href="mailto:createtiff@gmail.com">
-							<div class="emailPage">
-								Email
-							</div>
-						</a>
+						<div class="bottomNavigation">
 
-						<a href="https://www.linkedin.com/in/createtiff">
-							<div class="linkedinPage">
-								LinkedIn
-							</div>
-						</a>
+							<a href="mailto:createtiff@gmail.com">
+								<div class="emailPage">
+									Email
+								</div>
+							</a>
 
-						<a href="contact.html">
-							<div class="contactPage">
-								Contact
-							</div>
-						</a>
-					</div>
-				</div>
+							<a href="https://www.linkedin.com/in/createtiff">
+								<div class="linkedinPage">
+									LinkedIn
+								</div>
+							</a>
 
-		</div>
+							<a href="contact.html">
+								<div class="bottomContactPage">
+									Contact
+								</div>
+							</a>
+						</div>
+			</div>
+
 
 				
 		
