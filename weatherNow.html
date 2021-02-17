@@ -23,6 +23,13 @@
     		font-style: normal;
 			}
 
+			@font-face {
+  			font-family: 'fontOgg';
+  			src: url('ogg-roman.otf');
+  			font-weight: normal;
+    		font-style: normal;
+			}
+
 			body{
 				margin: 0;
 				padding: 0;
@@ -107,24 +114,45 @@
 
 			}
 
-			.text-box{
+			.box-1{
 				display: block;
 				position: absolute;
+				align-content: center;
 				top: 200px;
+			}
+
+			.inner-box-1{
+				display: block;
+				position: absolute;
+				align-content: center;
 				left: 25vw;
 				width: 50vw;
 			}
 
-			.text-box-2{
+			.inner-box-2{
 				display: block;
 				position: absolute;
-				top: 1800px;
+				align-content: center;
+				left: 25vw;
+				width: 50vw;
+				top: 1000px;
 			}
 
-			.videoFramer{
+							
+
+			.box-2{
 				display: block;
 				position: absolute;
-				top: 2400px;
+				top: 2500px;
+				background-color: black;
+				width: 80vw;
+				left: 10vw;
+			}
+
+			.box-3{
+				display: block;
+				position: absolute;
+				top: 5000px;
 				height: 60vw;
 				width: 100vw;
 
@@ -141,7 +169,7 @@
 			.bottomNavigation{
 				display: block;
 				position: absolute;
-				top: 3200px;
+				top: 5500px;
 				height: 200px;
 				width: 100vw;
 				bottom: 0;
@@ -166,6 +194,7 @@
 			h2{
 				display: block;
 
+
 				text-align: center;
 
 				font-family:fontRegular;
@@ -186,7 +215,7 @@
 
 				text-align: center;
 
-				font-family: fontRegular;
+				font-family: fontMedium;
   				font-size: 32px;
   				line-height: 46px;
 
@@ -194,10 +223,18 @@
 				z-index: 1;
 			}
 
+			.image-wrapper-1{
+				position: absolute;
+				display: block;
+				left: 0px;
+				top: 300px;
+			}
+
+
 			h4{
 				display: block;
 
-				text-align: center;
+				text-align: center !important;
 
 				font-family: fontMedium; 
 				font-size: 24px;
@@ -208,6 +245,7 @@
 
 				margin-block-start: 5em;
 			}
+
 
 			p{
 				display: block;
@@ -248,14 +286,12 @@
 				color: inherit;
 			}
 
-			.image-wrapper-1{
-
-				top: 300px;
-			}
+			
 		
 			img {
 				display: inline-block;
 				 top: 0vw;
+				 margin: 0;
 				 
 				}
 
@@ -294,20 +330,22 @@
 				</a>
 			</div>
 
-		<div class="text-box">
-				
-				<h1>Weather Now</h1>
+		<div class="box-1">
+				<div class="inner-box-1">
+					<h1>Weather Now</h1>
 
-				<h2>Mobile, Motion</h2>
+					<h2>Mobile, Motion</h2>
 
-				<div class="image-wrapper-1">
-					<img src="img/icon2.jpg" style="width:50vw; left: 0vw;" >
+					<h3>How might we support digital wellbeing </br>
+					by creating ease in people’s daily use </br>
+					with technology?</h3>
 				</div>
-
-
-				<div class="bodytext">
-					<h3>How might we design an experience, integrated into people’s daily use with technology, that creates ease and supports digital wellbeing?</h3>
-
+			
+				<div class="image-wrapper-1">
+				<img src="img/image1.jpg" style="width:100vw;">
+				</div>
+			
+				<div class="inner-box-2">
 					<h4>Problem Point</h4>
 
 					<p>
@@ -326,44 +364,71 @@
 						A weather app that is designed to support digital wellbeing by bringing nature driven ambience to the screen, calming people’s minds and uplifting people’s mental strain.
 					</p>
 
+					<h4>Prototype</h4>
+
 				</div>
+
 		</div>
 
-		<div class="text-box-2">
-					<img src="img/image1.jpg" style="width:100vw;">
+		
 
+		<div class="box-2">
 				
-					<h4>Interactive Prototype</h4>
-			
-					<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" left="0" width="50" height="650" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FTVKnW7tDpWrBFlCaLMQWjP%2FMorning%3Fnode-id%3D1%253A4%26viewport%3D459%252C376%252C0.5955934524536133%26scaling%3Dscale-down" allowfullscreen></iframe>
+				<center><img src="img/morning.png"
+				style=	"height: 100px;  
+						 margin-top:50px; "></center></br>
+				<img src="img/m-1.png" style="margin-top:50px; width:25vw;">
+				<img src="img/m-2.png" style="margin-top:50px; width:25vw;">
+				<img src="img/m-3.png" style="margin-top:50px; width:25vw;">
 
-					<iframe style="border: 1px solid rgba(0, 0, 0, 0.1); left:50vw ;" width="50" height="650" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FPUXCJ76IugvQD0YoaOOuo6%2FAfternoon%3Fnode-id%3D1%253A3%26viewport%3D459%252C376%252C0.581944465637207%26scaling%3Dscale-down" allowfullscreen></iframe>
+				<center><img src="img/afternoon.png"
+				style=	"height: 100px;  
+						 margin-top:50px; "></center></br>
+				<img src="img/a-1.png" style="width:25vw;">
+				<img src="img/a-2.png" style="width:25vw;">
+				<img src="img/a-3.png" style="width:25vw;">
 
-					<iframe style="border: 1px solid rgba(0, 0, 0, 0.1); margin-top:650px;"  width="50" height="650" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FSoRSP15yWznGdOfclHqzLr%2FEvening%3Fnode-id%3D1%253A3%26viewport%3D459%252C376%252C0.581944465637207%26scaling%3Dscale-down" allowfullscreen></iframe>
+				<center><img src="img/evening.png"
+				style=	"height: 100px;  
+						 margin-top:50px; "></center></br>
+				<img src="img/e-1.png" style="width:25vw;">
+				<img src="img/e-2.png" style="width:25vw;">
+				<img src="img/e-3.png" style="width:25vw;">
 
-					<iframe style="border: 1px solid rgba(0, 0, 0, 0.1); margin-top:650px; left:50vw ;"  width="50" height="650" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Ft8s2CtmbQLaY2c4xloKolm%2FNight%3Fnode-id%3D1%253A3%26viewport%3D302%252C352%252C0.1759602576494217%26scaling%3Dscale-down" allowfullscreen></iframe>
+				<center><img src="img/night.png"
+				style=	"height: 100px;  
+						 margin-top:50px; "></center></br>
+				<img src="img/n-1.png" style="width:25vw;">
+				<img src="img/n-2.png" style="width:25vw;">
+				<img src="img/n-3.png" style="width:25vw;">
 
-					
-					
+		</div>
 
-				<div class="videoFramer">
+		<div class="box-3">
+
 					<h4>Motion Video</h4>
+
 					<div class="video">
 						<center>
-							<iframe width="960" height="540" src="https://www.youtube.com/embed/w4ew2rDu18Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<source src="img/weather.mp4" type="video/mp4">
 						</center>
 					</div>
-				</div>
 
-					<div class="bottomNavigation">
+				
+
+		</div>
+
+
+
+
+		<div class="bottomNavigation">
 						<a href="index.html">
 							<div class="indexPage">
-								Chanjoo Tiffany Park
+									Chanjoo Tiffany Park
 							</div>
 						</a>
 
-					<div class="navigationBox">
-
+				<div class="navigationBox">
 						<a href="mailto:createtiff@gmail.com">
 							<div class="emailPage">
 								Email
@@ -381,10 +446,9 @@
 								Contact
 							</div>
 						</a>
-					</div>
 				</div>
-
 		</div>
+
 
 				
 		

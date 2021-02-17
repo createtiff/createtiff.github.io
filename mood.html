@@ -10,8 +10,22 @@
 		<style>
 
 			@font-face {
-  			font-family: 'myFont';
+  			font-family: 'fontRegular';
   			src: url('basiercircle-regular.otf');
+  			font-weight: normal;
+    		font-style: normal;
+			}
+
+			@font-face {
+  			font-family: 'fontMedium';
+  			src: url('BasierCircle-Medium.ttf');
+  			font-weight: normal;
+    		font-style: normal;
+			}
+
+			@font-face {
+  			font-family: 'fontOgg';
+  			src: url('ogg-roman.otf');
   			font-weight: normal;
     		font-style: normal;
 			}
@@ -28,7 +42,7 @@
 				left: 252px;
 				margin: 0;
 				padding: 0;
-				font-family: myFont;
+				font-family: fontRegular;
 				font-weight: 100;
 				font-size: 18px;
 				line-height: 22px;
@@ -48,7 +62,7 @@
 				height: 22px;
 
 
-				font-family: myFont;
+				font-family: fontRegular;
 				font-weight: lighter;
 				font-size: 18px;
 				line-height: 22px;
@@ -82,39 +96,63 @@
 
 			}
 
+			.box-1{
+				display: block;
+				position: absolute;
+				align-content: center;
+				left: 25vw;
+				width: 50vw;
+				top: 200px;
+			}
+
 
 			h1{
+				display: block;
+
 				text-align: center;
-				margin: 0;
-				padding: 0;
-				font-family: myFont;
+
+				font-family: fontRegular;
 				font-weight: bolder;
 				font-size: 64px;
 				line-height: 80px;
 
+				margin-block-start: 0.2em;
+    			margin-block-end: 0.2em;
 			}
 
-			.title{
-				position: relative;
-				top: 15vw;
-			}
 
 			h2{
+				display: block;
+
+
 				text-align: center;
-				margin: 0;
-				padding: 0;
-				font-family: myFont;
+
+				font-family:fontRegular;
+				font-weight: lighter;
+
 				font-size: 20px;
 				line-height: 26px;
+
+				margin-block-start: 0;
+    			margin-block-end: 0;
+
 				color:#778089;
-
 			}
 
-			.subtitle{
-				position: relative;
+
+			h3{
+				display: block;
+
 				text-align: center;
-				top: 16vw;
+
+				font-family: fontMedium;
+  				font-size: 32px;
+  				line-height: 46px;
+
+				color:#1D1F22;
+				z-index: 1;
 			}
+
 
 			.linkToWinAMood{
 				position: relative;
@@ -126,15 +164,6 @@
 				color:blue;
 			}
 
-			.concept{
-				font-family: myFont;
-				position: relative;
-				text-align: center;
-				top: 27vw;
-  				font-size: 32px;
-				color:#1D1F22;
-				z-index: 1;
-			}
 
 			.bodytext{
 				position: absolute;
@@ -230,31 +259,14 @@
 			</div>
 
 
-			<h1>
-				<div class="title">
-					Moodbot
-				</div>
-			</h1>
-			<h2>
-				<div class="subtitle">
-					Creative Coding
-				</div>
-			</h2>
+			<div class="box-1">
+				<h1>Moodbot</h1>
+				
+				<h2>Creative Coding</h2>
 
-			<div class="concept">
-				Concept
+				<h3>
+					A bot, screensaver, or art whatever you call it — MoodBot lives on the web generating new moods every time you refresh the page!</h3>
 			</div>
-			<div class="bodytext">
-				A web toy, bot, screensaver, or art whatever you call it — MoodBot is a friend on the web which generates a new mood every time you refresh the page.
-			</div>
-
-
-
-			<a href="winAMood/index.html">
-				<div class="linkToWinAMood">
-					www.win-a-mood.com
-				</div>
-			</a>
 
 
 			<div class="frame-1">
