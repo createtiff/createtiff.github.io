@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Across</title>
+		<title>Weather Now</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css">
@@ -31,14 +31,12 @@
 			}
 
 			body{
-				display: table; 
 				margin: 0;
 				padding: 0;
-				background-color: linear-gradient(45deg, #F8D7D7, #C7ECF2);
-				background-size: 100%;
 			}
 
 			/* ---------------------------------------- */
+
 
 			h1{
 				display: block;
@@ -85,7 +83,6 @@
 				color:#1D1F22;
 				z-index: 1;
 			}
-
 
 
 			h4{
@@ -187,24 +184,25 @@
 			
 
 			.bottom-navigation{
-				position: relative;
-				top: 45px;
 
-				text-align: center;
-
-
-				margin: 0;
-				padding: 0;
-
+				display: block;
+				position: absolute;
+				top: 4100px;
+				height: 200px;
 				width: 100vw;
-				left: 0vw;
-				height: 22px;
+				bottom: 0;
+				margin-bottom: 0;
+				padding-bottom: 0;
+				
+				text-align: center;
 
 				font-family: fontRegular;
 				font-weight: lighter;
 				font-size: 18px;
 				line-height: 22px;
 				color:#5d6770;
+
+				
 			}
 
 
@@ -243,7 +241,6 @@
 			/* ---------------------------------------- */
 
 
-
 			.header{
 				display: block;
 				position: absolute;
@@ -254,7 +251,6 @@
 			}
 
 			.header-image{
-				display: block;
 				position: absolute;
 				left: 20vw;
 				top: 500px;
@@ -277,13 +273,9 @@
 			}
 
 			.linked-project{
-				display: block;
-				position: absolute;
-				top: 2100px;
 				
 			}
 
-			
 			/* ---------------------------------------- */
 			
 
@@ -296,15 +288,126 @@
 				background-color: transparent;
 			}
 
+
 			/* ---------------------------------------- */
+			
+			.image-box-background{
+				display: block;
+				position: absolute;
+				top: 2500px;
+				background-color: black;
+				width: 100vw;
+				left: 0vw;
+			}		
+
+			.image-box{
+				display: block;
+				position: relative;
+				top: 0px;
+				background-color: black;
+				width: 80vw;
+				left: 10vw;
+			}
+
+			.image-wrapper-2{
+				position: relative;
+				top: 0px;
+			}
+
+			.image-wrapper-3{
+				position: relative;
+				margin-top: 0px;
+			}
+
+			.image-wrapper-4{
+				position: relative;
+				margin-top: 150px;
+			}
+
+			.image-wrapper-5{
+				position: relative;
+				margin-top: 150px;
+			}
+
+			.image-wrapper-6{
+				position: relative;
+				margin-top: 150px;
+			}
+
+			/* ---------------------------------------- */
+
+			.mobile-version{
+				display: none;
+				position: absolute;
+				top: 1800px;
+				background-color: black;
+				width: 100vw;
+				left: 0vw;
+			}
+
+			.mobile-box-2{
+				display: none;
+				position: relative;
+				top: 0px;
+				background-color: black;
+				width: 100vw;
+				left: 0vw;
+			}
+
+			.mobile-image-wrapper-2{
+				position: relative;
+				top: 0px;
+			}
+
+			.mobile-image-wrapper-3{
+				position: relative;
+				margin-top: 0px;
+			}
+
+			.mobile-image-wrapper-4{
+				position: relative;
+				margin-top: 150px;
+			}
+
+			.mobile-image-wrapper-5{
+				position: relative;
+				margin-top: 150px;
+			}
+
+			.mobile-image-wrapper-6{
+				position: relative;
+				margin-top: 150px;
+			}
+
+			/* ---------------------------------------- */
+
+			.box-3{
+				display: block;
+				position: absolute;
+				top: 6000px;
+				height: 60vw;
+				width: 100vw;
+			}
+
+
+			.video{
+				position: absolute;
+				width: 100%;
+				left: -25%;
+  				height: auto;
+
+			}
+
+			
+			
+
 
 			iframe{
 				margin: 0;
 				padding: 0;
 				
 				position: absolute;
-				left: 10vw;
-				width: 80vw;
+				width: 50vw;
 			}
 
 			a{
@@ -324,20 +427,17 @@
 				color: inherit;
 			}
 
+			
 		
 			img {
 				display: inline-block;
 				 top: 0vw;
 				 margin: 0;
-				 
 				}
 
 			/* ---------------------------------------- */
 
-
 			
-			
-
 			@media only screen and (max-width: 1025px) {
 
 			}
@@ -362,10 +462,6 @@
 
 			.aboutPage{
 				right: 90px;
-				}
-
-			img {
-				 width:100vw;
 				}
 
 
@@ -415,66 +511,48 @@
 			}
 
 			.image-wrapper-1{
-				left: 10vw;
-				top: 200px;
+				left: -5vw;
+				top: 250px;
 			}
 
-			.box-2{
+			.inner-box-2{
 				display: block;
 				position: absolute;
 				align-content: center;
-				left: 5vw;
+				left: 0vw;
 				width: 90vw;
-				top: 550px;
-			}
-
-			.image-wrapper-2{
-				position: absolute;
-				display: none;
-				left: 0px;
 				top: 500px;
 			}
 
-			.image-mobile{
+
+			.box-2-background{
+				display: none;
+			}		
+
+			.mobile-version{
+				display: block;
+			}	
+
+			.mobile-box-2{
 				display: block;
 			}
 
+		
 			.box-3{
-				display: block;
-				position: absolute;
-				top: 1300px;
-				left: 5vw;
-				width: 90vw;
-			}
+				display: none;
+			}	
 
-			.box-4{
-				top: 2050px;
-				width: 100vw;
-				left: 0vw;
-			}
-
-			.image-wrapper-4{
-				position: absolute;
-				display: block;
-				left: 0px;
-				top: 180px;
-			}
-
-			.box-5{
-				top: 3100px;
-				width: 100vw;
-				left: 0;
-			}
 
 			#paddingBottom{
 				position: absolute;
-				top: 4000px;	
-				height: 150px;
+				top: -1400px;	
+				height: 100px;
 				width: 100vw;
 				}
 
 			.bottomNavigation{
 				font-size: 15px;
+				height: 100px;
 				}
 
 			.emailPage{
@@ -490,7 +568,6 @@
 				}
 
 			}
-
 			
 
 		</style> 
@@ -526,29 +603,28 @@
 				</a>
 			</div>
 
-			
+
 <!--------------- Body ---------------->
 
 		<!---------- Header ----------->
 
 			<div class="header">
-					<h1>Across</h1>
+					<h1>Weather Now</h1>
 
-					<h2>Mobile Service Design</h2>
+					<h2>Mobile, Motion</h2>
 
 					<h3></h3>
 			</div>
-
 
 		<!---------- Header Image ----------->
 
 			<div class="header-image">
 					<center>
-						<img src="img/across.jpg" style="width:60vw;">
+						<img src="img/weather.jpg" style="width:60vw;">
 					</center>
 			</div>
 
-		
+
 		<!---------- Project Spec ----------->
 
 			<div class="project-spec">
@@ -557,51 +633,170 @@
 					<p>Individual Project</p>
 
 					<h4>Project timeframe</h4>
-					<p>2 month, 2020 Fall</p>
+					<p>1 month, 2019 Fall + 1 month, 2020 Fall</p>
 
 					<h4>Skills</h4>
-					<p>Ideation, Wireframing, Prototype, Visual Design </p>
+					<p>Ideation, Wireframing, Prototype, Visual Design  </p>
 
 					<h4>Software used</h4>
 					<p>Figma, Photoshop, Illustrator</p>
 			</div>
 
-
 		<!---------- Project Narrative ----------->
 
 			<div class="project-narrative">
-					<h4>Making relocation easier by gathering local apps in one place</h4>
+					<h4>Supporting digital wellbeing by bringing natural ambiance driven by the sky and weather to mobile weather application</h4>
 
 					</br></br></br>
 
 					<h4>Idea/Question</h4>
-					<p>How can we make relocation easier?</p>
+					<p>How can we support digital wellbeing by creating ease in people’s daily use with technology?</p>
 
 					<h4>Inspiration</h4>
-					<p>Inconvenience while relocating across countries and cities, such as having to do research, adapt, and switch to new systems in order to continue one's way of life.</p>
+					<p>As technology becomes more integrated into people’s daily lives, it is easy to be vulnerable to mental strain. It is more evident in urban settings such as New York City due to lack of breather in the environment of the city.</p>
 
 					<h4>Outcome</h4>
-					<p>A mobile platform that converts applications across different cities, localizing the utility apps from the user's origin city to the destination city. It serves as a switch for applications when relocating, providing a list of applications that delivers the same functionality but adjusted to the local environment. </p>
+					<p>A weather app that is designed to support digital wellbeing by bringing nature driven ambience to the screen, calming people’s minds and uplifting people’s mental strain.</p>
 
 					<h4>User Persona</h4>
 					<p>
-						• Gen Zs and Millennials, between the ages of 15 to 40</br>
-						• digital nomads</br>
-						• resides in urban settings</br>
-						• Has to relocate across countries and cities due to work or education</br>
+						• Gen Zs, between the ages of 15 to 25
+						• Resides in the East Coast, New York City
+						• People who struggle with mental strain due to high stress or environmental causes such as Seasonal Affective Disorder
 					</p>
 			</div>
+
 
 
 		<!---------- Project Link ----------->
 
 			<div class="linked-project">
-				<center>
-						<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" left="0" width="50" height="650" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FEeOCQLGPOzerWcygaJ157q%2FAcross%3Fnode-id%3D7%253A105%26viewport%3D176%252C98%252C0.05627958104014397%26scaling%3Dscale-down" allowfullscreen>
-						</iframe>
-				</center>
+
 			</div>
 
+
+
+
+		
+		<div class="image-box-background">
+			<div class="image-box">
+
+				<div class="image-wrapper-2">
+					<center>
+						<img src="img/weathernow.png"
+						style=	"height: 350px;">
+					</center>
+				</div>
+
+				<div class="image-wrapper-3">
+					<center>
+						<img src="img/morning.png"
+						style="height: 90px; opacity: 0.9;">
+					</center>
+						<img src="img/m-1.png" style="width:26.45vw;">
+						<img src="img/m-2.png" style="width:26.45vw;">
+						<img src="img/m-3.png" style="width:26.45vw;">
+					
+				</div>
+
+				<div class="image-wrapper-4">
+					<center>
+						<img src="img/afternoon.png"
+						style=	"height: 90px;  opacity: 0.9;">
+					</center>
+						<img src="img/a-1.png" style="width:26.45vw;">
+						<img src="img/a-2.png" style="width:26.45vw;">
+						<img src="img/a-3.png" style="width:26.45vw;">
+				</div>
+
+				<div class="image-wrapper-5">
+					<center>
+						<img src="img/evening.png"
+						style=	"height: 90px;  opacity: 0.9;">
+					</center>
+						<img src="img/e-1.png" style="width:26.45vw;">
+						<img src="img/e-2.png" style="width:26.45vw;">
+						<img src="img/e-3.png" style="width:26.45vw;">
+				</div>
+
+				<div class="image-wrapper-6">
+					<center>
+						<img src="img/night.png"
+						style=	"height: 90px;  opacity: 0.9;"></br>
+					</center>
+						<img src="img/n-1.png" style="width:26.45vw;">
+						<img src="img/n-2.png" style="width:26.45vw;">
+						<img src="img/n-3.png" style="width:26.45vw;">
+				</div>
+			</div>
+		</div>
+
+
+		<div class="mobile-version">
+			<div class="mobile-box-2">
+
+				<div class="mobile-image-wrapper-2">
+					<center>
+						<img src="img/weathernow.png"
+						style=	"height: 350px;">
+					</center>
+				</div>
+
+				<div class="mobile-image-wrapper-3">
+					<center>
+						<img src="img/morning.png"
+						style="height: 70px; opacity: 0.9;"></br></br>
+						<img src="img/m-1.png" style="width:30vw;">
+						<img src="img/m-2.png" style="width:30vw;">
+						<img src="img/m-3.png" style="width:30vw;">
+					</center>
+				</div>
+
+				<div class="mobile-image-wrapper-4">
+					<center>
+						<img src="img/afternoon.png"
+						style=	"height: 70px;  opacity: 0.9;"></br></br>
+						<img src="img/a-1.png" style="width:30vw;">
+						<img src="img/a-2.png" style="width:30vw;">
+						<img src="img/a-3.png" style="width:30vw;">
+					</center>
+				</div>
+
+				<div class="mobile-image-wrapper-5">
+					<center>
+						<img src="img/evening.png"
+						style=	"height: 70px;  opacity: 0.9;"></br></br>
+						<img src="img/e-1.png" style="width:30vw;">
+						<img src="img/e-2.png" style="width:30vw;">
+						<img src="img/e-3.png" style="width:30vw;">
+					</center>
+				</div>
+
+				<div class="mobile-image-wrapper-6">
+					<center>
+						<img src="img/night.png"
+						style=	"height: 70px;  opacity: 0.9;"></br></br>
+						<img src="img/n-1.png" style="width:30vw;">
+						<img src="img/n-2.png" style="width:30vw;">
+						<img src="img/n-3.png" style="width:30vw;">
+					</center>
+				</div>
+				</br></br></br></br></br>
+			</div>
+		</div>
+
+
+
+		<div class="box-3">
+
+					<h4>Motion Video</h4>
+
+					<div class="video">
+						<center>
+							<iframe width="960" height="540" src="https://www.youtube.com/embed/w4ew2rDu18Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</center>
+					</div>
+		</div>
 
 
 <!--------------- Bottom Navigation ---------------->
