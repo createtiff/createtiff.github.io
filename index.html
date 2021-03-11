@@ -145,6 +145,18 @@
 				display: none;
 				}
 
+			.mobile-top-navigation{
+				display: none;
+			}
+
+			.mobile-top-aboutPage{
+				display: none;
+			}
+
+			.mobile-top-contactPage{
+				display: none;
+			}
+
 			/* ---------------------------------------- */
 
 
@@ -483,23 +495,41 @@
 
 			/* ---------------------------------------- */
 
-			.mobile-navigation{
+			.mobile-top-navigation{
 				display: block;
-				position:relative;
+				position:absolute;
 
-				width: 80vw;
-				margin-left: 10vw;
-				margin-right: 10vw;
+				width: 90vw;
+				margin-left: 5vw;
+				margin-right: 5vw;
 				padding: 0;
 
-				top: 10vh;
+				top: 30px;
 				height: 15vh;
 				z-index: 1;
 			}
 
-			.mobile-aboutPage{
+			.mobile-top-aboutPage{
 				display: inline-block;
-				position: relative;
+				position: absolute;
+				left: 0;
+				width: 20vw;
+				margin: 0;
+				padding: 0;
+
+				font-family: fontRegular;
+				font-weight: 100;
+				font-size: 16px;
+				line-height: 22px;
+				color:#5d6770;
+				text-align: left;
+			}
+
+			.mobile-top-contactPage{
+				display: inline-block;
+				position: absolute;
+
+				right: 0;
 				width: 19vw;
 				margin: 0;
 				padding: 0;
@@ -509,54 +539,9 @@
 				font-size: 16px;
 				line-height: 22px;
 				color:#5d6770;
-				text-align: center;
+				text-align: right;
 			}
 
-			.mobile-contactPage{
-				display: inline-block;
-				position:relative;
-
-				width: 19vw;
-				margin: 0;
-				padding: 0;
-
-				font-family: fontRegular;
-				font-weight: 100;
-				font-size: 16px;
-				line-height: 22px;
-				color:#5d6770;
-				text-align: center;
-			}
-
-			.mobile-emailPage{
-				display: inline-block;
-				position:relative;
-
-				width: 19vw;
-				margin: 0;
-
-				font-family: fontRegular;
-				font-weight: 100;
-				font-size: 16px;
-				line-height: 22px;
-				color:#5d6770;
-				text-align: center;
-			}
-
-			.mobile-linkedinPage{
-				display: inline-block;
-				position:relative;
-
-				width: 19vw;
-				margin: 0;
-
-				font-family: fontRegular;
-				font-weight: 100;
-				font-size: 16px;
-				line-height: 22px;
-				color:#5d6770;
-				text-align: center;
-			}
 
 			/* ---------------------------------------- */
 
@@ -606,7 +591,7 @@
 				right: 5vw;
 				width: 90vw;
 
-				top: 100px;
+				top: 110px;
 			}
 
 			/* ---------------------------------------- */
@@ -709,7 +694,86 @@
 				width: 100vw;
 				}
 
+
 			/* ---------------------------------------- */
+
+			.mobile-navigation{
+				display: block;
+				position:relative;
+
+				width: 80vw;
+				margin-left: 10vw;
+				margin-right: 10vw;
+				padding: 0;
+
+				top: 10vh;
+				height: 15vh;
+				z-index: 1;
+			}
+
+			.mobile-aboutPage{
+				display: inline-block;
+				position: relative;
+				width: 19vw;
+				margin: 0;
+				padding: 0;
+
+				font-family: fontRegular;
+				font-weight: 100;
+				font-size: 16px;
+				line-height: 22px;
+				color:#5d6770;
+				text-align: center;
+			}
+
+			.mobile-contactPage{
+				display: inline-block;
+				position:relative;
+
+				width: 19vw;
+				margin: 0;
+				padding: 0;
+
+				font-family: fontRegular;
+				font-weight: 100;
+				font-size: 16px;
+				line-height: 22px;
+				color:#5d6770;
+				text-align: center;
+			}
+
+			.mobile-emailPage{
+				display: inline-block;
+				position:relative;
+
+				width: 19vw;
+				margin: 0;
+
+				font-family: fontRegular;
+				font-weight: 100;
+				font-size: 16px;
+				line-height: 22px;
+				color:#5d6770;
+				text-align: center;
+			}
+
+			.mobile-linkedinPage{
+				display: inline-block;
+				position:relative;
+
+				width: 19vw;
+				margin: 0;
+
+				font-family: fontRegular;
+				font-weight: 100;
+				font-size: 16px;
+				line-height: 22px;
+				color:#5d6770;
+				text-align: center;
+			}
+
+			/* ---------------------------------------- */
+
 
 			#paddingBottom{
 				display: none;
@@ -780,6 +844,20 @@
 						Contact
 					</div>
 				</a>
+			</div>
+
+			<div class="mobile-top-navigation">
+					<a href="about.html">
+						<div class="mobile-top-aboutPage">
+							About
+						</div>
+					</a>
+
+					<a href="contact.html">
+						<div class="mobile-top-contactPage">
+							Contact
+						</div>
+					</a>
 			</div>
 
 
