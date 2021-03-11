@@ -125,7 +125,6 @@
 				right: 200px;
 				margin: 0;
 				padding: 0;
-
 			}
 
 			.aboutPage{
@@ -134,7 +133,6 @@
 				right: 105px;
 				margin: 0;
 				padding: 0;
-
 			}
 
 			.contactPage{
@@ -143,7 +141,18 @@
 				right: 0px;
 				margin: 0;
 				padding: 0;
+			}
 
+			.mobile-navigation{
+				display: none;
+			}
+
+			.mobile-indexPage{
+				display: none;
+			}
+
+			.mobile-aboutPage{
+				display: none;
 			}
 
 			/* ---------------------------------------- */
@@ -208,6 +217,55 @@
 				display: none;
 				}
 
+			/* ---------------------------------------- */
+
+			.mobile-navigation{
+				display: block;
+				position:absolute;
+
+				width: 90vw;
+				margin-left: 5vw;
+				margin-right: 5vw;
+				padding: 0;
+
+				top: 40px;
+				height: 15vh;
+				z-index: 1;
+			}
+
+			.mobile-indexPage{
+				display: inline-block;
+				position: absolute;
+				left: 0;
+				width: 20vw;
+				margin: 0;
+				padding: 0;
+
+				font-family: fontRegular;
+				font-weight: 100;
+				font-size: 16px;
+				line-height: 22px;
+				color:#5d6770;
+				text-align: left;
+			}
+
+			.mobile-aboutPage{
+				display: inline-block;
+				position: absolute;
+
+				right: 0;
+				width: 19vw;
+				margin: 0;
+				padding: 0;
+
+				font-family: fontRegular;
+				font-weight: 100;
+				font-size: 16px;
+				line-height: 22px;
+				color:#5d6770;
+				text-align: right;
+			}
+
 
 
 
@@ -243,6 +301,20 @@
 				</a>
 			</div>
 
+			<div class="mobile-navigation">
+					<a href="index.html">
+						<div class="mobile-indexPage">
+							Main
+						</div>
+					</a>
+
+					<a href="about.html">
+						<div class="mobile-aboutPage">
+							About
+						</div>
+					</a>
+			</div>
+
 							
 				<h1>
 					Thank you for stopping by! </br>
@@ -250,6 +322,9 @@
 					<a href="mailto:createtiff@gmail.com">createtiff@gmail.com</a></br>
 					Or, find me on <a href="https://www.linkedin.com/in/createtiff">LinkedIn</a> or <a href="https://www.instagram.com/cj_tiff/">Instagram</a> 👋
 				</h1>
+
+
+				
 
 
 
