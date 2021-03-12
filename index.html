@@ -9,6 +9,8 @@
 
 		<style>
 
+			/* ----------------- Font ----------------- */
+
 			@font-face {
   			font-family: 'fontRegular';
   			src: url('basiercircle-regular.otf');
@@ -31,6 +33,7 @@
 			}
 
 
+			/* ----------------- Body ----------------- */
 			
 
 			a{
@@ -60,7 +63,7 @@
 				background-size: 100%;
 			}
 
-			/* ---------------------------------------- */
+			/* ----------------- Navigation ----------------- */
 
 			.indexPage{
 				position: absolute;
@@ -96,13 +99,12 @@
 			}
 			
 
-			.worksPage{
+			.workPage{
 				position: absolute;
 				top: 0px;
 				right: 200px;
 				margin: 0;
 				padding: 0;
-
 			}
 
 			.aboutPage{
@@ -111,7 +113,6 @@
 				right: 105px;
 				margin: 0;
 				padding: 0;
-
 			}
 
 			.contactPage{
@@ -120,10 +121,9 @@
 				right: 0px;
 				margin: 0;
 				padding: 0;
-
 			}
 
-			/* ---------------------------------------- */
+			/* ----------------- Mobile Navigation ----------------- */
 
 			.mobile-navigation{
 				display: none;
@@ -157,7 +157,7 @@
 				display: none;
 			}
 
-			/* ---------------------------------------- */
+			/* ----------------- Bottom Navigation ----------------- */
 
 
 			.bottomNavigation{
@@ -214,7 +214,7 @@
 
 			}
 
-			/* ---------------------------------------- */
+			/* ----------------- H tag ----------------- */
 
 
 			h1{
@@ -262,8 +262,7 @@
 			}
 
 
-
-			/* ---------------------------------------- */
+			/* ----------------- Image ----------------- */
 
 			img {
 				 position: absolute;
@@ -271,7 +270,7 @@
 				 width:50vw;
 			}
 
-			/* ---------------------------------------- */
+			/* ----------------- Body ----------------- */
 
 			.container{
 				width:100%;
@@ -291,7 +290,7 @@
 				display: none;
 			}
 
-			/* ---------------------------------------- */
+			/* ----------------- Box 1 ----------------- */
 
 			.box-1{
 				position:absolute;
@@ -317,7 +316,7 @@
 				width: 40vw;
 			}
 
-			/* ---------------------------------------- */
+			/* ----------------- Box 2 ----------------- */
 
 			.box-2{
 				position:absolute;
@@ -345,8 +344,7 @@
 
 			}
 
-
-			/* ---------------------------------------- */
+			/* ----------------- Box 3 ----------------- */
 
 			.box-3{
 				position:absolute;
@@ -371,7 +369,7 @@
 				width: 40vw;
 			}
 
-			/* ---------------------------------------- */
+			/* ----------------- Box 4 ----------------- */
 
 			.box-4{
 				position:absolute;
@@ -398,7 +396,7 @@
 				text-align: right;
 			}
 
-			/* ---------------------------------------- */
+			/* ----------------- Box 5 ----------------- */
 
 			.box-5{
 				position:absolute;
@@ -471,6 +469,15 @@
 				right: 0vw;
 				width: 100vw;
 				font-size: 15px;
+
+				display: none;
+				}
+
+			.workPage{
+				position: absolute;
+				left: 0vw;
+				right: 0vw;
+				width: 100vw;
 
 				display: none;
 				}
@@ -817,8 +824,12 @@
 		</style> 
 	</head>
 
+<!------------------------------------- B O D Y ------------------------------------->
+
 	<body>
 		<p>
+
+<!--------------- Top Navigation ---------------->
 
 			<a href="index.html">
 				<div class="indexPage">
@@ -826,10 +837,12 @@
 				</div>
 			</a>
 
+		<!---------- Navigation ----------->
+
 			<div class="navigationBox">
-				<a href="works.html">
-					<div class="worksPage">
-						
+				<a href="work.html">
+					<div class="workPage">
+						Work
 					</div>
 				</a>
 
@@ -846,140 +859,134 @@
 				</a>
 			</div>
 
-			<div class="mobile-top-navigation">
-					<a href="about.html">
-						<div class="mobile-top-aboutPage">
-							About
-						</div>
-					</a>
+			<!---------- Mobile Navigation ----------->
 
-					<a href="contact.html">
-						<div class="mobile-top-contactPage">
-							Contact
-						</div>
-					</a>
+			<div class="mobile-top-navigation">
+						<a href="about.html">
+							<div class="mobile-top-aboutPage">About</div></a>
+
+						<a href="contact.html">
+							<div class="mobile-top-contactPage">Contact</div></a>
 			</div>
 
 
-
+<!--------------- Body ---------------->
+			
 		<div class="container">
 
-			<div class="title-box-desktop">
-				<h1>
-					Hi, there! 👋</br>
-					I'm <span style="font-family: fontOgg">Tiffany</span>, 
-					a product designer </br>
-					based in <span style="font-family: fontOgg">New York City.</span>
-					
-				</h1>
-			</div>
+			<!---------- Intro ----------->
 
-			<div class="title-box-mobile">
-				<h1>
-					Hi, there! 👋</br>
-					I'm <span style="font-family: fontOgg">Tiffany,</span></br>
-					a product designer</br>
-					based in <span style="font-family: fontOgg">New York City.</span>	
-				</h1>
-			</div>
-				 
+				<div class="title-box-desktop">
+					<h1>
+						Hi, there! 👋</br>
+						I'm <span style="font-family: fontOgg">Tiffany</span>, 
+						a product designer </br>
+						based in <span style="font-family: fontOgg">New York City.</span>
+					</h1>
+				</div>
+
+				<div class="title-box-mobile">
+					<h1>
+						Hi, there! 👋</br>
+						I'm <span style="font-family: fontOgg">Tiffany,</span></br>
+						a product designer</br>
+						based in <span style="font-family: fontOgg">New York City.</span>	
+					</h1>
+				</div>
+
+			<!---------- 1 -----------> 
 			
-			<div class="box-1">
-				<a href="across.html">
-					<div class="image-1">
-						<img src="img/across.jpg">
-					</div>
+				<div class="box-1">
+					<a href="across.html">
+						<div class="image-1">
+							<img src="img/across.jpg">
+						</div>
 
-					<div class="mini-box-1">
-						<h2>Across</h2>
-						<h3>Mobile service</h3>
-					</div>
-				</a>
-			</div>
-			
-			
-
-			
-			<div class="box-2">
-				<a href="weather-now.html">
-					<div class="image-2">
-						<img src="img/weather.jpg">
-					</div>
-
-					<div class="mini-box-2">
-						<h2>Weather Now</h2>
-						<h3>Mobile, Motion Graphics</h3>
-					</div>
-				</a>
-			</div>
-			
-
-			
-			<div class="box-3">
-				<a href="mood.html">
-					<div class="image-3">
-						<img src="img/moodbot.jpg">
-					</div>
-					<div class="mini-box-3">
-						<h2>Moodbot</h2>
-						<h3>Creative Coding</h3>
-					</div>
-				</a>
-			</div>
-
-			<div class="box-4">
-				<a href="quip.html">
-					<div class="image-4">
-						<img src="img/quip.jpg">
-					</div>
-					<div class="mini-box-4">
-						<h2>quip</h2>
-						<h3>Web Design</h3>
-					</div>
-				</a>
-			</div>
-
-			<div class="box-5">
-				<a href="seeds-of-fortune.html">
-					<div class="image-5">
-						<img src="img/seeds-of-fortune.jpg">
-					</div>
-					<div class="mini-box-5">
-						<h2>Seeds of Fortune</h2>
-						<h3>Website UI/UX</h3>
-					</div>
-				</a>
-			</div>
-
-
-			<div class="mobile-navigation">
-					<a href="about.html">
-						<div class="mobile-aboutPage">
-							About
+						<div class="mini-box-1">
+							<h2>Across</h2>
+							<h3>Mobile service</h3>
 						</div>
 					</a>
+				</div>
+			
+			<!---------- 2 -----------> 
 
-					<a href="contact.html">
-						<div class="mobile-contactPage">
-							Contact
+				<div class="box-2">
+					<a href="weather-now.html">
+						<div class="image-2">
+							<img src="img/weather.jpg">
+						</div>
+
+						<div class="mini-box-2">
+							<h2>Weather Now</h2>
+							<h3>Mobile, Motion Graphics</h3>
 						</div>
 					</a>
-
-					<a href="mailto:createtiff@gmail.com">
-						<div class="mobile-emailPage">
-							Email
+				</div>
+			
+			<!---------- 3 -----------> 
+			
+				<div class="box-3">
+					<a href="mood.html">
+						<div class="image-3">
+							<img src="img/moodbot.jpg">
+						</div>
+						<div class="mini-box-3">
+							<h2>Moodbot</h2>
+							<h3>Creative Coding</h3>
 						</div>
 					</a>
+				</div>
 
-					<a href="https://www.linkedin.com/in/createtiff">
-						<div class="mobile-linkedinPage">
-							LinkedIn
+			<!---------- 4 -----------> 
+
+				<div class="box-4">
+					<a href="quip.html">
+						<div class="image-4">
+							<img src="img/quip.jpg">
+						</div>
+						<div class="mini-box-4">
+							<h2>quip</h2>
+							<h3>Web Design</h3>
 						</div>
 					</a>
-			</div>
+				</div>
 
-	</div>
+			<!---------- 5 -----------> 
 
+				<div class="box-5">
+					<a href="seeds-of-fortune.html">
+						<div class="image-5">
+							<img src="img/seeds-of-fortune.jpg">
+						</div>
+						<div class="mini-box-5">
+							<h2>Seeds of Fortune</h2>
+							<h3>Website UI/UX</h3>
+						</div>
+					</a>
+				</div>
+
+
+			<!--------------- Mobile ---------------->
+
+
+				<div class="mobile-navigation">
+						<a href="about.html">
+							<div class="mobile-aboutPage">About</div></a>
+
+						<a href="contact.html">
+							<div class="mobile-contactPage">Contact</div></a>
+
+						<a href="mailto:createtiff@gmail.com">
+							<div class="mobile-emailPage">Email</div></a>
+
+						<a href="https://www.linkedin.com/in/createtiff">
+							<div class="mobile-linkedinPage">LinkedIn</div></a>
+				</div>
+
+		</div>
+
+<!--------------- Bottom Navigation ---------------->
 			
 
 			<div id="paddingBottom">
@@ -987,22 +994,14 @@
 					<div class="bottomNavigation">
 
 						<a href="mailto:createtiff@gmail.com">
-							<div class="emailPage">
-								Email
-							</div>
-						</a>
+							<div class="emailPage">Email</div></a>
 
 						<a href="https://www.linkedin.com/in/createtiff">
-							<div class="linkedinPage">
-								LinkedIn
-							</div>
-						</a>
+							<div class="linkedinPage">LinkedIn</div></a>
 
 						<a href="contact.html">
-							<div class="bottomContactPage">
-								Contact
-							</div>
-						</a>
+							<div class="bottomContactPage">Contact</div></a>
+
 					</div>
 			</div>
 
