@@ -38,90 +38,73 @@
 			}
 
 			body{
-				display: table; 
 				margin: 0;
 				padding: 0;
-				background-color: linear-gradient(45deg, #F8D7D7, #C7ECF2);
-				background-size: 100%;
 			}
 
 			/* ---------------------------------------- */
 
 			h1{
-				display: block;
-
-				text-align: center;
-
 				font-family: fontRegular;
-				font-weight: bolder;
-				font-size: 64px;
-				line-height: 80px;
+				font-size: calc(48px + (64 - 48) * ((100vw - 300px) / (1600 - 300)));
+				line-height: calc(72px + (96 - 72) * ((100vw - 300px) / (1600 - 300)));
 
 				margin-block-start: 0.2em;
     			margin-block-end: 0.2em;
+
+    			color:#000000;
 			}
 
 			h2{
-				display: block;
-
-
-				text-align: center;
-
 				font-family:fontRegular;
 				font-weight: lighter;
 
-				font-size: 20px;
-				line-height: 26px;
+				font-size: calc(24px + (32 - 24) * ((100vw - 300px) / (1600 - 300)));
+				line-height: calc(36px + (48 - 36) * ((100vw - 300px) / (1600 - 300)));
 
 				margin-block-start: 0;
     			margin-block-end: 0;
 
-				color:#778089;
+				color:#000000;
 			}
 
 
 			h3{
-				display: block;
-
-				text-align: center;
-
 				font-family: fontRegular;
-  				font-size: 28px;
-  				line-height: 46px;
+				font-weight: lighter;
+  				font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300)));
+  				line-height: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
 
-				color:#1D1F22;
-				z-index: 1;
+				color:#878787;
 			}
 
-
-
 			h4{
-				z-index: 1;
+				font-family:fontRegular;
+				font-weight: lighter;
 
-				text-align: left;
+				font-size: calc(24px + (32 - 24) * ((100vw - 300px) / (1600 - 300)));
+				line-height: calc(36px + (48 - 36) * ((100vw - 300px) / (1600 - 300)));
 
-				font-family: fontMedium; 
-				font-size: 20px;
-				line-height: 32px;
-				letter-spacing: 0.5px;
-				
-				margin: 0;
-				margin-block-start: 1em;
+				margin-block-start: 0;
+    			margin-block-end: 20px;
 
-				color:#1D1F22;
+				color:#303030;
+			}
 
+			h5{
+				font-family: fontRegular;
+				font-weight: lighter;
+  				font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
+  				line-height: calc(24px + (36 - 24) * ((100vw - 300px) / (1600 - 300)));
+
+				color:#878787;
 			}
 
 
 			p{
-				text-align: left;
-
 				font-family: fontRubik;
-				font-size: 20px;
-				line-height: 32px;
-
-				margin: 0;
-				padding-bottom: 1em;
+				font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300)));
+				line-height: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
 
 				color:#778089;
 			}
@@ -143,7 +126,7 @@
 
 			}
 
-			.navigationBox{
+			.navBox{
 				position: absolute;
 				top: 45px;
 				right: 10vw;
@@ -188,9 +171,433 @@
 			}
 
 			/* ---------------------------------------- */
+
+			.box1{
+				display: block;
+				position: relative;
+				top: 15vw;
+				left: 10vw;
+
+				width:50vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box1space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box2{
+				display: block;
+				position: relative;
+				top: 15vw;
+				left: 10vw;
+
+				width:50vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box2space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box3{
+				display: inline-block;
+				position: relative;
+				top: 15vw;
+				left: 25vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box3-text{
+				display: inline-block;
+				position: relative;
+				top:0;
+				left: 15vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box3space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box4{
+				display: block;
+				position: relative;
+				top: 15vw;
+				left: 0vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.dot1{
+				position: relative;
+				margin-left: 60vw;
+			}
+
+			.dot2{
+				position: relative;
+				margin-top: 100px;
+				margin-left: 40vw;
+			}
+
+
+			.box4space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box5{
+				display: block;
+				position: relative;
+				top: 15vw;
+				left: 20vw;
+
+				width: 60vw;
+				border-radius: 20px;
+				background-color: #F4F5F8;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box5-textbox{
+				display: inline-block;
+				position: relative;
+				width: 40vw;
+				margin-left: 10vw;
+				margin-right: 10vw;
+			}
+
+			.box5space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box6{
+				display: block;
+				position: relative;
+				top: 15vw;
+				left: 0vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box6-text{
+				display: block;
+				position: relative;
+				width: 45vw;
+				top: 0px;
+				margin-top: 50px;
+				left: 27.5vw;
+				text-align: left;
+			}
+
+			.dot3{
+				position: relative;
+				margin-left: 65vw;
+			}
+
+			.box6space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box7{
+				display: block;
+				position: relative;
+				top: 15vw;
+				left: 0vw;
+
+				text-align: center;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box7space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box8{
+				display: block;
+				position: relative;
+				top: 15vw;
+				left: 0vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.dot4{
+				position: relative;
+				margin-left: 45vw;
+			}
+
+			.box8-text{
+				display: block;
+				position: relative;
+
+				left: 30vw;
+				width: 40vw;
+				margin-top: -20px;
+				top: 0;
+
+				padding: 0;
+			}
+
+			.box8space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box9{
+				display: block;
+				position: relative;
+				top: 15vw;
+				left: 20vw;
+
+				width: 60vw;
+				border-radius: 20px;
+				background-color: #F4F5F8;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box9-textbox{
+				display: inline-block;
+				position: relative;
+				width: 35vw;
+				margin-left: 12.5vw;
+				margin-right: 12.5vw;
+			}
+
+			.box9space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box10{
+				display: grid;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box10-textbox1{
+				display: block;
+				position: relative;
+				width: 25vw;
+				height: 150px;
+				left: 25vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box10-textbox2{
+				display: block;
+				position: relative;
+				width: 25vw;
+				height: 150px;
+				left: 50vw;
+				top:-150px;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box10space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box11{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				text-align: center;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box11space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box12{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				text-align: center;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box12space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box13{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				text-align: center;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box13space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+
+			.box-bottom{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 20vh;
+			}
 			
 
 			.bottom-navigation{
+				display: block;
 				position: relative;
 				top: 45px;
 
@@ -243,72 +650,20 @@
 				padding: 0;
 
 			}
-
-			/* ---------------------------------------- */
-
-
-
-			.header{
-				display: block;
-				position: absolute;
-				align-content: center;
-				top: 200px;
-				left: 20vw;
-				width: 60vw;
-			}
-
-			.header-image{
-				display: block;
-				position: absolute;
-				left: 20vw;
-				top: 500px;
-			}
-
-			.project-spec{
-				display: block;
-				position: absolute;
-				top: 1150px;
-				left: 5vw;
-				width: 45vw;
-			}
-
-			.project-narrative{
-				display: block;
-				position: absolute;
-				top: 1150px;
-				right: 5vw;
-				width: 45vw;
-			}
-
-			.linked-project{
-				display: block;
-				position: absolute;
-				top: 2100px;
-				
-			}
-
-			
-			/* ---------------------------------------- */
 			
 
-			#padding-bottom{
-				display: block;
-				position: absolute;
-				top: 3000px;
-				height: 10vw;
-				width: 100vw;
-				background-color: transparent;
-			}
+
 
 			/* ---------------------------------------- */
 
 			iframe{
+				position: relative;
+
+				left: 0vw;
+				width: 80vw;
+
 				margin: 0;
 				padding: 0;
-				
-				position: absolute;
-				left: 10vw;
-				width: 80vw;
 			}
 
 			a{
@@ -330,9 +685,10 @@
 
 		
 			img {
-				display: inline-block;
-				 top: 0vw;
-				 margin: 0;
+
+				top: 0vw;
+				margin: 0;
+				padding: 0;
 				 
 				}
 
@@ -357,7 +713,7 @@
 				font-size: 15px;
 				}
 
-			.navigationBox{
+			.navBox{
 				top: 40px;
 				right: 5vw;
 				width: 200px;
@@ -372,103 +728,6 @@
 				 width:100vw;
 				}
 
-
-			.box-1{
-				left: 5vw;
-				width: 90vw;
-				top: 150px;	
-				height: 200px;
-			}
-
-			.inner-box-1{
-				left: 0vw;
-				width: 90vw;
-			}
-
-
-			h1{
-				font-size: 7vw;
-				line-height: 8vw;
-				}
-
-
-			h2{
-				margin-top: 0px;
-				text-align: center;
-				margin-left: 0px;
-				font-weight: bolder;
-				font-size: 4vw;
-				}
-
-
-			h3{
-				margin-top: 40px;
-				margin-left: 0px;
-				text-align: center;
-				font-weight: lighter;
-				font-size: 4vw;
-				line-height: 6vw
-				}
-
-			h4{
-
-				font-size: 4vw;
-				line-height: 6vw;
-
-				margin-block-start: 5em;
-			}
-
-			.image-wrapper-1{
-				left: 10vw;
-				top: 200px;
-			}
-
-			.box-2{
-				display: block;
-				position: absolute;
-				align-content: center;
-				left: 5vw;
-				width: 90vw;
-				top: 550px;
-			}
-
-			.image-wrapper-2{
-				position: absolute;
-				display: none;
-				left: 0px;
-				top: 500px;
-			}
-
-			.image-mobile{
-				display: block;
-			}
-
-			.box-3{
-				display: block;
-				position: absolute;
-				top: 1300px;
-				left: 5vw;
-				width: 90vw;
-			}
-
-			.box-4{
-				top: 2050px;
-				width: 100vw;
-				left: 0vw;
-			}
-
-			.image-wrapper-4{
-				position: absolute;
-				display: block;
-				left: 0px;
-				top: 180px;
-			}
-
-			.box-5{
-				top: 3100px;
-				width: 100vw;
-				left: 0;
-			}
 
 			#paddingBottom{
 				position: absolute;
@@ -505,137 +764,204 @@
 	<body>
 		<p>
 
-<!--------------- Top Navigation ---------------->
+<!--------------- Top Nav ---------------->
 
 			<a href="index.html">
-				<div class="indexPage">
-					Chanjoo Tiffany Park
-				</div>
-			</a>
+				<div class="indexPage">Chanjoo Tiffany Park</div></a>
 
-		<!---------- Navigation ----------->
+		<!---------- Nav ----------->
 
-			<div class="navigationBox">
+			<div class="navBox">
 				<a href="work.html">
-					<div class="workPage">
-						Work
-					</div>
-				</a>
+					<div class="workPage">Work</div></a>
 
 				<a href="about.html">
-					<div class="aboutPage">
-						About
-					</div>
-				</a>
+					<div class="aboutPage">About</div></a>
 
 				<a href="contact.html">
-					<div class="contactPage">
-						Contact
-					</div>
-				</a>
+					<div class="contactPage">Contact</div></a>
 			</div>
 
 			
 <!--------------- Body ---------------->
 
-		<!---------- Header ----------->
-
-			<div class="header">
+			<div class="box1">
 					<h1>Across</h1>
 
-					<h2>Mobile Service Design</h2>
+					<h2>Mobile application making relocation across countries easier by generating a collection of customized local apps.</h2>
 
-					<h3></h3>
+					<h3>Branding, Digital Product Design</h3>
 			</div>
+			<div class="box1space"></div>
 
-
-		<!---------- Header Image ----------->
-
-			<div class="header-image">
-					<center>
-						<img src="img/across.jpg" style="width:60vw;">
-					</center>
+			<div class="box2">
+					<img src="img/across/across.jpg" 
+					style="width:80vw; border-radius: 20px;">
 			</div>
+			<div class="box2space"></div>
 
-		
-		<!---------- Project Spec ----------->
+			<div class="box3">
+					<img src="img/across/mobile.png" style="width:15vw;">
 
-			<div class="project-spec">
-
-					<h4>Project type</h4>
-					<p>Individual Project</p>
-
-					<h4>Project timeframe</h4>
-					<p>2 month, 2020 Fall</p>
-
-					<h4>Skills</h4>
-					<p>Ideation, Wireframing, Prototype, Visual Design </p>
-
-					<h4>Software used</h4>
-					<p>Figma, Photoshop, Illustrator</p>
-			</div>
-
-
-		<!---------- Project Narrative ----------->
-
-			<div class="project-narrative">
-					<h4>Making relocation easier by gathering local apps in one place</h4>
-
-					</br></br></br>
-
-					<h4>Idea/Question</h4>
-					<p>How can we make relocation easier?</p>
-
-					<h4>Inspiration</h4>
-					<p>Inconvenience while relocating across countries and cities, such as having to do research, adapt, and switch to new systems in order to continue one's way of life.</p>
-
-					<h4>Outcome</h4>
-					<p>A mobile platform that converts applications across different cities, localizing the utility apps from the user's origin city to the destination city. It serves as a switch for applications when relocating, providing a list of applications that delivers the same functionality but adjusted to the local environment. </p>
-
-					<h4>User Persona</h4>
-					<p>
-						• Gen Zs and Millennials, between the ages of 15 to 40</br>
-						• digital nomads</br>
-						• resides in urban settings</br>
-						• Has to relocate across countries and cities due to work or education</br>
+					<div class="box3-text">
+					
+						<h4>Overview</h4>
+						</br>
+						
+						<p>
+						Title</br>
+						Across</br>
+						</br>
+						Type</br>
+						Mobile Service Design</br>
+						</br>
+						Project type</br>
+						Individual Project</br>
+						</br>
+						Project imeframe</br>
+						2 month, 2020 Fall</br>
+						</br>
+						Software used </br>
+						Figma, Photoshop, Illustrator</br>
 					</p>
+					</div>
 			</div>
+			<div class="box3space"></div>
 
+			<div class="box4">
+				<div class="dot1">
+					<img src="img/across/dot1.png" style="width:15vw;">
+				</div>
 
-		<!---------- Project Link ----------->
-
-			<div class="linked-project">
-				<center>
-						<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" left="0" width="50" height="650" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FEeOCQLGPOzerWcygaJ157q%2FAcross%3Fnode-id%3D7%253A105%26viewport%3D176%252C98%252C0.05627958104014397%26scaling%3Dscale-down" allowfullscreen>
-						</iframe>
-				</center>
+				<h2><center>How might we make relocation easier?</center></h2>
+				
+				<div class="dot2">
+					<img src="img/across/dot2.png" style="width:10vw;">
+				</div>
 			</div>
+			<div class="box4space"></div>
+
+			<div class="box5">
+				<h4><center></br>Pain Points</center></h4>
+				<div class="box5-textbox"><h3>
+					</br>
+					➜ Inconvenience while relocating across countries and cities.
+					</br></br>
+
+					➜ Having to research, adapt and switch to new systems in order to continue one's lifestyle when moving to a new country.
+					</br></br>
+
+					➜ Difficulty in keeping up with trends in apps and software platforms when relocating back to origin country.
+					</br></br></br>
+					</h3></div>
+			</div>
+			<div class="box5space"></div>
+
+			<div class="box6">
+				<div class="dot3">
+					<img src="img/across/dot3.png" style="width:10vw;">
+				</div>
+				<div class="box6-text">
+					<h5>I want a service that can help me easily switch mobile platforms based on location when I move back and forth between different cities!</h5>
+				</div>
+			</div>
+			<div class="box6space"></div>
+
+			<div class="box7">
+				<img src="img/across/mobile.png" style="width:25vw;">
+			</div>
+			<div class="box7space"></div>
+
+			<div class="box8">
+				<div class="dot4">
+					<img src="img/across/dot4.png" style="width:10vw;">
+				</div>
+				<h4><center></br>Outcome</center></h4>
+				<div class="box8-text">
+					<h5>A mobile platform that serves as a switch for applications when relocating, generating a collection of customized local apps.</h5>
+				</div>
+			</div>
+			<div class="box8space"></div>
+
+			<div class="box9">
+				<h4><center></br>Key Features</center></h4>
+
+				<div class="box9-textbox"><h3>
+					</br>
+					1. converts applications across different cities
+					</br></br>
+
+					2. localizes utility apps from user's origin city to destination city
+					</br></br>
+
+					3. provides a list of applications that delivers the similar service
+					</br></br>
+
+					4. generates according to the user’s habits prior to relocating
+					</br></br></br>
+					</h3></div>
+			</div>
+			<div class="box9space"></div>
+
+			<div class="box10">
+				<h4><center>User Persona</center></h4>
+
+				<div class="box10-textbox1"><h3>
+					   Demographical User Groups</br></br>
+
+						•  Gen Zs and Millennials</br>
+						•  Digital nomads</br>
+						•  Expatriates residing in metropolis</br>
+						•  Exchange/study abroad students</br>
+						•  International students</br>
+						•  Buyer or merchant</br>
+						•  International business person</br>
+				</h3></div>
+
+				<div class="box10-textbox2"><h3>
+					   Traits</br></br>
+
+						•  Has to relocate across countries and cities due to work or education</br>
+						•  visiting a different country for a certain period</br>
+				</h3></div>
+			</div>
+			<div class="box10space"></div>
+
+			<div class="box11">
+				<h4>Branding</h4>
+				<img src="img/across/branding.png" style="width:70vw;">
+			</div>
+			<div class="box11space"></div>
+
+			<div class="box12">
+				<h4>Logo</h4>
+				<img src="img/across/icon.png" style="width:20vw;">
+			</div>
+			<div class="box12space"></div>
+
+			<div class="box13">
+				<h4>Interactive Prototype</h4>
+				<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" left="0" width="50" height="650" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FEeOCQLGPOzerWcygaJ157q%2FAcross%3Fnode-id%3D7%253A105%26viewport%3D176%252C98%252C0.05627958104014397%26scaling%3Dscale-down" allowfullscreen></iframe>
+			</div>
+			<div class="box13space"></div>
+		
 
 
 
 <!--------------- Bottom Navigation ---------------->
 
-			<div id="padding-bottom">
+			<div class="box-bottom">
 
 					<div class="bottom-navigation">
 
 						<a href="mailto:createtiff@gmail.com">
-							<div class="email-page">
-								Email
-							</div>
-						</a>
+							<div class="email-page">Email</div></a>
 
 						<a href="https://www.linkedin.com/in/createtiff">
-							<div class="linkedin-page">
-								LinkedIn
-							</div>
-						</a>
+							<div class="linkedin-page">LinkedIn</div></a>
 
 						<a href="contact.html">
-							<div class="bottom-contact-page">
-								Contact
-							</div>
-						</a>
+							<div class="bottom-contact-page">Contact</div></a>
 					</div>
 			</div>
 

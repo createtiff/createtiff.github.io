@@ -53,14 +53,14 @@
 			/* ---------------------------------------- */
 
 			img {
-				 position: absolute;
-				 top: 0px;
-				 width:80vw;
+				width:80vw;
+				top: 0vw;
+				margin: 0;
+				padding: 0;
+				filter: brightness(0.5);
 			}
 
-			img:hover{
-				filter: brightness(0.6);
-			}
+			
 
 			/* ---------------------------------------- */
 			
@@ -77,45 +77,27 @@
 
 
 			h2{
-				position: relative;
-
-				margin-top: 20%;
-				margin-left: 0px;
-				left: 0;
-
-				width:80vw;
-
-				text-align: center;
-
 				font-family: fontRegular;
 				font-weight: lighter;
 
-				font-size: 4vw;
-				line-height: 5vw;
+				font-size: calc(48px + (64 - 48) * ((100vw - 300px) / (1600 - 300)));
+				line-height: calc(72px + (96 - 72) * ((100vw - 300px) / (1600 - 300)));
+				margin-block-end: -0.2em;
 
 				color:#FFFFFF;
+				text-align: center;
 			}
 
 
 			h3{
-				
-				position: relative;
-
-				margin-top: -3%;
-				margin-left: 0px;
-				left: 0;
-
-				width:80vw;
-
-				text-align: center;
-
 				font-family:fontRegular;
 				font-weight: lighter;
 
-				font-size: 20px;
-				line-height: 20px;
+				font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
+  				line-height: calc(24px + (36 - 24) * ((100vw - 300px) / (1600 - 300)));
 
 				color:#E4E3EB;
+				text-align: center;
 			}
 
 
@@ -294,179 +276,217 @@
 			/* ---------------------------------------- */
 
 			.box-1{
-				position:absolute;
-				display:block;
-				top: 200px;	
-				width: 100vw;
-				height: 90vh;
-
-			}
-
-			.image-1{
-				position:absolute;
 				display: block;
-				top: 0;
-				left: 10vw;
-			}
+				position: relative;
+				top: 15vw;
+				left: 0;
 
-			.image-1:hover + .mini-box-1{
-				display: block;
-			}
+				width:100vw;
 
-			.mini-box-1{
-				position: absolute;
-				display: none;
-				top: 0;	
-				left: 10vw;
-				width: 80vw;
-				padding: 0;
 				margin: 0;
+				padding: 0;
+			}
+
+			.box1-text{
+				position: absolute;
+				top: 15vw;
+				width: 100vw;
+				text-align: center;
+			}
+
+			.box1-text:hover{
+				opacity: 0;
+			}
+
+
+			.box1space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
 			}
 
 			/* ---------------------------------------- */
 
 			.box-2{
-				position:absolute;
-				display:block;
-				top: 800px;	
-				width: 100vw;
-				height: 90vh;
-			}
-
-			.image-2{
-				position: absolute;
 				display: block;
-				top: 0vh;
-				left: 10vw;
-			}
+				position: relative;
+				top: 15vw;
+				left: 0;
 
-			.image-2:hover + .mini-box-2{
-				display: block;
-			}
+				width:100vw;
 
-			.mini-box-2{
-				position: absolute;
-				display: none;
-				top: 0;	
-				left: 10vw;
-				width: 80vw;
-				padding: 0;
 				margin: 0;
+				padding: 0;
+			}
 
+			.box2-text{
+				position: absolute;
+				top: 15vw;
+				width: 100vw;
+				text-align: center;
+			}
+
+			.box2-text:hover{
+				opacity: 0;
+			}
+
+
+			.box2space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
 			}
 
 
 			/* ---------------------------------------- */
 
 			.box-3{
-				position:absolute;
-				display:block;
-				top: 1400px;	
-				width: 100vw;
-				height: 90vh;
-			}
-
-			.image-3{
-				position: absolute;
 				display: block;
-				top: 0vh;
-				left: 10vw;
-			}
+				position: relative;
+				top: 15vw;
+				left: 0;
 
-			.image-3:hover + .mini-box-3{
-				display: block;
-			}
+				width:100vw;
 
-			.mini-box-3{
-				position: absolute;
-				display: none;
-				top: 0;	
-				left: 10vw;
-				width: 80vw;
-				padding: 0;
 				margin: 0;
+				padding: 0;
+			}
+
+			.box3-text{
+				position: absolute;
+				top: 15vw;
+				width: 100vw;
+				text-align: center;
+			}
+
+			.box3-text:hover{
+				opacity: 0;
+			}
+
+
+			.box3space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
 			}
 
 			/* ---------------------------------------- */
 
 			.box-4{
-				position:absolute;
-				display:block;
-				top: 2000px;	
-				width: 100vw;
-				height: 90vh;
-			}
-
-			.image-4{
-				position: absolute;
 				display: block;
-				top: 0vh;
-				left: 10vw;
-			}
+				position: relative;
+				top: 15vw;
+				left: 0;
 
-			.image-4:hover + .mini-box-4{
-				display: block;
-			}
+				width:100vw;
 
-			.mini-box-4{
-				position: absolute;
-				display: none;
-				top: 0;	
-				left: 10vw;
-				width: 80vw;
-				padding: 0;
 				margin: 0;
+				padding: 0;
+			}
+
+			.box4-text{
+				position: absolute;
+				top: 15vw;
+				width: 100vw;
+				text-align: center;
+			}
+
+			.box4-text:hover{
+				opacity: 0;
+			}
+
+
+			.box4space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
 			}
 
 			/* ---------------------------------------- */
 
 			.box-5{
-				position:absolute;
-				display:block;
-				top: 2600px;	
-				width: 100vw;
-				height: 90vh;
-			}
-
-			.image-5{
-				position: absolute;
 				display: block;
-				top: 0vh;
-				left: 10vw;
-			}
+				position: relative;
+				top: 15vw;
+				left: 0;
 
-			.image-5:hover + .mini-box-5{
-				display: block;
-			}
+				width:100vw;
 
-			.mini-box-5{
-				position: absolute;
-				display: none;
-				top: 0;	
-				left: 10vw;
-				width: 80vw;
-				padding: 0;
 				margin: 0;
+				padding: 0;
 			}
 
-			/* ---------------------------------------- */
-
-			#paddingBottom{
+			.box5-text{
 				position: absolute;
-				top: 3300px;	
-				height: 200px;
+				top: 15vw;
 				width: 100vw;
-				left: 0px;
+				text-align: center;
+			}
+
+			.box5-text:hover{
+				opacity: 0;
+			}
+
+
+			.box5space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box-bottom{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 20vh;
 			}
 
 			/* ---------------------------------------- */
-			/* ---------------------------------------- */
+
 
 			@media only screen and (max-width: 1025px) {
 
 			}
 		
-			/* ---------------------------------------- */
+
 			/* ---------------------------------------- */
 
 
@@ -570,16 +590,6 @@
 
 
 			/* ---------------------------------------- */
-
-
-			h2{
-				font-size: 24px;
-				}
-
-
-			h3{
-				font-size: 16px;
-				}
 
 
 			img{
@@ -770,7 +780,7 @@
 			/* ---------------------------------------- */
 
 
-			#paddingBottom{
+			#box-bottom{
 				display: none;
 				position: absolute;
 				top: 2900px;	
@@ -865,78 +875,88 @@
 <!--------------- Content ---------------->
 
 		<div class="container">
-		
-			<!--------------- 1 ---------------->		 
+				 
 			
-			<div class="box-1">
+			<div class="box-1"><center>
 				<a href="across.html">
-					<div class="image-1">
-						<div class="image-hover-1"></div>
-						<img src="img/across.jpg">
-					</div>
-
-					<div class="mini-box-1">
-						<h2>Across</h2>
-						<h3>Mobile service</h3>
-					</div>
+						<img src="img/across/across.jpg">
+						<div class="box1-text">
+							<h2>Across</h2>
+							<h3>Mobile service</h3>
+						</div>
 				</a>
-			</div>
+			</center></div>
+			<div class="box1space"></div>
+	
 			
-			<!--------------- 2 ---------------->	
-			
-			<div class="box-2">
+			<div class="box-2"><center>
 				<a href="weather-now.html">
-					<div class="image-2">
 						<img src="img/weather.jpg">
-					</div>
-
-					<div class="mini-box-2">
-						<h2>Weather Now</h2>
-						<h3>Mobile, Motion Graphics</h3>
-					</div>
+						<div class="box2-text">
+							<h2>Weather Now</h2>
+							<h3>Mobile, Motion Graphics</h3>
+						</div>
 				</a>
-			</div>
-			
-			<!--------------- 3 ---------------->
-			
-			<div class="box-3">
+			</center></div>
+			<div class="box2space"></div>
+
+
+			<div class="box-3"><center>
 				<a href="mood.html">
-					<div class="image-3">
 						<img src="img/moodbot.jpg">
-					</div>
-					<div class="mini-box-3">
-						<h2>Moodbot</h2>
-						<h3>Creative Coding</h3>
-					</div>
+						<div class="box3-text">
+							<h2>Moodbot</h2>
+							<h3>Creative Coding</h3>
+						</div>
 				</a>
-			</div>
+			</center></div>
+			<div class="box3space"></div>
 
-			<!--------------- 4 ---------------->
 
-			<div class="box-4">
+			<div class="box-4"><center>
 				<a href="quip.html">
-					<div class="image-4">
 						<img src="img/quip.jpg">
-					</div>
-					<div class="mini-box-4">
-						<h2>quip</h2>
-						<h3>Web Design</h3>
-					</div>
+						<div class="box4-text">
+							<h2>quip</h2>
+							<h3>Web Design</h3>
+						</div>
 				</a>
-			</div>
+			</center></div>
+			<div class="box4space"></div>
 
-			<!--------------- 5 ---------------->
 
-			<div class="box-5">
+			<div class="box-5"><center>
 				<a href="seeds-of-fortune.html">
-					<div class="image-5"><img src="img/seeds-of-fortune.jpg"></div>
-
-					<div class="mini-box-5">
-						<h2>Seeds of Fortune</h2>
-						<h3>Website UI/UX</h3>
-					</div>
+						<img src="img/seeds-of-fortune.jpg">
+						<div class="box5-text">
+							<h2>Seeds of Fortune</h2>
+							<h3>Website UI/UX</h3>
+						</div>
 				</a>
+			</center></div>
+			<div class="box5space"></div>
+
+			<!--------------- Desktop ---------------->
+
+
+			<div class="box-bottom">
+
+					<div class="bottomNavigation">
+
+						<a href="mailto:createtiff@gmail.com">
+							<div class="emailPage">Email</div></a>
+
+						<a href="https://www.linkedin.com/in/createtiff">
+							<div class="linkedinPage">LinkedIn</div></a>
+
+						<a href="contact.html">
+							<div class="bottomContactPage">Contact</div></a>
+
+					</div>
 			</div>
+
+			
+			
 
 <!--------------- Bottom Navigation ---------------->
 
@@ -961,25 +981,7 @@
 	</div>
 
 
-			<!--------------- Desktop ---------------->
-
-
-			<div id="paddingBottom">
-
-					<div class="bottomNavigation">
-
-						<a href="mailto:createtiff@gmail.com">
-							<div class="emailPage">Email</div></a>
-
-						<a href="https://www.linkedin.com/in/createtiff">
-							<div class="linkedinPage">LinkedIn</div></a>
-
-						<a href="contact.html">
-							<div class="bottomContactPage">Contact</div></a>
-
-					</div>
-			</div>
-
+			
 
 		</p>
 	</body>
