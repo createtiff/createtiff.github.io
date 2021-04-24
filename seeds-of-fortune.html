@@ -44,81 +44,67 @@
 
 			/* ---------------------------------------- */
 
-
 			h1{
-				display: block;
-
-				text-align: center;
-
 				font-family: fontRegular;
-				font-weight: bolder;
-				font-size: 64px;
-				line-height: 80px;
+				font-size: calc(48px + (64 - 48) * ((100vw - 300px) / (1600 - 300)));
+				line-height: calc(72px + (96 - 72) * ((100vw - 300px) / (1600 - 300)));
 
 				margin-block-start: 0.2em;
     			margin-block-end: 0.2em;
+
+    			color:#000000;
 			}
 
-
 			h2{
-				display: block;
-
-
-				text-align: center;
-
 				font-family:fontRegular;
 				font-weight: lighter;
 
-				font-size: 20px;
-				line-height: 26px;
+				font-size: calc(24px + (32 - 24) * ((100vw - 300px) / (1600 - 300)));
+				line-height: calc(36px + (48 - 36) * ((100vw - 300px) / (1600 - 300)));
 
 				margin-block-start: 0;
     			margin-block-end: 0;
 
-				color:#778089;
+				color:#000000;
 			}
 
 
 			h3{
-				display: block;
-
-				text-align: center;
-
 				font-family: fontRegular;
-  				font-size: 28px;
-  				line-height: 46px;
+				font-weight: lighter;
+  				font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300)));
+  				line-height: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
 
-				color:#1D1F22;
-				z-index: 1;
+				color:#878787;
 			}
 
 			h4{
-				z-index: 1;
+				font-family:fontRegular;
+				font-weight: lighter;
 
-				text-align: left;
+				font-size: calc(24px + (32 - 24) * ((100vw - 300px) / (1600 - 300)));
+				line-height: calc(36px + (48 - 36) * ((100vw - 300px) / (1600 - 300)));
 
-				font-family: fontMedium; 
-				font-size: 20px;
-				line-height: 32px;
-				letter-spacing: 0.5px;
-				
-				margin: 0;
-				margin-block-start: 1em;
+				margin-block-start: 0;
+    			margin-block-end: 20px;
 
-				color:#1D1F22;
+				color:#303030;
+			}
 
+			h5{
+				font-family: fontRegular;
+				font-weight: lighter;
+  				font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
+  				line-height: calc(24px + (36 - 24) * ((100vw - 300px) / (1600 - 300)));
+
+				color:#878787;
 			}
 
 
 			p{
-				text-align: left;
-
 				font-family: fontRubik;
-				font-size: 20px;
-				line-height: 32px;
-
-				margin: 0;
-				padding-bottom: 1em;
+				font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300)));
+				line-height: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
 
 				color:#778089;
 			}
@@ -140,7 +126,7 @@
 
 			}
 
-			.navigationBox{
+			.navBox{
 				position: absolute;
 				top: 45px;
 				right: 10vw;
@@ -185,9 +171,343 @@
 			}
 
 			/* ---------------------------------------- */
+
+			.box1{
+				display: block;
+				position: relative;
+				top: 15vw;
+				left: 10vw;
+
+				width:50vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box1space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box2{
+				display: block;
+				position: relative;
+				top: 15vw;
+				left: 10vw;
+
+				width:50vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box2space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box3{
+				display: inline-block;
+				position: relative;
+				top: 10vw;
+				left: 20vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box3-text{
+				display: inline-block;
+				position: relative;
+				top:0;
+				left: 10vw;
+
+				top: 100px;
+				margin: 0;
+				padding: 0;
+			}
+
+			.box3space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box4{
+				display: block;
+				position: relative;
+				top: 15vw;
+				left: 0vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box4-textbox{
+				display: inline-block;
+				position: relative;
+				top: 0vw;
+				left: 20vw;
+				width: 50vw;
+				border-radius: 20px;
+				border-style: solid;
+ 				border-color: #F4F5F8;
+ 				border-width: 2px;
+
+				margin: 0;
+				padding: 5vw;
+
+				text-align: left;
+			}
+
+			.box4-title-1{
+				display: block;
+				position: relative;
+				
+				margin-top: 50px;
+				margin: 0;
+				left: 10vw;
+			}
+
+			.box4-text-1{
+				display: block;
+				position: absolute;
+
+				top: 0px;
+				margin: 0;
+				left: 10vw;
+				width: 25vw;
+			}	
+
+			.box4-title-2{
+				display: block;
+				position: relative;
+				
+				margin-top: 50px;
+				margin: 0;
+				left: 10vw;
+			}
+			
+			.box4-text-2{
+				display: block;
+				position: absolute;
+
+				top: 0px;
+				margin: 0;
+				left: 10vw;
+				width: 25vw;
+			}
+
+			.box4-title-3{
+				display: block;
+				position: relative;
+				
+				margin-top: 50px;
+				margin: 0;
+				left: 10vw;
+			}
+			
+			.box4-text-3{
+				display: block;
+				position: absolute;
+
+				top: 0px;
+				margin: 0;
+				left: 10vw;
+				width: 25vw;
+			}
+
+
+			.box4space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 20vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box5{
+				display: block;
+				position: relative;
+				top: 15vw;
+				left: 0vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box5-1{
+				display: inline-block;
+				position: relative;
+				top: 0vw;
+				left: 0vw;
+				width: 50vw;
+				border-radius: 20px;
+				border-style: solid;
+ 				border-color: #F4F5F8;
+ 				border-width: 2px;
+
+				margin: 0;
+				padding: 5vw 5vw 0vw 5vw;
+
+				text-align: left;
+			}
+
+			.box5-1-title{
+				display: inline-block;
+				position: absolute;
+
+				margin: 0;
+				left: 10vw;
+			}
+
+			.box5-1-text{
+				display: inline-block;
+				position: absolute;
+
+				margin: 0;
+				left: 25vw;
+				width: 25vw;
+			}
+
+			.box5space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 20vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box6{
+				display: block;
+				position: relative;
+				top: 15vw;
+				left: 0vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box6-text{
+				display: block;
+				position: relative;
+				width: 45vw;
+				top: 0px;
+				margin-top: 50px;
+				left: 27.5vw;
+				text-align: left;
+			}
+
+			.box6space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box7{
+				display: block;
+				position: relative;
+				top: 15vw;
+				left: 0vw;
+
+				text-align: center;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box7space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 20vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box8{
+				display: block;
+				position: relative;
+				top: 15vw;
+				left: 0vw;
+
+				text-align: center;
+
+				margin: 0;
+				padding: 0;
+			}
+
+			.box8space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+			}
+
+
+			.box-bottom{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 20vh;
+			}
 			
 
 			.bottom-navigation{
+				display: block;
 				position: relative;
 				top: 45px;
 
@@ -240,90 +560,21 @@
 				padding: 0;
 
 			}
-
-			/* ---------------------------------------- */
-
-
-			.header{
-				display: block;
-				position: absolute;
-				align-content: center;
-				left: 25vw;
-				width: 50vw;
-				top: 200px;
-			}
-
-			.header-image{
-				position: absolute;
-				left: 20vw;
-				top: 500px;
-			}
-
-			.project-spec{
-				display: block;
-				position: absolute;
-				top: 1150px;
-				left: 5vw;
-				width: 45vw;
-			}
-
-			.project-narrative{
-				display: block;
-				position: absolute;
-				top: 1150px;
-				right: 5vw;
-				width: 45vw;
-			}
-
-			.linked-project{
-				display: block;
-				position: relative;
-				top: 400px;
-				
-			}
-
-			/* ---------------------------------------- */
 			
 
-			#padding-bottom{
-				display: block;
-				position: absolute;
-				top: 3000px;
-				height: 10vw;
+
+
+			/* ---------------------------------------- */
+
+			iframe{
+				position: relative;
+
+				left: 0vw;
 				width: 100vw;
-				background-color: transparent;
+
+				margin: 0;
+				padding: 0;
 			}
-
-			/* ---------------------------------------- */
-
-
-
-
-			.linkToWinAMood{
-				position: relative;
-				top: 14vw;
-				text-align: center;
-				font-family: fontRegular;
-				font-size: 20px;
-				line-height: 26px;
-				color:blue;
-			}
-
-
-			.bodytext{
-				position: absolute;
-				font-family: fontRegular;
-				font-size: 20px;
-				line-height: 28px;
-				color:#778089;
-				top: 39vw;
-				margin-left: 28vw;
-				margin-right: 28vw;
-			}
-
-
-
-			
 
 			a{
 				text-decoration: none;
@@ -342,31 +593,20 @@
 				color: inherit;
 			}
 
-
 		
 			img {
-				 position: absolute;
-				 top: 0px;
-				 width:60vw;
-			}
 
-			iframe{
+				top: 0vw;
 				margin: 0;
 				padding: 0;
-				padding-top: 100vw;
-			}
-
-
+				 
+				}
 
 			/* ---------------------------------------- */
 
-			#paddingBottom{
-				position: absolute;
-				top: 100vw;
-				height: 20vw;
-				width: 100vw;
-				background-color: transparent;
-			}
+
+			
+			
 
 			@media only screen and (max-width: 1025px) {
 
@@ -383,7 +623,7 @@
 				font-size: 15px;
 				}
 
-			.navigationBox{
+			.navBox{
 				top: 40px;
 				right: 5vw;
 				width: 200px;
@@ -399,45 +639,9 @@
 				}
 
 
-			.box-1{
-				left: 5vw;
-				width: 90vw;
-				top: 150px;	
-				height: 200px;
-			}
-
-			h1{
-				font-size: 7vw;
-				line-height: 8vw;
-				}
-
-
-			h2{
-				margin-top: 0px;
-				text-align: center;
-				margin-left: 0px;
-				font-weight: bolder;
-				font-size: 4vw;
-				}
-
-
-			h3{
-				margin-top: 40px;
-				margin-left: 0px;
-				text-align: left;
-				font-weight: lighter;
-				font-size: 4vw;
-				line-height: 6vw
-				}
-
-			.frame-1{
-				position: relative;
-				top: 360px;
-				}
-
 			#paddingBottom{
 				position: absolute;
-				top: 1200px;	
+				top: 4000px;	
 				height: 150px;
 				width: 100vw;
 				}
@@ -460,6 +664,8 @@
 
 			}
 
+			
+
 		</style> 
 	</head>
 
@@ -468,121 +674,180 @@
 	<body>
 		<p>
 
-<!--------------- Top Navigation ---------------->
+<!--------------- Top Nav ---------------->
 
 			<a href="index.html">
-				<div class="indexPage">
-					Chanjoo Tiffany Park
-				</div>
-			</a>
+				<div class="indexPage">Chanjoo Tiffany Park</div></a>
 
-		<!---------- Navigation ----------->
+		<!---------- Nav ----------->
 
-			<div class="navigationBox">
+			<div class="navBox">
 				<a href="work.html">
-					<div class="workPage">
-						Work
-					</div>
-				</a>
+					<div class="workPage">Work</div></a>
 
 				<a href="about.html">
-					<div class="aboutPage">
-						About
-					</div>
-				</a>
+					<div class="aboutPage">About</div></a>
 
 				<a href="contact.html">
-					<div class="contactPage">
-						Contact
-					</div>
-				</a>
+					<div class="contactPage">Contact</div></a>
 			</div>
 
-
+			
 <!--------------- Body ---------------->
 
-		<!---------- Header ----------->
-
-			<div class="header">
+			<div class="box1">
 					<h1>Seeds of Fortune</h1>
-				
-					<h2>Website UI/UX</h2>
 
-					<h3></h3>
+					<h2>Website redesign for a nonprofit scholarship organization and educational platform dedicated to financially empowering young women of color.</h2>
+
+					<h3>Responsive website, UI/UX</h3>
 			</div>
+			<div class="box1space"></div>
 
-		<!---------- Header Image ----------->
-
-			<div class="header-image">
-					<img src="img/seeds-of-fortune.jpg">
+			<div class="box2">
+					<img src="img/seeds/seeds-of-fortune.jpg"
+					style="width:80vw; border-radius: 20px;">
 			</div>
+			<div class="box2space"></div>
 
+			<div class="box3">
+					<img src="img/seeds/overview.png"
+					style="width:25vw;">
 
-		<!---------- Project Spec ----------->
-
-			<div class="project-spec">
-					<h4>Project type</h4>
-					<p>Internship/Client Project, Team Project</p>
-
-					<h4>Role</h4>
-					<p>Creative Direction, Designer</p>
-
-					<h4>Project timeframe</h4>
-					<p>1 month, 2020 Summer</p>
-
-					<h4>Skills</h4>
-					<p>Wireframing, UI/UX, Visual Design</p>
-
-					<h4>Software used</h4>
-					<p>Sketch, Illustrator, Photoshop, Miro, Invision</p>
+					<div class="box3-text">
+					
+						<h4>Overview</h4>
+						</br>
+						
+						<p>
+						<span style="font-weight: 600; color:#222222;">Project type</span></br>
+						Team - Internship/Client Project</br>
+						</br>
+						<span style="font-weight: 600; color:#222222;">Project timeframe</span></br>
+						1 month, 2020 Summer</br>
+						</br>
+						<span style="font-weight: 600; color:#222222;">Role</span></br>
+						Creative Direction, Designer</br>
+						</br>
+						<span style="font-weight: 600; color:#222222;">Skills used</span></br>
+						Wireframing, UI/UX, Visual Design</br>
+						</br>
+						<span style="font-weight: 600; color:#222222;">Softwares used</span></br>
+						Sketch, Illustrator, Photoshop, Miro, Invision</br>
+						</p>
+					</div>
 			</div>
+			<div class="box3space"></div>
 
+			<div class="box4">
+					<h4><center>Organization Values</center></h4>
+					<div class="box4-textbox">
+					<h3>
+						<div class="box4-title-1">
+							Mission
+							<div class="box4-text-1">
+							Helping young women of color obtain local and national scholarships.
+							</div>
+						</div>
+						
+						</br></br>
 
-		<!---------- Project Narrative ----------->
+						<div class="box4-title-2">
+							Vision
+							<div class="box4-text-2">
+							Planting seeds of economic empowerment.
+							</div>
+						</div>
+						
+						</br></br>
 
-			<div class="project-narrative">
-					<h4>Website redesign for Seeds of Fortune, a nonprofit scholarship program and ed tech platform dedicated to financially empowering young women of color and helping them secure scholarships for college.</h4>
+						<div class="box4-title-3">
+							Values
+							<div class="box4-text-3">
+							• Togetherness</br>
+							• Empowering</br>
+							• Simple</br>
+							• Fun</br>
+							</div>
+						</div>
 
-					<p></p>
+						</br></br>
+						
+					</h3>
+					</div>
 			</div>
+			<div class="box4space"></div>
 
-		<!---------- Project Link ----------->
-
-			<div class="linked-project">
+			<div class="box5">
 				<center>
+					<h4>User Persona</h4>
+					<h3>
+						<div class="box5-1">
+							<div class="box5-1-title">
+							Women of color
+							</div>
+							<div class="box5-1-text">
+								• young women of color</br>
+								• black and latino high school students</br>
+								• currently in preparation for college</br>
+								• is in seek of learning career and financial management skills</br>
+							</div>
+
+						</br></br></br>
+
+							<img src="img/seeds/persona.png"
+							style="position: relative; margin-left: 5vw; width:10vw;">
+						</div>
+					</h3>
+				</center>
+			</div>
+			<div class="box5space"></div>
+
+			<div class="box6">
+				<center>
+					<h4>Information Architecture</h4>
+					<img src="img/seeds/i-a.png"
+					style="width:100vw;">
+				</center>
+			</div>
+			<div class="box6space"></div>
+
+			<div class="box7">
+				<center>
+					<h4>Branding</h4>
+					<img src="img/seeds/branding.png"
+					style="width:70vw;">
+				</center>
+			</div>
+			<div class="box7space"></div>
+
+			<div class="box8">
+				<center>
+					<h4>Website Embedded</h4>
 					<iframe width="90%" height="700" src="https://www.seedsoffortune.org/" frameborder="0" allowfullscreen></iframe>
 				</center>
 			</div>
-
+			<div class="box8space"></div>
+		
 
 
 
 <!--------------- Bottom Navigation ---------------->
 
-			<div id="padding-bottom">
+			<div class="box-bottom">
 
 					<div class="bottom-navigation">
 
 						<a href="mailto:createtiff@gmail.com">
-							<div class="email-page">
-								Email
-							</div>
-						</a>
+							<div class="email-page">Email</div></a>
 
 						<a href="https://www.linkedin.com/in/createtiff">
-							<div class="linkedin-page">
-								LinkedIn
-							</div>
-						</a>
+							<div class="linkedin-page">LinkedIn</div></a>
 
 						<a href="contact.html">
-							<div class="bottom-contact-page">
-								Contact
-							</div>
-						</a>
+							<div class="bottom-contact-page">Contact</div></a>
 					</div>
 			</div>
-
 
 
 		</p>
