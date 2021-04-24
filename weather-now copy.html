@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Weather Now</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+		<style>
+
+			@font-face {
+  			font-family: 'fontRegular';
+  			src: url('basiercircle-regular.otf');
+  			font-weight: normal;
+    		font-style: normal;
+			}
+
+			@font-face {
+  			font-family: 'fontMedium';
+  			src: url('BasierCircle-Medium.ttf');
+  			font-weight: normal;
+    		font-style: normal;
+			}
+
+			@font-face {
+  			font-family: 'fontRubik';
+  			src: url('Rubik-Light.ttf');
+  			font-weight: normal;
+    		font-style: normal;
+			}
+
+			@font-face {
+  			font-family: 'fontOgg';
+  			src: url('ogg-roman.otf');
+  			font-weight: normal;
+    		font-style: normal;
+			}
+
+			body{
+				margin: 0;
+				padding: 0;
+			}
+
+			/* ---------------------------------------- */
+
+
+			h1{
+				display: block;
+
+				text-align: center;
+
+				font-family: fontRegular;
+				font-weight: bolder;
+				font-size: 64px;
+				line-height: 80px;
+
+				margin-block-start: 0.2em;
+    			margin-block-end: 0.2em;
+			}
+
+			h2{
+				display: block;
+
+
+				text-align: center;
+
+				font-family:fontRegular;
+				font-weight: lighter;
+
+				font-size: 20px;
+				line-height: 26px;
+
+				margin-block-start: 0;
+    			margin-block-end: 0;
+
+				color:#778089;
+			}
+
+
+			h3{
+				display: block;
+
+				text-align: center;
+
+				font-family: fontRegular;
+  				font-size: 28px;
+  				line-height: 46px;
+
+				color:#1D1F22;
+				z-index: 1;
+			}
+
+
+			h4{
+				z-index: 1;
+
+				text-align: left;
+
+				font-family: fontMedium; 
+				font-size: 20px;
+				line-height: 32px;
+				letter-spacing: 0.5px;
+				
+				margin: 0;
+				margin-block-start: 1em;
+
+				color:#1D1F22;
+
+			}
+
+
+			p{
+				text-align: left;
+
+				font-family: fontRubik;
+				font-size: 20px;
+				line-height: 32px;
+
+				margin: 0;
+				padding-bottom: 1em;
+
+				color:#778089;
+			}
+
+
+			/* ---------------------------------------- */
+
+			.indexPage{
+				position: absolute;
+				top: 45px;
+				left: 10vw;
+				margin: 0;
+				padding: 0;
+				font-family: fontRegular;
+				font-weight: 100;
+				font-size: 18px;
+				line-height: 22px;
+				color:#5d6770;
+
+			}
+
+			.navigationBox{
+				position: absolute;
+				top: 45px;
+				right: 10vw;
+
+				margin: 0;
+				padding: 0;
+
+				width: 500px;
+				height: 22px;
+
+
+				font-family: fontRegular;
+				font-weight: lighter;
+				font-size: 18px;
+				line-height: 22px;
+				color:#5d6770;
+			}
+			
+
+			.workPage{
+				position: absolute;
+				top: 0px;
+				right: 200px;
+				margin: 0;
+				padding: 0;
+			}
+
+			.aboutPage{
+				position: absolute;
+				top: 0px;
+				right: 105px;
+				margin: 0;
+				padding: 0;
+			}
+
+			.contactPage{
+				position: absolute;
+				top: 0px;
+				right: 0px;
+				margin: 0;
+				padding: 0;
+			}
+
+			/* ---------------------------------------- */
+			
+
+			.bottom-navigation{
+
+				display: block;
+				position: absolute;
+				top: 4100px;
+				height: 200px;
+				width: 100vw;
+				bottom: 0;
+				margin-bottom: 0;
+				padding-bottom: 0;
+				
+				text-align: center;
+
+				font-family: fontRegular;
+				font-weight: lighter;
+				font-size: 18px;
+				line-height: 22px;
+				color:#5d6770;
+
+				
+			}
+
+
+			.email-page{
+				position: absolute;
+				top: 0px;
+				right:60vw;
+				margin: 0;
+				padding: 0;
+
+			}
+
+			.linkedin-page{
+				position: absolute;
+				top: 0px;
+
+				left:0vw;
+				right: 0vw;
+				
+				margin: 0;
+				padding: 0;
+
+			}
+
+			.bottom-contact-page{
+				position: absolute;
+				top: 0px;
+
+				left: 60vw;
+
+				margin: 0;
+				padding: 0;
+
+			}
+
+			/* ---------------------------------------- */
+
+
+			.header{
+				display: block;
+				position: absolute;
+				align-content: center;
+				top: 200px;
+				left: 20vw;
+				width: 60vw;
+			}
+
+			.header-image{
+				position: absolute;
+				left: 20vw;
+				top: 500px;
+			}
+
+			.project-spec{
+				display: block;
+				position: absolute;
+				top: 1150px;
+				left: 5vw;
+				width: 45vw;
+			}
+
+			.project-narrative{
+				display: block;
+				position: absolute;
+				top: 1150px;
+				right: 5vw;
+				width: 45vw;
+			}
+
+			.linked-project{
+				
+			}
+
+			/* ---------------------------------------- */
+			
+
+			#padding-bottom{
+				display: block;
+				position: absolute;
+				top: 3000px;
+				height: 10vw;
+				width: 100vw;
+				background-color: transparent;
+			}
+
+
+			/* ---------------------------------------- */
+			
+			.image-box-background{
+				display: block;
+				position: absolute;
+				top: 2500px;
+				background-color: black;
+				width: 100vw;
+				left: 0vw;
+			}		
+
+			.image-box{
+				display: block;
+				position: relative;
+				top: 0px;
+				background-color: black;
+				width: 80vw;
+				left: 10vw;
+			}
+
+			.image-wrapper-2{
+				position: relative;
+				top: 0px;
+			}
+
+			.image-wrapper-3{
+				position: relative;
+				margin-top: 0px;
+			}
+
+			.image-wrapper-4{
+				position: relative;
+				margin-top: 150px;
+			}
+
+			.image-wrapper-5{
+				position: relative;
+				margin-top: 150px;
+			}
+
+			.image-wrapper-6{
+				position: relative;
+				margin-top: 150px;
+			}
+
+			/* ---------------------------------------- */
+
+			.mobile-version{
+				display: none;
+				position: absolute;
+				top: 1800px;
+				background-color: black;
+				width: 100vw;
+				left: 0vw;
+			}
+
+			.mobile-box-2{
+				display: none;
+				position: relative;
+				top: 0px;
+				background-color: black;
+				width: 100vw;
+				left: 0vw;
+			}
+
+			.mobile-image-wrapper-2{
+				position: relative;
+				top: 0px;
+			}
+
+			.mobile-image-wrapper-3{
+				position: relative;
+				margin-top: 0px;
+			}
+
+			.mobile-image-wrapper-4{
+				position: relative;
+				margin-top: 150px;
+			}
+
+			.mobile-image-wrapper-5{
+				position: relative;
+				margin-top: 150px;
+			}
+
+			.mobile-image-wrapper-6{
+				position: relative;
+				margin-top: 150px;
+			}
+
+			/* ---------------------------------------- */
+
+			.box-3{
+				display: block;
+				position: absolute;
+				top: 6000px;
+				height: 60vw;
+				width: 100vw;
+			}
+
+
+			.video{
+				position: absolute;
+				width: 100%;
+				left: -25%;
+  				height: auto;
+
+			}
+
+			
+			
+
+
+			iframe{
+				margin: 0;
+				padding: 0;
+				
+				position: absolute;
+				width: 50vw;
+			}
+
+			a{
+				text-decoration: none;
+				color: inherit;
+			}
+
+			a:hover{
+				color: inherit;
+			}
+
+			a:active{
+				color: inherit;
+			}
+
+			a:visited{
+				color: inherit;
+			}
+
+			
+		
+			img {
+				display: inline-block;
+				 top: 0vw;
+				 margin: 0;
+				}
+
+			/* ---------------------------------------- */
+
+			
+			@media only screen and (max-width: 1025px) {
+
+			}
+		
+
+			
+
+			@media only screen and (max-width: 600px) {
+
+			.indexPage{
+				top: 40px;
+				left: 5vw;
+				font-size: 15px;
+				}
+
+			.navigationBox{
+				top: 40px;
+				right: 5vw;
+				width: 200px;
+				font-size: 15px;
+				}
+
+			.aboutPage{
+				right: 90px;
+				}
+
+
+			.box-1{
+				left: 5vw;
+				width: 90vw;
+				top: 150px;	
+				height: 200px;
+			}
+
+			.inner-box-1{
+				left: 0vw;
+				width: 90vw;
+			}
+
+
+			h1{
+				font-size: 7vw;
+				line-height: 8vw;
+				}
+
+
+			h2{
+				margin-top: 0px;
+				text-align: center;
+				margin-left: 0px;
+				font-weight: bolder;
+				font-size: 4vw;
+				}
+
+
+			h3{
+				margin-top: 40px;
+				margin-left: 0px;
+				text-align: center;
+				font-weight: lighter;
+				font-size: 4vw;
+				line-height: 6vw
+				}
+
+			h4{
+
+				font-size: 4vw;
+				line-height: 6vw;
+
+				margin-block-start: 5em;
+			}
+
+			.image-wrapper-1{
+				left: -5vw;
+				top: 250px;
+			}
+
+			.inner-box-2{
+				display: block;
+				position: absolute;
+				align-content: center;
+				left: 0vw;
+				width: 90vw;
+				top: 500px;
+			}
+
+
+			.box-2-background{
+				display: none;
+			}		
+
+			.mobile-version{
+				display: block;
+			}	
+
+			.mobile-box-2{
+				display: block;
+			}
+
+		
+			.box-3{
+				display: none;
+			}	
+
+
+			#paddingBottom{
+				position: absolute;
+				top: -1400px;	
+				height: 100px;
+				width: 100vw;
+				}
+
+			.bottomNavigation{
+				font-size: 15px;
+				height: 100px;
+				}
+
+			.emailPage{
+				right:65vw;
+				}
+
+			.linkedinPage{
+				margin: 0px 215px 0px 215px ;
+			}
+
+			.bottomContactPage{
+				left: 65vw;
+				}
+
+			}
+			
+
+		</style> 
+	</head>
+
+<!------------------------------------- B O D Y ------------------------------------->
+
+	<body>
+		<p>
+
+<!--------------- Top Navigation ---------------->
+
+			<a href="index.html">
+				<div class="indexPage">
+					Chanjoo Tiffany Park
+				</div>
+			</a>
+
+		<!---------- Navigation ----------->
+
+			<div class="navigationBox">
+				<a href="work.html">
+					<div class="workPage">
+						Work
+					</div>
+				</a>
+
+				<a href="about.html">
+					<div class="aboutPage">
+						About
+					</div>
+				</a>
+
+				<a href="contact.html">
+					<div class="contactPage">
+						Contact
+					</div>
+				</a>
+			</div>
+
+
+<!--------------- Body ---------------->
+
+		<!---------- Header ----------->
+
+			<div class="header">
+					<h1>Weather Now</h1>
+
+					<h2>Mobile, Motion</h2>
+
+					<h3></h3>
+			</div>
+
+		<!---------- Header Image ----------->
+
+			<div class="header-image">
+					<center>
+						<img src="img/weather.jpg" style="width:60vw;">
+					</center>
+			</div>
+
+
+		<!---------- Project Spec ----------->
+
+			<div class="project-spec">
+
+					<h4>Project type</h4>
+					<p>Individual Project</p>
+
+					<h4>Project timeframe</h4>
+					<p>1 month, 2019 Fall + 1 month, 2020 Fall</p>
+
+					<h4>Skills</h4>
+					<p>Ideation, Wireframing, Prototype, Visual Design  </p>
+
+					<h4>Software used</h4>
+					<p>Figma, Photoshop, Illustrator</p>
+			</div>
+
+		<!---------- Project Narrative ----------->
+
+			<div class="project-narrative">
+					<h4>Supporting digital wellbeing by bringing natural ambiance driven by the sky and weather to mobile weather application</h4>
+
+					</br></br></br>
+
+					<h4>Idea/Question</h4>
+					<p>How can we support digital wellbeing by creating ease in people’s daily use with technology?</p>
+
+					<h4>Inspiration</h4>
+					<p>As technology becomes more integrated into people’s daily lives, it is easy to be vulnerable to mental strain. It is more evident in urban settings such as New York City due to lack of breather in the environment of the city.</p>
+
+					<h4>Outcome</h4>
+					<p>A weather app that is designed to support digital wellbeing by bringing nature driven ambience to the screen, calming people’s minds and uplifting people’s mental strain.</p>
+
+					<h4>User Persona</h4>
+					<p>
+						• Gen Zs, between the ages of 15 to 25
+						• Resides in the East Coast, New York City
+						• People who struggle with mental strain due to high stress or environmental causes such as Seasonal Affective Disorder
+					</p>
+			</div>
+
+
+
+		<!---------- Project Link ----------->
+
+			<div class="linked-project">
+
+			</div>
+
+
+
+
+		
+		<div class="image-box-background">
+			<div class="image-box">
+
+				<div class="image-wrapper-2">
+					<center>
+						<img src="img/weathernow.png"
+						style=	"height: 350px;">
+					</center>
+				</div>
+
+				<div class="image-wrapper-3">
+					<center>
+						<img src="img/morning.png"
+						style="height: 90px; opacity: 0.9;">
+					</center>
+						<img src="img/m-1.png" style="width:26.45vw;">
+						<img src="img/m-2.png" style="width:26.45vw;">
+						<img src="img/m-3.png" style="width:26.45vw;">
+					
+				</div>
+
+				<div class="image-wrapper-4">
+					<center>
+						<img src="img/afternoon.png"
+						style=	"height: 90px;  opacity: 0.9;">
+					</center>
+						<img src="img/a-1.png" style="width:26.45vw;">
+						<img src="img/a-2.png" style="width:26.45vw;">
+						<img src="img/a-3.png" style="width:26.45vw;">
+				</div>
+
+				<div class="image-wrapper-5">
+					<center>
+						<img src="img/evening.png"
+						style=	"height: 90px;  opacity: 0.9;">
+					</center>
+						<img src="img/e-1.png" style="width:26.45vw;">
+						<img src="img/e-2.png" style="width:26.45vw;">
+						<img src="img/e-3.png" style="width:26.45vw;">
+				</div>
+
+				<div class="image-wrapper-6">
+					<center>
+						<img src="img/night.png"
+						style=	"height: 90px;  opacity: 0.9;"></br>
+					</center>
+						<img src="img/n-1.png" style="width:26.45vw;">
+						<img src="img/n-2.png" style="width:26.45vw;">
+						<img src="img/n-3.png" style="width:26.45vw;">
+				</div>
+			</div>
+		</div>
+
+
+		<div class="mobile-version">
+			<div class="mobile-box-2">
+
+				<div class="mobile-image-wrapper-2">
+					<center>
+						<img src="img/weathernow.png"
+						style=	"height: 350px;">
+					</center>
+				</div>
+
+				<div class="mobile-image-wrapper-3">
+					<center>
+						<img src="img/morning.png"
+						style="height: 70px; opacity: 0.9;"></br></br>
+						<img src="img/m-1.png" style="width:30vw;">
+						<img src="img/m-2.png" style="width:30vw;">
+						<img src="img/m-3.png" style="width:30vw;">
+					</center>
+				</div>
+
+				<div class="mobile-image-wrapper-4">
+					<center>
+						<img src="img/afternoon.png"
+						style=	"height: 70px;  opacity: 0.9;"></br></br>
+						<img src="img/a-1.png" style="width:30vw;">
+						<img src="img/a-2.png" style="width:30vw;">
+						<img src="img/a-3.png" style="width:30vw;">
+					</center>
+				</div>
+
+				<div class="mobile-image-wrapper-5">
+					<center>
+						<img src="img/evening.png"
+						style=	"height: 70px;  opacity: 0.9;"></br></br>
+						<img src="img/e-1.png" style="width:30vw;">
+						<img src="img/e-2.png" style="width:30vw;">
+						<img src="img/e-3.png" style="width:30vw;">
+					</center>
+				</div>
+
+				<div class="mobile-image-wrapper-6">
+					<center>
+						<img src="img/night.png"
+						style=	"height: 70px;  opacity: 0.9;"></br></br>
+						<img src="img/n-1.png" style="width:30vw;">
+						<img src="img/n-2.png" style="width:30vw;">
+						<img src="img/n-3.png" style="width:30vw;">
+					</center>
+				</div>
+				</br></br></br></br></br>
+			</div>
+		</div>
+
+
+
+		<div class="box-3">
+
+					<h4>Motion Video</h4>
+
+					<div class="video">
+						<center>
+							<iframe width="960" height="540" src="https://www.youtube.com/embed/w4ew2rDu18Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</center>
+					</div>
+		</div>
+
+
+<!--------------- Bottom Navigation ---------------->
+
+			<div id="padding-bottom">
+
+					<div class="bottom-navigation">
+
+						<a href="mailto:createtiff@gmail.com">
+							<div class="email-page">
+								Email
+							</div>
+						</a>
+
+						<a href="https://www.linkedin.com/in/createtiff">
+							<div class="linkedin-page">
+								LinkedIn
+							</div>
+						</a>
+
+						<a href="contact.html">
+							<div class="bottom-contact-page">
+								Contact
+							</div>
+						</a>
+					</div>
+			</div>
+
+
+		</p>	
+	</body>
+</html>
