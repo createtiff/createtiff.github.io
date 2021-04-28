@@ -3,13 +3,11 @@
 	<head>
 		<title>Chanjoo Tiffany Park</title>
 		<meta charset="utf-8">
-		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css">
 		<link rel="icon" href="favicon.ico" type="image/x-icon">
 
 		<style>
-
-			/* ----------------- Font ----------------- */
 
 			@font-face {
   			font-family: 'fontRegular';
@@ -26,44 +24,66 @@
 			}
 
 			@font-face {
+  			font-family: 'fontRubik';
+  			src: url('Rubik-Light.ttf');
+  			font-weight: normal;
+    		font-style: normal;
+			}
+
+			@font-face {
   			font-family: 'fontOgg';
   			src: url('ogg-roman.otf');
   			font-weight: normal;
     		font-style: normal;
 			}
 
-
-			/* ----------------- Body ----------------- */
-			
-
-			a{
-				text-decoration: none;
-				color: inherit;
-			}
-
-			a:hover{
-				color: inherit;
-			}
-
-			a:active{
-				color: inherit;
-			}
-
-			a:visited{
-				color: inherit;
-			}
-
-			
-
 			body{
-				display: table; 
 				margin: 0;
 				padding: 0;
-				background-image: linear-gradient(45deg, #fff, #E4E3EB);
-				background-size: 100%;
 			}
 
-			/* ----------------- Navigation ----------------- */
+			/* ---------------------------------------- */
+
+
+
+			h2{
+				font-family:fontRegular;
+				font-weight: lighter;
+
+				font-size: calc(24px + (32 - 24) * ((100vw - 300px) / (1600 - 300)));
+				line-height: calc(36px + (48 - 36) * ((100vw - 300px) / (1600 - 300)));
+
+				margin-block-start: 0.5em;
+    			margin-block-end: 0;
+
+				color:#000000;
+			}
+
+
+			h3{
+				font-family: fontRegular;
+				font-weight: lighter;
+  				font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300)));
+  				line-height: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
+
+				color:#878787;
+
+				margin-block-start: -0.05em;
+			}
+
+
+			p{
+				font-family: fontRubik;
+				font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300)));
+				line-height: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
+
+				color:#778089;
+			}
+
+			
+
+
+			/* ---------------------------------------- */
 
 			.indexPage{
 				position: absolute;
@@ -79,7 +99,7 @@
 
 			}
 
-			.navigationBox{
+			.navBox{
 				position: absolute;
 				top: 45px;
 				right: 10vw;
@@ -125,6 +145,18 @@
 
 			/* ----------------- Mobile Navigation ----------------- */
 
+			.mobile-top-navigation{
+				display: none;
+			}
+
+			.mobile-top-aboutPage{
+				display: none;
+			}
+
+			.mobile-top-contactPage{
+				display: none;
+			}
+
 			.mobile-navigation{
 				display: none;
 			}
@@ -145,22 +177,174 @@
 				display: none;
 				}
 
-			.mobile-top-navigation{
-				display: none;
-			}
-
-			.mobile-top-aboutPage{
-				display: none;
-			}
-
-			.mobile-top-contactPage{
-				display: none;
-			}
-
-			/* ----------------- Bottom Navigation ----------------- */
+			/* ---------------------------------------- */
 
 
-			.bottomNavigation{
+			.box1{
+				display: block;
+				position: relative;
+				top: 15vw;
+				left: 10vw;
+
+				width:50vw;
+
+				margin: 0;
+				padding: 0;
+				}
+
+			.box1space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+				}
+
+			.box2{
+				display: block;
+				position: relative;
+				top: 15vw;
+				left: 50vw;
+
+				width:35vw;
+
+				margin: 0;
+				padding: 0;
+				}
+
+			.box2space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+				}
+
+			.box3{
+				display: block;
+				position: relative;
+				top: 15vw;
+				left: 10vw;
+
+				width:35vw;
+
+				margin: 0;
+				padding: 0;
+				}
+
+			.box3space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+				}
+
+			.box4{
+				display: block;
+				position: relative;
+				top: 15vw;
+				left: 50vw;
+
+				width:35vw;
+
+				margin: 0;
+				padding: 0;
+				}
+
+
+			.box4space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+				}
+
+			.box5{
+				display: block;
+				position: relative;
+				top: 15vw;
+				left: 10vw;
+
+				width:35vw;
+
+				margin: 0;
+				padding: 0;
+				}
+
+			.box5space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+				}
+
+			.box6{
+				display: block;
+				position: relative;
+				top: 15vw;
+				left: 50vw;
+
+				width:35vw;
+
+				margin: 0;
+				padding: 0;
+				}
+
+			.box6space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+				}
+
+
+			.box-bottom{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 20vh;
+				}
+
+
+			.bottom-navigation{
+				display: block;
 				position: relative;
 				top: 45px;
 
@@ -171,7 +355,7 @@
 				padding: 0;
 
 				width: 100vw;
-				left: 0px;
+				left: 0vw;
 				height: 22px;
 
 				font-family: fontRegular;
@@ -179,19 +363,18 @@
 				font-size: 18px;
 				line-height: 22px;
 				color:#5d6770;
-			}
+				}
 
 
-			.emailPage{
+			.email-page{
 				position: absolute;
 				top: 0px;
 				right:60vw;
 				margin: 0;
 				padding: 0;
+				}
 
-			}
-
-			.linkedinPage{
+			.linkedin-page{
 				position: absolute;
 				top: 0px;
 
@@ -200,10 +383,9 @@
 				
 				margin: 0;
 				padding: 0;
+				}
 
-			}
-
-			.bottomContactPage{
+			.bottom-contact-page{
 				position: absolute;
 				top: 0px;
 
@@ -211,248 +393,82 @@
 
 				margin: 0;
 				padding: 0;
-
-			}
-
-			/* ----------------- H tag ----------------- */
+				}
+			
 
 
-			h1{
+
+			/* ---------------------------------------- */
+
+			iframe{
 				position: relative;
+
+				left: 0vw;
+				width: 80vw;
 
 				margin: 0;
 				padding: 0;
+				}
 
-				font-family: fontRegular;
-				font-weight: bolder;
-				font-size: 3.5vw;
-				line-height: 5vw;
-				text-align: left;
-			}
+			a{
+				text-decoration: none;
+				color: inherit;
+				}
 
-			h2{
-				position: relative;
-				margin-top: 0px;
+			a:hover{
+				color: inherit;
+				}
 
-				margin-left: 50px;
+			a:active{
+				color: inherit;
+				}
 
-				font-family: fontRegular;
-				font-weight: lighter;
+			a:visited{
+				color: inherit;
+				}
 
-				font-size: 3.5vw;
-				line-height: 5vw;
-				
-			}
-
-
-			h3{
-				
-				position: relative;
-				margin-top: -30px;
-
-				margin-left: 50px;
-
-
-				font-family:fontRegular;
-				font-weight: lighter;
-
-				font-size: 20px;
-				line-height: 20px;
-
-				color:#778089;
-			}
-
-
-			/* ----------------- Image ----------------- */
-
+		
 			img {
-				 position: absolute;
-				 top: 0px;
-				 width:50vw;
-			}
 
-			/* ----------------- Body ----------------- */
+				top: 0vw;
+				margin: 0;
+				padding: 0;
 
-			.container{
-				width:100%;
-				position:absolute;
-    			display:block;
-    			height:auto;
-			}
-
-			.title-box-desktop{
-				position: absolute;
-				left: 10vw;
-				width: 80vw;
-				top: 180px;
-			}
-
-			.title-box-mobile{
-				display: none;
-			}
-
-			/* ----------------- Box 1 ----------------- */
-
-			.box-1{
-				position:absolute;
-				display:block;
-				top: 600px;	
-				width: 100vw;
-				height: 90vh;
-
-			}
-
-			.image-1{
-				position:absolute;
-				display: block;
-				top: 0;
-				left: 10vw;
-			}
-
-			.mini-box-1{
-				position:absolute;
-				display: block;
-				top: 0;	
-				left: 60vw;
-				width: 40vw;
-			}
-
-			/* ----------------- Box 2 ----------------- */
-
-			.box-2{
-				position:absolute;
-				display:block;
-				top: 1300px;	
-				width: 100vw;
-				height: 90vh;
-			}
-
-			.image-2{
-				position: absolute;
-				display: block;
-				top: 0vh;
-				left: 40vw;
-			}
-
-			.mini-box-2{
-				position: absolute;
-				display: block;
-				top: 0;	
-				left: 0vw;
-				width: 37.5vw;
-				padding-right: 2.5vw;
-				text-align: right;
-
-			}
-
-			/* ----------------- Box 3 ----------------- */
-
-			.box-3{
-				position:absolute;
-				display:block;
-				top: 2000px;	
-				width: 100vw;
-				height: 90vh;
-			}
-
-			.image-3{
-				position: absolute;
-				display: block;
-				top: 0vh;
-				left: 10vw;
-			}
-
-			.mini-box-3{
-				position: absolute;
-				display: block;
-				top: 0;	
-				left: 60vw;
-				width: 40vw;
-			}
-
-			/* ----------------- Box 4 ----------------- */
-
-			.box-4{
-				position:absolute;
-				display:block;
-				top: 2700px;	
-				width: 100vw;
-				height: 90vh;
-			}
-
-			.image-4{
-				position: absolute;
-				display: block;
-				top: 0vh;
-				left: 40vw;
-			}
-
-			.mini-box-4{
-				position: absolute;
-				display: block;
-				top: 0;	
-				left: 0vw;
-				width: 37.5vw;
-				padding-right: 2.5vw;
-				text-align: right;
-			}
-
-			/* ----------------- Box 5 ----------------- */
-
-			.box-5{
-				position:absolute;
-				display:block;
-				top: 3400px;	
-				width: 100vw;
-				height: 90vh;
-			}
-
-			.image-5{
-				position: absolute;
-				display: block;
-				top: 0vh;
-				left: 10vw;
-			}
-
-			.mini-box-5{
-				position: absolute;
-				display: block;
-				top: 0;	
-				left: 60vw;
-				width: 40vw;
+				width:35vw;
+				border-radius: 20px;
+				}
+				 
 			}
 
 			/* ---------------------------------------- */
 
-			#paddingBottom{
-				position: absolute;
-				top: 4100px;	
-				height: 200px;
-				width: 100vw;
-				left: 0px;
-			}
 
-			/* ---------------------------------------- */
-			/* ---------------------------------------- */
+			
+			
 
 			@media only screen and (max-width: 1025px) {
 
+				img {
+
+				top: 0vw;
+				margin: 0;
+				padding: 0;
+
+				width:60vw;
+				border-radius: 20px;
+				}
+
 			}
 		
-			/* ---------------------------------------- */
-			/* ---------------------------------------- */
 
+			
 
 			@media only screen and (max-width: 600px) {
 
-			body{
-				display: block; 
-				margin: 0;
-				padding: 0;
-				left: 0;
-
-				background-size: 100%;
-			}
+			img {
+				width:80vw;
+				border-radius: 20px;
+				}
 
 			.indexPage{
 				top: 40px;
@@ -501,6 +517,65 @@
 				display: none;
 				}
 
+			.box1{
+				top: 20vw;
+				width:80vw;
+				}
+
+			.box2{
+				top: 30vw;
+				left: 10vw;
+				width:80vw;
+				}
+
+			.box3{
+				top: 30vw;
+				left: 10vw;
+				width:80vw;
+				}
+
+			.box4{
+				top: 30vw;
+				left: 10vw;
+				width:80vw;
+				}
+
+			.box5{
+				top: 30vw;
+				left: 10vw;
+				width:80vw;
+				}
+
+			.box6{
+				top: 30vw;
+				left: 10vw;
+				width:80vw;
+				}
+
+			.bottom-navigation{
+				display: none;
+
+				width: 100vw;
+				left: 0;
+				}
+
+			.email-page{
+				display: none;
+
+				left: 0;
+				}
+
+			.linkedin-page{
+				display: none;
+	
+				}
+
+			.bottom-contact-page{
+				display: none;
+
+				right: 0;
+				}
+
 			/* ---------------------------------------- */
 
 			.mobile-top-navigation{
@@ -508,14 +583,14 @@
 				position:absolute;
 
 				width: 90vw;
-				margin-left: 5vw;
-				margin-right: 5vw;
+				margin-left: 10vw;
+				margin-right: 10vw;
 				padding: 0;
 
 				top: 30px;
 				height: 15vh;
 				z-index: 1;
-			}
+				}
 
 			.mobile-top-aboutPage{
 				display: inline-block;
@@ -531,7 +606,7 @@
 				line-height: 22px;
 				color:#5d6770;
 				text-align: left;
-			}
+				}
 
 			.mobile-top-contactPage{
 				display: inline-block;
@@ -539,7 +614,7 @@
 
 				right: 0;
 				width: 19vw;
-				margin: 0;
+				margin-right: 10vw;
 				padding: 0;
 
 				font-family: fontRegular;
@@ -548,164 +623,11 @@
 				line-height: 22px;
 				color:#5d6770;
 				text-align: right;
-			}
-
+				}
 
 			/* ---------------------------------------- */
 
-			h1{
-				font-size: 6.5vw;
-				line-height: 9.5vw;
-				text-align: left;
-
-				letter-spacing: -0.2px; 
-				}
-
-			h2{
-				margin-top: 0;
-				text-align: center;
-				margin-left: 0px;
-				font-size: 24px;
-				}
-
-
-			h3{
-				margin-top: -10px;
-				margin-left: 0px;
-				text-align: center;
-				font-size: 16px;
-				}
-
-
-			img{
-				 width:100vw;
-				}
-
-
-			/* ---------------------------------------- */
-
-
-			.title-box-desktop{
-				display: none;
-				left: 0;
-			}
-
-			.title-box-mobile{
-				display: block;
-				position:relative;
-				
-				height: 55vh;
-				left: 5vw;
-				right: 0vw;
-				width: 95vw;
-
-				top: 110px;
-			}
-
-			/* ---------------------------------------- */
-
-			.box-1{
-				position:relative;
-				top: 100%;
-				height: 60vh;
-				}
-
-			.image-1{
-				left: 0;
-			}
-
-			.mini-box-1{
-				position:absolute;
-				left: 0;
-				top: 64vw;
-				width: 100vw;
-			}
-
-			/* ---------------------------------------- */
-
-			.box-2{
-				position:relative;
-				top: 100%;
-				height: 60vh;
-				}
-
-			.image-2{
-				left: 0;
-			}
-
-			.mini-box-2{
-				position:absolute;
-				left: 0;
-				top: 64vw;
-				width: 100vw;
-
-				padding-right: 0;
-
-			}
-
-			/* ---------------------------------------- */
-
-			.box-3{
-				position:relative;
-				top: 100%;
-				height: 60vh;
-				}
-
-			.image-3{
-				left: 0;
-			}
-
-			.mini-box-3{
-				position:absolute;
-				left: 0;
-				top: 64vw;
-				width: 100vw;
-			}
-
-			/* ---------------------------------------- */
-
-			.box-4{
-				position:relative;
-				top: 100%;
-				height: 60vh;
-				}
-
-			.image-4{
-				left: 0;
-			}
-
-			.mini-box-4{
-				position:absolute;
-				left: 0;
-				top: 64vw;
-				width: 100vw;
-
-				padding-right: 0;
-			}
-
-			/* ---------------------------------------- */
-
-			.box-5{
-				position:relative;
-				top: 100%;	
-				height: 60vh;
-				}
-
-			.image-5{
-				left: 0;
-			}
-
-			.mini-box-5{
-				position:absolute;
-				left: 0;
-				top: 64vw;
-				width: 100vw;
-				}
-
-
-			/* ---------------------------------------- */
-
-			.mobile-navigation{
+			.mobile-bottom-navigation{
 				display: block;
 				position:relative;
 
@@ -714,10 +636,11 @@
 				margin-right: 5vw;
 				padding: 0;
 
-				top: 10vh;
-				height: 15vh;
+				top: 40vw;
+				bottom: 0;
+				height: 80px;
 				z-index: 1;
-			}
+				}
 
 			.mobile-aboutPage{
 				display: inline-block;
@@ -732,7 +655,7 @@
 				line-height: 22px;
 				color:#5d6770;
 				text-align: center;
-			}
+				}
 
 			.mobile-contactPage{
 				display: inline-block;
@@ -748,7 +671,7 @@
 				line-height: 22px;
 				color:#5d6770;
 				text-align: center;
-			}
+				}
 
 			.mobile-emailPage{
 				display: inline-block;
@@ -763,7 +686,7 @@
 				line-height: 22px;
 				color:#5d6770;
 				text-align: center;
-			}
+				}
 
 			.mobile-linkedinPage{
 				display: inline-block;
@@ -778,49 +701,21 @@
 				line-height: 22px;
 				color:#5d6770;
 				text-align: center;
-			}
-
-			/* ---------------------------------------- */
-
-
-			#paddingBottom{
-				display: none;
-				position: absolute;
-				top: 2900px;	
-				height: 150px;
-				width: 100vw;
-				left: 0;
 				}
 
-			/* ---------------------------------------- */
-
-			.bottomNavigation{
+			.box-bottom{
 				display: none;
-
-				width: 100vw;
-				left: 0;
-
-				}
-
-			.emailPage{
-				display: none;
-
-				left: 0;
-				}
-
-			.linkedinPage{
-				display: none;
-	
-				}
-
-			.bottomContactPage{
-				display: none;
-
-				right: 0;
 				}
 
 			}
 
+			
+
+
+
+			/* ---------------------------------------- */
+
+			
 
 		</style> 
 	</head>
@@ -830,37 +725,25 @@
 	<body>
 		<p>
 
-<!--------------- Top Navigation ---------------->
+<!--------------- Top Nav ---------------->
 
 			<a href="index.html">
-				<div class="indexPage">
-					Chanjoo Tiffany Park
-				</div>
-			</a>
+				<div class="indexPage">Chanjoo Tiffany Park</div></a>
 
-		<!---------- Navigation ----------->
+		<!---------- Nav ----------->
 
-			<div class="navigationBox">
+			<div class="navBox">
 				<a href="work.html">
-					<div class="workPage">
-						Work
-					</div>
-				</a>
+					<div class="workPage">Work</div></a>
 
 				<a href="about.html">
-					<div class="aboutPage">
-						About
-					</div>
-				</a>
+					<div class="aboutPage">About</div></a>
 
 				<a href="contact.html">
-					<div class="contactPage">
-						Contact
-					</div>
-				</a>
+					<div class="contactPage">Contact</div></a>
 			</div>
 
-			<!---------- Mobile Navigation ----------->
+		<!---------- Mobile Navigation ----------->
 
 			<div class="mobile-top-navigation">
 						<a href="about.html">
@@ -871,106 +754,90 @@
 			</div>
 
 
+			
 <!--------------- Body ---------------->
+
+			<div class="box1">
+					<h2>
+						Tiffany Park is a New York City based designer dedicated to creating sophisticated design solutions, making communication across content and humans digestible and engaging.
+					</h2>
+			</div>
+
+			<div class="box1space"></div>
+
 			
-		<div class="container">
+			<div class="box2">
+						<a href="across.html">
+							<div class="image1">
+								<img src="img/across/across.jpg">
+							</div>
 
-			<!---------- Intro ----------->
-
-				<div class="title-box-desktop">
-					<h1>
-						Hi, there! 👋</br>
-						I'm <span style="font-family: fontOgg; letter-spacing: 0.5px;">Tiffany,</span> a Visual&thinsp;<span style="font-family: fontOgg">&</span>&thinsp;Product Designer </br>
-						based in <span style="font-family: fontOgg; letter-spacing: 0.5px;">New York City.</span>
-					</h1>
+							<div class="mini-box1">
+								<h2>Across</h2>
+								<h3>Mobile service</h3>
+							</div>
+						</a>
 				</div>
+			<div class="box2space"></div>
 
-				<div class="title-box-mobile">
-					<h1>
-						Hi, there! 👋 </br>
-						I'm <span style="font-family: fontOgg; letter-spacing: 0.5px;">Tiffany,</span> </br>
-						a Visual&thinsp;<span style="font-family: fontOgg">&</span>&thinsp;Product Designer </br>
-						based in <span style="font-family: fontOgg; letter-spacing: 0.5px;">New York City.</span>	
-					</h1>
+			<div class="box3">
+						<a href="weather-now.html">
+							<div class="image2">
+								<img src="img/weather-now/weather.jpg">
+							</div>
+
+							<div class="mini-box2">
+								<h2>Weather Now</h2>
+								<h3>Identity, Motion Graphics</h3>
+							</div>
+						</a>
 				</div>
+			<div class="box3space"></div>
 
-			<!---------- 1 -----------> 
-			
-				<div class="box-1">
-					<a href="across.html">
-						<div class="image-1">
-							<img src="img/across/across.jpg">
-						</div>
+			<div class="box4">
+						<a href="moodbot.html">
+							<div class="image3">
+								<img src="img/moodbot/moodbot.jpg">
+							</div>
+							<div class="mini-box3">
+								<h2>Moodbot</h2>
+								<h3>Creative Coding</h3>
+							</div>
+						</a>
+			</div>
+			<div class="box4space"></div>
 
-						<div class="mini-box-1">
-							<h2>Across</h2>
-							<h3>Mobile service</h3>
-						</div>
-					</a>
-				</div>
-			
-			<!---------- 2 -----------> 
+			<div class="box5">
+						<a href="quip.html">
+							<div class="image4">
+								<img src="img/quip/quip.jpg">
+							</div>
+							<div class="mini-box4">
+								<h2>quip</h2>
+								<h3>Website Design</h3>
+							</div>	
+						</a>
+			</div>
+			<div class="box5space"></div>
 
-				<div class="box-2">
-					<a href="weather-now.html">
-						<div class="image-2">
-							<img src="img/weather-now/weather.jpg">
-						</div>
-
-						<div class="mini-box-2">
-							<h2>Weather Now</h2>
-							<h3>Identity, Motion Graphics</h3>
-						</div>
-					</a>
-				</div>
-			
-			<!---------- 3 -----------> 
-			
-				<div class="box-3">
-					<a href="moodbot.html">
-						<div class="image-3">
-							<img src="img/moodbot/moodbot.jpg">
-						</div>
-						<div class="mini-box-3">
-							<h2>Moodbot</h2>
-							<h3>Creative Coding</h3>
-						</div>
-					</a>
-				</div>
-
-			<!---------- 4 -----------> 
-
-				<div class="box-4">
-					<a href="quip.html">
-						<div class="image-4">
-							<img src="img/quip/quip.jpg">
-						</div>
-						<div class="mini-box-4">
-							<h2>quip</h2>
-							<h3>Website Design</h3>
-						</div>
-					</a>
-				</div>
-
-			<!---------- 5 -----------> 
-
-				<div class="box-5">
-					<a href="seeds-of-fortune.html">
-						<div class="image-5">
-							<img src="img/seeds/seeds-of-fortune.jpg">
-						</div>
-						<div class="mini-box-5">
-							<h2>Seeds of Fortune</h2>
-							<h3>Website UI/UX</h3>
-						</div>
-					</a>
-				</div>
+			<div class="box6">
+						<a href="seeds-of-fortune.html">
+							<div class="image5">
+								<img src="img/seeds/seeds-of-fortune.jpg">
+							</div>
+							<div class="mini-box5">
+								<h2>Seeds of Fortune</h2>
+								<h3>Website UI/UX</h3>
+							</div>
+						</a>
+			</div>
+			<div class="box6space"></div>
 
 
 			<!--------------- Mobile ---------------->
 
 
-				<div class="mobile-navigation">
+				<div class="mobile-bottom-navigation">
 						<a href="about.html">
 							<div class="mobile-aboutPage">About</div></a>
 
@@ -983,27 +850,27 @@
 						<a href="https://www.linkedin.com/in/createtiff">
 							<div class="mobile-linkedinPage">LinkedIn</div></a>
 				</div>
+		
 
-		</div>
+
 
 <!--------------- Bottom Navigation ---------------->
-			
 
-			<div id="paddingBottom">
+			<div class="box-bottom">
 
-					<div class="bottomNavigation">
+					<div class="bottom-navigation">
 
 						<a href="mailto:createtiff@gmail.com">
-							<div class="emailPage">Email</div></a>
+							<div class="email-page">Email</div></a>
 
 						<a href="https://www.linkedin.com/in/createtiff">
-							<div class="linkedinPage">LinkedIn</div></a>
+							<div class="linkedin-page">LinkedIn</div></a>
 
 						<a href="contact.html">
-							<div class="bottomContactPage">Contact</div></a>
-
+							<div class="bottom-contact-page">Contact</div></a>
 					</div>
 			</div>
+
 
 		</p>
 	</body>
