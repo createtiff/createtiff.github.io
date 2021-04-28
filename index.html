@@ -35,6 +35,9 @@
   			src: url('ogg-roman.otf');
   			font-weight: normal;
     		font-style: normal;
+
+    		font-size: calc(36px + (48 - 36) * ((100vw - 300px) / (1600 - 300)));
+			line-height: calc(48px + (64 - 48) * ((100vw - 300px) / (1600 - 300)));
 			}
 
 			body{
@@ -42,8 +45,29 @@
 				padding: 0;
 			}
 
+			span{
+				font-size: calc(36px + (48 - 36) * ((100vw - 300px) / (1600 - 300)));
+				line-height: calc(48px + (68 - 48) * ((100vw - 300px) / (1600 - 300)));
+				margin: 0;
+				padding: 0;
+			}
+
+
+
 			/* ---------------------------------------- */
 
+			h1{
+				font-family: fontRegular;
+				font-weight: lighter;
+
+				font-size: calc(36px + (48 - 36) * ((100vw - 300px) / (1600 - 300)));
+				line-height: calc(48px + (64 - 48) * ((100vw - 300px) / (1600 - 300)));
+				
+				margin: 0;
+				padding: 0;
+
+    			color:#000000;
+			}
 
 
 			h2{
@@ -186,7 +210,7 @@
 				top: 10vw;
 				left: 10vw;
 
-				width:50vw;
+				width:80vw;
 
 				margin: 0;
 				padding: 0;
@@ -758,9 +782,10 @@
 <!--------------- Body ---------------->
 
 			<div class="box1">
-					<h2>
-						Tiffany Park is a New York City-based designer dedicated to creating sophisticated design solutions for making communication digestible and engaging.
-					</h2>
+					<h1>
+						<span style="font-family: fontOgg">Chanjoo Tiffany Park</span> is</br>
+						a <span style="font-family: fontOgg">New York City</span> based designer passionate about creating <span style="font-family: fontOgg"></span>clear communication and engaging user experiences through <span style="font-family: fontOgg">sophisticated design solutions</span>.
+					</h1>
 			</div>
 
 			<div class="box1space"></div>
