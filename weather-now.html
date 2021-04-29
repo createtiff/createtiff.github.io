@@ -10,32 +10,32 @@
 		<style>
 
 			@font-face {
-  			font-family: 'fontRegular';
-  			src: url('basiercircle-regular.otf');
-  			font-weight: normal;
-    		font-style: normal;
-			}
+	  			font-family: 'fontRegular';
+	  			src: url('basiercircle-regular.otf');
+	  			font-weight: normal;
+	    		font-style: normal;
+				}
 
 			@font-face {
-  			font-family: 'fontMedium';
-  			src: url('BasierCircle-Medium.ttf');
-  			font-weight: normal;
-    		font-style: normal;
-			}
+	  			font-family: 'fontMedium';
+	  			src: url('BasierCircle-Medium.ttf');
+	  			font-weight: normal;
+	    		font-style: normal;
+				}
 
 			@font-face {
-  			font-family: 'fontRubik';
-  			src: url('Rubik-Light.ttf');
-  			font-weight: normal;
-    		font-style: normal;
-			}
+	  			font-family: 'fontRubik';
+	  			src: url('Rubik-Light.ttf');
+	  			font-weight: normal;
+	    		font-style: normal;
+				}
 
 			@font-face {
-  			font-family: 'fontOgg';
-  			src: url('ogg-roman.otf');
-  			font-weight: normal;
-    		font-style: normal;
-			}
+	  			font-family: 'fontOgg';
+	  			src: url('ogg-roman.otf');
+	  			font-weight: normal;
+	    		font-style: normal;
+				}
 
 			body{
 				margin: 0;
@@ -123,8 +123,7 @@
 				font-size: 18px;
 				line-height: 22px;
 				color:#5d6770;
-
-			}
+				}
 
 			.navBox{
 				position: absolute;
@@ -143,7 +142,7 @@
 				font-size: 18px;
 				line-height: 22px;
 				color:#5d6770;
-			}
+				}
 			
 
 			.workPage{
@@ -152,7 +151,7 @@
 				right: 200px;
 				margin: 0;
 				padding: 0;
-			}
+				}
 
 			.aboutPage{
 				position: absolute;
@@ -160,7 +159,7 @@
 				right: 105px;
 				margin: 0;
 				padding: 0;
-			}
+				}
 
 			.contactPage{
 				position: absolute;
@@ -168,7 +167,21 @@
 				right: 0px;
 				margin: 0;
 				padding: 0;
-			}
+				}
+
+			/* ------ */
+
+			.mobileNav{
+				display: none;
+				}
+
+			.mobileIndexPage{
+				display: none;
+				}
+
+			.mobileAboutPage{
+				display: none;
+				}
 
 			/* ---------------------------------------- */
 
@@ -666,63 +679,98 @@
 
 			/* ---------------------------------------- */
 
-
-			
-			
-
 			@media only screen and (max-width: 1025px) {
+
 
 			}
 		
 
-			
+			/* ---------------------------------------- */
 
 			@media only screen and (max-width: 600px) {
 
-			.indexPage{
-				top: 40px;
-				left: 5vw;
-				font-size: 15px;
-				}
+				img {
+					 width:100vw;
+					}
 
-			.navBox{
-				top: 40px;
-				right: 5vw;
-				width: 200px;
-				font-size: 15px;
-				}
+				.indexPage{
+					display: none;
+					}
 
-			.aboutPage{
-				right: 90px;
-				}
+				.navBox{
+					display: none;
+					}
 
-			img {
-				 width:100vw;
-				}
+				.aboutPage{
+					display: none;
+					}
 
+				/* ----- */
 
-			#paddingBottom{
-				position: absolute;
-				top: 4000px;	
-				height: 150px;
-				width: 100vw;
-				}
+				.mobileNav{
+					display: block;
+					position:absolute;
 
-			.bottomNavigation{
-				font-size: 15px;
-				}
+					width: 90vw;
+					margin-left: 5vw;
+					margin-right: 5vw;
+					padding: 0;
 
-			.emailPage{
-				right:65vw;
-				}
+					top: 30px;
+					height: 15vh;
+					z-index: 1;
+					}
 
-			.linkedinPage{
-				margin: 0px 215px 0px 215px ;
-			}
+				.mobileIndexPage{
+					display: inline-block;
+					position: absolute;
+					left: 0;
+					width: 20vw;
+					margin: 0;
+					padding: 0;
 
-			.bottomContactPage{
-				left: 65vw;
-				}
+					font-family: fontRegular;
+					font-weight: 100;
+					font-size: 16px;
+					line-height: 22px;
+					color:#5d6770;
+					text-align: left;
+					}
+
+				.mobileAboutPage{
+					display: inline-block;
+					position: absolute;
+
+					right: 0;
+					width: 19vw;
+					margin: 0;
+					padding: 0;
+
+					font-family: fontRegular;
+					font-weight: 100;
+					font-size: 16px;
+					line-height: 22px;
+					color:#5d6770;
+					text-align: right;
+					}
+
+				/* ----- */
+
+				.bottomNav{
+					font-size: 15px;
+					}
+
+				.emailPage{
+					right:65vw;
+					}
+
+				.linkedinPage{
+					margin: 0px 215px 0px 215px ;
+					}
+
+				.bottomContactPage{
+					left: 65vw;
+					}
 
 			}
 
@@ -731,31 +779,34 @@
 		</style> 
 	</head>
 
-<!------------------------------------- B O D Y ------------------------------------->
+	<!----- B O D Y ----->
 
 	<body>
 		<p>
 
-<!--------------- Top Nav ---------------->
+		<!----- Desktop Navigation ----->
 
-			<a href="index.html">
-				<div class="indexPage">Chanjoo Tiffany Park</div></a>
+			<a href="index.html"><div class="indexPage">Chanjoo Tiffany Park</div></a>
 
-		<!---------- Nav ----------->
+			<!-- Top Right -->
 
 			<div class="navBox">
-				<a href="work.html">
-					<div class="workPage"></div></a>
+				<a href="work.html"><div class="workPage"></div></a>
 
-				<a href="about.html">
-					<div class="aboutPage">About</div></a>
+				<a href="about.html"><div class="aboutPage">About</div></a>
 
-				<a href="contact.html">
-					<div class="contactPage">Contact</div></a>
+				<a href="contact.html"><div class="contactPage">Contact</div></a>
 			</div>
 
-			
-<!--------------- Body ---------------->
+		<!----- Mobile Navigation ----->
+
+			<div class="mobileNav">
+					<a href="index.html"><div class="mobileIndexPage">Main</div></a>
+
+					<a href="about.html"><div class="mobileAboutPage">About</div></a>
+			</div>
+
+		<!----- Body ----->
 
 			<div class="box1">
 					<h1>Weather Now</h1>
@@ -891,22 +942,30 @@
 			<div class="box14space"></div>
 
 
-<!--------------- Bottom Navigation ---------------->
+			<!----- Desktop Bottom Nav ----->
 
-			<div class="box-bottom">
-
-					<div class="bottom-navigation">
-
+				<div class="bottomNav">
 						<a href="mailto:createtiff@gmail.com">
-							<div class="email-page">Email</div></a>
+							<div class="bottomEmailPage">Email</div></a>
 
 						<a href="https://www.linkedin.com/in/createtiff">
-							<div class="linkedin-page">LinkedIn</div></a>
+							<div class="bottomLinkedinPage">LinkedIn</div></a>
 
 						<a href="contact.html">
-							<div class="bottom-contact-page">Contact</div></a>
-					</div>
-			</div>
+							<div class="bottomContactPage">Contact</div></a>
+				</div>
+
+				<!----- Mobile Bottom Nav ----->
+
+
+				<div class="mobileBottomNav">
+
+						<a href="mailto:createtiff@gmail.com">
+							<div class="mobileEmailPage">Email</div></a>
+
+						<a href="https://www.linkedin.com/in/createtiff">
+							<div class="mobileLinkedinPage">LinkedIn</div></a>
+				</div>
 
 
 		</p>

@@ -10,32 +10,32 @@
 		<style>
 
 			@font-face {
-  			font-family: 'fontRegular';
-  			src: url('basiercircle-regular.otf');
-  			font-weight: normal;
-    		font-style: normal;
-			}
+	  			font-family: 'fontRegular';
+	  			src: url('basiercircle-regular.otf');
+	  			font-weight: normal;
+	    		font-style: normal;
+				}
 
 			@font-face {
-  			font-family: 'fontMedium';
-  			src: url('BasierCircle-Medium.ttf');
-  			font-weight: normal;
-    		font-style: normal;
-			}
+	  			font-family: 'fontMedium';
+	  			src: url('BasierCircle-Medium.ttf');
+	  			font-weight: normal;
+	    		font-style: normal;
+				}
 
 			@font-face {
-  			font-family: 'fontRubik';
-  			src: url('Rubik-Light.ttf');
-  			font-weight: normal;
-    		font-style: normal;
-			}
+	  			font-family: 'fontRubik';
+	  			src: url('Rubik-Light.ttf');
+	  			font-weight: normal;
+	    		font-style: normal;
+				}
 
 			@font-face {
-  			font-family: 'fontOgg';
-  			src: url('ogg-roman.otf');
-  			font-weight: normal;
-    		font-style: normal;
-			}
+	  			font-family: 'fontOgg';
+	  			src: url('ogg-roman.otf');
+	  			font-weight: normal;
+	    		font-style: normal;
+				}
 
 			body{
 				margin: 0;
@@ -168,6 +168,20 @@
 				right: 0px;
 				margin: 0;
 				padding: 0;
+			}
+
+			/* ------ */
+
+			.mobileNav{
+				display: none;
+			}
+
+			.mobileIndexPage{
+				display: none;
+			}
+
+			.mobileContactPage{
+				display: none;
 			}
 
 			/* ---------------------------------------- */
@@ -669,31 +683,34 @@
 		</style> 
 	</head>
 
-<!------------------------------------- B O D Y ------------------------------------->
+	<!----- B O D Y ----->
 
 	<body>
 		<p>
 
-<!--------------- Top Nav ---------------->
+		<!----- Desktop Navigation ----->
 
-			<a href="index.html">
-				<div class="indexPage">Chanjoo Tiffany Park</div></a>
+			<a href="index.html"><div class="indexPage">Chanjoo Tiffany Park</div></a>
 
-		<!---------- Nav ----------->
+			<!-- Top Right -->
 
 			<div class="navBox">
-				<a href="work.html">
-					<div class="workPage"></div></a>
+				<a href="work.html"><div class="workPage"></div></a>
 
-				<a href="about.html">
-					<div class="aboutPage">About</div></a>
+				<a href="about.html"><div class="aboutPage">About</div></a>
 
-				<a href="contact.html">
-					<div class="contactPage">Contact</div></a>
+				<a href="contact.html"><div class="contactPage">Contact</div></a>
 			</div>
 
-			
-<!--------------- Body ---------------->
+		<!----- Mobile Navigation ----->
+
+			<div class="mobileNav">
+					<a href="index.html"><div class="mobileIndexPage">Main</div></a>
+
+					<a href="contact.html"><div class="mobileContactPage">Contact</div></a>
+			</div>
+
+		<!----- Body ----->
 
 			<div class="box1">
 					<h1>Seeds of Fortune</h1>
@@ -830,24 +847,30 @@
 			<div class="box8space"></div>
 		
 
+			 <!----- Desktop Bottom Nav ----->
 
-
-<!--------------- Bottom Navigation ---------------->
-
-			<div class="box-bottom">
-
-					<div class="bottom-navigation">
-
+				<div class="bottomNav">
 						<a href="mailto:createtiff@gmail.com">
-							<div class="email-page">Email</div></a>
+							<div class="bottomEmailPage">Email</div></a>
 
 						<a href="https://www.linkedin.com/in/createtiff">
-							<div class="linkedin-page">LinkedIn</div></a>
+							<div class="bottomLinkedinPage">LinkedIn</div></a>
 
 						<a href="contact.html">
-							<div class="bottom-contact-page">Contact</div></a>
-					</div>
-			</div>
+							<div class="bottomContactPage">Contact</div></a>
+				</div>
+
+				<!----- Mobile Bottom Nav ----->
+
+
+				<div class="mobileBottomNav">
+
+						<a href="mailto:createtiff@gmail.com">
+							<div class="mobileEmailPage">Email</div></a>
+
+						<a href="https://www.linkedin.com/in/createtiff">
+							<div class="mobileLinkedinPage">LinkedIn</div></a>
+				</div>
 
 
 		</p>

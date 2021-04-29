@@ -10,47 +10,49 @@
 		<style>
 
 			@font-face {
-  			font-family: 'fontRegular';
-  			src: url('basiercircle-regular.otf');
-  			font-weight: normal;
-    		font-style: normal;
-			}
+	  			font-family: 'fontRegular';
+	  			src: url('basiercircle-regular.otf');
+	  			font-weight: normal;
+	    		font-style: normal;
+				}
 
 			@font-face {
-  			font-family: 'fontMedium';
-  			src: url('BasierCircle-Medium.ttf');
-  			font-weight: normal;
-    		font-style: normal;
-			}
+	  			font-family: 'fontMedium';
+	  			src: url('BasierCircle-Medium.ttf');
+	  			font-weight: normal;
+	    		font-style: normal;
+				}
 
 			@font-face {
-  			font-family: 'fontOgg';
-  			src: url('ogg-roman.otf');
-  			font-weight: normal;
-    		font-style: normal;
-			}
+	  			font-family: 'fontRubik';
+	  			src: url('Rubik-Light.ttf');
+	  			font-weight: normal;
+	    		font-style: normal;
+				}
 
-
-			
+			@font-face {
+	  			font-family: 'fontOgg';
+	  			src: url('ogg-roman.otf');
+	  			font-weight: normal;
+	    		font-style: normal;
+				}
 
 			a{
 				text-decoration: none;
 				color: inherit;
-			}
+				}
 
 			a:hover{
 				color: inherit;
-			}
+				}
 
 			a:active{
 				color: inherit;
-			}
+				}
 
 			a:visited{
 				color: inherit;
-			}
-
-			/* ---------------------------------------- */
+				}
 
 			img {
 				width:80vw;
@@ -59,21 +61,13 @@
 				padding: 0;
 				filter: brightness(0.5);
 				border-radius: 20px;
-			}
-
-			
-
-			/* ---------------------------------------- */
+				}
 			
 			body{
 				display: table; 
 				margin: 0;
 				padding: 0;
-			}
-
-			/* ---------------------------------------- */
-
-
+				}
 
 			h2{
 				font-family: fontRegular;
@@ -85,8 +79,7 @@
 
 				color:#FFFFFF;
 				text-align: center;
-			}
-
+				}
 
 			h3{
 				font-family:fontRegular;
@@ -97,10 +90,7 @@
 
 				color:#E4E3EB;
 				text-align: center;
-			}
-
-
-			/* ---------------------------------------- */
+				}
 
 			.indexPage{
 				position: absolute;
@@ -113,10 +103,9 @@
 				font-size: 18px;
 				line-height: 22px;
 				color:#5d6770;
-
 			}
 
-			.navigationBox{
+			.navBox{
 				position: absolute;
 				top: 45px;
 				right: 10vw;
@@ -133,16 +122,15 @@
 				font-size: 18px;
 				line-height: 22px;
 				color:#5d6770;
-			}
+				}
 			
-
 			.workPage{
 				position: absolute;
 				top: 0px;
 				right: 200px;
 				margin: 0;
 				padding: 0;
-			}
+				}
 
 			.aboutPage{
 				position: absolute;
@@ -150,7 +138,7 @@
 				right: 105px;
 				margin: 0;
 				padding: 0;
-			}
+				}
 
 			.contactPage{
 				position: absolute;
@@ -158,10 +146,23 @@
 				right: 0px;
 				margin: 0;
 				padding: 0;
-			}
+				}
 			
+			/* ----- */
 
-			/* ---------------------------------------- */
+			.mobileNav{
+				display: none;
+				}
+
+			.mobileAboutPage{
+				display: none;
+				}
+
+			.mobileContactPage{
+				display: none;
+				}
+				
+			/* ----- */
 
 			.mobile-navigation{
 				display: none;
@@ -182,18 +183,6 @@
 			.mobile-linkedinPage{
 				display: none;
 				}
-
-			.mobile-top-navigation{
-				display: none;
-			}
-
-			.mobile-top-aboutPage{
-				display: none;
-			}
-
-			.mobile-top-contactPage{
-				display: none;
-			}
 
 			/* ---------------------------------------- */
 
@@ -809,57 +798,35 @@
 		</style> 
 	</head>
 
-<!------------------------------------- B O D Y ------------------------------------->
+	<!----- B O D Y ----->
 
 	<body>
 		<p>
 
-<!--------------- Top Navigation ---------------->
+		<!----- Desktop Navigation ----->
 
-			<a href="index.html">
-				<div class="indexPage">
-					Chanjoo Tiffany Park
-				</div>
-			</a>
+			<a href="index.html"><div class="indexPage">Chanjoo Tiffany Park</div></a>
 
-		<!---------- Navigation ----------->
+			<!-- Top Right -->
 
-			<div class="navigationBox">
-				<a href="work.html">
-					<div class="workPage">
-						Work
-					</div>
-				</a>
+			<div class="navBox">
+				<a href="work.html"><div class="workPage"></div></a>
 
-				<a href="about.html">
-					<div class="aboutPage">
-						About
-					</div>
-				</a>
+				<a href="about.html"><div class="aboutPage">About</div></a>
 
-				<a href="contact.html">
-					<div class="contactPage">
-						Contact
-					</div>
-				</a>
+				<a href="contact.html"><div class="contactPage">Contact</div></a>
 			</div>
 
-			<div class="mobile-top-navigation">
-					<a href="about.html">
-						<div class="mobile-top-aboutPage">
-							About
-						</div>
-					</a>
+		<!----- Mobile Navigation ----->
 
-					<a href="contact.html">
-						<div class="mobile-top-contactPage">
-							Contact
-						</div>
-					</a>
+			<div class="mobileNav">
+					<a href="index.html"><div class="mobileIndexPage">Main</div></a>
+
+					<a href="contact.html"><div class="mobileContactPage">Contact</div></a>
 			</div>
 
+		<!----- Body ----->
 
-<!--------------- Content ---------------->
 
 		<div class="container">
 
