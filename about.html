@@ -86,14 +86,6 @@
 
 
 			h2{
-				position: absolute;
-
-				top: 200px;
-				left: 50vw;
-				padding-right: 10vw;
-				width: 40vw;
-				border-radius: 1vw;
-
 				margin: 0;
 				font-family: fontRegular;
 				font-weight: normal;
@@ -103,61 +95,6 @@
 				text-align: left;
 				}
 
-			.greeting-image{
-				position: absolute;
-				top: 200px;
-				left: 15vw;
-
-				margin: 0;
-				padding: 0;
-				}
-
-			.greeting-image-mobile{
-				display: none;
-				}
-
-			.gallery{
-				position: absolute;
-				top: 2200px;
-
-				margin: 0;
-				padding: 0;
-
-				height: 10vw;
-				width: 100vw;
-				
-				font-family: freight-big-pro, serif;
-				font-weight: 400;
-				font-style: normal;
-				
-				font-size: 3vw;
-
-				text-align: center;
-				}
-
-			iframe{
-				margin: 0;
-				padding: 5vw;
-				width: 80vw;
-				border-radius: 1vw;
-
-				box-shadow:
-    			inset 0 0 15px #DADADA,      /* inner white */
-			    inset 20px 0 300px #fff,   /* inner left magenta short */
-			    inset -20px 0 300px #fff,  /* inner right cyan short */
-			    inset 20px 0 300px #fff,  /* inner left magenta broad */
-			    inset -20px 0 300px #fff; /* inner right cyan broad */
-				}
-
-
-			.frame-1{
-				position: absolute;
-				width: 100vw;
-				height: 100%;
-				top: 2300px;
-				}
-
-			/* ------ */
 
 			.indexPage{
 				position: absolute;
@@ -215,7 +152,7 @@
 				padding: 0;
 				}
 
-			/* ------ */
+			/* ----- Mobile Top Nav ----- */
 
 			.mobileNav{
 				display: none;
@@ -230,21 +167,98 @@
 				}
 
 			/* ------ */
+
+			.greeting-image{
+				display: block;
+				position: relative;
+
+				width:42.5vw;
+
+				top: 10vw;
+
+				left: 5vw;
+
+				margin: 0;
+				padding: 0;
+				}
+
+			.greeting-image-mobile{
+				display: none;
+				}
+
+			.bodyText{
+				display: block;
+				position: relative;
+
+				top: 10vw;
+
+				left: 52.5vw;
+
+				width:42.5vw;
+				
+				padding-right: 5vw;
+				}
+
+			.gallery{
+				display: block;
+				position: relative;
+
+				top: 25vw;
+
+				margin: 0;
+				padding: 0;
+
+				width: 100vw;
+				
+				font-family: freight-big-pro, serif;
+				font-weight: 400;
+				font-style: normal;
+				
+				font-size: 3vw;
+
+				text-align: center;
+				}
+
+			.frame{
+				display: block;
+				position: relative;
+				width: 100vw;
+	
+				top: 5vw;
+				}
+
+			iframe{
+				margin: 0;
+				padding: 5vw;
+				width: 80vw;
+				border-radius: 1vw;
+
+				box-shadow:
+    			inset 0 0 15px #DADADA,      /* inner white */
+			    inset 20px 0 300px #fff,   /* inner left magenta short */
+			    inset -20px 0 300px #fff,  /* inner right cyan short */
+			    inset 20px 0 300px #fff,  /* inner left magenta broad */
+			    inset -20px 0 300px #fff; /* inner right cyan broad */
+				}
+
+			/* ----- Desktop Bottom Nav ----- */
 			
 
 			.bottomNav{
+				display: block;
 				position: relative;
-				top: 45px;
+
+				top: 40vw;
 
 				text-align: center;
-
 
 				margin: 0;
 				padding: 0;
 
 				width: 100vw;
 				left: 0vw;
-				height: 22px;
+
+				height: 20vh;
 
 				font-family: fontRegular;
 				font-weight: lighter;
@@ -253,7 +267,7 @@
 				color:#5d6770;
 				}
 
-			.emailPage{
+			.bottomEmailPage{
 				position: absolute;
 				top: 0px;
 				right:60vw;
@@ -261,7 +275,7 @@
 				padding: 0;
 				}
 
-			.linkedinPage{
+			.bottomLinkedinPage{
 				position: absolute;
 				top: 0px;
 
@@ -282,15 +296,18 @@
 				padding: 0;
 				}
 
-			/* ------ */
+			/* ----- Mobile Bottom Nav ----- */
 
+			.mobileBottomNav{
+				display: none;
+				}
 
-			#paddingBottom{
-				position: absolute;
-				top: 3400px;
-				height: 10vw;
-				width: 100vw;
-				background-color: transparent;
+			.mobileEmailPage{
+				display: none;
+				}
+
+			.mobileLinkedinPage{
+				display: none;
 				}
 
 
@@ -299,27 +316,6 @@
 
 			@media only screen and (max-width: 1025px) {
 
-				body{
-					background-image: none;
-					background-size: 100%;
-					animation: none;
-					}
-
-				h1{
-					font-size: 42px;
-					line-height: 42px;
-					}
-
-				h2{
-					font-size: 16px;
-					line-height: 26px;
-
-					}
-
-				#paddingBottom{
-					top: 300vw;
-					height: 20vw;
-					}
 
 			}
 		
@@ -329,6 +325,10 @@
 
 			@media only screen and (max-width: 600px) {
 
+				h2{
+					font-size: 16px;
+					line-height: 24px;
+					}
 
 				.indexPage{
 					display: none;
@@ -353,7 +353,7 @@
 					margin-right: 5vw;
 					padding: 0;
 
-					top: 30px;
+					top: 20px;
 					height: 15vh;
 					z-index: 1;
 					}
@@ -399,51 +399,113 @@
 
 				.greeting-image-mobile{
 					display: block;
-					position: absolute;
-					top: 15vh;
-					left: 15vw;
+					position: relative;
+
+					width:42.5vw;
+
+					top: 15vw;
+
+					left: 5vw;
 
 					margin: 0;
 					padding: 0;
 					}
 
-				/* ------ */
+				.bodyText{
+					display: block;
+					position: relative;
 
-				h2{
-					top: 50vh;
+					top: 25vw;
+
 					left: 5vw;
-					right: 5vw;
-					width: 90vw;
-					margin: 0;
-					padding: 0;
-					font-size: 16px;
-					line-height: 24px;
-					text-align: left;
+
+					width:90vw;
+					
+					padding-right: 5vw;
 					}
 
 				/* ------ */
 
 				.gallery{
-					top: 2500px;
-					font-size: 26px;
-
 					display: none;
 					}
 
 				.frame-1{
-					top: 2550px;
-
 					display: none;
 					}
 
 				/* ------ */
 
-				#paddingBottom{
+				.bottomNav{
+					display: none;
+
+					width: 100vw;
+					left: 0;
+					}
+
+				.bottomEmailPage{
+					display: none;
+
+					left: 0;
+					}
+
+				.bottomLinkedinPage{
 					display: none;
 					}
 
-				.bottomNav{
+				.bottomContactPage{
 					display: none;
+
+					right: 0;
+					}
+
+				/* ----- Mobile Bottom Nav ----- */
+
+				.mobileBottomNav{
+					display: block;
+					position:relative;
+
+					width: 90vw;
+					left: 5vw;
+					
+					padding: 0;
+
+					top: 40vw;
+					bottom: 0;
+					height: 60px;
+					z-index: 1;
+					}
+
+				.mobileEmailPage{
+					display: inline-block;
+					position:absolute;
+
+					width: 20vw;
+					left: 0;
+					margin: 0;
+
+					font-family: fontRegular;
+					font-weight: 100;
+					font-size: 16px;
+					line-height: 22px;
+					color:#5d6770;
+					text-align: left;
+					}
+
+				.mobileLinkedinPage{
+					display: inline-block;
+					position:absolute;
+
+					width: 20vw;
+					right: 0;
+					margin: 0;
+
+					font-family: fontRegular;
+					font-weight: 100;
+					font-size: 16px;
+					line-height: 22px;
+					color:#5d6770;
+					text-align: right;
 					}
 
 			}
@@ -477,79 +539,78 @@
 		<!----- Mobile Navigation ----->
 
 			<div class="mobileNav">
-					<a href="index.html"><div class="mobileIndexPage">Main</div></a>
+				<a href="index.html"><div class="mobileIndexPage">Main</div></a>
 
-					<a href="contact.html"><div class="mobileContactPage">Contact</div></a>
+				<a href="contact.html"><div class="mobileContactPage">Contact</div></a>
 			</div>
 
 		<!----- Body ----->
+
 		
-		<!----- Greeting Image ----->
+			<!----- Greeting Image ----->
 
 				<div class="greeting-image">
-					<center>
-						<img src="img/hello.png" style="width:20vw;">
-					</center>
+					<center><img src="img/hello.png" style="width:20vw;"></center>
 				</div>
 
 				<div class="greeting-image-mobile">
-					<center>
-						<img src="img/hello.png" style="width:40vw;">
-					</center>
+					<center><img src="img/hello.png" style="width:40vw;"></center>
 				</div>
 
-		<!----- Body Text ----->
+			<!----- Body Text ----->
+				<div class="bodyText">
+					<h2>
+						Hi 👋  I'm Tiffany,</br>
+						</br>
+						A multidisciplinary designer based in New York City🗽 with a passion about visual systems, user experience, and digital services. I focus on conveying both human and business needs into design with clarity and sophistication.</br>
+						</br></br>
+						Born in the suburbs of Chicago and raised in Seoul, I landed in New York to pursue design. I will be graduating from Parsons School of Design in May 2021, with a BFA in <span style="text-decoration: underline #87878c;">Communication Design</span> and Minor in <span style="text-decoration: underline #87878c;">Creative Entrepreneurship</span>  where I collaboratively worked across disciplines using visual communication, motion graphics, interaction, experience, and product design. By minoring in Creative Entrepreneurship, I gained a business perspective in approaching design by learning financial, strategic and design thinking methods. I did a <span style="text-decoration: underline #87878c;">semester abroad in Paris</span> 🥐 where I expanded my knowledge in global marketing, different ways of living, and humans in general!</br>
+						</br></br>
 
-				<h2>
-					Hi 👋  I'm Tiffany,</br>
-					</br>
-					A multidisciplinary designer based in New York City🗽 with a passion about visual systems, user experience, and digital services. I focus on conveying both human and business needs into design with clarity and sophistication.</br>
-					</br></br>
-					Born in the suburbs of Chicago and raised in Seoul, I landed in New York to pursue design. I will be graduating from Parsons School of Design in May 2021, with a BFA in <span style="text-decoration: underline #87878c;">Communication Design</span> and Minor in <span style="text-decoration: underline #87878c;">Creative Entrepreneurship</span>  where I collaboratively worked across disciplines using visual communication, motion graphics, interaction, experience, and product design. By minoring in Creative Entrepreneurship, I gained a business perspective in approaching design by learning financial, strategic and design thinking methods. I did a <span style="text-decoration: underline #87878c;">semester abroad in Paris</span> 🥐 where I expanded my knowledge in global marketing, different ways of living, and humans in general!</br>
-					</br></br>
+						I am currently participating in 
+						<span style="text-decoration: underline #87878c;">Cornell Tech x Parsons Product + Startup Studio</span>, learning the nature of building a startup by collaborating with multidisciplinary team including MBA, CS, and Law students. I previously interned at 
+						Wix, as a Web Designer, worked at Zara as a Sales Associate, and taught Art and Design to high school students in Seoul.
+						</br></br></br></br>
 
-					I am currently participating in 
-					<span style="text-decoration: underline #87878c;">Cornell Tech x Parsons Product + Startup Studio</span>, learning the nature of building a startup by collaborating with multidisciplinary team including MBA, CS, and Law students. I previously interned at 
-					Wix, as a Web Designer, worked at Zara as a Sales Associate, and taught Art and Design to high school students in Seoul.
-					</br></br></br></br>
-
-					<span style="color:#87878c; font-size: 28px; font-weight:bolder; line-height: 52px;">Life before Design</span></br>
-					Growing up with an arctic marine scientist grandfather who spent years traveling the end points of the earth 🌎, 
-					exploration has been second nature to me. 
-					I initially studied classical painting 👩🏻‍🎨 and fashion design 🪡 to learn about the fundamentals of form and function and visual representation of concepts based on history.</br>
-					</br></br></br></br>
-					
-					<span style="color:#87878c; font-size: 28px; font-weight:bolder; line-height: 52px;">As a person</span></br>
-					<span style="text-decoration: underline #87878c;">
-					1. I’m an Extroverted Introvert. </span></br>
-					Love working with people and meeting new people but need a good balance with alone time.</br>
-					</br>
-					<span style="text-decoration: underline #87878c;">
-					2. Curiosity and discomfort are my biggest inspirations.</span></br>Passionate in creating seamless design systems that makes people’s lives easier.</br>
-					</br>
-					<span style="text-decoration: underline #87878c;">
-					3. My current interest is in designing gratifying digital experiences.</span> Minimize  digital burnout and create digital wellbeing to successfully navigate through the Covid / Fourth Industrial Revolution era.</br>
-					</br></br></br></br>
-					<span style="color:#87878c; font-size: 28px; font-weight:bolder; line-height: 52px;">Interesting fact</span></br>
-					Unlike most people, I’ve traveled the most in 2020! I have experienced lockdown/quarantine in 4 different countries, US, UK, France, South Korea, during Covid 🙃</br>
-				</h2>
+						<span style="color:#87878c; font-size: 28px; font-weight:bolder; line-height: 52px;">Life before Design</span></br>
+						Growing up with an arctic marine scientist grandfather who spent years traveling the end points of the earth 🌎, 
+						exploration has been second nature to me. 
+						I initially studied classical painting 👩🏻‍🎨 and fashion design 🪡 to learn about the fundamentals of form and function and visual representation of concepts based on history.</br>
+						</br></br></br></br>
+						
+						<span style="color:#87878c; font-size: 28px; font-weight:bolder; line-height: 52px;">As a person</span></br>
+						<span style="text-decoration: underline #87878c;">
+						1. I’m an Extroverted Introvert. </span></br>
+						Love working with people and meeting new people but need a good balance with alone time.</br>
+						</br>
+						<span style="text-decoration: underline #87878c;">
+						2. Curiosity and discomfort are my biggest inspirations.</span></br>Passionate in creating seamless design systems that makes people’s lives easier.</br>
+						</br>
+						<span style="text-decoration: underline #87878c;">
+						3. My current interest is in designing gratifying digital experiences.</span> Minimize  digital burnout and create digital wellbeing to successfully navigate through the Covid / Fourth Industrial Revolution era.</br>
+						</br></br></br></br>
+						<span style="color:#87878c; font-size: 28px; font-weight:bolder; line-height: 52px;">Interesting fact</span></br>
+						Unlike most people, I’ve traveled the most in 2020! I have experienced lockdown/quarantine in 4 different countries, US, UK, France, South Korea, during Covid 🙃</br>
+					</h2>
+				</div>
 
 				<div class="gallery">
 					A small gallery of my study abroad in 
-							<span style="color:blue; opacity:0.7;">P</span>
-							<span style="color:#E8E8E8">a</span>
-							<span style="color:#E8E8E8">r</span>
-							<span style="color:red; opacity:0.8;">i</span>
-							<span style="color:red; opacity:0.8;">s</span>
+						<span style="color:blue; opacity:0.7;">P</span>
+						<span style="color:#E8E8E8">a</span>
+						<span style="color:#E8E8E8">r</span>
+						<span style="color:red; opacity:0.8;">i</span>
+						<span style="color:red; opacity:0.8;">s</span>
+				
+
+					<div class="frame">
+						<center>
+							<iframe width="90vw" height="800" src="https://www.createtiff.com/paris/archive" frameborder="0" allowfullscreen></iframe>
+						</center>
+					</div>
 				</div>
 
-				<div class="frame-1">
-					<center>
-						<iframe width="90vw" height="800" src="https://www.createtiff.com/paris/archive" frameborder="0" allowfullscreen></iframe>
-					</center>
-				</div>
-
-		<!----- Desktop Bottom Nav ----->
+				<!----- Desktop Bottom Nav ----->
 
 				<div class="bottomNav">
 						<a href="mailto:createtiff@gmail.com">
@@ -573,7 +634,6 @@
 						<a href="https://www.linkedin.com/in/createtiff">
 							<div class="mobileLinkedinPage">LinkedIn</div></a>
 				</div>
-
 
 		</p>
 	</body>

@@ -92,7 +92,6 @@
 				margin-block-start: -0.05em;
 				}
 
-
 			p{
 				font-family: fontRubik;
 				font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300)));
@@ -101,8 +100,44 @@
 				color:#778089;
 				}
 
+			iframe{
+				position: relative;
 
-			/* ---------------------------------------- */
+				left: 0vw;
+				width: 80vw;
+
+				margin: 0;
+				padding: 0;
+				}
+
+			a{
+				text-decoration: none;
+				color: inherit;
+				}
+
+			a:hover{
+				color: inherit;
+				}
+
+			a:active{
+				color: inherit;
+				}
+
+			a:visited{
+				color: inherit;
+				}
+
+			img {
+
+				top: 0vw;
+				margin: 0;
+				padding: 0;
+
+				width:42.5vw;
+				border-radius: 20px;
+				}
+
+			/* ----- */
 
 			.indexPage{
 				position: absolute;
@@ -161,7 +196,7 @@
 				padding: 0;
 				}
 
-			/* ----------------- Mobile Navigation ----------------- */
+			/* ----- Mobile Top Nav ----- */
 
 			.mobileNav{
 				display: none;
@@ -175,22 +210,9 @@
 				display: none;
 				}
 
-			.mobileBottomNav{
-				display: none;
-				}
+			/* ----- */
 
-			.mobileEmailPage{
-				display: none;
-				}
-
-			.mobileLinkedinPage{
-				display: none;
-				}
-
-			/* ---------------------------------------- */
-
-
-			.title-box{
+			.titleBox{
 				display: block;
 				position: relative;
 				top: 17.5vw;
@@ -202,7 +224,7 @@
 				padding: 0;
 				}
 
-			.title-box-space{
+			.titleBoxSpace{
 				display: block;
 				position: relative;
 				left: 0vw;
@@ -215,7 +237,7 @@
 				padding: 0;
 				}
 
-			.mobile-title-box{
+			.mobileTitleBox{
 				display: none;
 				position: relative;
 				top: 10vw;
@@ -227,7 +249,7 @@
 				padding: 0;
 				}
 			
-			.box-container{
+			.container{
 				display: block;
 				position: relative;
 				width: 90vw;
@@ -364,6 +386,7 @@
 				padding: 0;
 				}
 
+			/* ----- Desktop Bottom Nav ----- */
 
 			.bottomNav{
 				display: inline-block;
@@ -417,43 +440,18 @@
 				padding: 0;
 				}
 			
+			/* ----- Mobile Bottom Nav ----- */
 
-			iframe{
-				position: relative;
-
-				left: 0vw;
-				width: 80vw;
-
-				margin: 0;
-				padding: 0;
+			.mobileBottomNav{
+				display: none;
 				}
 
-			a{
-				text-decoration: none;
-				color: inherit;
+			.mobileEmailPage{
+				display: none;
 				}
 
-			a:hover{
-				color: inherit;
-				}
-
-			a:active{
-				color: inherit;
-				}
-
-			a:visited{
-				color: inherit;
-				}
-
-		
-			img {
-
-				top: 0vw;
-				margin: 0;
-				padding: 0;
-
-				width:42.5vw;
-				border-radius: 20px;
+			.mobileLinkedinPage{
+				display: none;
 				}
 				 
 
@@ -464,15 +462,6 @@
 			
 
 			@media only screen and (max-width: 1025px) {
-
-				img {
-					top: 0vw;
-					margin: 0;
-					padding: 0;
-
-					width:60vw;
-					border-radius: 20px;
-					}
 
 			}
 		
@@ -587,11 +576,11 @@
 					text-align: right;
 					}
 
-				.title-box{
+				.titleBox{
 					display: none;
 					}
 
-				.mobile-title-box{
+				.mobileTitleBox{
 					display: block;
 					position: relative;
 
@@ -701,16 +690,15 @@
 
 				.bottomLinkedinPage{
 					display: none;
-		
 					}
-
-				/* ------ */
 
 				.bottomContactPage{
 					display: none;
 
 					right: 0;
-					}	
+					}
+
+				/* ------ */
 
 				.mobileBottomNav{
 					display: block;
@@ -726,7 +714,6 @@
 					height: 60px;
 					z-index: 1;
 					}
-
 
 				.mobileEmailPage{
 					display: inline-block;
@@ -794,22 +781,22 @@
 
 		<!----- Body ----->
 
-			<div class="title-box">
+			<div class="titleBox">
 					<h1>
 						<span style="font-family: fontOgg">Chanjoo Tiffany Park — </br></span>is
 						a <span style="font-family: fontOgg">New York City</span> based designer passionate about creating <span style="font-family: fontOgg"></span>clear communication and engaging user experiences through <span style="font-family: fontOgg">sophisticated design solutions</span>.
 					</h1>
 			</div>
 
-			<div class="mobile-title-box">
+			<div class="mobileTitleBox">
 					<h1>
 						Chanjoo Tiffany Park — is a </br>New York City based designer passionate about creating clear communication and engaging user experiences through sophisticated design solutions.
 					</h1>
 			</div>
 
-			<div class="title-box-space"></div>
+			<div class="titleBoxSpace"></div>
 
-			<div class="box-container">
+			<div class="container">
 					<div class="box1">
 								<a href="across.html">
 									<div class="image1">

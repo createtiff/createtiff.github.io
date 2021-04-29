@@ -40,9 +40,7 @@
 			body{
 				margin: 0;
 				padding: 0;
-			}
-
-			/* ---------------------------------------- */
+				}
 
 			h1{
 				font-family: fontRegular;
@@ -53,7 +51,7 @@
     			margin-block-end: 0.2em;
 
     			color:#000000;
-			}
+				}
 
 			h2{
 				font-family:fontRegular;
@@ -66,7 +64,7 @@
     			margin-block-end: 0;
 
 				color:#000000;
-			}
+				}
 
 
 			h3{
@@ -76,7 +74,7 @@
   				line-height: calc(21px + (28 - 21) * ((100vw - 300px) / (1600 - 300)));
 
 				color:#878787;
-			}
+				}
 
 			h4{
 				font-family:fontRegular;
@@ -89,7 +87,7 @@
     			margin-block-end: 20px;
 
 				color:#303030;
-			}
+				}
 
 			h5{
 				font-family: fontRegular;
@@ -98,7 +96,7 @@
   				line-height: calc(24px + (36 - 24) * ((100vw - 300px) / (1600 - 300)));
 
 				color:#878787;
-			}
+				}
 
 
 			p{
@@ -107,10 +105,45 @@
 				line-height: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
 
 				color:#778089;
-			}
+				}
 
+			iframe{
+				position: relative;
 
-			/* ---------------------------------------- */
+				left: 0vw;
+				width: 80vw;
+
+				margin: 0;
+				padding: 0;
+				}
+
+			a{
+				text-decoration: none;
+				color: inherit;
+				}
+
+			a:hover{
+				color: inherit;
+				}
+
+			a:active{
+				color: inherit;
+				}
+
+			a:visited{
+				color: inherit;
+				}
+
+		
+			img {
+
+				top: 0vw;
+				margin: 0;
+				padding: 0;
+				 
+				}
+
+			/* ----- */
 
 			.indexPage{
 				position: absolute;
@@ -183,7 +216,7 @@
 				display: none;
 				}
 
-			/* ---------------------------------------- */
+			/* ------ */
 
 			.box1{
 				display: block;
@@ -569,51 +602,41 @@
 				padding: 0;
 			}
 
-
-			.box-bottom{
-				display: block;
-				position: relative;
-				left: 0vw;
-				top: 15vw;
-
-				width: 100vw;
-				height: 20vh;
-			}
+			/* ----- Desktop Bottom Nav ----- */
 			
 
-			.bottom-navigation{
+			.bottomNav{
 				display: block;
 				position: relative;
-				top: 45px;
+
+				top: 40vw;
 
 				text-align: center;
-
 
 				margin: 0;
 				padding: 0;
 
 				width: 100vw;
 				left: 0vw;
-				height: 22px;
+
+				height: 20vh;
 
 				font-family: fontRegular;
 				font-weight: lighter;
 				font-size: 18px;
 				line-height: 22px;
 				color:#5d6770;
-			}
+				}
 
-
-			.email-page{
+			.bottomEmailPage{
 				position: absolute;
 				top: 0px;
 				right:60vw;
 				margin: 0;
 				padding: 0;
+				}
 
-			}
-
-			.linkedin-page{
+			.bottomLinkedinPage{
 				position: absolute;
 				top: 0px;
 
@@ -622,10 +645,9 @@
 				
 				margin: 0;
 				padding: 0;
+				}
 
-			}
-
-			.bottom-contact-page{
+			.bottomContactPage{
 				position: absolute;
 				top: 0px;
 
@@ -633,49 +655,22 @@
 
 				margin: 0;
 				padding: 0;
-
-			}
-			
-
-
-
-			/* ---------------------------------------- */
-
-			iframe{
-				position: relative;
-
-				left: 0vw;
-				width: 80vw;
-
-				margin: 0;
-				padding: 0;
-			}
-
-			a{
-				text-decoration: none;
-				color: inherit;
-			}
-
-			a:hover{
-				color: inherit;
-			}
-
-			a:active{
-				color: inherit;
-			}
-
-			a:visited{
-				color: inherit;
-			}
-
-		
-			img {
-
-				top: 0vw;
-				margin: 0;
-				padding: 0;
-				 
 				}
+
+			/* ----- Mobile Bottom Nav ----- */
+
+			.mobileBottomNav{
+				display: none;
+				}
+
+			.mobileEmailPage{
+				display: none;
+				}
+
+			.mobileLinkedinPage{
+				display: none;
+				}
+			
 
 			/* ---------------------------------------- */
 
@@ -716,7 +711,7 @@
 					margin-right: 5vw;
 					padding: 0;
 
-					top: 30px;
+					top: 20px;
 					height: 15vh;
 					z-index: 1;
 					}
@@ -754,22 +749,78 @@
 					text-align: right;
 					}
 
-				/* ----- */
+				/* ------ */
 
 				.bottomNav{
-					font-size: 15px;
+					display: none;
+
+					width: 100vw;
+					left: 0;
 					}
 
-				.emailPage{
-					right:65vw;
+				.bottomEmailPage{
+					display: none;
+
+					left: 0;
 					}
 
-				.linkedinPage{
-					margin: 0px 215px 0px 215px ;
+				.bottomLinkedinPage{
+					display: none;
 					}
 
 				.bottomContactPage{
-					left: 65vw;
+					display: none;
+
+					right: 0;
+					}
+
+				/* ------ */
+
+				.mobileBottomNav{
+					display: block;
+					position:relative;
+
+					width: 90vw;
+					left: 5vw;
+					
+					padding: 0;
+
+					top: 15vw;
+					bottom: 0;
+					height: 60px;
+					z-index: 1;
+					}
+
+				.mobileEmailPage{
+					display: inline-block;
+					position:absolute;
+
+					width: 20vw;
+					left: 0;
+					margin: 0;
+
+					font-family: fontRegular;
+					font-weight: 100;
+					font-size: 16px;
+					line-height: 22px;
+					color:#5d6770;
+					text-align: left;
+					}
+
+				.mobileLinkedinPage{
+					display: inline-block;
+					position:absolute;
+
+					width: 20vw;
+					right: 0;
+					margin: 0;
+
+					font-family: fontRegular;
+					font-weight: 100;
+					font-size: 16px;
+					line-height: 22px;
+					color:#5d6770;
+					text-align: right;
 					}
 
 			}
