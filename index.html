@@ -3,9 +3,10 @@
 	<head>
 		<title>Chanjoo Tiffany Park</title>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<link rel="stylesheet" type="text/css">
 		<link rel="icon" href="favicon.ico" type="image/x-icon">
+
 
 		<style>
 
@@ -112,7 +113,7 @@
 			.indexPage{
 				position: absolute;
 				top: 45px;
-				left: 10vw;
+				left: 5vw;
 				margin: 0;
 				padding: 0;
 				font-family: fontRegular;
@@ -126,7 +127,7 @@
 			.navBox{
 				position: absolute;
 				top: 45px;
-				right: 10vw;
+				right: 5vw;
 
 				margin: 0;
 				padding: 0;
@@ -208,9 +209,9 @@
 				display: block;
 				position: relative;
 				top: 10vw;
-				left: 10vw;
+				left: 5vw;
 
-				width:80vw;
+				width:90vw;
 
 				margin: 0;
 				padding: 0;
@@ -229,11 +230,24 @@
 				padding: 0;
 				}
 
+			.mobile-box1{
+				display: none;
+				position: relative;
+				top: 10vw;
+				left: 5vw;
+
+				width:90vw;
+
+				margin: 0;
+				padding: 0;
+				}
+			
+
 			.box2{
 				display: block;
 				position: relative;
 				top: 15vw;
-				left: 50vw;
+				left: 52.5vw;
 
 				width:35vw;
 
@@ -258,7 +272,7 @@
 				display: block;
 				position: relative;
 				top: 15vw;
-				left: 10vw;
+				left: 5vw;
 
 				width:35vw;
 
@@ -283,7 +297,7 @@
 				display: block;
 				position: relative;
 				top: 15vw;
-				left: 50vw;
+				left: 52.5vw;
 
 				width:35vw;
 
@@ -309,7 +323,7 @@
 				display: block;
 				position: relative;
 				top: 15vw;
-				left: 10vw;
+				left: 5vw;
 
 				width:35vw;
 
@@ -334,7 +348,7 @@
 				display: block;
 				position: relative;
 				top: 15vw;
-				left: 50vw;
+				left: 52.5vw;
 
 				width:35vw;
 
@@ -458,7 +472,7 @@
 				margin: 0;
 				padding: 0;
 
-				width:35vw;
+				width:42.5vw;
 				border-radius: 20px;
 				}
 				 
@@ -489,255 +503,268 @@
 
 			@media only screen and (max-width: 600px) {
 
-			img {
-				width:80vw;
-				border-radius: 20px;
-				}
+				h1{
+					font-size: calc(20px + (26 - 20) * ((100vw - 300px) / (1600 - 300)));
+					line-height: calc(32px + (42 - 32) * ((100vw - 300px) / (1600 - 300)));
+					}
+				
+				img {
+					width:90vw;
+					border-radius: 20px;
+					}
 
-			.indexPage{
-				top: 40px;
-				width: 100vw;
-				left: 0vw;
-				right: 0vw;
-				font-size: 15px;
+				.indexPage{
+					top: 40px;
+					width: 100vw;
+					left: 0vw;
+					right: 0vw;
+					font-size: 15px;
 
-				display: none;
-				}
+					display: none;
+					}
 
-			.navigationBox{
-				top: 40px;
-				left: 0vw;
-				right: 0vw;
-				width: 100vw;
-				font-size: 15px;
+				.navigationBox{
+					top: 40px;
+					left: 0vw;
+					right: 0vw;
+					width: 100vw;
+					font-size: 15px;
 
-				display: none;
-				}
+					display: none;
+					}
 
-			.workPage{
-				position: absolute;
-				left: 0vw;
-				right: 0vw;
-				width: 100vw;
+				.workPage{
+					position: absolute;
+					left: 0vw;
+					right: 0vw;
+					width: 100vw;
 
-				display: none;
-				}
+					display: none;
+					}
 
-			.aboutPage{
-				position: absolute;
-				left: 0vw;
-				right: 0vw;
-				width: 100vw;
+				.aboutPage{
+					position: absolute;
+					left: 0vw;
+					right: 0vw;
+					width: 100vw;
 
-				display: none;
-				}
+					display: none;
+					}
 
-			.contactPage{
-				position: absolute;
-				left: 0vw;
-				right: 0vw;
-				width: 100vw;
+				.contactPage{
+					position: absolute;
+					left: 0vw;
+					right: 0vw;
+					width: 100vw;
 
-				display: none;
-				}
+					display: none;
+					}
 
-			.box1{
-				top: 20vw;
-				width:80vw;
-				}
+				.box1{
+					display: none;
+					}
 
-			.box2{
-				top: 30vw;
-				left: 10vw;
-				width:80vw;
-				}
+				.mobile-box1{
+					display: block;
+					position: relative;
 
-			.box3{
-				top: 30vw;
-				left: 10vw;
-				width:80vw;
-				}
+					left: 5vw;
 
-			.box4{
-				top: 30vw;
-				left: 10vw;
-				width:80vw;
-				}
+					top: 20vw;
+					width:90vw;
 
-			.box5{
-				top: 30vw;
-				left: 10vw;
-				width:80vw;
-				}
+					margin: 0;
+					padding: 0;
+					}
 
-			.box6{
-				top: 30vw;
-				left: 10vw;
-				width:80vw;
-				}
+				.box2{
+					top: 30vw;
+					left: 5vw;
+					width:90vw;
+					}
 
-			.bottom-navigation{
-				display: none;
+				.box3{
+					top: 30vw;
+					left: 5vw;
+					width:90vw;
+					}
 
-				width: 100vw;
-				left: 0;
-				}
+				.box4{
+					top: 30vw;
+					left: 5vw;
+					width:90vw;
+					}
 
-			.email-page{
-				display: none;
+				.box5{
+					top: 30vw;
+					left: 5vw;
+					width:90vw;
+					}
 
-				left: 0;
-				}
+				.box6{
+					top: 30vw;
+					left: 5vw;
+					width:90vw;
+					}
 
-			.linkedin-page{
-				display: none;
-	
-				}
+				.bottom-navigation{
+					display: none;
 
-			.bottom-contact-page{
-				display: none;
+					width: 100vw;
+					left: 0;
+					}
 
-				right: 0;
-				}
+				.email-page{
+					display: none;
 
-			/* ---------------------------------------- */
+					left: 0;
+					}
 
-			.mobile-top-navigation{
-				display: block;
-				position:absolute;
+				.linkedin-page{
+					display: none;
+		
+					}
 
-				width: 90vw;
-				margin-left: 10vw;
-				margin-right: 10vw;
-				padding: 0;
+				.bottom-contact-page{
+					display: none;
 
-				top: 30px;
-				height: 15vh;
-				z-index: 1;
-				}
+					right: 0;
+					}
 
-			.mobile-top-aboutPage{
-				display: inline-block;
-				position: absolute;
-				left: 0;
-				width: 20vw;
-				margin: 0;
-				padding: 0;
+				/* ---------------------------------------- */
 
-				font-family: fontRegular;
-				font-weight: 100;
-				font-size: 16px;
-				line-height: 22px;
-				color:#5d6770;
-				text-align: left;
-				}
+				.mobile-top-navigation{
+					display: block;
+					position:absolute;
 
-			.mobile-top-contactPage{
-				display: inline-block;
-				position: absolute;
+					width: 90vw;
+					margin-left: 5vw;
+					margin-right: 5vw;
+					padding: 0;
 
-				right: 0;
-				width: 19vw;
-				margin-right: 10vw;
-				padding: 0;
+					top: 30px;
+					height: 15vh;
+					z-index: 1;
+					}
 
-				font-family: fontRegular;
-				font-weight: 100;
-				font-size: 16px;
-				line-height: 22px;
-				color:#5d6770;
-				text-align: right;
-				}
+				.mobile-top-aboutPage{
+					display: inline-block;
+					position: absolute;
+					left: 0;
+					width: 20vw;
+					margin: 0;
+					padding: 0;
 
-			/* ---------------------------------------- */
+					font-family: fontRegular;
+					font-weight: 100;
+					font-size: 16px;
+					line-height: 22px;
+					color:#5d6770;
+					text-align: left;
+					}
 
-			.mobile-bottom-navigation{
-				display: block;
-				position:relative;
+				.mobile-top-contactPage{
+					display: inline-block;
+					position: absolute;
 
-				width: 90vw;
-				margin-left: 5vw;
-				margin-right: 5vw;
-				padding: 0;
+					right: 0;
+					width: 19vw;
+					margin-right: 0vw;
+					padding: 0;
 
-				top: 40vw;
-				bottom: 0;
-				height: 80px;
-				z-index: 1;
-				}
+					font-family: fontRegular;
+					font-weight: 100;
+					font-size: 16px;
+					line-height: 22px;
+					color:#5d6770;
+					text-align: right;
+					}
 
-			.mobile-aboutPage{
-				display: inline-block;
-				position: relative;
-				width: 21vw;
-				margin: 0;
-				padding: 0;
+				/* ---------------------------------------- */
 
-				font-family: fontRegular;
-				font-weight: 100;
-				font-size: 16px;
-				line-height: 22px;
-				color:#5d6770;
-				text-align: center;
-				}
+				.mobile-bottom-navigation{
+					display: block;
+					position:relative;
 
-			.mobile-contactPage{
-				display: inline-block;
-				position:relative;
+					width: 90vw;
+					margin-left: 5vw;
+					margin-right: 5vw;
+					padding: 0;
 
-				width: 21vw;
-				margin: 0;
-				padding: 0;
+					top: 40vw;
+					bottom: 0;
+					height: 80px;
+					z-index: 1;
+					}
 
-				font-family: fontRegular;
-				font-weight: 100;
-				font-size: 16px;
-				line-height: 22px;
-				color:#5d6770;
-				text-align: center;
-				}
+				.mobile-aboutPage{
+					display: inline-block;
+					position: relative;
+					width: 21vw;
+					margin: 0;
+					padding: 0;
 
-			.mobile-emailPage{
-				display: inline-block;
-				position:relative;
+					font-family: fontRegular;
+					font-weight: 100;
+					font-size: 16px;
+					line-height: 22px;
+					color:#5d6770;
+					text-align: center;
+					}
 
-				width: 21vw;
-				margin: 0;
+				.mobile-contactPage{
+					display: inline-block;
+					position:relative;
 
-				font-family: fontRegular;
-				font-weight: 100;
-				font-size: 16px;
-				line-height: 22px;
-				color:#5d6770;
-				text-align: center;
-				}
+					width: 21vw;
+					margin: 0;
+					padding: 0;
 
-			.mobile-linkedinPage{
-				display: inline-block;
-				position:relative;
+					font-family: fontRegular;
+					font-weight: 100;
+					font-size: 16px;
+					line-height: 22px;
+					color:#5d6770;
+					text-align: center;
+					}
 
-				width: 21vw;
-				margin: 0;
+				.mobile-emailPage{
+					display: inline-block;
+					position:relative;
 
-				font-family: fontRegular;
-				font-weight: 100;
-				font-size: 16px;
-				line-height: 22px;
-				color:#5d6770;
-				text-align: center;
-				}
+					width: 21vw;
+					margin: 0;
 
-			.box-bottom{
-				display: none;
-				}
+					font-family: fontRegular;
+					font-weight: 100;
+					font-size: 16px;
+					line-height: 22px;
+					color:#5d6770;
+					text-align: center;
+					}
+
+				.mobile-linkedinPage{
+					display: inline-block;
+					position:relative;
+
+					width: 21vw;
+					margin: 0;
+
+					font-family: fontRegular;
+					font-weight: 100;
+					font-size: 16px;
+					line-height: 22px;
+					color:#5d6770;
+					text-align: center;
+					}
+
+				.box-bottom{
+					display: none;
+					}
 
 			}
 
 			
-
-
-
-			/* ---------------------------------------- */
 
 			
 
@@ -751,8 +778,7 @@
 
 <!--------------- Top Nav ---------------->
 
-			<a href="index.html">
-				<div class="indexPage">Chanjoo Tiffany Park</div></a>
+			<a href="index.html"><div class="indexPage">Chanjoo Tiffany Park</div></a>
 
 		<!---------- Nav ----------->
 
@@ -783,8 +809,14 @@
 
 			<div class="box1">
 					<h1>
-						<span style="font-family: fontOgg">Chanjoo Tiffany Park</span> is</br>
+						<span style="font-family: fontOgg">Chanjoo Tiffany Park — </br></span>is
 						a <span style="font-family: fontOgg">New York City</span> based designer passionate about creating <span style="font-family: fontOgg"></span>clear communication and engaging user experiences through <span style="font-family: fontOgg">sophisticated design solutions</span>.
+					</h1>
+			</div>
+
+			<div class="mobile-box1">
+					<h1>
+						Chanjoo Tiffany Park — is a </br>New York City based designer passionate about creating clear communication and engaging user experiences through sophisticated design solutions.
 					</h1>
 			</div>
 
@@ -879,7 +911,7 @@
 
 
 
-<!--------------- Bottom Navigation ---------------->
+			<!--------------- Bottom Navigation ---------------->
 
 			<div class="box-bottom">
 
