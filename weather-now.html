@@ -44,8 +44,9 @@
 
 			h1{
 				font-family: fontRegular;
-				font-size: calc(48px + (64 - 48) * ((100vw - 300px) / (1600 - 300)));
-				line-height: calc(72px + (96 - 72) * ((100vw - 300px) / (1600 - 300)));
+
+				font-size: calc(36px + (64 - 36) * ((100vw - 300px) / (1600 - 300)));
+				line-height: calc(54px + (96 - 54) * ((100vw - 300px) / (1600 - 300)));
 
 				margin-block-start: 0.2em;
     			margin-block-end: 0.2em;
@@ -57,8 +58,8 @@
 				font-family:fontRegular;
 				font-weight: lighter;
 
-				font-size: calc(24px + (32 - 24) * ((100vw - 300px) / (1600 - 300)));
-				line-height: calc(36px + (48 - 36) * ((100vw - 300px) / (1600 - 300)));
+				font-size: calc(20px + (32 - 20) * ((100vw - 300px) / (1600 - 300)));
+				line-height: calc(28px + (48 - 28) * ((100vw - 300px) / (1600 - 300)));
 
 				margin-block-start: 0;
     			margin-block-end: 0;
@@ -70,8 +71,8 @@
 			h3{
 				font-family: fontRegular;
 				font-weight: lighter;
-  				font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300)));
-  				line-height: calc(21px + (28 - 21) * ((100vw - 300px) / (1600 - 300)));
+  				font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1600 - 300)));
+  				line-height: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
 
 				color:#878787;
 				}
@@ -97,7 +98,6 @@
 
 				color:#878787;
 				}
-
 
 			p{
 				font-family: fontRubik;
@@ -325,6 +325,10 @@
 				padding: 0;
 			}
 
+			.box4-mobile{
+				display: none;
+			}
+
 
 			.box4space{
 				display: block;
@@ -396,7 +400,11 @@
 
 				margin: 0;
 				padding: 0;
-			}
+				}
+
+			.box6-mobile{
+				display: none;
+				}
 
 			.box6space{
 				display: block;
@@ -409,7 +417,7 @@
 
 				margin: 0;
 				padding: 0;
-			}
+				}
 
 			.box7{
 				display: block;
@@ -688,6 +696,13 @@
 
 			@media only screen and (max-width: 600px) {
 
+				h5{
+					font-family: fontRegular;
+					font-weight: lighter;
+	  				font-size: calc(16px + (24 - 16) * ((100vw - 300px) / (1600 - 300)));
+	  				line-height: calc(24px + (36 - 24) * ((100vw - 300px) / (1600 - 300)));
+					}
+
 				img {
 					 width:100vw;
 					}
@@ -778,6 +793,83 @@
 					left: 5vw;
 
 					width:90vw;
+
+					margin: 0;
+					padding: 0;
+					}
+
+				.box3{
+					
+					left: 5vw;
+					width: 70vw;
+					border-radius: 20px;
+					border-style: solid;
+	 				border-color: #e9e8eb;
+	 				border-width: 1px;
+	 				padding: 0vw 10vw 0vw 10vw;
+					}
+
+				.box3-text{
+					width: 70vw;
+					top: 0px;
+					margin-top: 0px;
+					left: 0vw;
+					}
+
+				.box4{
+					display: none;
+					}
+
+				.box4-mobile{
+					display: block;
+					position: relative;
+					top:0;
+					left: 5vw;
+					width: 70vw;
+					border-radius: 20px;
+					border-style: solid;
+	 				border-color: #e9e8eb;
+	 				border-width: 1px;
+	 				padding: 10vw;
+
+					top: 10vw;
+					margin: 0;
+					}
+
+				.box5{
+					left: 5vw;
+					width: 70vw;
+					padding: 0vw 10vw 0vw 10vw;
+					top: 15vw;
+
+					border-radius: 20px;
+					border-style: solid;
+	 				border-color: #e9e8eb;
+	 				border-width: 1px;
+					}
+
+				.box5-text{
+					width: 70vw;
+					left: 0vw;
+					}
+
+				.box5-textbox{
+					width: 70vw;
+					margin-top:0px;
+					margin-bottom:0px;
+					}
+
+				.box6{
+					display: none;
+					}
+
+				.box6-mobile{
+					display: block;
+					position: relative;
+					left: 0vw;
+					top: 15vw;
+
+					text-align: center;
 
 					margin: 0;
 					padding: 0;
@@ -950,6 +1042,28 @@
 						</p>
 					</div>
 			</div>
+			<div class="box4-mobile">
+						<h4>Overview</h4>	
+						<p>
+						<span style="font-weight: 600; color:#222222;">Title</span></br>
+						Weather Now</br>
+						</br>
+						<span style="font-weight: 600; color:#222222;">Type</span></br>
+						Mobile Service Design</br>
+						</br>
+						<span style="font-weight: 600; color:#222222;">Project type</span></br>
+						Individual Project</br>
+						</br>
+						<span style="font-weight: 600; color:#222222;">Project timeframe</span></br>
+						2 month, 2020 Fall</br>
+						</br>
+						<span style="font-weight: 600; color:#222222;">Skills</span></br>
+						Creative Direction, Ideation, UI/UX, Visual Design</br>
+						</br>
+						<span style="font-weight: 600; color:#222222;">Software used</span></br>
+						Figma, Photoshop, Illustrator</br>
+						</p>
+			</div>
 			<div class="box4space"></div>
 
 			<div class="box5">
@@ -972,6 +1086,10 @@
 			<div class="box6">
 					<h4>Branding</h4>
 					<img src="img/weather-now/branding.png" style="width:70vw;">
+			</div>
+			<div class="box6-mobile">
+					<h4>Branding</h4>
+					<img src="img/weather-now/branding.png" style="width:90vw;">
 			</div>
 			<div class="box6space"></div>
 
