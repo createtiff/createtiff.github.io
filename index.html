@@ -47,7 +47,7 @@
 				}
 
 			span{
-				font-size: calc(36px + (48 - 36) * ((100vw - 300px) / (1600 - 300)));
+				font-size: calc(36px + (42 - 36) * ((100vw - 300px) / (1600 - 300)));
 				line-height: calc(48px + (68 - 48) * ((100vw - 300px) / (1600 - 300)));
 				margin: 0;
 				padding: 0;
@@ -57,8 +57,8 @@
 				font-family: fontRegular;
 				font-weight: lighter;
 
-				font-size: calc(36px + (48 - 36) * ((100vw - 300px) / (1600 - 300)));
-				line-height: calc(48px + (64 - 48) * ((100vw - 300px) / (1600 - 300)));
+				font-size: calc(24px + (32 - 24) * ((100vw - 300px) / (1600 - 300)));
+				line-height: calc(32px + (42 - 32) * ((100vw - 300px) / (1600 - 300)));
 				
 				margin: 0;
 				padding: 0;
@@ -139,28 +139,16 @@
 
 			/* ----- */
 
-			.indexPage{
-				position: absolute;
-				top: 45px;
-				left: 5vw;
-				margin: 0;
-				padding: 0;
-				font-family: fontRegular;
-				font-weight: 100;
-				font-size: 18px;
-				line-height: 22px;
-				color:#5d6770;
-				}
 
 			.navBox{
 				position: absolute;
 				top: 45px;
-				right: 5vw;
+				left: 5vw;
 
 				margin: 0;
 				padding: 0;
 
-				width: 500px;
+				width: 420px;
 				height: 22px;
 
 
@@ -171,11 +159,11 @@
 				color:#5d6770;
 				}
 			
-
-			.workPage{
+			.indexPage{
 				position: absolute;
 				top: 0px;
-				right: 200px;
+
+				left: 0px;
 				margin: 0;
 				padding: 0;
 				}
@@ -183,7 +171,7 @@
 			.aboutPage{
 				position: absolute;
 				top: 0px;
-				right: 105px;
+				right: 240px;
 				margin: 0;
 				padding: 0;
 				}
@@ -191,7 +179,7 @@
 			.contactPage{
 				position: absolute;
 				top: 0px;
-				right: 0px;
+				right: 120px;
 				margin: 0;
 				padding: 0;
 				}
@@ -215,10 +203,10 @@
 			.titleBox{
 				display: block;
 				position: relative;
-				top: 17.5vw;
-				left: 5vw;
+				top: 45px;
+				left: 52.5vw;
 
-				width:90vw;
+				width:42.5vw;
 
 				margin: 0;
 				padding: 0;
@@ -424,8 +412,8 @@
 				margin: 0;
 				padding: 0;
 
-				width: 90vw;
-				left: 0vw;
+				width: 420px;
+				left: 0px;
 				height: 20vh;
 
 				font-family: fontRegular;
@@ -436,21 +424,10 @@
 				}
 
 
-			.bottomEmailPage{
+			.bottomAboutPage{
 				position: absolute;
 				top: 0px;
-				right:55vw;
-				margin: 0;
-				padding: 0;
-				}
-
-			.bottomLinkedinPage{
-				position: absolute;
-				top: 0px;
-
-				left:0vw;
-				right: 0vw;
-				
+				left: 0px;
 				margin: 0;
 				padding: 0;
 				}
@@ -459,7 +436,17 @@
 				position: absolute;
 				top: 0px;
 
-				left: 55vw;
+				right: 236px;
+				
+				margin: 0;
+				padding: 0;
+				}
+
+			.bottomEmailPage{
+				position: absolute;
+				top: 0px;
+
+				right: 120px;
 
 				margin: 0;
 				padding: 0;
@@ -784,12 +771,8 @@
 
 		<!----- Desktop Navigation ----->
 
-			<a href="index.html"><div class="indexPage">Chanjoo Tiffany Park</div></a>
-
-			<!-- Top Right -->
-
 			<div class="navBox">
-				<a href="work.html"><div class="workPage"></div></a>
+				<a href="index.html"><div class="indexPage">Projects</div></a>
 
 				<a href="about.html"><div class="aboutPage">About</div></a>
 
@@ -808,14 +791,13 @@
 
 			<div class="titleBox">
 					<h1>
-						<span style="font-family: fontOgg">Chanjoo Tiffany Park — </br></span>is
-						a <span style="font-family: fontOgg">New York City</span> based designer passionate about creating <span style="font-family: fontOgg"></span>clear communication and engaging user experiences through <span style="font-family: fontOgg">sophisticated design solutions</span>.
+						Chanjoo Tiffany Park is a designer based in New York City passionate about creating thoughtful design solutions for clear communication and engaging user experiences, encompassing culture, people, and business needs.
 					</h1>
 			</div>
 
 			<div class="mobileTitleBox">
 					<h1>
-						Chanjoo Tiffany Park — is a </br>New York City based designer passionate about creating clear communication and engaging user experiences through sophisticated design solutions.
+						Chanjoo Tiffany Park is a designer based in New York City passionate about creating thoughtful design solutions for clear communication and engaging user experiences, encompassing culture and people.
 					</h1>
 			</div>
 
@@ -907,27 +889,18 @@
 					<!----- Bottom Navigation ----->
 
 					<div class="bottomNav">
-							<a href="mailto:createtiff@gmail.com">
-								<div class="bottomEmailPage">Email</div></a>
 
-							<a href="https://www.linkedin.com/in/createtiff">
-								<div class="bottomLinkedinPage">LinkedIn</div></a>
+							<a href="about.html">
+								<div class="bottomAboutPage">About</div></a>
 
 							<a href="contact.html">
 								<div class="bottomContactPage">Contact</div></a>
-					</div>
-
-					<!----- Mobile Bottom Navigation ----->
-
-
-					<div class="mobileBottomNav">
 
 							<a href="mailto:createtiff@gmail.com">
-								<div class="mobileEmailPage">Email</div></a>
-
-							<a href="https://www.linkedin.com/in/createtiff">
-								<div class="mobileLinkedinPage">LinkedIn</div></a>
+								<div class="bottomEmailPage">Email</div></a>
 					</div>
+
+					
 
 			</div>
 

@@ -144,28 +144,15 @@
 
 			/* ----- */
 
-			.indexPage{
-				position: absolute;
-				top: 45px;
-				left: 5vw;
-				margin: 0;
-				padding: 0;
-				font-family: fontRegular;
-				font-weight: 100;
-				font-size: 18px;
-				line-height: 22px;
-				color:#5d6770;
-				}
-
 			.navBox{
 				position: absolute;
 				top: 45px;
-				right: 5vw;
+				left: 5vw;
 
 				margin: 0;
 				padding: 0;
 
-				width: 500px;
+				width: 420px;
 				height: 22px;
 
 
@@ -175,11 +162,12 @@
 				line-height: 22px;
 				color:#5d6770;
 				}
-
-			.workPage{
+			
+			.indexPage{
 				position: absolute;
 				top: 0px;
-				right: 200px;
+
+				left: 0px;
 				margin: 0;
 				padding: 0;
 				}
@@ -187,7 +175,7 @@
 			.aboutPage{
 				position: absolute;
 				top: 0px;
-				right: 105px;
+				right: 240px;
 				margin: 0;
 				padding: 0;
 				}
@@ -195,7 +183,7 @@
 			.contactPage{
 				position: absolute;
 				top: 0px;
-				right: 0px;
+				right: 120px;
 				margin: 0;
 				padding: 0;
 				}
@@ -528,12 +516,12 @@
 
 				text-align: center;
 
+
 				margin: 0;
 				padding: 0;
 
-				width: 100vw;
-				left: 0vw;
-
+				width: 420px;
+				left: 5vw;
 				height: 20vh;
 
 				font-family: fontRegular;
@@ -543,20 +531,20 @@
 				color:#5d6770;
 				}
 
-			.bottomEmailPage{
+
+			.bottomProjectsPage{
 				position: absolute;
 				top: 0px;
-				right:60vw;
+				left: 0px;
 				margin: 0;
 				padding: 0;
 				}
 
-			.bottomLinkedinPage{
+			.bottomAboutPage{
 				position: absolute;
 				top: 0px;
 
-				left:0vw;
-				right: 0vw;
+				right: 240px;
 				
 				margin: 0;
 				padding: 0;
@@ -566,7 +554,7 @@
 				position: absolute;
 				top: 0px;
 
-				left: 60vw;
+				right: 120px;
 
 				margin: 0;
 				padding: 0;
@@ -772,12 +760,8 @@
 
 		<!----- Desktop Navigation ----->
 
-			<a href="index.html"><div class="indexPage">Chanjoo Tiffany Park</div></a>
-
-			<!-- Top Right -->
-
 			<div class="navBox">
-				<a href="work.html"><div class="workPage"></div></a>
+				<a href="index.html"><div class="indexPage">Projects</div></a>
 
 				<a href="about.html"><div class="aboutPage">About</div></a>
 
@@ -952,16 +936,16 @@
 
 			<!----- Desktop Bottom Nav ----->
 
-				<div class="bottomNav">
-						<a href="mailto:createtiff@gmail.com">
-							<div class="bottomEmailPage">Email</div></a>
+			<div class="bottomNav">
+					<a href="index.html">
+							<div class="bottomProjectsPage">Projects</div></a>
 
-						<a href="https://www.linkedin.com/in/createtiff">
-							<div class="bottomLinkedinPage">LinkedIn</div></a>
+					<a href="about.html">
+							<div class="bottomAboutPage">About</div></a>
 
-						<a href="contact.html">
+					<a href="contact.html">
 							<div class="bottomContactPage">Contact</div></a>
-				</div>
+			</div>
 
 				<!----- Mobile Bottom Nav ----->
 
