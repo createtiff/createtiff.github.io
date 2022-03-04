@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>in silent mode</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" type="text/css">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+		<style>
+
+			@font-face {
+	  			font-family: 'fontRegular';
+	  			src: url('basiercircle-regular.otf');
+	  			font-weight: normal;
+	    		font-style: normal;
+				}
+
+			@font-face {
+	  			font-family: 'fontMedium';
+	  			src: url('BasierCircle-Medium.ttf');
+	  			font-weight: normal;
+	    		font-style: normal;
+				}
+
+			@font-face {
+	  			font-family: 'fontRubik';
+	  			src: url('Rubik-Light.ttf');
+	  			font-weight: normal;
+	    		font-style: normal;
+				}
+
+			@font-face {
+	  			font-family: 'fontOgg';
+	  			src: url('ogg-roman.otf');
+	  			font-weight: normal;
+	    		font-style: normal;
+				}
+
+			body{
+				margin: 0;
+				padding: 0;
+				}
+
+			h1{
+				font-family: fontRegular;
+
+				text-align: center;
+				font-size: calc(54px + (64 - 54) * ((100vw - 300px) / (1600 - 300)));
+				line-height: calc(54px + (96 - 54) * ((100vw - 300px) / (1600 - 300)));
+
+				margin-block-start: 0;
+    			margin-block-end: 0;
+
+    			color:#000000;
+				}
+
+			h2{
+				font-family:fontRegular;
+				font-weight: lighter;
+
+				font-size: calc(20px + (32 - 20) * ((100vw - 300px) / (1600 - 300)));
+				line-height: calc(28px + (48 - 28) * ((100vw - 300px) / (1600 - 300)));
+
+				margin-block-start: 0;
+    			margin-block-end: 0;
+
+				color:#000000;
+				}
+
+
+			h3{
+				font-family: fontRegular;
+				font-weight: lighter;
+				text-align: center;
+  				font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1600 - 300)));
+  				line-height: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
+				}
+
+			h4{
+				font-family:fontRegular;
+				font-weight: lighter;
+
+				font-size: calc(24px + (32 - 24) * ((100vw - 300px) / (1600 - 300)));
+				line-height: calc(36px + (48 - 36) * ((100vw - 300px) / (1600 - 300)));
+
+				margin-block-start: 0;
+    			margin-block-end: 20px;
+
+				color:#303030;
+				}
+
+			h5{
+				font-family: fontRegular;
+				font-weight: lighter;
+  				font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
+  				line-height: calc(24px + (36 - 24) * ((100vw - 300px) / (1600 - 300)));
+
+				color:#878787;
+				}
+
+			p{
+				font-family: fontRubik;
+				font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300)));
+				line-height: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
+
+				color:#778089;
+				}
+				
+			iframe{
+				position: relative;
+
+				left: 0vw;
+				width: 100vw;
+
+				margin: 0;
+				padding: 0;
+				}
+
+			a{
+				text-decoration: none;
+				color: inherit;
+				}
+
+			a:hover{
+				color: inherit;
+				}
+
+			a:active{
+				color: inherit;
+				}
+
+			a:visited{
+				color: inherit;
+				}
+
+		
+			img {
+				top: 0vw;
+				margin: 0;
+				padding: 0;	 
+				}
+
+			.navBox{
+				position: absolute;
+				top: 45px;
+				left: 5vw;
+
+				margin: 0;
+				padding: 0;
+
+				width: 420px;
+				height: 22px;
+
+
+				font-family: fontRegular;
+				font-weight: lighter;
+				font-size: 18px;
+				line-height: 22px;
+				color:#5d6770;
+				}
+			
+			.indexPage{
+				position: absolute;
+				top: 0px;
+
+				left: 0px;
+				margin: 0;
+				padding: 0;
+				}
+
+			.aboutPage{
+				position: absolute;
+				top: 0px;
+				right: 240px;
+				margin: 0;
+				padding: 0;
+				}
+
+			.contactPage{
+				position: absolute;
+				top: 0px;
+				right: 120px;
+				margin: 0;
+				padding: 0;
+				}
+
+			/* ------ */
+
+			.mobileNav{
+				display: none;
+				}
+
+			.mobileIndexPage{
+				display: none;
+				}
+
+			.mobileContactPage{
+				display: none;
+				}
+
+			/* ----- */
+
+			.box1{
+				display: block;
+				position: relative;
+				top: 15vw;
+				left: 5vw;
+
+				width:90vw;
+
+				margin: 0;
+				padding: 0;
+				}
+
+			.box1space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+				}
+
+			.box2{
+				display: block;
+				position: relative;
+				top: 15vw;
+				left: 20vw;
+
+				width:60vw;
+
+				margin: 0;
+				padding: 0;
+				}
+
+			.box2-mobile{
+				display: none;
+			}
+
+			.box2space{
+				display: block;
+				position: relative;
+				left: 0vw;
+				top: 15vw;
+
+				width: 100vw;
+				height: 10vw;
+
+				margin: 0;
+				padding: 0;
+				}
+
+			.box3{
+				display: inline-block;
+				position: relative;
+				top: 15vw;
+				left: 0vw;
+
+				margin: 0;
+				padding: 0;
+				}
+
+
+			.box4{
+				display: block;
+				position: relative;
+				top: 11vw;
+				left: 0vw;
+
+				margin: 0;
+				padding: 0;
+				}
+
+			.box5{
+				display: block;
+				position: relative;
+				top: 7vw;
+				left: 0vw;
+
+				margin: 0;
+				padding: 0;
+				}
+
+			.box6{
+				display: block;
+				position: relative;
+				top: 3vw;
+				left: 0vw;
+
+				margin: 0;
+				padding: 0;
+				}
+
+			.box7{
+				display: block;
+				position: relative;
+				top: 0vw;
+				left: 0vw;
+
+				text-align: center;
+
+				margin: 0;
+				padding: 0;
+				}
+
+
+
+			/* ----- Desktop Bottom Nav ----- */
+			
+
+			.bottomNav{
+				display: block;
+				position: relative;
+
+				top: 40vw;
+
+				text-align: center;
+
+
+				margin: 0;
+				padding: 0;
+
+				width: 420px;
+				left: 5vw;
+				height: 20vh;
+
+				font-family: fontRegular;
+				font-weight: lighter;
+				font-size: 18px;
+				line-height: 22px;
+				color:#5d6770;
+				}
+
+
+			.bottomProjectsPage{
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				margin: 0;
+				padding: 0;
+				}
+
+			.bottomAboutPage{
+				position: absolute;
+				top: 0px;
+
+				right: 240px;
+				
+				margin: 0;
+				padding: 0;
+				}
+
+			.bottomContactPage{
+				position: absolute;
+				top: 0px;
+
+				right: 120px;
+
+				margin: 0;
+				padding: 0;
+				}
+
+			/* ----- Mobile Bottom Nav ----- */
+
+			.mobileBottomNav{
+				display: none;
+				}
+
+			.mobileEmailPage{
+				display: none;
+				}
+
+			.mobileLinkedinPage{
+				display: none;
+				}
+
+
+			/* ---------------------------------------- */
+
+
+			@media only screen and (max-width: 1025px) {
+
+			}
+		
+
+			/* ---------------------------------------- */
+			
+			@media only screen and (max-width: 600px) {
+
+				img {
+					 width:100vw;
+					}
+
+				.indexPage{
+					display: none;
+					}
+
+				.navBox{
+					display: none;
+					}
+
+				.aboutPage{
+					display: none;
+					}
+
+				/* ----- */
+
+				.mobileNav{
+					display: block;
+					position:absolute;
+
+					width: 90vw;
+					margin-left: 5vw;
+					margin-right: 5vw;
+					padding: 0;
+
+					top: 20px;
+					height: 15vh;
+					z-index: 1;
+					}
+
+				.mobileIndexPage{
+					display: inline-block;
+					position: absolute;
+					left: 0;
+					width: 20vw;
+					margin: 0;
+					padding: 0;
+
+					font-family: fontRegular;
+					font-weight: 100;
+					font-size: 16px;
+					line-height: 22px;
+					color:#5d6770;
+					text-align: left;
+					}
+
+				.mobileAboutPage{
+					display: inline-block;
+					position: absolute;
+
+					right: 0;
+					width: 19vw;
+					margin: 0;
+					padding: 0;
+
+					font-family: fontRegular;
+					font-weight: 100;
+					font-size: 16px;
+					line-height: 22px;
+					color:#5d6770;
+					text-align: right;
+					}
+
+				/* ------ */
+
+				.box1{
+					display: block;
+					position: relative;
+					top: 15vw;
+					left: 5vw;
+
+					width:90vw;
+
+					margin: 0;
+					padding: 0;
+					}
+
+				.box2{
+					display: none;
+					}
+
+				.box2-mobile{
+					display: block;
+					position: relative;
+					top: 15vw;
+					left: 5vw;
+
+					width:90vw;
+
+					margin: 0;
+					padding: 0;
+					}
+
+				/* ------ */
+
+				.bottomNav{
+					display: none;
+
+					width: 100vw;
+					left: 0;
+					}
+
+				.bottomEmailPage{
+					display: none;
+
+					left: 0;
+					}
+
+				.bottomLinkedinPage{
+					display: none;
+					}
+
+				.bottomContactPage{
+					display: none;
+
+					right: 0;
+					}
+
+				/* ------ */
+
+				.mobileBottomNav{
+					display: block;
+					position:relative;
+
+					width: 90vw;
+					left: 5vw;
+					
+					padding: 0;
+
+					top: 15vw;
+					bottom: 0;
+					height: 60px;
+					z-index: 1;
+					}
+
+				.mobileEmailPage{
+					display: inline-block;
+					position:absolute;
+
+					width: 20vw;
+					left: 0;
+					margin: 0;
+
+					font-family: fontRegular;
+					font-weight: 100;
+					font-size: 16px;
+					line-height: 22px;
+					color:#5d6770;
+					text-align: left;
+					}
+
+				.mobileLinkedinPage{
+					display: inline-block;
+					position:absolute;
+
+					width: 20vw;
+					right: 0;
+					margin: 0;
+
+					font-family: fontRegular;
+					font-weight: 100;
+					font-size: 16px;
+					line-height: 22px;
+					color:#5d6770;
+					text-align: right;
+					}
+
+			}
+
+			
+
+		</style> 
+	</head>
+
+	<!----- B O D Y ----->
+
+	<body>
+		<p>
+
+		<!----- Desktop Navigation ----->
+
+			<div class="navBox">
+				<a href="index.html"><div class="indexPage">Projects</div></a>
+
+				<a href="about.html"><div class="aboutPage">About</div></a>
+
+				<a href="contact.html"><div class="contactPage">Contact</div></a>
+			</div>
+
+		<!----- Mobile Navigation ----->
+
+			<div class="mobileNav">
+					<a href="index.html"><div class="mobileIndexPage">Main</div></a>
+
+					<a href="about.html"><div class="mobileAboutPage">About</div></a>
+			</div>
+
+		<!----- Body ----->
+
+			<div class="box1">
+					<h1>in silent mode</h1>
+
+					<h2></h2>
+
+					<h3></br></br>Art Direction & Editorial Design, April 2019</h3>
+			</div>
+			<div class="box1space"></div>
+
+
+			<div class="box2">
+					<img src="img/cd/cd_cover.jpg"
+					style="width:60vw; border-radius: 20px;">
+			</div>
+			<div class="box2-mobile">
+
+			</div>
+			<div class="box2space"></div>
+
+
+
+			<div class="box3">
+					<img src="img/cd/cd_front.jpg"
+					style="width:100vw; border-radius: 0px;">
+			</div>
+
+
+			<div class="box4">
+					<img src="img/cd/cd_spread1.jpg"
+					style="width:100vw; border-radius: 0px;">
+			</div>
+
+
+			<div class="box5">
+					<img src="img/cd/cd_spread2.jpg"
+					style="width:100vw; border-radius: 0px;">
+			</div>
+
+			<div class="box6">
+					<img src="img/cd/cd_spread3.jpg"
+					style="width:100vw; border-radius: 0px;">
+			</div>
+
+			<div class="box7">
+					<img src="img/cd/cd_back.jpg"
+					style="width:100vw; border-radius: 0px;">
+			</div>
+
+
+			<!----- Desktop Bottom Nav ----->
+
+			<div class="bottomNav">
+					<a href="index.html">
+							<div class="bottomProjectsPage">Projects</div></a>
+
+					<a href="about.html">
+							<div class="bottomAboutPage">About</div></a>
+
+					<a href="contact.html">
+							<div class="bottomContactPage">Contact</div></a>
+			</div>
+
+				<!----- Mobile Bottom Nav ----->
+
+
+				<div class="mobileBottomNav">
+
+						<a href="mailto:createtiff@gmail.com">
+							<div class="mobileEmailPage">Email</div></a>
+
+						<a href="https://www.linkedin.com/in/createtiff">
+							<div class="mobileLinkedinPage">LinkedIn</div></a>
+				</div>
+
+
+		</p>
+	</body>
+</html>
